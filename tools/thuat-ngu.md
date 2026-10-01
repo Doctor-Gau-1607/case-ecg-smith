@@ -126,3 +126,30 @@ rhabdomyolysis → tiêu cơ vân | paced rhythm → nhịp tạo nhịp | Other
 HEART score / EDACS → thang điểm HEART / EDACS | MACE → biến cố tim mạch chính (MACE) | CAC score → điểm vôi hóa động mạch vành (CAC) | CT coronary angiogram → chụp CT mạch vành | silent MI (SMI) / CMI → nhồi máu cơ tim thầm lặng (SMI) / biểu hiện lâm sàng (CMI) | hazard ratio → tỷ số nguy cơ (HR) | AMS / altered mental status → rối loạn ý thức (AMS) | VBG → khí máu tĩnh mạch (VBG) | sodium channel blockade → chẹn kênh natri | shiver artifact → nhiễu do run | sepsis → nhiễm khuẩn huyết | Attending → bác sĩ điều trị chính
 speckle tracking → đánh dấu mô (speckle tracking) | strain (siêu âm tim) → sức căng (strain), KHÔNG dịch "tăng gánh" | apical 4-/2-chamber view → mặt cắt 4/2 buồng từ mỏm | parasternal long / short axis → mặt cắt trục dọc / trục ngắn cạnh ức | swinging heart → tim đong đưa (swinging heart) | pericardiocentesis → chọc dịch màng ngoài tim | near syncope → gần ngất | orthostatic hypotension → hạ huyết áp tư thế đứng | primary care clinic → phòng khám chăm sóc ban đầu | JET / CJET / POJET → nhịp nhanh bộ nối lạc chỗ (JET) / bẩm sinh / sau phẫu thuật | short / long RP tachycardia → nhịp nhanh RP ngắn / RP dài | accelerated His rhythm → nhịp His gia tốc | "WhoDunnit?" → "Ai là thủ phạm?" (WhoDunnit)
 MINOCA → nhồi máu cơ tim với động mạch vành không tắc nghẽn (MINOCA) | coronary embolism → thuyên tắc mạch vành | endomyocardial biopsy → sinh thiết nội mạc cơ tim | primary VF → rung thất nguyên phát | prophylactic lidocaine → lidocaine dự phòng | R-on-T phenomenon → hiện tượng R trên T (R-on-T) | vulnerable period → thời kỳ dễ tổn thương | OHCA → ngừng tim ngoài bệnh viện (OHCA) | shock-refractory VF → rung thất kháng sốc điện | spectral CT → CT phổ (spectral CT) | RPDA / RPAV → động mạch liên thất sau phải (RPDA) / nhánh nhĩ thất sau phải (RPAV) | anion gap → khoảng trống anion | ACLS → hồi sinh tim phổi nâng cao (ACLS) | On-Call cardiologist → bác sĩ tim mạch trực | consultant → bác sĩ hội chẩn
+provocative testing → nghiệm pháp kích thích
+intracoronary / intravascular imaging → hình ảnh học trong lòng mạch vành
+push dose (epi) → liều bơm nhanh (push dose)
+rapid sequence intubation → đặt nội khí quản nhanh (rapid sequence intubation)
+propensity score matching (PSM) → ghép cặp điểm xu hướng (PSM)
+infranodal AV block → blốc nhĩ thất dưới nút
+ANOCA → đau thắt ngực với động mạch vành không tắc nghẽn (ANOCA)
+microvascular / vasospastic angina → đau thắt ngực vi mạch / đau thắt ngực do co thắt mạch
+wrong-vessel PCI → PCI nhầm mạch (wrong vessel PCI)
+non-culprit lesion → tổn thương không phải thủ phạm
+plaque erosion → mòn mảng xơ vữa | erupted calcium nodule → nốt vôi trồi lên (erupted calcium nodule)
+errors of omission / commission → sai sót do bỏ sót / do làm sai
+quality improvement → cải tiến chất lượng
+OMI Manifesto → Tuyên ngôn OMI (OMI Manifesto)
+stent thrombosis → huyết khối stent | right heart catheterization → thông tim phải | wedge pressure → áp lực mao mạch phổi bít (wedge)
+stellate ganglion blockade → phong bế hạch sao | electrical storm → cơn bão điện
+PIRP (postinfarction regional pericarditis) → viêm màng ngoài tim khu trú sau nhồi máu (PIRP) | VSR → thủng vách liên thất (VSR) | papillary muscle rupture → đứt cơ nhú
+holosystolic murmur → tiếng thổi toàn tâm thu
+BRASH syndrome → hội chứng BRASH | potassium-sparing → thuốc giữ kali
+event monitor → máy ghi biến cố (event monitor) | tilt table test → nghiệm pháp bàn nghiêng | prodrome → tiền triệu
+moderator band VT → VT dải điều hòa (moderator band) | annular VT → VT vòng van | bundle branch re-entry → nhịp nhanh vào lại nhánh bó His
+hibernating myocardium → cơ tim ngủ đông
+filling defect → khuyết thuốc | thrombus aspiration → hút huyết khối
+Corrado index → chỉ số Corrado | Shanghai score → điểm Thượng Hải (Shanghai score) | fever-induced Brugada → Brugada do sốt khởi phát
+Flecainide toxicity → ngộ độc flecainide
+fluid overload → quá tải dịch | work of breathing → công hô hấp
+first medical contact → lần tiếp xúc y tế đầu tiên

@@ -2354,9 +2354,12 @@
 "slug": "2025-04-27-echocardiography-even-or-especially",
 "url": "https://drsmithsecgblog.com/echocardiography-even-or-especially/",
 "ngay_dang": "2025-04-27",
-"tieu_de_en": "HEART Score Zero. Computer Normal ECG. Troponin Undetectable. Speckle Tracking Echo normal.",
-"trang_thai": "dang",
-"giu_luc": 1790892490
+"tieu_de_en": "HEART Score Zero.  Computer Normal ECG.  Troponin Undetectable.  Speckle Tracking Echo normal.",
+"trang_thai": "xong",
+"tieu_de_vi": "27/04/2025 — Điểm HEART bằng 0. Máy tính đọc điện tâm đồ bình thường. Troponin không phát hiện được. Siêu âm tim đánh dấu mô (speckle tracking) bình thường.",
+"tu_khoa": "OMI, tắc LAD, LAD occlusion, sóng T tối cấp, hyperacute T waves, STEMI thoáng qua, transient STEMI, điểm HEART, HEART score, troponin dưới giới hạn phát hiện, siêu âm tim đánh dấu mô, speckle tracking, rối loạn vận động thành, wall motion abnormality, điện tâm đồ liên tiếp, serial ECGs, Queen of Hearts, công thức 4 biến",
+"ngay": "2026-10-01",
+"kb": 1153
 },
 {
 "stt": 1862,
@@ -2365,8 +2368,11 @@
 "url": "https://drsmithsecgblog.com/altered-mental-status-kg-done/",
 "ngay_dang": "2025-04-25",
 "tieu_de_en": "Altered mental status, bradycardia",
-"trang_thai": "dang",
-"giu_luc": 1790892490
+"trang_thai": "xong",
+"tieu_de_vi": "25/04/2025 — Rối loạn ý thức, nhịp tim chậm",
+"tu_khoa": "hạ thân nhiệt, hypothermia, sóng Osborn, Osborn wave, sóng J, J wave, nhịp chậm xoang, sinus bradycardia, QTc kéo dài, QTc prolongation, nhiễm khuẩn huyết, sepsis, rối loạn ý thức, altered mental status, nhiễu do run, shiver artifact",
+"ngay": "2026-10-01",
+"kb": 587
 },
 {
 "stt": 1861,
@@ -2375,8 +2381,11 @@
 "url": "https://drsmithsecgblog.com/an-elderly-patient-with-shortness-of/",
 "ngay_dang": "2025-04-21",
 "tieu_de_en": "An elderly patient with shortness of breath and near syncope",
-"trang_thai": "dang",
-"giu_luc": 1790892490
+"trang_thai": "xong",
+"tieu_de_vi": "21/04/2025 — Một bệnh nhân cao tuổi khó thở và gần ngất",
+"tu_khoa": "điện thế luân phiên, electrical alternans, tràn dịch màng ngoài tim, pericardial effusion, chèn ép tim, cardiac tamponade, điện thế thấp, low voltage, tim đong đưa, swinging heart, chọc dịch màng ngoài tim, pericardiocentesis, gần ngất, near syncope, ung thư, malignancy",
+"ngay": "2026-10-01",
+"kb": 2011
 },
 {
 "stt": 1860,

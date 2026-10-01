@@ -24,7 +24,8 @@ python3 tools/lam_case.py chuan-bi --so 5
 ```
 - "KHÔNG CÒN CASE NÀO SẴN SÀNG" → dừng lượt, báo lại (hết việc hoặc nhánh nguon chưa tải tới).
 - "DỪNG: thư mục c/ đã quá 900 MB" → dừng lượt, báo người dùng cần mở repo tiếp theo (giới hạn 1 GB của GitHub Pages).
-- Case có ảnh gốc 404 được đánh `cho_anh` tự động, không dịch; ghi số lượng vào báo cáo.
+- Case có ảnh gốc 404 được đánh `cho_anh` tự động, không dịch; trang gốc 404 (tác giả đã gỡ bài) được đánh `khong_ton_tai`. Ghi số lượng vào báo cáo.
+- **Thông báo:** KHÔNG gửi thông báo về các case `cho_anh` ở từng lượt (chỉ ghi trong báo cáo). Chỉ khi `chuan-bi` báo "KHÔNG CÒN CASE NÀO SẴN SÀNG" (đã dịch hết mọi case có thể) mới gửi MỘT thông báo gom danh sách các case còn sót (`cho_anh`, `khong_ton_tai`, lỗi tải, `tra-lai`) để người dùng xử lý.
 
 ## 1b. Case `cho_anh` (ảnh gốc 404 từ máy chủ GitHub) — chỉ xử lý khi CÓ Claude in Chrome
 Lượt hẹn giờ trên đám mây thường KHÔNG có Chrome: bỏ qua, chỉ ghi số lượng vào báo cáo. Không đăng case với ảnh báo/ảnh thiếu.

@@ -85,14 +85,17 @@ def nguon_san_sang():
     else:
         sh('git', 'fetch', '-q', '--depth', '1', 'origin', 'nguon', cwd=NG)
         sh('git', 'reset', '-q', '--hard', 'FETCH_HEAD', cwd=NG)
-    ok, mat = set(), {}
+    ok, mat, go = set(), {}, set()
     for s in os.listdir(NG):
         f = os.path.join(NG, s, 'nguon.json')
         if os.path.isfile(f):
             d = json.load(open(f, encoding='utf-8'))
-            if d.get('phien') == PHIEN and not d.get('loi'):
+            if d.get('phien') == PHIEN and d.get('khong_ton_tai'):
+                go.add(s)
+            elif d.get('phien') == PHIEN and not d.get('loi'):
                 (mat.__setitem__(s, d['anh_mat']) if d.get('anh_mat') else ok.add(s))
     nguon_san_sang.mat = mat
+    nguon_san_sang.go = go
     return ok
 
 
@@ -125,6 +128,9 @@ elif A.lenh == 'chuan-bi':
         print(f'DỪNG: thư mục c/ đã quá {GIOI_HAN_MB} MB — cần mở repo tiếp theo (báo người dùng).'); sys.exit(0)
     ds = doc_ds(); bay_gio = time.time(); chon = []
     for c in ds:
+        if c['trang_thai'] == 'chua' and c['slug'] in nguon_san_sang.go:
+            c['trang_thai'] = 'khong_ton_tai'; c['ly_do'] = 'trang gốc 404 — tác giả đã gỡ bài'
+            continue
         if c['trang_thai'] == 'chua' and c['slug'] in nguon_san_sang.mat:
             c['trang_thai'] = 'cho_anh'; c['ly_do'] = 'ảnh gốc 404: ' + ', '.join(nguon_san_sang.mat[c['slug']][:3])
             continue
@@ -134,6 +140,8 @@ elif A.lenh == 'chuan-bi':
         if (c['trang_thai'] == 'chua' or giu) and c['slug'] in co_nguon:
             c['trang_thai'] = 'dang'; c['giu_luc'] = int(bay_gio); chon.append(c)
     if not chon:
+        if json.dumps(ds) != json.dumps(doc_ds()):      # có case vừa được đánh dấu cho_anh / khong_ton_tai
+            ghi_ds(ds); day('Đánh dấu case chờ ảnh / đã bị gỡ', ['du-lieu/danh-sach.json'])
         print('KHÔNG CÒN CASE NÀO SẴN SÀNG (hết case, hoặc nhánh nguon chưa tải tới).'); sys.exit(0)
     ghi_ds(ds)
     day('Nhận dịch: ' + ', '.join(c['nhan'] for c in chon), ['du-lieu/danh-sach.json'])

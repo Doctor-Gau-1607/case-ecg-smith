@@ -125,6 +125,11 @@ for c in can:
                 info.setdefault('anh_mat', []).append(m['url'])
             time.sleep(0.5)
         info['so_media'] = len(media)
+    except urllib.error.HTTPError as e:
+        if e.code in (404, 410):
+            info['khong_ton_tai'] = True        # tác giả đã gỡ bài: không tải lại, lam_case đánh dấu
+        else:
+            info['loi'].append(f'trang: {e}')
     except Exception as e:  # noqa
         info['loi'].append(f'trang: {e}')
     info['luc'] = time.strftime('%Y-%m-%d %H:%M:%S')

@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="vi" data-nen="sang">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>26/06/2026 — Nam 65 tuổi đau bụng cấp: không đau ngực có loại trừ được STEMI/OMI không?</title>
+<style>
+:root{
+ --nen:#f2f4f6; --giay:#ffffff; --chu:#172033; --nhat:#5b6675; --vien:#e3e7ec;
+ --do:#b30000; --xanh:#004b87; --diu:#f6f8fa; --danh:#fff3cd;
+}
+:root[data-nen="toi"]{
+ --nen:#12151b; --giay:#1b2029; --chu:#e6eaf0; --nhat:#9aa5b4; --vien:#2c333f;
+ --do:#ff8a8a; --xanh:#7fb6e6; --diu:#232a35; --danh:#5a4a12;
+}
+*{box-sizing:border-box}
+html{font-size:var(--co,16px)}
+body{margin:0;background:var(--nen);color:var(--chu);
+ font-family:"Noto Sans","Segoe UI",Roboto,Arial,sans-serif;
+ font-size:1rem;line-height:1.7;-webkit-text-size-adjust:100%}
+a{color:var(--xanh)}
+.bo-cuc{display:grid;grid-template-columns:320px minmax(0,1fr);gap:22px;
+ max-width:1500px;margin:0 auto;padding:22px}
+/* ---- cột mục lục ---- */
+.muc-luc{position:sticky;top:22px;align-self:start;height:calc(100vh - 44px);
+ background:var(--giay);border-radius:16px;padding:16px 10px;display:flex;
+ flex-direction:column;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.ml-dau{display:flex;justify-content:space-between;align-items:center;
+ padding:2px 10px 10px;font-size:.78rem;font-weight:800;letter-spacing:.09em;
+ color:var(--do);border-bottom:1px solid var(--vien)}
+#phanTram{color:var(--nhat)}
+/* Thu gọn / mở lại cột mục lục. Trang nhớ lựa chọn, vì người đọc guideline
+   mở lại nhiều lần và không muốn mỗi lần lại phải thu tay. */
+.ml-dau .nut-thu{margin-left:8px;border:1px solid var(--vien);background:var(--giay);
+ color:var(--chu);border-radius:7px;padding:1px 8px;cursor:pointer;font:inherit;
+ font-size:.9rem;line-height:1.4}
+@media(min-width:981px){
+ :root[data-ml="thu"] .bo-cuc{grid-template-columns:minmax(0,1fr)}
+ :root[data-ml="thu"] .muc-luc{display:none}
+ :root[data-ml="thu"] .hien-ml{display:block}
+}
+.o-tim{padding:10px 8px 6px}
+.o-tim input{width:100%;padding:8px 10px;border:1px solid var(--vien);
+ border-radius:9px;background:var(--diu);color:var(--chu);font:inherit;font-size:.85rem}
+.tim-dieu-khien{display:flex;gap:6px;align-items:center;margin-top:6px;
+ font-size:.76rem;color:var(--nhat)}
+.tim-dieu-khien button{border:1px solid var(--vien);background:var(--giay);
+ color:var(--chu);border-radius:7px;padding:2px 9px;cursor:pointer;font:inherit}
+.ml-cuon{overflow-y:auto;flex:1;margin-top:4px}
+#dsMuc{list-style:none;margin:0;padding:0}
+#dsMuc a{display:block;padding:7px 12px;border-radius:9px;text-decoration:none;
+ color:var(--chu);font-size:.87rem;line-height:1.4}
+#dsMuc a:hover{background:var(--diu)}
+#dsMuc a.dang-doc{background:var(--diu);color:var(--do);font-weight:700;
+ box-shadow:inset 3px 0 0 var(--do)}
+#dsMuc .cap-1>a{font-weight:700}
+#dsMuc .cap-2>a{padding-left:26px;font-size:.85rem}
+#dsMuc .cap-3>a{padding-left:40px;font-size:.82rem;color:var(--nhat)}
+#dsMuc .cap-4>a,#dsMuc .cap-5>a{padding-left:54px;font-size:.8rem;color:var(--nhat)}
+/* ---- thân bài ---- */
+.dau-bai,.to-giay{background:var(--giay);border-radius:16px;
+ box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.dau-bai{padding:28px 34px;margin-bottom:22px}
+.nhan{font-size:.76rem;font-weight:800;letter-spacing:.16em;color:var(--nhat)}
+.dau-bai h1{margin:.25em 0 .35em;font-size:2rem;line-height:1.25;color:var(--do)}
+.dich-gia{color:var(--nhat);font-size:.92rem;margin:0}
+.dich-gia b{color:var(--xanh)}
+.to-giay{padding:34px 40px 60px}
+.to-giay h2{color:var(--do);font-size:1.65rem;margin:1.7em 0 .5em;
+ padding-bottom:4px;border-bottom:2px solid var(--vien)}
+.to-giay h2:first-child{margin-top:0}
+.to-giay h3{color:var(--xanh);font-size:1.3rem;margin:1.5em 0 .4em}
+.to-giay h4{font-size:1.08rem;margin:1.3em 0 .3em}
+.to-giay h5,.to-giay h6{font-size:1rem;margin:1.2em 0 .3em;color:var(--nhat)}
+.to-giay p{margin:0 0 .85em;text-align:justify}
+.to-giay p.cham{padding-left:1.35em;text-indent:-1.1em;text-align:left}
+figure{margin:1.4em 0;text-align:center}
+figure img{max-width:100%;height:auto;border:1px solid var(--vien);border-radius:10px}
+/* ---- bảng ---- */
+.tham-chieu{color:var(--xanh);font-weight:600;text-decoration:none;
+ border-bottom:1px dotted currentColor}
+.tham-chieu:hover{border-bottom-style:solid}
+.chu-thich-float{font-weight:600;margin:0 0 .4em}
+.khung-bang{overflow-x:auto;margin:1.4em 0;border-radius:10px;
+ border:1px solid var(--vien)}
+.khung-bang table{border-collapse:collapse;width:100%;font-size:.88rem;
+ table-layout:fixed}
+.to-giay p,.to-giay li,.to-giay dd{overflow-wrap:break-word}
+.to-giay sup{overflow-wrap:anywhere}
+.khung-bang td{border:1px solid var(--vien);padding:9px 11px;vertical-align:top;
+ line-height:1.5;word-wrap:break-word}
+.khung-bang td.sat{padding-left:0;padding-right:0}
+.khung-bang td.giua{text-align:center;vertical-align:middle}
+.khung-bang td.ky-hieu{font-weight:800;white-space:nowrap}
+.khung-bang td.nen-toi,.khung-bang td.nen-toi *{color:#fff}
+.khung-bang td.nen-sang,.khung-bang td.nen-sang *{color:#12151b}
+.khung-bang td span{display:block}
+.khung-bang td span.cham{padding-left:1.1em;text-indent:-1em}
+mark.danh{background:var(--danh);color:inherit;border-radius:3px}
+/* Ô có màu ép màu chữ cho cả con cháu, kể cả <mark> của phần tìm trong bài — chữ
+   trắng trên nền vàng nhạt là tìm thấy mà không nhìn thấy. Trả chữ về màu trang. */
+.khung-bang td.nen-toi mark.danh,.khung-bang td.nen-sang mark.danh,
+.khung-bang td.nen-toi mark.danh *,.khung-bang td.nen-sang mark.danh *{color:var(--chu)}
+mark.danh.dang{outline:2px solid var(--do)}
+/* ---- nút nổi ---- */
+.thanh-nut{position:fixed;right:18px;bottom:18px;display:flex;gap:8px;z-index:9}
+.thanh-nut button{width:42px;height:42px;border-radius:50%;cursor:pointer;
+ border:1px solid var(--vien);background:var(--giay);color:var(--chu);
+ font-size:1rem;font-weight:700;box-shadow:0 2px 8px rgba(0,0,0,.14)}
+.hien-ml{display:none}
+/* ---- màn hình hẹp ---- */
+@media(max-width:980px){
+ .bo-cuc{grid-template-columns:minmax(0,1fr);padding:12px}
+ .muc-luc{position:fixed;inset:0 auto 0 0;width:88%;max-width:340px;z-index:20;
+  border-radius:0;height:100vh;transform:translateX(-102%);transition:transform .2s}
+ .muc-luc.mo{transform:none}
+ .hien-ml{display:block}
+ .to-giay{padding:22px 18px 44px}
+ /* Màn hình điện thoại: giữ bề rộng tối thiểu cho bảng rồi cho cuộn ngang,
+    thay vì bóp cột hẹp tới mức "Trung bình" xuống dòng thành "Tr un g bì nh". */
+ .khung-bang table{min-width:620px}
+ .dau-bai{padding:20px}
+ .dau-bai h1{font-size:1.5rem}
+}
+/* ---- in ra giấy ---- */
+@media print{
+ /* Nền tối được nhớ trong localStorage: bật một lần là mọi lần in sau đều dính.
+    Giấy luôn trắng, nên trả bảng màu về bản sáng trước khi in — nếu không, chữ
+    #e6eaf0 in lên giấy trắng là mất hẳn. */
+ :root,:root[data-nen="toi"]{--nen:#fff;--giay:#fff;--chu:#172033;--nhat:#4a5462;
+  --vien:#c9ced5;--do:#b30000;--xanh:#004b87;--diu:#f6f8fa;--danh:#fff3cd}
+ body{background:#fff;font-size:11.5pt}
+ .muc-luc,.thanh-nut{display:none!important}
+ .bo-cuc{display:block;max-width:none;padding:0}
+ .dau-bai,.to-giay{box-shadow:none;border-radius:0;padding:0}
+ .to-giay h2,.to-giay h3{break-after:avoid}
+ .khung-bang,figure{break-inside:avoid}
+ .khung-bang td{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+.c-xanh{color:var(--xanh)} .c-do{color:var(--do)} .c-luc{color:var(--luc)} .c-nhat{color:var(--nhat)}
+:root{--luc:#1d7a3a} :root[data-nen="toi"]{--luc:#7fd49a}
+.ban-quyen{display:inline-block;margin:.4em 0 1.2em!important;padding:6px 14px;border-radius:9px;
+ background:var(--diu);border:1px solid var(--vien);color:var(--nhat);font-size:.88rem}
+.note{background:var(--diu);border-left:4px solid var(--xanh);border-radius:0 10px 10px 0;padding:10px 16px;margin:1.1em 0}
+.note p:last-child{margin-bottom:0}
+.canh-bao{background:#fff4d6;border:1px solid #e8c97a;color:#4a3a10;border-radius:10px;padding:12px 16px;margin:0 0 18px;font-size:.93em}
+:root[data-nen="toi"] .canh-bao{background:#3a2f12;border-color:#6b5a1a;color:#f0e2bd}
+.to-giay blockquote{margin:1em 0;padding:.6em 1em;border-left:4px solid var(--vien);background:var(--diu);border-radius:0 10px 10px 0}
+.to-giay ul,.to-giay ol{padding-left:1.5em;margin:0 0 .9em}
+.to-giay li{margin:.2em 0}
+.to-giay hr{border:0;border-top:1px solid var(--vien);margin:1.6em 0}
+.khung-bang th{border:1px solid var(--vien);padding:9px 11px;vertical-align:top;background:var(--diu);text-align:left;line-height:1.5}
+.khung-bang td[style*="background"],.khung-bang th[style*="background"]{color:#12151b}
+.tk p,.tk li{font-size:.9em;color:var(--nhat);text-align:left}
+figcaption,.chu-thich-anh{font-size:.88rem;color:var(--nhat);margin-top:.45em;text-align:center;line-height:1.55}
+figcaption b{color:var(--chu)}
+figure.anh-dau img{width:100%;max-height:420px;object-fit:cover}
+figure video{width:100%;max-height:78vh;background:#000;border-radius:10px;display:block}
+.khung-video{position:relative;padding-top:56.25%;margin:0;border-radius:10px;overflow:hidden;background:#000}
+.khung-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt{position:relative;width:100%;aspect-ratio:16/9;background:#000;cursor:pointer;display:block;border-radius:10px;overflow:hidden}
+.yt img{width:100%;height:100%;object-fit:cover;display:block;opacity:.86;border:0!important;border-radius:0!important;transition:opacity .2s}
+.yt:hover img{opacity:1}
+.yt .play{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.yt .play svg{width:58px;height:58px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.yt iframe{width:100%;height:100%;border:0;display:block}
+.badge{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.72);color:#fff;font-size:11.5px;padding:2px 8px;border-radius:20px;pointer-events:none}
+.ytlink{display:inline-block;margin-left:8px;font-size:.92em;color:var(--xanh);text-decoration:none;border:1px solid var(--vien);border-radius:20px;padding:1px 10px;white-space:nowrap}
+.bo-anh{display:grid;gap:8px;margin:1em 0 1.4em;align-items:start}
+.bo-anh.cot-1{grid-template-columns:repeat(1,minmax(0,1fr))}
+.bo-anh.cot-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.bo-anh.cot-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.bo-anh.cot-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.bo-anh.cot-5{grid-template-columns:repeat(5,minmax(0,1fr))}
+.bo-anh.cot-6{grid-template-columns:repeat(6,minmax(0,1fr))}
+.o-anh{display:block;border-radius:8px;overflow:hidden;background:#000;
+ border:1px solid var(--vien);cursor:zoom-in;line-height:0}
+.o-anh img{display:block;width:100%;height:auto}
+figure .o-anh{display:inline-block;background:none;border:0}
+figure .o-anh img{border:1px solid var(--vien);border-radius:10px}
+@media(max-width:980px){
+ .bo-anh.cot-3,.bo-anh.cot-4,.bo-anh.cot-5,.bo-anh.cot-6{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:560px){
+ .bo-anh.cot-3,.bo-anh.cot-4,.bo-anh.cot-5,.bo-anh.cot-6{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+.xem-anh{position:fixed;inset:0;z-index:50;background:rgba(8,10,14,.94);display:none;
+ flex-direction:column;align-items:center;justify-content:center;padding:14px}
+.xem-anh.mo{display:flex}
+.xem-anh img{max-width:100%;max-height:calc(100vh - 110px);object-fit:contain;border-radius:6px;background:#000}
+.xem-anh .xa-chu{color:#dfe5ec;font-size:.85rem;max-width:1100px;margin-top:10px;text-align:center;
+ line-height:1.5;max-height:5.2em;overflow:auto}
+.xem-anh .xa-dem{position:absolute;top:14px;left:18px;color:#c4ccd6;font-size:.85rem}
+.xem-anh button{position:absolute;border:0;background:rgba(255,255,255,.12);color:#fff;
+ width:46px;height:46px;border-radius:50%;font-size:1.3rem;cursor:pointer}
+.xem-anh button:hover{background:rgba(255,255,255,.25)}
+.xem-anh .xa-dong{top:12px;right:14px}
+.xem-anh .xa-truoc{left:14px;top:50%;transform:translateY(-50%)}
+.xem-anh .xa-sau{right:14px;top:50%;transform:translateY(-50%)}
+@media print{
+ .xem-anh,.canh-bao,.ytlink{display:none!important}
+ .bo-anh{break-inside:avoid}
+ .o-anh{background:none}
+}
+</style>
+</head>
+<body>
+<div class="bo-cuc">
+ <aside class="muc-luc" id="mucLuc">
+  <div class="ml-dau"><span>NỘI DUNG</span><span id="phanTram">0%</span><button
+    id="nutThu" class="nut-thu" type="button" title="Thu gọn mục lục">«</button></div>
+  <div class="o-tim">
+   <input id="oTim" type="search" placeholder="Tìm trong tài liệu…" autocomplete="off">
+   <div class="tim-dieu-khien">
+    <button id="timTruoc" type="button">↑</button>
+    <button id="timSau" type="button">↓</button>
+    <span id="demTim"></span>
+   </div>
+  </div>
+  <div class="ml-cuon"><ul id="dsMuc"></ul></div>
+ </aside>
+ <main>
+  <section class="dau-bai">
+   <div class="nhan">CASE ECG #2023 · DR. SMITH’S ECG BLOG</div>
+   <h1>26/06/2026 — Nam 65 tuổi đau bụng cấp: không đau ngực có loại trừ được STEMI/OMI không?</h1>
+   <p class="dich-gia"><a href="../index.html">← Mục lục Case ECG</a></p><p class="dich-gia">Bản dịch tiếng Việt của bài <a href="https://drsmithsecgblog.com/65-year-old-with-acute-abdominal-pain-does-lack-of-chest-pain-exclude-stemi-omi/" target="_blank" rel="noopener">"65 year old with acute abdominal pain: does lack of chest pain exclude STEMI/OMI?"</a> – Dr. Smith’s ECG Blog. Giữ nguyên toàn bộ 9 hình ảnh của bản gốc.</p>
+  </section>
+  <section class="to-giay" id="toGiay">
+<figure class="anh-dau"><a class="o-anh" href="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo1-1.jpg"><img src="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo1-1.jpg" alt="" width="1600" height="618" loading="lazy" decoding="async"></a></figure>
+<p>Tác giả: Jesse McLaren</p>
+<p>Một bệnh nhân nam 65 tuổi, trước đây khỏe mạnh, đến viện vì đau bụng vùng giữa đột ngột, dữ dội, không lan, kéo dài một giờ, kèm buồn nôn và vã mồ hôi. Huyết áp 190/100, tần số tim 60, nhịp thở và độ bão hòa oxy bình thường.</p>
+<p>Kết quả đọc điện tâm đồ cuối cùng của bác sĩ tim mạch được làm mù (không biết bệnh cảnh) là nhồi máu cơ tim cấp thành dưới, nhưng bệnh nhân không hề đau ngực. Bạn nghĩ sao?</p>
+<figure><a class="o-anh" href="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo1.jpg"><img src="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo1.jpg" alt="" width="1600" height="618" loading="lazy" decoding="async"></a></figure>
+<p>Bạn nghĩ sao?</p>
+<p>Nhịp xoang bình thường, RBBB và LAFB, điện thế bình thường. Có ST chênh lên ở các chuyển đạo dưới, đạt tiêu chuẩn STEMI, kèm sóng T tối cấp với ST chênh xuống và sóng T đảo ngược soi gương (reciprocal) ở aVL (OMI thành dưới), và STD/TWI bất tương hợp quá mức ở V2 (OMI thành sau). RBBB/LAFB có thể là biến chứng cấp của tắc đoạn gần LAD, nhưng OMI dưới-sau thường do tắc RCA, vốn không ảnh hưởng tới nhánh phải hay các phân nhánh trái.  (Smith: nhiều khả năng RBBB/LAFB đã có từ trước)</p>
+<p>Như vậy, điện tâm đồ này được đọc mù là STEMI thành dưới. Queen of Hearts cũng đọc điện tâm đồ mà không biết bệnh cảnh lâm sàng, nhưng trước hết hỏi xem bệnh nhân đang có triệu chứng ACS, triệu chứng ACS đã hết, hay không có nghi ngờ ACS.</p>
+<p>Đây là cách Queen đặt câu hỏi này:</p>
+<figure><a class="o-anh" href="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_Queens-question.jpg"><img src="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_Queens-question.jpg" alt="" width="938" height="906" loading="lazy" decoding="async"></a></figure>
+<p>Nếu bạn trả lời Queen rằng không có nghi ngờ ACS, Queen vẫn đánh dấu những thay đổi có giá trị chẩn đoán OMI dưới-sau (không cần chuyển đạo phía sau), nhưng lưu ý cần diễn giải trong bối cảnh lâm sàng.</p>
+<figure><a class="o-anh" href="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo2.jpg"><img src="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo2.jpg" alt="" width="727" height="583" loading="lazy" decoding="async"></a></figure>
+<p>Queen of Hearts thấy CẢ OMI thành dưới lẫn OMI thành sau (STEMI hoặc tương đương STEMI).</p>
+<p>_______</p>
+<p><strong>Smith</strong>: Bất kỳ ai đau bụng kèm vã mồ hôi đều phải được nghi ngờ ACS, điều mà Jesse giải thích chi tiết dưới đây.  Hãy để ý Queen hỏi: <strong>“Bao gồm nhưng không giới hạn ở: các triệu chứng tương đương khó chịu ở ngực như khó thở, đau thượng vị, đau tay/cổ/hàm, v.v.”</strong>  Dù nhồi máu cơ tim cấp có thể diễn ra thầm lặng, ca này KHÔNG thầm lặng.  Bệnh nhân này có triệu chứng.</p>
+<p><a href="https://drsmithsecgblog.com/the-queen-always-asks-if-she-sees-omi/" rel="noopener" target="_blank">Đây là một ca nhồi máu cơ tim cấp thực sự thầm lặng.</a></p>
+<p>Và một ca khác: <a href="https://drsmithsecgblog.com/should-troponin-be-vital-sign-perhaps/" rel="noopener" target="_blank">Should Troponin be a Vital Sign? Perhaps, but only if Interpreted Using Pre-test Probability</a>.<br><br>Đây là kết quả đọc của Queen nếu bạn trả lời có về triệu chứng:</p>
+<figure><a class="o-anh" href="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_RBBB-LAFB-without-chest-pain-first-ECG-Queen-if-symptoms-present-scaled.jpg"><img src="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_RBBB-LAFB-without-chest-pain-first-ECG-Queen-if-symptoms-present-scaled.jpg" alt="" width="1600" height="644" loading="lazy" decoding="async"></a></figure>
+<p><strong>Ca bệnh tiếp diễn:<br></strong>Bác sĩ cấp cứu nhận thấy ST chênh lên ở các chuyển đạo dưới và thay đổi soi gương ở aVL trên điện tâm đồ. Khám thấy bụng mềm, ấn đau trên rốn, không có phản ứng thành bụng, và siêu âm tại giường (POCUS) không thấy phình động mạch chủ bụng (AAA) hay viêm túi mật để giải thích cơn đau. Bệnh nhân được dùng thuốc giảm đau (để kiểm soát triệu chứng, không phải như một công cụ chẩn đoán) và điện tâm đồ 15 chuyển đạo được ghi 20 phút sau bản đầu tiên:</p>
+<figure><a class="o-anh" href="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo3.jpg"><img src="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo3.jpg" alt="" width="1600" height="488" loading="lazy" decoding="async"></a></figure>
+<p>Vẫn còn OMI dưới-sau (với <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12791192/" rel="noopener" target="_blank">chuyển đạo phía sau âm tính giả</a>), cùng với ST chênh lên ở V4R (<strong>Smith</strong>: điều này gần như chẩn đoán chắc chắn nhồi máu thất phải do tắc đoạn gần RCA. Điều này càng phải làm bạn nghi ngờ nhiều hơn). Vì vậy bệnh nhân được xịt nitro và mời hội chẩn tim mạch khẩn vì có thể là STEMI dù không đau ngực.</p>
+<p><strong>Bác sĩ tim mạch cho rằng bệnh sử không phù hợp với STEMI.</strong> Họ ghi nhận đau và ấn đau thượng vị, POCUS không kết luận được về rối loạn vận động thành (<strong>Smith</strong>: POCUS không nhạy với rối loạn vận động thành, nhất là khi không dùng chất cản âm dạng bọt khí), và troponin I độ nhạy cao ban đầu là 8ng/L, bình thường (&lt;16 ở nữ và &lt;26). Vì vậy bệnh nhân được chụp CT ngực/bụng/chậu để tìm bóc tách động mạch chủ hoặc nguyên nhân tại bụng, và kết quả bình thường. Troponin đo lặp lại trong vài giờ sau đó là 16 (vẫn bình thường) rồi 180 ng/L. Bệnh nhân vẫn đau thượng vị kéo dài và xuất hiện nhịp chậm, kèm thay đổi trên điện tâm đồ:</p>
+<figure><a class="o-anh" href="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo4.jpg"><img src="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo4.jpg" alt="" width="1600" height="608" loading="lazy" decoding="async"></a></figure>
+<p>Có nhịp chậm xoang, các thay đổi đoạn ST đã hết và sóng T tối cấp đã xẹp xuống và đảo ngược (với sóng T cao soi gương ở V2). Điều này gợi ý tái tưới máu, nhưng bệnh nhân vẫn còn đau thượng vị. Queen đánh dấu các thay đổi tái tưới máu trên điện tâm đồ, <strong>nhưng khuyên kích hoạt phòng thông tim nếu nghi ngờ lâm sàng cao và vẫn còn triệu chứng ACS</strong>:</p>
+<figure><a class="o-anh" href="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo5.jpg"><img src="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo5.jpg" alt="" width="1130" height="980" loading="lazy" decoding="async"></a></figure>
+<p>Với đau thượng vị kéo dài, thay đổi điện tâm đồ động (dynamic) và nhịp chậm thoáng qua, cùng troponin tăng dần trong khi các nguyên nhân khác đã được loại trừ, phòng thông tim được kích hoạt. Thời gian từ cửa đến thông tim là 6 giờ và chụp mạch cho thấy tắc 100% đoạn giữa RCA. Dưới đây là hình chụp mạch trước và sau đặt stent:</p>
+<figure><a class="o-anh" href="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo6.jpg"><img src="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_abdo6.jpg" alt="" width="1600" height="824" loading="lazy" decoding="async"></a></figure>
+<p>EF giảm còn 44% với vô động thành dưới và giảm động thành dưới-bên từ đáy đến đoạn xa, và có <strong>troponin đỉnh cực cao 100,000 ng/L</strong> <strong>(một thước đo tốt cho thấy ổ nhồi máu rất lớn)</strong>.</p>
+<h2 id="acs-dau-nguc-cap-ste">ACS ≠ Đau ngực cấp + STE</h2>
+<p>ACS từ lâu bị đánh đồng với đau ngực cấp + ST chênh lên. Nhưng 1) phần lớn bệnh nhân đau ngực ở khoa cấp cứu không bị ACS, 2) nhiều trường hợp nhồi máu cơ tim cấp biểu hiện không kèm đau ngực, 3) phần lớn bệnh nhân đau ngực có STE ở khoa cấp cứu không bị nhồi máu cơ tim, và 4) phần lớn OMI biểu hiện không có STE.</p>
+<ol><li>Một <a href="https://pubmed.ncbi.nlm.nih.gov/42114386/" rel="noopener" target="_blank">nghiên cứu quốc gia</a> mới tại Mỹ trên bệnh nhân khoa cấp cứu có lý do vào viện chính là đau ngực không do chấn thương cho thấy 5.5% (và 9.4% ở người &gt;64 tuổi) được chẩn đoán một trong 7 tình trạng đe dọa tính mạng (ACS, PE, tràn khí màng phổi, bóc tách động mạch chủ, hội chứng Boerhaave, chèn ép tim, vỡ phình động mạch chủ bụng). Chẩn đoán thường gặp nhất là ACS với 4.5% (so với 0.09% của bóc tách động mạch chủ). Nhưng phần lớn các chẩn đoán này biểu hiện <em>không</em> có đau ngực là lý do vào viện chính, kể cả ACS (47%). Như vậy, khả năng ACS trước xét nghiệm nói chung ở bệnh nhân đau ngực tại khoa cấp cứu là thấp, nhưng không đau ngực <em>không</em> loại trừ ACS. Do chỉ tập trung vào lý do vào viện chính, nghiên cứu này có lẽ đã đánh giá thấp tần suất đau ngực, ví dụ những bệnh nhân vào viện chủ yếu vì khó thở hoặc đau thượng vị mà khi hỏi bệnh sử kỹ hơn thì cũng có đau ngực. Đau/tức ngực là triệu chứng ACS điển hình, nhưng các triệu chứng tương đương cơn đau thắt ngực như khó thở hay đau thượng vị cũng vậy, và không đau ngực không loại trừ ACS cũng không dự báo một diễn tiến lành tính hơn.</li>
+<li>Ngược lại, ACS không kèm đau ngực là một yếu tố tiên lượng xấu. Các nghiên cứu đã nhất quán cho thấy ACS không đau ngực là một kiểu biểu hiện thường gặp, nhất là ở người lớn tuổi, nữ giới và người có bệnh đồng mắc, và nó dẫn tới chậm chẩn đoán/điều trị và tỷ lệ tử vong cao hơn.  [như <a href="https://pubmed.ncbi.nlm.nih.gov/15302732/" rel="noopener" target="_blank">ở đây</a> (Brieger và cs.), <a href="https://www.sciencedirect.com/science/article/pii/S0914508710002431" rel="noopener" target="_blank">ở đây</a> (El Menyar và cs.), <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6269644/" rel="noopener" target="_blank">ở đây</a> (Bjork và cs.) và <a href="https://pubmed.ncbi.nlm.nih.gov/31165979/" rel="noopener" target="_blank">ở đây</a> (Pong và cs.)] 
+<ul>
+<li>Xem tài liệu tham khảo bên dưới.</li>
+</ul>
+</li>
+<li>Canto và cs. đã công bố nghiên cứu rất lớn này trên JAMA năm 2000 và nhận thấy 1/3 số STEMI và 1/3 số NSTEMI biểu hiện không kèm đau ngực.
+<ul>
+<li><code>Canto JG, Shlipak MG, Roger WJ. Prevalence, clinical characteristics, and mortality among patients with myocardial infarction presenting without chest pain. Tạp chí JAMA, năm 2000;283(24):3223–9.</code></li>
+<li><strong>Kết quả</strong> Trong 434,877 bệnh nhân từ 1674 bệnh viện được chẩn đoán nhồi máu cơ tim, 142,445 người (33%) không đau ngực khi đến viện. Nhóm bệnh nhân nhồi máu cơ tim này trung bình lớn hơn 7 tuổi so với nhóm có đau ngực (74.2 so với 66.9 tuổi), với tỷ lệ nữ giới (49.0% so với 38.0%) và bệnh nhân đái tháo đường (32.6% so với 25.4%) hoặc có tiền sử suy tim (26.4% so với 12.3%) cao hơn. Ngoài ra, bệnh nhân nhồi máu cơ tim không đau ngực đến viện muộn hơn (trung bình 7.9 so với 5.3 giờ), <strong>ít được chẩn đoán</strong> xác định nhồi máu cơ tim lúc nhập viện hơn <strong>(22.2% so với 50.3%)</strong>, và <strong>ít được điều trị tiêu sợi huyết hoặc nong mạch tiên phát hơn (25.3% so với 74.0%)</strong>, cũng như ít được dùng aspirin (60.4% so với 84.5%), thuốc chẹn β (28.0% so với 48.0%) hay heparin (53.4% so với 83.2%) hơn. Bệnh nhân nhồi máu cơ tim không đau ngực có <strong>tỷ lệ tử vong trong viện 23.3% so với 9.3% ở bệnh nhân có đau ngực</strong> (tỷ số chênh hiệu chỉnh cho tử vong 2.21 [khoảng tin cậy 95%, 2.17-2.26]).</li>
+</ul>
+</li>
+<li>Điều này càng trầm trọng hơn do độ nhạy và độ đặc hiệu kém của ST chênh lên đối với tắc mạch vành cấp. <a href="https://pubmed.ncbi.nlm.nih.gov/11146012/" rel="noopener" target="_blank">Phần lớn bệnh nhân ST chênh lên ở khoa cấp cứu không bị nhồi máu cơ tim</a>, mà có STE thứ phát do LBBB/LVH hoặc tương xứng với điện thế cao trong biến thể bình thường/tái cực sớm. Những trường hợp này dẫn tới kích hoạt dương tính giả.</li>
+<li>Và phần lớn bệnh nhân nhồi máu cơ tim do tắc biểu hiện <a href="https://pubmed.ncbi.nlm.nih.gov/38382857/" rel="noopener" target="_blank">không đạt tiêu chuẩn STEMI</a>, dẫn tới chậm tái tưới máu và tỷ lệ tử vong cao hơn (được chứng minh <a href="https://pubmed.ncbi.nlm.nih.gov/29020244/" rel="noopener" target="_blank">ở đây</a> và <a href="https://pubmed.ncbi.nlm.nih.gov/29422071/" rel="noopener" target="_blank">ở đây</a>). QOH có thể nhận ra cả <a href="https://pubmed.ncbi.nlm.nih.gov/41158088/" rel="noopener" target="_blank">STEMI dương tính giả lẫn các trường hợp tắc tinh tế</a>.</li>
+<li><strong>Đau thượng vị không kèm đau ngực</strong> là triệu chứng khởi phát ở tới 11% nhồi máu cơ tim thành trước và 16% nhồi máu cơ tim thành dưới trong <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167527300004149" rel="noopener" target="_blank">nghiên cứu này của Culic và cs.</a></li></ol>
+<p>Vì vậy cần một cách tiếp cận Bayes đối với OMI (mô tả <a href="https://pubmed.ncbi.nlm.nih.gov/37951822/" rel="noopener" target="_blank">ở đây</a> và kèm các ca bệnh <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12427917/" rel="noopener" target="_blank">ở đây</a>): khả năng trước xét nghiệm (bao gồm các triệu chứng tương đương cơn đau thắt ngực, thiếu máu cục bộ kháng trị và bất ổn điện học) + xét nghiệm (dấu hiệu OMI trên điện tâm đồ, POCUS tìm rối loạn vận động thành khu trú, +/- troponin), định hướng xử trí sau xét nghiệm.</p>
+<p>Khi khả năng trước xét nghiệm cao, các dấu hiệu OMI tinh tế trên điện tâm đồ có thể giúp đẩy nhanh việc chụp mạch. Khi khả năng trước xét nghiệm rất cao (ví dụ thiếu máu cục bộ kháng trị kèm bất ổn huyết động và rối loạn vận động thành khu trú), không cần đến điện tâm đồ. Trong ca này, xét nghiệm cho thấy STEMI rõ ràng, nhưng khả năng trước xét nghiệm lại bị đánh giá là quá thấp vì không có đau ngực, được củng cố thêm bởi khám thực thể và xét nghiệm troponin ban đầu. Nhưng không đau ngực là thường gặp trong nhồi máu cơ tim, ấn đau tái hiện được cũng thường gặp ở bệnh nhân nhồi máu cơ tim, và troponin chỉ sau một giờ có triệu chứng thì không có ích. Dù khả năng ACS trước xét nghiệm nói chung ở khoa cấp cứu là thấp, không đau ngực không loại trừ được ACS, và một điện tâm đồ STEMI(+)OMI làm tăng mạnh khả năng OMI sau xét nghiệm. Bóc tách động mạch chủ có khả năng trước xét nghiệm thấp hơn nhiều, và nếu có <a href="https://pubmed.ncbi.nlm.nih.gov/28511806/" rel="noopener" target="_blank">STEMI trên điện tâm đồ, khả năng đó là thứ phát do bóc tách động mạch chủ chỉ là 0.5%</a>. Khi không có dấu hiệu bóc tách trên POCUS, chụp CT sẽ làm chậm tái tưới máu cho OMI trong đại đa số trường hợp.</p>
+<p>May mắn là cuối cùng phòng thông tim cũng được kích hoạt dù ST chênh lên đã hết, dựa trên các dấu hiệu lâm sàng của OMI (thiếu máu cục bộ kháng trị và nhịp chậm thoáng qua) và troponin tăng dần.</p>
+<h2 id="dieu-can-nho">Điều cần nhớ</h2>
+<ol><li>Không đau ngực không loại trừ STEMI/nhồi máu cơ tim do tắc, và ACS không kèm đau ngực liên quan với chậm điều trị và tử vong cao hơn.</li>
+<li>Troponin đầu tiên sau một giờ có triệu chứng không có ích, và mức tăng troponin ban đầu không dự báo được giá trị đỉnh.</li>
+<li>STEMI thứ phát do bóc tách động mạch chủ rất hiếm.</li>
+<li>Tái tưới máu đòi hỏi hết cả triệu chứng lẫn thay đổi trên điện tâm đồ.</li>
+<li>Queen of Hearts có thể nhận ra tình trạng tắc và tái tưới máu, cả hai đều cần đối chiếu lâm sàng.</li></ol>
+<p><span class="c-do">Ngay cả khi một điện tâm đồ VỪA có giá trị chẩn đoán OMI VỪA đạt tiêu chuẩn STEMI, bệnh nhân vẫn thường bị chăm sóc cẩu thả.  Đây là sai sót nghề nghiệp.</span></p>
+<h3 id="tai-lieu-tham-khao-chon-loc">Tài liệu tham khảo chọn lọc:</h3>
+<p><code>Brieger D, Eagle KA, Goodman SG, và cs. Acute coronary syndromes without chest pain, an underdiagnosed and undertreated high-risk group: insights from the Global Registry of Acute Coronary Events. Tạp chí Chest [Internet], năm 2004;126(2):461–9. Truy cập tại: http://dx.doi.org/10.1378/chest.126.2.461
+
+
+    El-Menyar A, Zubaid M, Sulaiman K, và cs. Atypical presentation of acute coronary syndrome: a significant independent predictor of in-hospital mortality. Tạp chí J Cardiol [Internet], năm 2011;57(2):165–71. Truy cập tại: http://dx.doi.org/10.1016/j.jjcc.2010.11.008
+  
+
+    Björck L, Nielsen S, Jernberg T, Zverkova-Sandström T, Giang KW, Rosengren A. Absence of chest pain and long-term mortality in patients with acute myocardial infarction. Tạp chí Open Heart [Internet], năm 2018;5(2):e000909. Truy cập tại: http://dx.doi.org/10.1136/openhrt-2018-000909
+  
+
+    Pong JZ, Ho AFW, Tan TXZ, và cs. ST-segment elevation myocardial infarction with non-chest pain presentation at the Emergency Department: Insights from the Singapore Myocardial Infarction Registry. Tạp chí Intern Emerg Med [Internet], năm 2019;14(6):989–97. Truy cập tại: http://dx.doi.org/10.1007/s11739-019-02122-3
+  
+</code></p>
+<p><span class="c-nhat">= = =</span></p>
+<hr>
+<p><span class="c-do">==================================</span></p>
+<h2 id="binh-luan-cua-toi-boi-ken-grauer-md-26-6-2026">BÌNH LUẬN CỦA TÔI, bởi KEN GRAUER, MD (26/6/2026):</h2>
+<hr>
+<p>Trong tiêu đề bài hôm nay, Dr. McLaren đặt câu hỏi: <strong><em>“Không có CP (</em></strong><em>đau ngực – Chest Pain<strong>) có loại trừ được STEMI/OMI không?”</strong></em>. Câu trả lời là KHÔNG, dứt khoát như vậy!</p>
+<ul><li><strong>SỰ THẬT <span class="c-do">#</span>1:</strong> Dù CP cho đến nay là triệu chứng thường gặp nhất của nhồi máu cơ tim cấp — các biểu hiện không điển hình <strong>(</strong>tức là <em>đau hoặc khó chịu ở các vùng khác của cơ thể</em><strong>)</strong> cũng như nhồi máu cơ tim cấp <em>không</em> kèm CP hay bất kỳ triệu chứng nào khác, vẫn tiếp tục xảy ra thường hơn nhiều so với người ta thường nghĩ <strong>(</strong><em>Khan và cs.: </em><strong><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10048062/" rel="noopener" target="_blank">Cureus 15(2):e35492, 2023</a></strong> — và — <em>Björck và cs.: </em><strong><a href="https://openheart.bmj.com/content/5/2/e000909" rel="noopener" target="_blank">Open Heart 5:e000909, 2018</a>)</strong>. </li>
+<li><strong>SỰ THẬT <span class="c-do">#</span>2:</strong> Như Dr. McLaren đã nêu <strong>(</strong><em>và như chúng tôi đã nhiều lần cho thấy trong các ca bệnh trình bày trên Dr. Smith’s ECG Blog</em><strong>)</strong> — Troponin ban đầu <strong>(</strong><em>và đôi khi cả Troponin lần 2</em><strong>) </strong>có thể âm tính dù đang có nhồi máu cấp tiến triển.</li>
+<li><strong>Thực tế lâm sàng:</strong> Chừng nào 2 sự thật trên chưa được những người làm công tác cấp cứu chấp nhận <strong>(</strong><em>kể cả bác sĩ tim mạch trong ca hôm nay, người đã không chịu chấp nhận những sự thật này</em><strong>) </strong>— thì các OMI cấp, và thậm chí cả STEMI, sẽ tiếp tục bị bỏ sót, gây hại cho việc chăm sóc bệnh nhân.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<h3 id="2-dien-tam-do-dau-tien">2 điện tâm đồ đầu tiên …</h3>
+<p>Thực thể mà chúng tôi gọi là <strong><em>“Giả”</em></strong> rõ ràng có tồn tại <strong>(</strong><em>trong đó điện tâm đồ có thể trông giống nhồi máu cấp — </em>nhưng hóa ra <em>không</em> phải nhồi máu<strong>)</strong>. Dù vậy — bài học khó khăn mà hy vọng chúng ta rút ra được từ ca hôm nay là ngay cả khi Troponin ban đầu bình thường và bệnh nhân <em>không</em> có CP — <strong>NẾU điện tâm đồ ban đầu “trông giống” nhồi máu cơ tim cấp, thì điện tâm đồ này <em>phải được tin cho đến khi chứng minh được điều ngược lại.</em></strong></p>
+<ul><li>Để rõ ràng, trong <strong>Hình 1</strong> — tôi đã đặt lại và đánh dấu 2 điện tâm đồ đầu tiên của ca hôm nay.</li>
+<li><strong>ĐIỂM THEN CHỐT (PEARL):</strong> Đặt 2 bản ghi đầu tiên này cạnh nhau trong <em>cùng</em> một hình giúp dễ nhận ra <strong>các thay đổi ST-T “động” (dynamic)</strong> <em>tinh tế-nhưng-có-thật</em>.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<h3 id="hay-xem-lai-mot-lan-nua">Hãy XEM lại một lần nữa …</h3>
+<ul><li><em>BẠN có thấy những thay đổi động tinh tế này</em> trong Hình 1 không?</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<hr>
+<p><strong>Hình 1:</strong> Tôi đã đánh dấu 2 điện tâm đồ đầu tiên của ca hôm nay.</p>
+<figure><a class="o-anh" href="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_Screenshot-2026-06-18-at-6.22.39-AM-scaled.jpg"><img src="2026-06-26-65-year-old-with-acute-abdominal-pain-does-lack-of-chest_anh/2026_06_Screenshot-2026-06-18-at-6.22.39-AM-scaled.jpg" alt="" width="1600" height="1032" loading="lazy" decoding="async"></a></figure>
+<hr>
+<p><span class="c-nhat">= = =</span></p>
+<h3 id="tra-loi-cac-dien-tam-do-trong-hinh-1">Trả lời: Các điện tâm đồ trong Hình 1 ….</h3>
+<p><strong>Điện tâm đồ</strong> <em><strong>ban đầu</strong></em> của ca hôm nay cho thấy nhịp xoang với nhiều bất thường mà xét cho cùng trông y hệt một STEMI cấp <em>cho đến khi</em> chứng minh được điều ngược lại <strong>(</strong><em>Bằng chứng là bác sĩ tim mạch đọc mù đã kết luận “nhồi máu cơ tim cấp thành dưới”</em><strong>)</strong>. Như Dr. McLaren đã nêu — Trong số các bất thường trên <strong>điện tâm đồ #1</strong> có những điểm sau:</p>
+<ul><li><strong>Blốc <em>hai phân nhánh</em></strong> <strong>(</strong><em>RBBB/LAHB</em><strong>)</strong> <em>không rõ</em> thời điểm xuất hiện <strong>(</strong>tức là <em>Không có điện tâm đồ cũ — chúng ta không biết rối loạn dẫn truyền này mới hay cũ</em><strong>)</strong>.</li>
+<li><strong>ST-T <em>tối cấp</em></strong> ở <em>từng</em> <strong>chuyển đạo <em>dưới</em> (</strong><em>các mũi tên ĐỎ đánh dấu sóng T cao hơn và “béo” hơn</em> <em>với đỉnh nhọn, đoạn ST thẳng đuỗn, điểm J chênh lên ≥2 mm, và đáy sóng T rộng hơn nhiều so với dự kiến ở các chuyển đạo II,III,aVF</em><strong>)</strong>.</li>
+<li><strong>ST-T chênh xuống <em>soi gương</em> rõ rệt </strong>ở <em>cả</em> <strong>chuyển đạo aVL </strong>và <strong>chuyển đạo I (</strong><em>các mũi tên XANH ở những chuyển đạo này</em><strong>)</strong>.</li>
+<li><strong>ST-T chênh xuống</strong> rõ ràng <em>nhiều-hơn-dự-kiến</em> ở <strong>chuyển đạo V2</strong>. Với RBBB điển hình — mức ST-T chênh xuống ở các chuyển đạo trước thường <em>lớn nhất</em> ở V1, rồi giảm dần khi đi qua các chuyển đạo trước tim. Ngược lại — <em>mũi tên XANH</em> ở <strong>chuyển đạo V2</strong> đánh dấu mức điểm J-ST chênh xuống tăng rõ rệt một cách bất ngờ ở chuyển đạo này. Như Dr. McClaren đã nêu — điều này gợi ý <strong>OMI <em>thành sau</em> cấp</strong> cho đến khi chứng minh được điều ngược lại.</li>
+<li>Cuối cùng — có đoạn ST thẳng đuỗn tinh tế kèm chênh xuống nhẹ ở <strong>chuyển đạo V6</strong>.</li></ul>
+<p>Một số chi tiết tinh tế khác cần cân nhắc gồm:</p>
+<ul><li><strong>Lưu ý <span class="c-do">#</span>1:</strong> Như thường được nhấn mạnh trên Dr. Smith’s ECG Blog — <em>không</em> nên dùng thuốc giảm đau sau khi ghi điện tâm đồ thứ 1, vì lúc đó <em>chưa</em> có chẩn đoán lâm sàng nào.
+<ul>
+<li>Lý do là nếu các điện tâm đồ liên tiếp cải thiện <em>sau</em> khi dùng thuốc giảm đau — chúng ta sẽ <em>không</em> biết điều đó phản ánh triệu chứng giảm do tái tưới máu tự phát <em>hay</em> triệu chứng giảm do thuốc giảm đau.</li>
+</ul>
+</li>
+<li><strong>Lưu ý <span class="c-do">#</span>2:</strong> Đã hai mươi phút trôi qua kể từ khi ghi điện tâm đồ #1 rồi mới ghi điện tâm đồ thứ 2 với 15 chuyển đạo. Lý do tôi muốn ghi điện tâm đồ 15 chuyển đạo <em>ngay lập tức</em> <strong>(</strong><em>thay vì chờ 20 phút</em><strong>)</strong> — là vì chúng ta mất khả năng <em>so sánh</em> các <strong><em>chuyển đạo bổ sung</em></strong> <strong>V4R</strong>,<strong>V8</strong>,<strong>V9</strong> trông như thế nào ở bản ghi ban đầu.
+<ul>
+<li>Về mặt lâm sàng, điều này không quan trọng với <strong>chuyển đạo V4R </strong>trên <strong>điện tâm đồ #2</strong> — vì <em>mũi tên ĐỎ</em> ở chuyển đạo này đánh dấu ST chênh lên quá rõ do <strong>tổn thương thất phải cấp</strong>.</li>
+<li>Nhưng nó có thể giải thích các <strong>chuyển đạo V8</strong>,<strong>V9 <em>âm tính giả</em></strong> không cho thấy ST chênh lên dù bệnh nhân có OMI thành sau cấp <strong>(</strong>Như đã trình bày trong <strong>bài <a href="https://drsmithsecgblog.com/posterior-leads-can-give-false/" rel="noopener" target="_blank">ngày 21 tháng Chín năm 2022</a></strong><em>, cùng nhiều bài khác</em> <em>— chuyển đạo phía sau kém chính xác hơn nhiều so với việc thấy ST chênh xuống tối đa ở các chuyển đạo</em> <em>V2,V3,V4 khi đánh giá OMI thành sau</em><strong>)</strong>.</li>
+</ul>
+</li>
+<li><strong>Lưu ý <span class="c-do">#</span>3:</strong> Như thường được nhấn mạnh trên Dr. Smith’s ECG Blog — <strong>Các điện tâm đồ</strong> <strong><em>liên tiếp</em></strong> phải được diễn giải bằng cách <strong>so sánh <em>từng chuyển đạo một</em></strong> giữa hai bản ghi NẾU muốn tránh bỏ sót những thay đổi tinh tế. 
+<ul>
+<li>Chẳng phải Hình 1 gợi ý có sự cải thiện <em>tinh tế-nhưng-có-thật</em> về mức độ tối cấp ở các chuyển đạo dưới trên điện tâm đồ #2 so với điện tâm đồ #1 hay sao?</li>
+<li>Vì vậy — tôi diễn giải những <strong><em>thay đổi “động” </em>trên điện tâm đồ</strong> nhiều khả năng có thật này ở điện tâm đồ ghi lại 20 phút sau <strong>(</strong><em>đặc biệt khi có ST chênh lên rõ ở chuyển đạo V4R</em><strong>)</strong> — là bằng chứng của <strong>OMI dưới–sau <em>cấp</em> đang tiếp diễn</strong> cho đến khi chứng minh được điều ngược lại, <em>bất kể</em> Troponin ban đầu bình thường và không có CP.</li>
+</ul>
+</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<p><strong>ĐIỀU CỐT LÕI:</strong> Một điện tâm đồ “trông giống” nhồi máu cơ tim cấp có thể là “giả” <strong>(</strong>tức là <em>hình ảnh giả nhồi máu</em><strong>)</strong> — nhưng chúng ta cần giảm thiểu chậm trễ trong việc <em><strong>chứng minh</strong></em> rằng điện tâm đồ này <em>không</em> phải nhồi máu cơ tim cấp, nhất là khi bệnh nhân đến viện với một triệu chứng cấp mới <strong>(</strong><em>như đau bụng dữ dội khởi phát đột ngột</em><strong>)</strong>.</p>
+<ul><li>Cả Troponin ban đầu bình thường lẫn việc không có CP đều không đủ để làm <strong>“bằng chứng”</strong> — như ca hôm nay đã cho thấy rõ.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<p><span class="c-nhat">= = =</span></p>
+  </section>
+ </main>
+</div>
+<div class="thanh-nut">
+ <button id="nutMl" class="hien-ml" type="button" title="Mục lục">≡</button>
+ <button id="nutGiam" type="button" title="Chữ nhỏ hơn">A-</button>
+ <button id="nutTang" type="button" title="Chữ lớn hơn">A+</button>
+ <button id="nutNen" type="button" title="Nền sáng/tối">◐</button>
+</div>
+<div class="xem-anh" id="xemAnh" role="dialog" aria-label="Xem ảnh">
+ <span class="xa-dem"></span>
+ <button class="xa-dong" type="button" title="Đóng (Esc)">✕</button>
+ <button class="xa-truoc" type="button" title="Ảnh trước (←)">‹</button>
+ <img alt="">
+ <button class="xa-sau" type="button" title="Ảnh sau (→)">›</button>
+ <div class="xa-chu"></div>
+</div>
+<script>
+(function(){
+ var goc=document.documentElement, ds=document.getElementById('dsMuc'),
+     giay=document.getElementById('toGiay'), pt=document.getElementById('phanTram'),
+     ml=document.getElementById('mucLuc');
+ var dau=[].slice.call(giay.querySelectorAll('h2,h3,h4,h5,h6'));
+
+ // mục lục
+ dau.forEach(function(h){
+  var li=document.createElement('li');
+  li.className='cap-'+(+h.tagName[1]-1);
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  a.addEventListener('click',function(){ ml.classList.remove('mo'); });
+  li.appendChild(a); ds.appendChild(li);
+ });
+ var neo=[].slice.call(ds.querySelectorAll('a'));
+
+ function capNhat(){
+  var i=0;
+  for(var k=0;k<dau.length;k++){ if(dau[k].getBoundingClientRect().top<140) i=k; }
+  neo.forEach(function(a,k){ a.classList.toggle('dang-doc',k===i); });
+  var a=neo[i];
+  if(a){ var cuon=a.closest('.ml-cuon');
+   if(cuon){ var h=a.getBoundingClientRect(), c=cuon.getBoundingClientRect();
+    if(h.top<c.top||h.bottom>c.bottom) cuon.scrollTop+=h.top-c.top-c.height/3; } }
+  var het=document.documentElement.scrollHeight-innerHeight;
+  pt.textContent=(het>0?Math.min(100,Math.round(scrollY/het*100)):100)+'%';
+ }
+ addEventListener('scroll',capNhat,{passive:true});
+ addEventListener('resize',capNhat); capNhat();
+
+ // cỡ chữ + nền tối, nhớ lựa chọn
+ function docNho(k,md){ try{ return localStorage.getItem(k)||md; }catch(e){ return md; } }
+ function ghiNho(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+ var co=parseInt(docNho('gl-co','16'),10);
+ function apCo(){ goc.style.setProperty('--co',co+'px'); ghiNho('gl-co',co); capNhat(); }
+ apCo();
+ goc.setAttribute('data-nen',docNho('gl-nen','sang'));
+ document.getElementById('nutTang').onclick=function(){ co=Math.min(24,co+1); apCo(); };
+ document.getElementById('nutGiam').onclick=function(){ co=Math.max(12,co-1); apCo(); };
+ document.getElementById('nutNen').onclick=function(){
+  var v=goc.getAttribute('data-nen')==='toi'?'sang':'toi';
+  goc.setAttribute('data-nen',v); ghiNho('gl-nen',v);
+ };
+ // thu gọn / mở lại cột mục lục (nhớ lựa chọn)
+ goc.setAttribute('data-ml',docNho('gl-ml',''));
+ function datMl(v){ goc.setAttribute('data-ml',v); ghiNho('gl-ml',v); capNhat(); }
+ document.getElementById('nutThu').onclick=function(){ datMl('thu'); };
+ document.getElementById('nutMl').onclick=function(){
+  // màn hình rộng: nút ≡ mở lại cột đã thu; màn hình hẹp: kéo cột ra/vào
+  if(innerWidth>980 && goc.getAttribute('data-ml')==='thu'){ datMl(''); return; }
+  ml.classList.toggle('mo');
+ };
+
+ // tìm trong bài
+ var o=document.getElementById('oTim'), dem=document.getElementById('demTim'), hit=[], vt=-1;
+ function xoaDanh(){
+  hit=[]; vt=-1;
+  var m=giay.querySelectorAll('mark.danh');
+  for(var i=0;i<m.length;i++){ var p=m[i].parentNode;
+   p.replaceChild(document.createTextNode(m[i].textContent),m[i]); p.normalize(); }
+ }
+ function danhDau(q){
+  xoaDanh();
+  if(q.length<2){ dem.textContent=''; return; }
+  var tw=document.createTreeWalker(giay,NodeFilter.SHOW_TEXT,null), nut=[], n;
+  while((n=tw.nextNode())) if(n.nodeValue.trim()) nut.push(n);
+  var kq=q.toLowerCase();
+  nut.forEach(function(n){
+   var s=n.nodeValue, l=s.toLowerCase(), i=l.indexOf(kq);
+   if(i<0) return;
+   var cha=n.parentNode, sau=n, dich=0;
+   while(i>=0){
+    var giua=sau.splitText(i-dich); dich=i+q.length;
+    sau=giua.splitText(q.length);
+    var mk=document.createElement('mark'); mk.className='danh';
+    cha.replaceChild(mk,giua); mk.appendChild(giua); hit.push(mk);
+    i=l.indexOf(kq,dich);
+   }
+  });
+  dem.textContent=hit.length?('1/'+hit.length):'0';
+  if(hit.length){ vt=0; toi(0); }
+ }
+ function toi(i){
+  if(!hit.length) return;
+  hit.forEach(function(m){ m.classList.remove('dang'); });
+  vt=(i+hit.length)%hit.length;
+  hit[vt].classList.add('dang');
+  hit[vt].scrollIntoView({block:'center',behavior:'smooth'});
+  dem.textContent=(vt+1)+'/'+hit.length;
+ }
+ var cho;
+ o.addEventListener('input',function(){ clearTimeout(cho);
+  cho=setTimeout(function(){ danhDau(o.value.trim()); },250); });
+ o.addEventListener('keydown',function(e){ if(e.key==='Enter'){ e.preventDefault();
+  toi(vt+(e.shiftKey?-1:1)); } });
+ document.getElementById('timTruoc').onclick=function(){ toi(vt-1); };
+ document.getElementById('timSau').onclick=function(){ toi(vt+1); };
+ addEventListener('beforeprint',xoaDanh);
+})();
+// xem ảnh phóng to: bấm ảnh để mở, ←/→ chuyển ảnh trong cùng bộ, Esc để đóng
+(function(){
+ var hop=document.getElementById('xemAnh'), anh=hop.querySelector('img'),
+     chu=hop.querySelector('.xa-chu'), dem=hop.querySelector('.xa-dem'), bo=[], vt=0;
+ function hien(i){
+  vt=(i+bo.length)%bo.length; var a=bo[vt], im=a.querySelector('img');
+  anh.src=a.getAttribute('href'); anh.alt=im.alt; chu.textContent=im.alt;
+  chu.style.display=im.alt?'':'none';
+  dem.textContent=bo.length>1?(vt+1)+' / '+bo.length:'';
+  hop.querySelector('.xa-truoc').style.display=hop.querySelector('.xa-sau').style.display=bo.length>1?'':'none';
+ }
+ function dong(){ hop.classList.remove('mo'); anh.removeAttribute('src'); document.body.style.overflow=''; }
+ document.getElementById('toGiay').addEventListener('click',function(e){
+  var a=e.target.closest('a.o-anh'); if(!a) return;
+  e.preventDefault();
+  var cha=a.closest('.bo-anh');
+  bo=cha?[].slice.call(cha.querySelectorAll('a.o-anh')):[a];
+  hien(bo.indexOf(a)); hop.classList.add('mo'); document.body.style.overflow='hidden';
+ });
+ hop.querySelector('.xa-dong').onclick=dong;
+ hop.querySelector('.xa-truoc').onclick=function(e){ e.stopPropagation(); hien(vt-1); };
+ hop.querySelector('.xa-sau').onclick=function(e){ e.stopPropagation(); hien(vt+1); };
+ hop.addEventListener('click',function(e){ if(e.target===hop) dong(); });
+ addEventListener('keydown',function(e){
+  if(!hop.classList.contains('mo')) return;
+  if(e.key==='Escape') dong();
+  else if(e.key==='ArrowLeft') hien(vt-1);
+  else if(e.key==='ArrowRight') hien(vt+1);
+ });
+ var x0=null;
+ hop.addEventListener('touchstart',function(e){ x0=e.touches[0].clientX; },{passive:true});
+ hop.addEventListener('touchend',function(e){ if(x0===null) return;
+  var dx=e.changedTouches[0].clientX-x0; x0=null;
+  if(Math.abs(dx)>50) hien(vt+(dx<0?1:-1)); });
+})();
+// video YouTube: chỉ tải khi bấm. YouTube trả "Lỗi 153" khi trang không gửi được referrer
+// (mở từ ổ đĩa file:// hoặc khung sandbox) — khi đó mở thẳng tab YouTube.
+(function(){
+ var giay=document.getElementById('toGiay'), ds=giay.querySelectorAll('.yt');
+ if(!ds.length) return;
+ var canEmbed=/^https?:$/.test(location.protocol) &&
+   (typeof window.origin==='undefined' || (window.origin && window.origin!=='null'));
+ var PLAY='<span class="play"><svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8.6 8.6 0 0 0-6-6C55.2 0 34 0 34 0S12.8 0 7.5 1.7a8.6 8.6 0 0 0-6 6A90 90 0 0 0 0 24a90 90 0 0 0 1.5 16.3 8.6 8.6 0 0 0 6 6C12.8 48 34 48 34 48s21.2 0 26.5-1.7a8.6 8.6 0 0 0 6-6A90 90 0 0 0 68 24a90 90 0 0 0-1.5-16.3z"/><path fill="#fff" d="M27 34l18-10-18-10z"/></svg></span>';
+ [].forEach.call(ds,function(b){
+  var id=b.getAttribute('data-id'), n=b.getAttribute('data-n')||'Video', watch='https://www.youtube.com/watch?v='+id;
+  b.innerHTML='<img loading="lazy" src="https://i.ytimg.com/vi/'+id+'/hqdefault.jpg" alt="'+n+'">'+PLAY+'<span class="badge">▶ '+n+'</span>';
+  b.setAttribute('role','button'); b.setAttribute('tabindex','0');
+  var fig=b.closest('figure'), cap=fig&&fig.querySelector('figcaption');
+  if(!cap&&fig){ cap=document.createElement('figcaption'); fig.appendChild(cap); }
+  if(cap){ var a=document.createElement('a'); a.className='ytlink'; a.href=watch; a.target='_blank';
+   a.rel='noopener'; a.textContent='Mở trên YouTube ↗'; cap.appendChild(a); }
+  function load(){
+   if(!canEmbed){ window.open(watch,'_blank','noopener'); return; }
+   b.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?rel=0&autoplay=1" '+
+    'referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer;autoplay;clipboard-write;'+
+    'encrypted-media;gyroscope;picture-in-picture" allowfullscreen title="'+n+'"></iframe>';
+   b.style.cursor='default';
+  }
+  b.addEventListener('click',load);
+  b.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); load(); } });
+ });
+ if(!canEmbed){
+  var w=document.createElement('div'); w.className='canh-bao';
+  w.innerHTML='<b>Lưu ý:</b> trang đang mở trực tiếp từ ổ đĩa (hoặc trong khung xem trước) nên YouTube chặn phát nhúng '+
+   '(<i>Lỗi 153</i>). Bấm vào video sẽ mở tab YouTube. Đăng trang lên web (https) thì video phát ngay trong trang.';
+  giay.insertBefore(w, giay.firstChild);
+ }
+})();
+</script>
+</body>
+</html>

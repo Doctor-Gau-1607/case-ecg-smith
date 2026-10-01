@@ -23,7 +23,7 @@
 "tieu_de_vi": "28/09/2026 — Nam 50 tuổi đau ngực: các điện tâm đồ liên tiếp ‘STEMI âm tính’, nhưng bệnh nhân có nhồi máu cơ tim do tắc (OMI) không?",
 "tu_khoa": "nhồi máu cơ tim do tắc, OMI, STEMI(-)OMI, STEMI âm tính, NSTEMI, tắc đoạn gần LAD, proximal LAD occlusion, sóng T dạng xuống-lên, down-up T wave, sóng T tối cấp, hyperacute T waves, thay đổi soi gương, reciprocal change, thay đổi ST-T động, sóng T tái tưới máu, reperfusion T waves, POCUS, rối loạn vận động thành, Queen of Hearts",
 "ngay": "2026-10-01",
-"kb": 11892
+"kb": 2159
 },
 {
 "stt": 2045,
@@ -374,7 +374,7 @@
 "tieu_de_vi": "09/06/2026 — Ngất ở một người khỏe mạnh",
 "tu_khoa": "ngất, syncope, ngất do phản xạ phế vị, vasovagal syncope, phân ly nhĩ thất, AV dissociation, phân ly nhĩ thất đồng nhịp, isorhythmic AV dissociation, nhịp bộ nối gia tốc, accelerated junctional rhythm, sóng P ngược dòng, retrograde P waves, chiếm quyền, usurpation, mặc định, default, giản đồ bậc thang, laddergram, trương lực phế vị, vagal tone",
 "ngay": "2026-10-01",
-"kb": 56596
+"kb": 7693
 },
 {
 "stt": 2018,
@@ -400,7 +400,7 @@
 "tieu_de_vi": "02/06/2026 — Một dấu hiệu điện tâm đồ mọi bác sĩ nên nhận ra — thường gặp hơn bạn nghĩ!",
 "tu_khoa": "nhiễu do mạch đập động mạch, arterial pulse-tapping artifact, APTA, PTA, nhiễu điện tâm đồ, ECG artifact, điện cực thủ phạm, culprit electrode, tam giác Einthoven, Einthoven's triangle, giả OMI, sóng T tối cấp giả, ST vây cá mập, shark fin, đặt lại điện cực, phì đại thất phải, RVH, rung nhĩ, máy tạo nhịp",
 "ngay": "2026-10-01",
-"kb": 19092
+"kb": 4636
 },
 {
 "stt": 2016,
@@ -517,7 +517,7 @@
 "tieu_de_vi": "27/04/2026 — Bạn nghĩ gì về những sóng T đảo ngược này?",
 "tu_khoa": "sóng T đảo ngược, T wave inversion, bệnh cơ tim phì đại mỏm, apical hypertrophic cardiomyopathy, ApHCM, Yamaguchi, sóng T âm khổng lồ, giant negative T waves, huyết khối mỏm thất trái, LV apical thrombus, tăng gánh thất trái, LV strain, điện thế thấp, low voltage, hình quân bích, spade-shaped ventricle, siêu âm tim, echocardiography",
 "ngay": "2026-10-01",
-"kb": 2952
+"kb": 2802
 },
 {
 "stt": 2007,
@@ -582,7 +582,7 @@
 "tieu_de_vi": "06/04/2026 — Nam 60 tuổi đau ngực và sốc tim, kèm suy thất trái cấp. Điện tâm đồ cho thấy gì có quan trọng không? Và vì sao toàn bộ tim bị ảnh hưởng?",
 "tu_khoa": "sốc tim, cardiogenic shock, suy thất trái cấp, acute LV failure, OMI, tắc LCX đoạn gần, proximal LCX occlusion, tuần hoàn bàng hệ, collaterals, bệnh ba nhánh mạch vành, xoáy trước tim, precordial swirl, tái tưới máu tự phát, spontaneous reperfusion, giả bình thường hóa, pseudonormalization, troponin lần đầu, Impella",
 "ngay": "2026-10-01",
-"kb": 24176
+"kb": 3343
 },
 {
 "stt": 2002,
@@ -686,7 +686,7 @@
 "tieu_de_vi": "11/03/2026 — Sốc tim cấp ở bệnh nhân có nhịp tạo nhịp thất",
 "tu_khoa": "sốc tim, cardiogenic shock, nhịp tạo nhịp thất, ventricular paced rhythm, máy tạo nhịp, pacemaker, OMI, nhồi máu cơ tim do tắc, tiêu chuẩn Sgarbossa cải biên theo Smith, Smith-modified Sgarbossa, ST chênh lên ngược hướng quá mức, proportionality, tắc động mạch vành cấp, Queen of Hearts, door-to-balloon, tái thông mạch máu, revascularization",
 "ngay": "2026-10-01",
-"kb": 31102
+"kb": 3320
 },
 {
 "stt": 1994,
@@ -773,7 +773,7 @@
 "tieu_de_vi": "22/02/2026 — Nhanh, hẹp, đều. Đó là gì? Khó hơn: làm gì đây??",
 "tu_khoa": "cuồng nhĩ, atrial flutter, dẫn truyền AV 2:1, 2:1 AV conduction, nhịp nhanh trên thất đều, regular SVT, nhịp nhanh QRS hẹp, narrow complex tachycardia, sóng cuồng nhĩ, flutter waves, chức năng thất trái kém, digoxin, sốc điện chuyển nhịp, cardioversion, huyết khối tiểu nhĩ, CT tiểu nhĩ, TEE, khối u phổi, bệnh phổi mạn",
 "ngay": "2026-10-01",
-"kb": 18960
+"kb": 1898
 },
 {
 "stt": 1987,
@@ -799,7 +799,7 @@
 "tieu_de_vi": "18/02/2026 — Nhịp nhanh QRS rộng hấp dẫn và các điện tâm đồ giàu tính bài học trong cơn đau ngực",
 "tu_khoa": "nhịp nhanh thất hai chiều, bidirectional VT, BdVT, nhịp nhanh QRS rộng, wide complex tachycardia, nhồi máu cơ tim do tắc, OMI, tiêu chuẩn Sgarbossa cải biên, modified Sgarbossa, blốc nhánh trái, LBBB, rung nhĩ, nhịp nhanh thất đa dạng, PMVT, hội chứng vành cấp, ACS, Queen of Hearts",
 "ngay": "2026-10-01",
-"kb": 95123
+"kb": 19743
 },
 {
 "stt": 1985,
@@ -968,7 +968,7 @@
 "tieu_de_vi": "09/01/2026 — Điện tâm đồ ghi 4 ngày trước (tại phòng khám) cho chúng ta biết gì về các điện tâm đồ ở khoa cấp cứu?",
 "tu_khoa": "OMI dưới-sau-bên, inferoposterolateral OMI, sóng T tái tưới máu, reperfusion T waves, tái tưới máu thành sau, posterior reperfusion, giả bình thường hóa, pseudonormalization, diễn tiến ngắt quãng, stuttering OMI, thiếu máu cục bộ dưới nội tâm mạc, SEI, IVCD, LAHB, LVH, blốc AV độ 1, RCA, điện tâm đồ cũ, serial ECG, Queen of Hearts",
 "ngay": "2026-10-01",
-"kb": 12456
+"kb": 3172
 },
 {
 "stt": 1972,
@@ -1163,7 +1163,7 @@
 "tieu_de_vi": "01/12/2025 — Video của Sam Ghali: Một phụ nữ 55 tuổi than phiền “khó tiêu dữ dội”",
 "tu_khoa": "OMI thành dưới, inferior OMI, OMI thành sau, posterior OMI, nhồi máu thất phải, RV MI, tắc RCA đoạn gần, proximal RCA occlusion, ST chênh xuống soi gương aVL, reciprocal ST depression, nhồi máu cơ tim không đau ngực, silent MI, rung nhĩ mới khởi phát, new-onset AFib, nhồi máu cơ tim bán cấp, subacute MI, chi thủ phạm, culprit extremity, nhiễu, artifact",
 "ngay": "2026-10-01",
-"kb": 56963
+"kb": 6958
 },
 {
 "stt": 1957,
@@ -1202,7 +1202,7 @@
 "tieu_de_vi": "23/11/2025 — Rung nhĩ với đáp ứng thất nhanh và ST chênh xuống: siêu âm tại giường (POCUS), sốc điện chuyển nhịp, chuyển đạo Lewis, và đây có phải OMI thành sau?",
 "tu_khoa": "rung nhĩ, atrial fibrillation, đáp ứng thất nhanh, RVR, ST chênh xuống, ST depression, thiếu máu cục bộ dưới nội tâm mạc lan tỏa, DSI, nhồi máu cơ tim típ 2, Type 2 MI, OMI thành sau, posterior OMI, siêu âm tại giường, POCUS, chuyển đạo Lewis, Lewis lead, dẫn truyền lệch hướng, hiện tượng Ashman, nhiễm khuẩn huyết, sepsis",
 "ngay": "2026-10-01",
-"kb": 66467
+"kb": 8160
 },
 {
 "stt": 1954,
@@ -1306,7 +1306,7 @@
 "tieu_de_vi": "31/10/2025 — Nhịp nhanh QRS rộng ở một bệnh nhân 85 tuổi",
 "tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, WCT, cuồng nhĩ chậm, slow atrial flutter, dẫn truyền 2:1, 2:1 conduction, RBBB/LAFB, blốc nhánh có từ trước, preexisting bundle branch block, amiodarone, nhịp nhanh bộ nối, junctional tachycardia, VT, SVT, sốc điện chuyển nhịp, cardioversion, phương pháp Cách-Một-Nhát",
 "ngay": "2026-10-01",
-"kb": 87861
+"kb": 10922
 },
 {
 "stt": 1946,
@@ -1371,7 +1371,7 @@
 "tieu_de_vi": "19/10/2025 — Người đàn ông 45 tuổi bị “ợ nóng”. Điện tâm đồ còn nhiều điều hơn những gì thoạt nhìn thấy được",
 "tu_khoa": "STEMI thành dưới, inferior STEMI, OMI thành sau, posterior OMI, nhồi máu thất phải, RV MI, tắc RCA đoạn gần, proximal RCA occlusion, chuyển đạo bên phải, right-sided leads, V4R, ST chênh lên V1, nghiệm pháp soi gương, Mirror Test, nhịp chậm xoang, ợ nóng, heartburn, siêu âm tim tại giường",
 "ngay": "2026-10-01",
-"kb": 79463
+"kb": 13416
 },
 {
 "stt": 1941,
@@ -1458,7 +1458,7 @@
 "tieu_de_vi": "01/10/2025 — Một nam giới cao tuổi bị đau ngực cấp",
 "tu_khoa": "OMI LAD đoạn gần, proximal LAD occlusion, sóng T de Winter, deWinter T waves, sóng T tối cấp, hyperacute T waves, blốc nhánh phải, RBBB, blốc phân nhánh trái trước, LAFB, blốc hai phân nhánh, rung nhĩ, atrial fibrillation, định dạng Cabrera, Cabrera format, điện thế thấp, low voltage, Queen of Hearts",
 "ngay": "2026-10-01",
-"kb": 3301
+"kb": 2780
 },
 {
 "stt": 1934,
@@ -1575,7 +1575,7 @@
 "tieu_de_vi": "08/09/2025 — Bệnh nhân 80 tuổi đau ngực và QRS rộng. Có nên dùng thuốc tiêu sợi huyết?",
 "tu_khoa": "blốc nhánh trái, LBBB, tiêu chuẩn Sgarbossa cải biên theo Smith, Smith-modified Sgarbossa, ST ngược hướng quá mức xét theo tỷ lệ, tắc động mạch LAD, OMI, sóng T tối cấp, hyperacute T waves, tiêu sợi huyết, thrombolytics, tái tưới máu, reperfusion, sóng T tái tưới máu, Queen of Hearts, LAD vòng qua mỏm",
 "ngay": "2026-10-01",
-"kb": 2874
+"kb": 2523
 },
 {
 "stt": 1925,
@@ -1653,7 +1653,7 @@
 "tieu_de_vi": "13/08/2025 — Một nam giới ngoài 30 tuổi bị kích động, có nhịp nhanh QRS hẹp đều không cắt được bằng adenosine",
 "tu_khoa": "nhịp nhanh xoang, sinus tachycardia, SVT, nhịp nhanh trên thất, PSVT, nhịp nhanh QRS hẹp, narrow complex tachycardia, adenosine, sóng P ẩn, hidden P waves, cường giao cảm, sympathomimetic, amphetamin, cocain, kết luận vội vàng, premature closure, phương pháp Cách-Một-Nhát, every-other-beat method",
 "ngay": "2026-10-01",
-"kb": 50897
+"kb": 7456
 },
 {
 "stt": 1919,
@@ -1679,7 +1679,7 @@
 "tieu_de_vi": "08/08/2025 — Một phụ nữ 35 tuổi với điện tâm đồ sau ROSC này. Hình thái “vây cá mập” (shark fin) có ý nghĩa gì?",
 "tu_khoa": "vây cá mập, shark fin, ST chênh lên, ST elevation, tắc LAD đoạn gần, proximal LAD occlusion, OMI, ngừng tim, cardiac arrest, rung thất, VFib, sau ROSC, post-ROSC, sóng J, J waves, sốc tim, cardiogenic shock, ST dốc xuống",
 "ngay": "2026-10-01",
-"kb": 4505
+"kb": 3155
 },
 {
 "stt": 1917,

@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="vi" data-nen="sang">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>21/07/2026 — Các cơn co giật tái diễn ở một phụ nữ ngoài 40 tuổi</title>
+<style>
+:root{
+ --nen:#f2f4f6; --giay:#ffffff; --chu:#172033; --nhat:#5b6675; --vien:#e3e7ec;
+ --do:#b30000; --xanh:#004b87; --diu:#f6f8fa; --danh:#fff3cd;
+}
+:root[data-nen="toi"]{
+ --nen:#12151b; --giay:#1b2029; --chu:#e6eaf0; --nhat:#9aa5b4; --vien:#2c333f;
+ --do:#ff8a8a; --xanh:#7fb6e6; --diu:#232a35; --danh:#5a4a12;
+}
+*{box-sizing:border-box}
+html{font-size:var(--co,16px)}
+body{margin:0;background:var(--nen);color:var(--chu);
+ font-family:"Noto Sans","Segoe UI",Roboto,Arial,sans-serif;
+ font-size:1rem;line-height:1.7;-webkit-text-size-adjust:100%}
+a{color:var(--xanh)}
+.bo-cuc{display:grid;grid-template-columns:320px minmax(0,1fr);gap:22px;
+ max-width:1500px;margin:0 auto;padding:22px}
+/* ---- cột mục lục ---- */
+.muc-luc{position:sticky;top:22px;align-self:start;height:calc(100vh - 44px);
+ background:var(--giay);border-radius:16px;padding:16px 10px;display:flex;
+ flex-direction:column;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.ml-dau{display:flex;justify-content:space-between;align-items:center;
+ padding:2px 10px 10px;font-size:.78rem;font-weight:800;letter-spacing:.09em;
+ color:var(--do);border-bottom:1px solid var(--vien)}
+#phanTram{color:var(--nhat)}
+/* Thu gọn / mở lại cột mục lục. Trang nhớ lựa chọn, vì người đọc guideline
+   mở lại nhiều lần và không muốn mỗi lần lại phải thu tay. */
+.ml-dau .nut-thu{margin-left:8px;border:1px solid var(--vien);background:var(--giay);
+ color:var(--chu);border-radius:7px;padding:1px 8px;cursor:pointer;font:inherit;
+ font-size:.9rem;line-height:1.4}
+@media(min-width:981px){
+ :root[data-ml="thu"] .bo-cuc{grid-template-columns:minmax(0,1fr)}
+ :root[data-ml="thu"] .muc-luc{display:none}
+ :root[data-ml="thu"] .hien-ml{display:block}
+}
+.o-tim{padding:10px 8px 6px}
+.o-tim input{width:100%;padding:8px 10px;border:1px solid var(--vien);
+ border-radius:9px;background:var(--diu);color:var(--chu);font:inherit;font-size:.85rem}
+.tim-dieu-khien{display:flex;gap:6px;align-items:center;margin-top:6px;
+ font-size:.76rem;color:var(--nhat)}
+.tim-dieu-khien button{border:1px solid var(--vien);background:var(--giay);
+ color:var(--chu);border-radius:7px;padding:2px 9px;cursor:pointer;font:inherit}
+.ml-cuon{overflow-y:auto;flex:1;margin-top:4px}
+#dsMuc{list-style:none;margin:0;padding:0}
+#dsMuc a{display:block;padding:7px 12px;border-radius:9px;text-decoration:none;
+ color:var(--chu);font-size:.87rem;line-height:1.4}
+#dsMuc a:hover{background:var(--diu)}
+#dsMuc a.dang-doc{background:var(--diu);color:var(--do);font-weight:700;
+ box-shadow:inset 3px 0 0 var(--do)}
+#dsMuc .cap-1>a{font-weight:700}
+#dsMuc .cap-2>a{padding-left:26px;font-size:.85rem}
+#dsMuc .cap-3>a{padding-left:40px;font-size:.82rem;color:var(--nhat)}
+#dsMuc .cap-4>a,#dsMuc .cap-5>a{padding-left:54px;font-size:.8rem;color:var(--nhat)}
+/* ---- thân bài ---- */
+.dau-bai,.to-giay{background:var(--giay);border-radius:16px;
+ box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.dau-bai{padding:28px 34px;margin-bottom:22px}
+.nhan{font-size:.76rem;font-weight:800;letter-spacing:.16em;color:var(--nhat)}
+.dau-bai h1{margin:.25em 0 .35em;font-size:2rem;line-height:1.25;color:var(--do)}
+.dich-gia{color:var(--nhat);font-size:.92rem;margin:0}
+.dich-gia b{color:var(--xanh)}
+.to-giay{padding:34px 40px 60px}
+.to-giay h2{color:var(--do);font-size:1.65rem;margin:1.7em 0 .5em;
+ padding-bottom:4px;border-bottom:2px solid var(--vien)}
+.to-giay h2:first-child{margin-top:0}
+.to-giay h3{color:var(--xanh);font-size:1.3rem;margin:1.5em 0 .4em}
+.to-giay h4{font-size:1.08rem;margin:1.3em 0 .3em}
+.to-giay h5,.to-giay h6{font-size:1rem;margin:1.2em 0 .3em;color:var(--nhat)}
+.to-giay p{margin:0 0 .85em;text-align:justify}
+.to-giay p.cham{padding-left:1.35em;text-indent:-1.1em;text-align:left}
+figure{margin:1.4em 0;text-align:center}
+figure img{max-width:100%;height:auto;border:1px solid var(--vien);border-radius:10px}
+/* ---- bảng ---- */
+.tham-chieu{color:var(--xanh);font-weight:600;text-decoration:none;
+ border-bottom:1px dotted currentColor}
+.tham-chieu:hover{border-bottom-style:solid}
+.chu-thich-float{font-weight:600;margin:0 0 .4em}
+.khung-bang{overflow-x:auto;margin:1.4em 0;border-radius:10px;
+ border:1px solid var(--vien)}
+.khung-bang table{border-collapse:collapse;width:100%;font-size:.88rem;
+ table-layout:fixed}
+.to-giay p,.to-giay li,.to-giay dd{overflow-wrap:break-word}
+.to-giay sup{overflow-wrap:anywhere}
+.khung-bang td{border:1px solid var(--vien);padding:9px 11px;vertical-align:top;
+ line-height:1.5;word-wrap:break-word}
+.khung-bang td.sat{padding-left:0;padding-right:0}
+.khung-bang td.giua{text-align:center;vertical-align:middle}
+.khung-bang td.ky-hieu{font-weight:800;white-space:nowrap}
+.khung-bang td.nen-toi,.khung-bang td.nen-toi *{color:#fff}
+.khung-bang td.nen-sang,.khung-bang td.nen-sang *{color:#12151b}
+.khung-bang td span{display:block}
+.khung-bang td span.cham{padding-left:1.1em;text-indent:-1em}
+mark.danh{background:var(--danh);color:inherit;border-radius:3px}
+/* Ô có màu ép màu chữ cho cả con cháu, kể cả <mark> của phần tìm trong bài — chữ
+   trắng trên nền vàng nhạt là tìm thấy mà không nhìn thấy. Trả chữ về màu trang. */
+.khung-bang td.nen-toi mark.danh,.khung-bang td.nen-sang mark.danh,
+.khung-bang td.nen-toi mark.danh *,.khung-bang td.nen-sang mark.danh *{color:var(--chu)}
+mark.danh.dang{outline:2px solid var(--do)}
+/* ---- nút nổi ---- */
+.thanh-nut{position:fixed;right:18px;bottom:18px;display:flex;gap:8px;z-index:9}
+.thanh-nut button{width:42px;height:42px;border-radius:50%;cursor:pointer;
+ border:1px solid var(--vien);background:var(--giay);color:var(--chu);
+ font-size:1rem;font-weight:700;box-shadow:0 2px 8px rgba(0,0,0,.14)}
+.hien-ml{display:none}
+/* ---- màn hình hẹp ---- */
+@media(max-width:980px){
+ .bo-cuc{grid-template-columns:minmax(0,1fr);padding:12px}
+ .muc-luc{position:fixed;inset:0 auto 0 0;width:88%;max-width:340px;z-index:20;
+  border-radius:0;height:100vh;transform:translateX(-102%);transition:transform .2s}
+ .muc-luc.mo{transform:none}
+ .hien-ml{display:block}
+ .to-giay{padding:22px 18px 44px}
+ /* Màn hình điện thoại: giữ bề rộng tối thiểu cho bảng rồi cho cuộn ngang,
+    thay vì bóp cột hẹp tới mức "Trung bình" xuống dòng thành "Tr un g bì nh". */
+ .khung-bang table{min-width:620px}
+ .dau-bai{padding:20px}
+ .dau-bai h1{font-size:1.5rem}
+}
+/* ---- in ra giấy ---- */
+@media print{
+ /* Nền tối được nhớ trong localStorage: bật một lần là mọi lần in sau đều dính.
+    Giấy luôn trắng, nên trả bảng màu về bản sáng trước khi in — nếu không, chữ
+    #e6eaf0 in lên giấy trắng là mất hẳn. */
+ :root,:root[data-nen="toi"]{--nen:#fff;--giay:#fff;--chu:#172033;--nhat:#4a5462;
+  --vien:#c9ced5;--do:#b30000;--xanh:#004b87;--diu:#f6f8fa;--danh:#fff3cd}
+ body{background:#fff;font-size:11.5pt}
+ .muc-luc,.thanh-nut{display:none!important}
+ .bo-cuc{display:block;max-width:none;padding:0}
+ .dau-bai,.to-giay{box-shadow:none;border-radius:0;padding:0}
+ .to-giay h2,.to-giay h3{break-after:avoid}
+ .khung-bang,figure{break-inside:avoid}
+ .khung-bang td{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+.c-xanh{color:var(--xanh)} .c-do{color:var(--do)} .c-luc{color:var(--luc)} .c-nhat{color:var(--nhat)}
+:root{--luc:#1d7a3a} :root[data-nen="toi"]{--luc:#7fd49a}
+.ban-quyen{display:inline-block;margin:.4em 0 1.2em!important;padding:6px 14px;border-radius:9px;
+ background:var(--diu);border:1px solid var(--vien);color:var(--nhat);font-size:.88rem}
+.note{background:var(--diu);border-left:4px solid var(--xanh);border-radius:0 10px 10px 0;padding:10px 16px;margin:1.1em 0}
+.note p:last-child{margin-bottom:0}
+.canh-bao{background:#fff4d6;border:1px solid #e8c97a;color:#4a3a10;border-radius:10px;padding:12px 16px;margin:0 0 18px;font-size:.93em}
+:root[data-nen="toi"] .canh-bao{background:#3a2f12;border-color:#6b5a1a;color:#f0e2bd}
+.to-giay blockquote{margin:1em 0;padding:.6em 1em;border-left:4px solid var(--vien);background:var(--diu);border-radius:0 10px 10px 0}
+.to-giay ul,.to-giay ol{padding-left:1.5em;margin:0 0 .9em}
+.to-giay li{margin:.2em 0}
+.to-giay hr{border:0;border-top:1px solid var(--vien);margin:1.6em 0}
+.khung-bang th{border:1px solid var(--vien);padding:9px 11px;vertical-align:top;background:var(--diu);text-align:left;line-height:1.5}
+.khung-bang td[style*="background"],.khung-bang th[style*="background"]{color:#12151b}
+.tk p,.tk li{font-size:.9em;color:var(--nhat);text-align:left}
+figcaption,.chu-thich-anh{font-size:.88rem;color:var(--nhat);margin-top:.45em;text-align:center;line-height:1.55}
+figcaption b{color:var(--chu)}
+figure.anh-dau img{width:100%;max-height:420px;object-fit:cover}
+figure video{width:100%;max-height:78vh;background:#000;border-radius:10px;display:block}
+.khung-video{position:relative;padding-top:56.25%;margin:0;border-radius:10px;overflow:hidden;background:#000}
+.khung-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt{position:relative;width:100%;aspect-ratio:16/9;background:#000;cursor:pointer;display:block;border-radius:10px;overflow:hidden}
+.yt img{width:100%;height:100%;object-fit:cover;display:block;opacity:.86;border:0!important;border-radius:0!important;transition:opacity .2s}
+.yt:hover img{opacity:1}
+.yt .play{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.yt .play svg{width:58px;height:58px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.yt iframe{width:100%;height:100%;border:0;display:block}
+.badge{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.72);color:#fff;font-size:11.5px;padding:2px 8px;border-radius:20px;pointer-events:none}
+.ytlink{display:inline-block;margin-left:8px;font-size:.92em;color:var(--xanh);text-decoration:none;border:1px solid var(--vien);border-radius:20px;padding:1px 10px;white-space:nowrap}
+.bo-anh{display:grid;gap:8px;margin:1em 0 1.4em;align-items:start}
+.bo-anh.cot-1{grid-template-columns:repeat(1,minmax(0,1fr))}
+.bo-anh.cot-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.bo-anh.cot-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.bo-anh.cot-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.bo-anh.cot-5{grid-template-columns:repeat(5,minmax(0,1fr))}
+.bo-anh.cot-6{grid-template-columns:repeat(6,minmax(0,1fr))}
+.o-anh{display:block;border-radius:8px;overflow:hidden;background:#000;
+ border:1px solid var(--vien);cursor:zoom-in;line-height:0}
+.o-anh img{display:block;width:100%;height:auto}
+figure .o-anh{display:inline-block;background:none;border:0}
+figure .o-anh img{border:1px solid var(--vien);border-radius:10px}
+@media(max-width:980px){
+ .bo-anh.cot-3,.bo-anh.cot-4,.bo-anh.cot-5,.bo-anh.cot-6{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:560px){
+ .bo-anh.cot-3,.bo-anh.cot-4,.bo-anh.cot-5,.bo-anh.cot-6{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+.xem-anh{position:fixed;inset:0;z-index:50;background:rgba(8,10,14,.94);display:none;
+ flex-direction:column;align-items:center;justify-content:center;padding:14px}
+.xem-anh.mo{display:flex}
+.xem-anh img{max-width:100%;max-height:calc(100vh - 110px);object-fit:contain;border-radius:6px;background:#000}
+.xem-anh .xa-chu{color:#dfe5ec;font-size:.85rem;max-width:1100px;margin-top:10px;text-align:center;
+ line-height:1.5;max-height:5.2em;overflow:auto}
+.xem-anh .xa-dem{position:absolute;top:14px;left:18px;color:#c4ccd6;font-size:.85rem}
+.xem-anh button{position:absolute;border:0;background:rgba(255,255,255,.12);color:#fff;
+ width:46px;height:46px;border-radius:50%;font-size:1.3rem;cursor:pointer}
+.xem-anh button:hover{background:rgba(255,255,255,.25)}
+.xem-anh .xa-dong{top:12px;right:14px}
+.xem-anh .xa-truoc{left:14px;top:50%;transform:translateY(-50%)}
+.xem-anh .xa-sau{right:14px;top:50%;transform:translateY(-50%)}
+@media print{
+ .xem-anh,.canh-bao,.ytlink{display:none!important}
+ .bo-anh{break-inside:avoid}
+ .o-anh{background:none}
+}
+</style>
+</head>
+<body>
+<div class="bo-cuc">
+ <aside class="muc-luc" id="mucLuc">
+  <div class="ml-dau"><span>NỘI DUNG</span><span id="phanTram">0%</span><button
+    id="nutThu" class="nut-thu" type="button" title="Thu gọn mục lục">«</button></div>
+  <div class="o-tim">
+   <input id="oTim" type="search" placeholder="Tìm trong tài liệu…" autocomplete="off">
+   <div class="tim-dieu-khien">
+    <button id="timTruoc" type="button">↑</button>
+    <button id="timSau" type="button">↓</button>
+    <span id="demTim"></span>
+   </div>
+  </div>
+  <div class="ml-cuon"><ul id="dsMuc"></ul></div>
+ </aside>
+ <main>
+  <section class="dau-bai">
+   <div class="nhan">CASE ECG #2029 · DR. SMITH’S ECG BLOG</div>
+   <h1>21/07/2026 — Các cơn co giật tái diễn ở một phụ nữ ngoài 40 tuổi</h1>
+   <p class="dich-gia"><a href="../index.html">← Mục lục Case ECG</a></p><p class="dich-gia">Bản dịch tiếng Việt của bài <a href="https://drsmithsecgblog.com/recurrent-seizures-in-a-40-something-woman/" target="_blank" rel="noopener">"Recurrent Seizures in a 40-something woman"</a> – Dr. Smith’s ECG Blog. Giữ nguyên toàn bộ 8 hình ảnh của bản gốc.</p>
+  </section>
+  <section class="to-giay" id="toGiay">
+<figure class="anh-dau"><a class="o-anh" href="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_07_ECG-1-of-syncope-patient.jpg"><img src="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_07_ECG-1-of-syncope-patient.jpg" alt="" width="1600" height="677" loading="lazy" decoding="async"></a></figure>
+<p>Tác giả: Matthew McArthur</p>
+<p>Tôi khám một phụ nữ 40 tuổi bị một cơn mất ý thức kéo dài ~3 phút, có người chứng kiến, tại nhà, ngay sau nửa đêm. Bạn đời của cô cho biết cô đột ngột mất ý thức, mắt trợn ngược, co giật vài lần, sùi bọt mép, trở nên rất tái, rồi xuất hiện kiểu thở hấp hối (agonal) và ngừng thở. Anh ấy đã gọi đội cấp cứu ngoài viện (EMS). Toàn bộ cơn kéo dài khoảng 3 phút và cô tỉnh lại trước khi EMS đến. Khi EMS đến, cô tỉnh, GCS 15, sinh hiệu bình thường. Cô là người sử dụng fentanyl, thừa nhận đã hút fentanyl vào đầu buổi tối hôm đó, và đang dùng methadone và hydromorphone theo đơn với liều cao để điều trị rối loạn sử dụng opioid (Opioid Use Disorder). Cô đã dùng các thuốc này vài năm, gần đây không thay đổi thuốc. Ngoài ra cô khỏe mạnh, không có bệnh cấp tính, không buồn nôn, nôn hay tiêu chảy.</p>
+<p>Hãy xem điện tâm đồ ban đầu của cô:</p>
+<figure><a class="o-anh" href="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image.jpg"><img src="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image.jpg" alt="" width="936" height="398" loading="lazy" decoding="async"></a></figure>
+<p>Điện tâm đồ ban đầu của cô rõ ràng bất thường: nhịp xoang với PVC/nhịp đôi (bigeminy) và QT dài.   Hãy nhìn kỹ các sóng T sau các nhát xoang, bị PVC cắt ngang đột ngột. <strong>Điện tâm đồ này cho thấy hiện tượng R trên T (R on T) và có nguy cơ cao sắp xảy ra xoắn đỉnh (Torsades de Pointe).</strong></p>
+<p>Sau khi xem điện tâm đồ này cùng với bệnh sử như vậy, tôi đã cho magnesi sulfat tĩnh mạch theo kinh nghiệm, cho cô theo dõi từ xa (telemetry) và dán sẵn miếng điện cực của máy khử rung cho cô.</p>
+<p><strong>Smith</strong>: Các PVC khá kỳ dị với sóng T phình to khổng lồ.  Xem đường link bên dưới để thấy những sóng T còn kỳ dị hơn nữa liên quan đến bệnh lý này.</p>
+<h2 id="cac-lan-kham-truoc">Các lần khám trước</h2>
+<p>Khai thác thêm bệnh sử cho thấy cô đã có <strong>các cơn ngất đột ngột &lt;1 phút</strong>, đôi khi kèm tiểu không tự chủ, tư thế co cứng (tonic posturing) và giật cơ kiểu myoclonic (bạn đời lo là động kinh), lúc có lúc không trong 2 tuần qua, tổng cộng khoảng 10 cơn. Ngoài các cơn, cô không có triệu chứng và cảm thấy như bình thường. Cô đã được khám tại một khoa cấp cứu (ED) địa phương 10 ngày trước, sau một trong các cơn này — bạn đời đưa cô đến vì lo cô bị co giật. Ở lần khám này, cô được cho về nhà với xét nghiệm máu và CT sọ não không có gì đáng chú ý; bác sĩ cấp cứu cho biết ông nghi đây là các cơn rối loạn ý thức thứ phát do sử dụng ma túy bất hợp pháp, vì bệnh nhân thừa nhận có dùng fentanyl để tiêu khiển.</p>
+<p><strong>Đây là điện tâm đồ lúc đó.</strong></p>
+<figure><a class="o-anh" href="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image-1.jpg"><img src="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image-1.jpg" alt="" width="936" height="432" loading="lazy" decoding="async"></a></figure>
+<p>Máy tính đọc QTc là 438, nhưng theo tôi các sóng T có biên độ thấp và hai pha (đặc biệt rõ ở V4-V5), khiến kết quả đọc bằng máy tính bị sai lệch, và QTc rõ ràng DÀI HƠN NHIỀU so với 438; khi tính cả sóng T hai pha, ta thấy khoảng QT dài hơn hẳn 3 ô lớn (600ms). Điều này đã không được bác sĩ cấp cứu ghi nhận 10 ngày trước.</p>
+<p><strong>Smith</strong>: Hơn nữa, khi tần số tim dưới 60, việc hiệu chỉnh QT làm NGẮN QTc lại.  Không khuyến cáo hiệu chỉnh theo tần số tim khi tần số dưới 60.  Toán đồ QT (QT nomogram), vốn dành riêng cho QT dài mắc phải do thuốc, không hiệu chỉnh theo tần số tim chậm. Hơn nữa, khi bệnh nhân có tần số tim chậm, họ dễ bị xoắn đỉnh “phụ thuộc khoảng ngưng” (pause dependent) hơn.  <strong>Xem bài này để biết mọi điều bạn muốn biết về khoảng QT:</strong> <a href="https://drsmithsecgblog.com/qt-correction-formulas-compared-to-rule/" rel="noopener" target="_blank">QT Correction Formulas Compared to The Rule of Thumb (“Half the RR”)</a></p>
+<p>Ngoài ra:</p>
+<p>Xem lại hồ sơ bệnh án cho thấy cô đã được khám tại một khoa cấp cứu địa phương 6 tháng trước vì các cơn ngất. Một lần nữa cô được cho về, bác sĩ cấp cứu nghi rằng các cơn mất ý thức liên quan đến sử dụng ma túy bất hợp pháp. Ở lần khám này, điện tâm đồ của cô như sau.</p>
+<figure><a class="o-anh" href="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image-2.jpg"><img src="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image-2.jpg" alt="" width="936" height="418" loading="lazy" decoding="async"></a></figure>
+<p>QT dài, lần này được máy tính nhận diện đúng, đã không được bác sĩ cấp cứu ghi nhận vào thời điểm đó.</p>
+<p><strong>Smith</strong>: Phần lớn thời gian, máy tính không đo chính xác khoảng QT và cho kết quả âm tính giả.  Hãy luôn tự đo QT!!</p>
+<p><strong>Xem các ca này</strong>, cho thấy thuật toán thông thường đo QT tệ đến mức nào và hậu quả ra sao:</p>
+<p>Xem: <a href="https://drsmithsecgblog.com/a-new-seizure-in-healthy-20-something/" rel="noopener" target="_blank">A New Seizure in a Healthy 20-something</a></p>
+<p>Xem: <a href="https://drsmithsecgblog.com/syncope-in-20-year-old/" rel="noopener" target="_blank">Syncope in a 20-something woman<br></a><br>Xem: <a href="https://drsmithsecgblog.com/syncope-and-bradycardia/" rel="noopener" target="_blank">Syncope and Bradycardia</a></p>
+<p>Xem: <a href="https://drsmithsecgblog.com/long-qt-syndrome-with-continuously/" rel="noopener" target="_blank">Syncope in a Young Woman</a></p>
+<h2 id="quay-lai-voi-ca-benh">Quay lại với ca bệnh</h2>
+<p>Cô có một cơn ngất thoáng qua &lt;20 giây tại khoa cấp cứu. Theo dõi từ xa xác nhận đó là xoắn đỉnh, tự hết mà không cần khử rung.</p>
+<p>Đây là dải nhịp theo dõi từ xa của cô quanh thời điểm ngất:</p>
+<figure><a class="o-anh" href="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image-3.jpg"><img src="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image-3.jpg" alt="" width="936" height="338" loading="lazy" decoding="async"></a></figure>
+<figure><a class="o-anh" href="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image-4.jpg"><img src="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image-4.jpg" alt="" width="936" height="264" loading="lazy" decoding="async"></a></figure>
+<p>Đây là điện tâm đồ sau cơn xoắn đỉnh, không có PVC, một lần nữa cho thấy QT dài, với các sóng T hai pha thấy rõ hơn nhiều.</p>
+<figure><a class="o-anh" href="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image-5.jpg"><img src="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_image-5.jpg" alt="" width="936" height="412" loading="lazy" decoding="async"></a></figure>
+<p>Magnesi trong giới hạn bình thường và kali hơi thấp (3.1); cô được bù cả Mg và KCl trong thời gian tôi điều trị.</p>
+<p>Tôi đã hội chẩn với trung tâm tim mạch gần đó để chuyển bệnh nhân đến Đơn vị Chăm sóc Tim mạch (CCU) (10 phút đi xe). Bệnh nhân bị ngừng tim do xoắn đỉnh (TdP) ngay sau khi đến CCU, được khử rung thành công với một cú sốc. <strong>Máy tạo nhịp qua đường tĩnh mạch đã được đặt để tạo nhịp vượt tần số (overdrive pacing).</strong></p>
+<p>Bệnh nhân được cai dần methadone và QT trở về bình thường trong vài ngày, lúc đó máy tạo nhịp qua đường tĩnh mạch được rút và bệnh nhân được xuất viện.</p>
+<p>Để phòng ngừa cấp thời xoắn đỉnh tái phát, nếu được xử trí lại ca này, tôi sẽ bắt đầu tạo nhịp vượt tần số bằng truyền isoproterenol ngay tại khoa cấp cứu trong khi chờ nhập khoa tim mạch, như được mô tả trong <a href="https://drsmithsecgblog.com/dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is-the-risk-how-does-it-show-on-the-ecg-what-to-do-about-the-complication/?utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=Dofetilde+%28and+ibutilide+-Class+III+antidysrhythmics%29.++What+is+the+risk%3F+How+does+it+show+on+the+ECG%3F+What+to+do+about+the+complication%3F+-+20840439&amp;sh_kit=e9080d8602d5ea10f6234ce6a25ad780bcaf0d1bf31c1c68ff6b016a32685ff6" rel="noopener" target="_blank">bài gần đây</a> này.</p>
+<h2 id="dieu-can-nho">Điều cần nhớ</h2>
+<ol><li>xem xét kỹ điện tâm đồ khi mất ý thức (LOC) không giải thích được: nếu QT dài, cho magnesi theo kinh nghiệm và chuẩn bị tạo nhịp vượt tần số</li>
+<li>methadone là nguyên nhân gây QT dài</li>
+<li>máy tính có thể đọc sai QTc</li>
+<li><strong>đừng vội gạt bỏ cơn mất ý thức là do sử dụng chất gây nghiện, hãy khai thác bệnh sử thật kỹ</strong></li>
+<li>ngất hay co giật (ngay cả trong những trường hợp rõ ràng là ngất, người chứng kiến không có chuyên môn thường lo là co giật vì thấy giật cơ, tiểu không tự chủ, mắt trợn ngược, v.v.). Xem các lưu ý bên dưới:</li></ol>
+<h3 id="luu-y-ve-tu-the-co-cung-va-giat-co-myoclonic-jerks">Lưu ý về tư thế co cứng và giật cơ (myoclonic jerks)</h3>
+<p>Tôi đã không còn đếm được bao nhiêu lần trong sự nghiệp còn non trẻ của mình, gia đình bệnh nhân chứng kiến một cơn ngất, kể cả nhiều ca ngừng tim do rung thất (V Fib), và nói với tôi rằng họ lo người thân của mình bị co giật, chủ yếu là do <strong>tư thế co cứng và giật cơ, vốn cực kỳ phổ biến trong ngất</strong>.</p>
+<p><a href="https://www.neurology.org/doi/abs/10.1212/WNL.0000000000005301" rel="noopener" target="_blank">Nghiên cứu này</a> trên tạp chí Neurology công bố năm 2018 đã so sánh các bản ghi video và EEG của 65 ca ngất gây ra bằng nghiệm pháp bàn nghiêng và 50 ca co giật tại một trung tâm học thuật ở Hà Lan. Tư thế co cứng có mặt trong 65% các cơn ngất và giật cơ có mặt trong 51% các cơn ngất. Trong nghiên cứu này, không cơn co giật nào có &lt; 10 lần giật cơ, và không cơn ngất nào có &gt; 20 lần, dẫn đến việc các tác giả đề xuất quy tắc 20/10 để phân biệt co giật với ngất dựa trên số lần giật cơ được chứng kiến.</p>
+<p>Sau giai đoạn giật cơ và tư thế co cứng, mọi cơn ngất đều tiến triển đến mất trương lực (atonia), trong khi không cơn co giật nào có mất trương lực. Giật cơ trong co giật có tính nhịp nhàng hơn so với giật cơ trong ngất.</p>
+<h3 id="luu-y-ve-tieu-khong-tu-chu-trong-ngat">Lưu ý về tiểu không tự chủ trong ngất</h3>
+<p>Người ta thường dạy rằng tiểu không tự chủ làm tăng khả năng là co giật, tuy nhiên tiểu không tự chủ có thể xảy ra với nhiều nguyên nhân mất ý thức khác nhau. <a href="https://www.sciencedirect.com/science/article/pii/S1059131112002865" rel="noopener" target="_blank">Tổng quan hệ thống</a> và phân tích gộp này trên tạp chí Seizure năm 2013 đã xem xét các nghiên cứu đánh giá sự hiện diện của tiểu không tự chủ ở cả cơn co giật động kinh lẫn các tình trạng giống động kinh nhưng không phải động kinh (ngất hoặc cơn không động kinh do tâm lý). <strong>Nghiên cứu này cho thấy sự hiện diện của tiểu không tự chủ không có giá trị chẩn đoán trong phân biệt co giật với ngất hoặc cơn không động kinh.</strong></p>
+<p>Một ca QT dài khác do methadone: <a href="https://drsmithsecgblog.com/what-are-these-bizarre-bigeminal-pvcs/" rel="noopener" target="_blank">What are these bizarre bigeminal PVCs??</a></p>
+<p><strong>Hãy xem tất cả những PVC kỳ dị này (nhiều ví dụ tại đường link này):</strong> <a href="https://drsmithsecgblog.com/what-are-these-bizarre-bigeminal-pvcs/" rel="noopener" target="_blank">What are these bizarre bigeminal PVCs??<br></a></p>
+<p><span class="c-nhat">= = =</span></p>
+<hr>
+<p>======================================</p>
+<h2 id="binh-luan-cua-toi-boi-ken-grauer-md-21-7-2026">BÌNH LUẬN CỦA TÔI, bởi KEN GRAUER, MD (21/7/2026):</h2>
+<hr>
+<p>Tôi thấy các điện tâm đồ trong ca hôm nay khá thử thách. Dù vậy — tôi đã đi đến kết luận tương tự như các bác sĩ McArthur và McLaren mô tả, tuy con đường đi đến đó của tôi có hơi khác.</p>
+<ul><li>Vì mục đích thảo luận học thuật — tôi tập trung bình luận vào con đường khác của mình. Tôi minh họa quan điểm của mình trong <strong>Hình 1</strong> — trong đó tôi đã tái hiện 3 trong số các điện tâm đồ của ca hôm nay <strong>(</strong><em>cùng một cái nhìn hồi cứu vào điện tâm đồ 12 chuyển đạo thứ 4 được ghi trên bệnh nhân này, trong</em> <strong>Hình 2)</strong>. </li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<h3 id="qtc-trong-cac-ban-ghi-hom-nay-la-bao-nhieu">QTc trong các bản ghi hôm nay là bao nhiêu?</h3>
+<p>Tôi thấy đặc biệt khó xác định QTc “thật” ở 3 trong số 4 bản ghi 12 chuyển đạo hôm nay. Dù vậy — khoảng QT hiệu chỉnh thật sự dài bao nhiêu trong 3 bản ghi này <strong><em>không</em> thực sự quan trọng</strong> — vì:</p>
+<ul><li><strong>i<span class="c-do">)</span></strong> <strong>Hầu hết các opioid đều có thể kéo dài QTc</strong> — đặc biệt khi các thuốc này được dùng với lượng lớn <strong>(</strong><em>Hu và cs. — </em><strong><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11076354/" rel="noopener" target="_blank">Tạp chí Cardiovasc Toxicol 24(5):472-480, năm 2024</a>)</strong> — và — việc bệnh nhân hôm nay dùng <strong>methadone</strong> và <strong>hydromorphone</strong> theo đơn với “liều cao” đã biết <strong>(</strong><em>để điều trị rối loạn sử dụng opioid</em><strong>)</strong> — cùng với việc bệnh nhân thừa nhận dùng <strong>fentanyl</strong> để tiêu khiển vào buổi tối ghi <strong>điện tâm đồ #1</strong> — <em>làm tăng thêm</em> nguy cơ QTc kéo dài và độc tính trên tim đi kèm; </li>
+<li><strong>ii<span class="c-do">)</span></strong> <strong>Rối loạn điện giải đi kèm có tác dụng hiệp đồng với hiệu ứng kéo dài QTc</strong> của 3 opioid liều cao <strong>(</strong><em>và hiệp đồng làm tăng độc tính trên tim</em><strong>)</strong> — với ghi nhận <strong>hạ kali máu (</strong><em> = 3.1 mEq/L</em><strong>) </strong>đáng kể vào ngày ghi điện tâm đồ #1 và #3 — và với sóng U gợi ý K+ thấp vào ngày ghi điện tâm đồ #2. </li>
+<li><strong>iii<span class="c-do">)</span></strong> Các bác sĩ McArthur và McLaren đã ghi lại rất tốt dải nhịp trong một cơn <strong><em>xoắn đỉnh</em> (</strong><em>với bệnh sử gợi ý mạnh có nhiều cơn ngất — trong đó một số cơn nhiều khả năng cũng là xoắn đỉnh</em><strong>)</strong>.</li>
+<li><strong>iv<span class="c-do">)</span></strong> Với xoắn đỉnh đã được ghi nhận (<em>và nghi ngờ loạn nhịp này đã tái phát nhiều lần</em>) — nhịp chậm trên điện tâm đồ — và việc dùng liều cao 3 opioid đã biết là gây kéo dài QTc, được hạ kali máu làm tăng thêm tác dụng ==&gt; chỉ định bù K+ và <strong>Mg++ tĩnh mạch</strong> như <strong>các biện pháp điều trị <em>xoắn đỉnh</em></strong> là chắc chắn, <em>bất kể</em> thời khoảng QTc khi đó là bao nhiêu.</li>
+<li><strong>v<span class="c-do">)</span></strong> Bất kỳ tình trạng QT kéo dài rõ rệt nào nếu có có lẽ sẽ hết sau khi bù K+, điều trị Mg++ tĩnh mạch và giảm liều opioid một cách thận trọng trong mức có thể.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<h3 id="3-dien-tam-do-trong-hinh-1">3 điện tâm đồ trong Hình 1:</h3>
+<ul><li><strong>Điện tâm đồ #1:</strong> Nhịp là <strong>nhịp đôi</strong> <strong><em>thất</em></strong> <strong>(</strong><em>Lưu ý dẫn truyền VA ngược dòng 1:1, thể hiện bằng khía âm sau mỗi PVC ở chuyển đạo II dài</em><strong>)</strong>. Tôi <em>không</em> thấy điểm kết thúc sóng T của các nhát xoang được xác định rõ ở bất kỳ chuyển đạo nào trong 12 chuyển đạo <strong>(</strong><em>các dấu hỏi màu ĐỎ</em><strong>)</strong>. Thay vào đó — sóng ST-T gần như không có hình dạng rõ ràng (<em>dẹt</em>). Vì vậy — tôi <em>không</em> biết phải đo khoảng QT như thế nào.</li>
+<li>Dù đã nói như trên — tôi rất nghi ngờ có QT kéo dài vì các opioid là yếu tố thuận lợi và vì tình trạng hạ kali máu.</li>
+<li><strong>Suy đoán của TÔI:</strong> Tôi thấy kích thước và <strong><em>hình dạng</em></strong> sóng T của các PVC trong điện tâm đồ #1 thật thú vị! Qua nhiều năm, chúng tôi đã công bố một số ca OMI cấp trong đó sóng ST-T không đặc hiệu ở các nhát dẫn truyền từ xoang — nhưng lại <em>có giá trị chẩn đoán</em> OMI cấp dựa trên sóng ST-T của các PVC! Mặc dù tôi chưa thấy điều này được báo cáo — tôi nghi rằng một hiện tượng tương tự đang xảy ra ở đây, ở chỗ sóng T của mỗi PVC trong điện tâm đồ #1 trông lớn bất cân xứng, kèm một QTc hẳn phải kéo dài rõ rệt mà đơn giản là không thấy được khi đánh giá các nhát dẫn truyền từ xoang.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<hr>
+<p><strong>Hình 1:</strong> Để thuận tiện so sánh — tôi đã đánh nhãn và đặt 3 trong số 4 điện tâm đồ 12 chuyển đạo hôm nay cạnh nhau.</p>
+<figure><a class="o-anh" href="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_Figure-1-ECGs-124-3-9.22-2026-USE-scaled.jpg"><img src="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_Figure-1-ECGs-124-3-9.22-2026-USE-scaled.jpg" alt="" width="1600" height="2080" loading="lazy" decoding="async"></a></figure>
+<p><span class="c-nhat">= = =</span></p>
+<ul><li><strong>Điện tâm đồ #2:</strong> Nhịp là <strong>nhịp chậm <em>xoang</em></strong> với tần số <strong>~50/phút</strong>. Nhiễu làm hỏng chuyển đạo V1. Ngoại trừ chuyển đạo V3 và V4 — hầu hết sóng ST-T ít có hình dạng rõ ràng. Điều này một lần nữa khiến việc xác định điểm kết thúc sóng T ở hầu hết các chuyển đạo trở nên khó khăn. Dù vậy — tôi thấy <strong>chuyển đạo V3</strong> đáng chú ý vì có <strong>sóng T </strong>và <strong>sóng U</strong> — và xét đến nhịp chậm, tôi không cho rằng khoảng QT nhất thiết bất thường <strong>(</strong>tức là, <em>có kéo dài “Q-U” — nhưng theo mắt tôi, không nhất thiết là kéo dài QT</em><strong>)</strong>. Tôi kém chắc chắn hơn về cách diễn giải sóng âm ở chuyển đạo V4, vì có nhiễu ở những chỗ khác và không có chuyển đạo trước tim nào khác có sóng âm này.</li>
+<li><strong>LƯU Ý:</strong> Chúng tôi đã thêm <strong>Công cụ tính QTc</strong> vào <em>Menu trên cùng</em> của mọi trang trên Dr. Smith’s ECG Blog <strong>(</strong>— <strong><strong><a href="https://drsmithsecgblog.com/online-qt-calculator-for-wide-qrs-lbbb/" rel="noopener" target="_blank">BẤM VÀO ĐÂY</a> </strong></strong><em>— nằm trong thẻ Tools &amp; Guides</em><strong>)</strong>. Như thấy rõ từ 5 công thức tính QTc được dùng nhiều nhất mà chúng tôi trình bày — <strong><em>không có sự đồng thuận chung, và không có phương pháp hoàn hảo</em></strong> <strong><em>để tính QTc</em></strong><em><strong>. </strong></em>Đáng tiếc — độ chính xác của ước tính QTc đặc biệt giảm khi tần số tim chậm — điều này trên lâm sàng lại trở nên ít quan trọng hơn vì <strong><em>bản thân nhịp chậm đã là yếu tố thuận lợi gây xoắn đỉnh</em></strong>. Dù vậy — tôi lấy <strong>chuyển đạo V3</strong> trong điện tâm đồ #2 làm chuyển đạo cho các mốc đo thời khoảng QT đáng tin cậy nhất, và vì vậy tôi <em>không</em> ước tính QTc vượt quá mức giới hạn, xét đến tần số tim chậm ~50/phút.</li>
+<li><span class="c-nhat">= = = </span></li>
+<li><strong>Điện tâm đồ #4:</strong> Có <strong>nhịp <em>xoang </em></strong>với tần số <strong>~60/phút</strong>. Cuối cùng chúng ta cũng thấy rõ đoạn ST và sóng T trong bản ghi này — và QTc kéo dài rõ rệt. Dù vậy — bệnh nhân này vừa có một cơn xoắn đỉnh ngay trước khi ghi điện tâm đồ này. Bao nhiêu phần trong những sóng T “quá đầy đặn” (hypervoluminous) ở điện tâm đồ #4 có thể là kết quả của hiệu ứng “trí nhớ” (Memory) từ cơn xoắn đỉnh ngắn này — thay vì do QTc kéo dài nền? <strong>(</strong><em>đặc biệt vì sóng ST-T trong điện tâm đồ trước đó, ghi sớm hơn một chút trên bệnh nhân này, bị dẹt — như thấy ở </em>điện tâm đồ #1<strong>)</strong>.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<h3 id="xem-lai-dien-tam-do-12-chuyen-dao-thu-3">Xem lại điện tâm đồ 12 chuyển đạo thứ 3 …</h3>
+<p>Khi đã biết “Đáp án” <strong>(</strong>tức là, <em>xoắn đỉnh</em><strong>)</strong> — tôi quay lại xem lần nữa điện tâm đồ 12 chuyển đạo thứ 3 đã được trình bày trong phần bàn luận ở trên của các bác sĩ McArthur và McLaren trong ca hôm nay <strong>(</strong>tức là, <em>điện tâm đồ được ghi 6 tháng trước tại một khoa cấp cứu địa phương</em><strong>)</strong>.</p>
+<ul><li>Như thấy trong <strong>Hình 2</strong> — sóng ST-T trong bản ghi này <strong>(</strong><em>được ghi 6 tháng trước</em><strong>)</strong> một lần nữa gần như không có hình dạng rõ do ST-T dẹt — NHƯNG — <em>vẫn</em> có vẻ xác định được điểm kết thúc sóng T <strong>(</strong><em>có lẽ thấy rõ nhất ở chuyển đạo V3</em><strong>)</strong>. Với tần số tim nhịp xoang <strong>~60/phút</strong> — <strong>QTc sẽ <em>bằng</em> khoảng QT mà ta đo được</strong>, trông có vẻ <em>gần</em> <strong>600 msec</strong>.</li>
+<li><span class="c-nhat">= = =</span></li>
+<li><strong>“Điều cần nhớ” bổ sung từ CA BỆNH <em>hôm nay</em>:</strong>
+<ul>
+<li><strong>i<span class="c-do">)</span></strong> Đánh giá QTc đôi khi <em>không</em> phải là việc đơn giản.</li>
+<li><strong>ii<span class="c-do">)</span></strong> Xem lại các bản ghi trước đây trong hồ sơ bệnh án có thể giúp sáng tỏ nhiều điều.</li>
+<li><strong>iii<span class="c-do">)</span></strong> Yếu tố khởi phát xoắn đỉnh thường là đa yếu tố <strong>(</strong><em> = 3 opioid, hạ kali máu và nhịp chậm trong ca hôm nay</em><strong>)</strong>.</li>
+<li><strong>iv<span class="c-do">)</span></strong> Bình thường hóa K+ và Mg++ tĩnh mạch là các biện pháp điều trị then chốt.</li>
+</ul>
+</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<hr>
+<p><strong>Hình 2:</strong> Điện tâm đồ từ 6 tháng trước.</p>
+<figure><a class="o-anh" href="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_Figure-2-ECG-3-3-10.22-2026-USE-scaled.jpg"><img src="2026-07-21-recurrent-seizures-in-a-40-something-woman_anh/2026_03_Figure-2-ECG-3-3-10.22-2026-USE-scaled.jpg" alt="" width="1600" height="466" loading="lazy" decoding="async"></a></figure>
+<p><span class="c-nhat">= = =</span></p>
+<p><span class="c-nhat">= = =</span></p>
+  </section>
+ </main>
+</div>
+<div class="thanh-nut">
+ <button id="nutMl" class="hien-ml" type="button" title="Mục lục">≡</button>
+ <button id="nutGiam" type="button" title="Chữ nhỏ hơn">A-</button>
+ <button id="nutTang" type="button" title="Chữ lớn hơn">A+</button>
+ <button id="nutNen" type="button" title="Nền sáng/tối">◐</button>
+</div>
+<div class="xem-anh" id="xemAnh" role="dialog" aria-label="Xem ảnh">
+ <span class="xa-dem"></span>
+ <button class="xa-dong" type="button" title="Đóng (Esc)">✕</button>
+ <button class="xa-truoc" type="button" title="Ảnh trước (←)">‹</button>
+ <img alt="">
+ <button class="xa-sau" type="button" title="Ảnh sau (→)">›</button>
+ <div class="xa-chu"></div>
+</div>
+<script>
+(function(){
+ var goc=document.documentElement, ds=document.getElementById('dsMuc'),
+     giay=document.getElementById('toGiay'), pt=document.getElementById('phanTram'),
+     ml=document.getElementById('mucLuc');
+ var dau=[].slice.call(giay.querySelectorAll('h2,h3,h4,h5,h6'));
+
+ // mục lục
+ dau.forEach(function(h){
+  var li=document.createElement('li');
+  li.className='cap-'+(+h.tagName[1]-1);
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  a.addEventListener('click',function(){ ml.classList.remove('mo'); });
+  li.appendChild(a); ds.appendChild(li);
+ });
+ var neo=[].slice.call(ds.querySelectorAll('a'));
+
+ function capNhat(){
+  var i=0;
+  for(var k=0;k<dau.length;k++){ if(dau[k].getBoundingClientRect().top<140) i=k; }
+  neo.forEach(function(a,k){ a.classList.toggle('dang-doc',k===i); });
+  var a=neo[i];
+  if(a){ var cuon=a.closest('.ml-cuon');
+   if(cuon){ var h=a.getBoundingClientRect(), c=cuon.getBoundingClientRect();
+    if(h.top<c.top||h.bottom>c.bottom) cuon.scrollTop+=h.top-c.top-c.height/3; } }
+  var het=document.documentElement.scrollHeight-innerHeight;
+  pt.textContent=(het>0?Math.min(100,Math.round(scrollY/het*100)):100)+'%';
+ }
+ addEventListener('scroll',capNhat,{passive:true});
+ addEventListener('resize',capNhat); capNhat();
+
+ // cỡ chữ + nền tối, nhớ lựa chọn
+ function docNho(k,md){ try{ return localStorage.getItem(k)||md; }catch(e){ return md; } }
+ function ghiNho(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+ var co=parseInt(docNho('gl-co','16'),10);
+ function apCo(){ goc.style.setProperty('--co',co+'px'); ghiNho('gl-co',co); capNhat(); }
+ apCo();
+ goc.setAttribute('data-nen',docNho('gl-nen','sang'));
+ document.getElementById('nutTang').onclick=function(){ co=Math.min(24,co+1); apCo(); };
+ document.getElementById('nutGiam').onclick=function(){ co=Math.max(12,co-1); apCo(); };
+ document.getElementById('nutNen').onclick=function(){
+  var v=goc.getAttribute('data-nen')==='toi'?'sang':'toi';
+  goc.setAttribute('data-nen',v); ghiNho('gl-nen',v);
+ };
+ // thu gọn / mở lại cột mục lục (nhớ lựa chọn)
+ goc.setAttribute('data-ml',docNho('gl-ml',''));
+ function datMl(v){ goc.setAttribute('data-ml',v); ghiNho('gl-ml',v); capNhat(); }
+ document.getElementById('nutThu').onclick=function(){ datMl('thu'); };
+ document.getElementById('nutMl').onclick=function(){
+  // màn hình rộng: nút ≡ mở lại cột đã thu; màn hình hẹp: kéo cột ra/vào
+  if(innerWidth>980 && goc.getAttribute('data-ml')==='thu'){ datMl(''); return; }
+  ml.classList.toggle('mo');
+ };
+
+ // tìm trong bài
+ var o=document.getElementById('oTim'), dem=document.getElementById('demTim'), hit=[], vt=-1;
+ function xoaDanh(){
+  hit=[]; vt=-1;
+  var m=giay.querySelectorAll('mark.danh');
+  for(var i=0;i<m.length;i++){ var p=m[i].parentNode;
+   p.replaceChild(document.createTextNode(m[i].textContent),m[i]); p.normalize(); }
+ }
+ function danhDau(q){
+  xoaDanh();
+  if(q.length<2){ dem.textContent=''; return; }
+  var tw=document.createTreeWalker(giay,NodeFilter.SHOW_TEXT,null), nut=[], n;
+  while((n=tw.nextNode())) if(n.nodeValue.trim()) nut.push(n);
+  var kq=q.toLowerCase();
+  nut.forEach(function(n){
+   var s=n.nodeValue, l=s.toLowerCase(), i=l.indexOf(kq);
+   if(i<0) return;
+   var cha=n.parentNode, sau=n, dich=0;
+   while(i>=0){
+    var giua=sau.splitText(i-dich); dich=i+q.length;
+    sau=giua.splitText(q.length);
+    var mk=document.createElement('mark'); mk.className='danh';
+    cha.replaceChild(mk,giua); mk.appendChild(giua); hit.push(mk);
+    i=l.indexOf(kq,dich);
+   }
+  });
+  dem.textContent=hit.length?('1/'+hit.length):'0';
+  if(hit.length){ vt=0; toi(0); }
+ }
+ function toi(i){
+  if(!hit.length) return;
+  hit.forEach(function(m){ m.classList.remove('dang'); });
+  vt=(i+hit.length)%hit.length;
+  hit[vt].classList.add('dang');
+  hit[vt].scrollIntoView({block:'center',behavior:'smooth'});
+  dem.textContent=(vt+1)+'/'+hit.length;
+ }
+ var cho;
+ o.addEventListener('input',function(){ clearTimeout(cho);
+  cho=setTimeout(function(){ danhDau(o.value.trim()); },250); });
+ o.addEventListener('keydown',function(e){ if(e.key==='Enter'){ e.preventDefault();
+  toi(vt+(e.shiftKey?-1:1)); } });
+ document.getElementById('timTruoc').onclick=function(){ toi(vt-1); };
+ document.getElementById('timSau').onclick=function(){ toi(vt+1); };
+ addEventListener('beforeprint',xoaDanh);
+})();
+// xem ảnh phóng to: bấm ảnh để mở, ←/→ chuyển ảnh trong cùng bộ, Esc để đóng
+(function(){
+ var hop=document.getElementById('xemAnh'), anh=hop.querySelector('img'),
+     chu=hop.querySelector('.xa-chu'), dem=hop.querySelector('.xa-dem'), bo=[], vt=0;
+ function hien(i){
+  vt=(i+bo.length)%bo.length; var a=bo[vt], im=a.querySelector('img');
+  anh.src=a.getAttribute('href'); anh.alt=im.alt; chu.textContent=im.alt;
+  chu.style.display=im.alt?'':'none';
+  dem.textContent=bo.length>1?(vt+1)+' / '+bo.length:'';
+  hop.querySelector('.xa-truoc').style.display=hop.querySelector('.xa-sau').style.display=bo.length>1?'':'none';
+ }
+ function dong(){ hop.classList.remove('mo'); anh.removeAttribute('src'); document.body.style.overflow=''; }
+ document.getElementById('toGiay').addEventListener('click',function(e){
+  var a=e.target.closest('a.o-anh'); if(!a) return;
+  e.preventDefault();
+  var cha=a.closest('.bo-anh');
+  bo=cha?[].slice.call(cha.querySelectorAll('a.o-anh')):[a];
+  hien(bo.indexOf(a)); hop.classList.add('mo'); document.body.style.overflow='hidden';
+ });
+ hop.querySelector('.xa-dong').onclick=dong;
+ hop.querySelector('.xa-truoc').onclick=function(e){ e.stopPropagation(); hien(vt-1); };
+ hop.querySelector('.xa-sau').onclick=function(e){ e.stopPropagation(); hien(vt+1); };
+ hop.addEventListener('click',function(e){ if(e.target===hop) dong(); });
+ addEventListener('keydown',function(e){
+  if(!hop.classList.contains('mo')) return;
+  if(e.key==='Escape') dong();
+  else if(e.key==='ArrowLeft') hien(vt-1);
+  else if(e.key==='ArrowRight') hien(vt+1);
+ });
+ var x0=null;
+ hop.addEventListener('touchstart',function(e){ x0=e.touches[0].clientX; },{passive:true});
+ hop.addEventListener('touchend',function(e){ if(x0===null) return;
+  var dx=e.changedTouches[0].clientX-x0; x0=null;
+  if(Math.abs(dx)>50) hien(vt+(dx<0?1:-1)); });
+})();
+// video YouTube: chỉ tải khi bấm. YouTube trả "Lỗi 153" khi trang không gửi được referrer
+// (mở từ ổ đĩa file:// hoặc khung sandbox) — khi đó mở thẳng tab YouTube.
+(function(){
+ var giay=document.getElementById('toGiay'), ds=giay.querySelectorAll('.yt');
+ if(!ds.length) return;
+ var canEmbed=/^https?:$/.test(location.protocol) &&
+   (typeof window.origin==='undefined' || (window.origin && window.origin!=='null'));
+ var PLAY='<span class="play"><svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8.6 8.6 0 0 0-6-6C55.2 0 34 0 34 0S12.8 0 7.5 1.7a8.6 8.6 0 0 0-6 6A90 90 0 0 0 0 24a90 90 0 0 0 1.5 16.3 8.6 8.6 0 0 0 6 6C12.8 48 34 48 34 48s21.2 0 26.5-1.7a8.6 8.6 0 0 0 6-6A90 90 0 0 0 68 24a90 90 0 0 0-1.5-16.3z"/><path fill="#fff" d="M27 34l18-10-18-10z"/></svg></span>';
+ [].forEach.call(ds,function(b){
+  var id=b.getAttribute('data-id'), n=b.getAttribute('data-n')||'Video', watch='https://www.youtube.com/watch?v='+id;
+  b.innerHTML='<img loading="lazy" src="https://i.ytimg.com/vi/'+id+'/hqdefault.jpg" alt="'+n+'">'+PLAY+'<span class="badge">▶ '+n+'</span>';
+  b.setAttribute('role','button'); b.setAttribute('tabindex','0');
+  var fig=b.closest('figure'), cap=fig&&fig.querySelector('figcaption');
+  if(!cap&&fig){ cap=document.createElement('figcaption'); fig.appendChild(cap); }
+  if(cap){ var a=document.createElement('a'); a.className='ytlink'; a.href=watch; a.target='_blank';
+   a.rel='noopener'; a.textContent='Mở trên YouTube ↗'; cap.appendChild(a); }
+  function load(){
+   if(!canEmbed){ window.open(watch,'_blank','noopener'); return; }
+   b.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?rel=0&autoplay=1" '+
+    'referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer;autoplay;clipboard-write;'+
+    'encrypted-media;gyroscope;picture-in-picture" allowfullscreen title="'+n+'"></iframe>';
+   b.style.cursor='default';
+  }
+  b.addEventListener('click',load);
+  b.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); load(); } });
+ });
+ if(!canEmbed){
+  var w=document.createElement('div'); w.className='canh-bao';
+  w.innerHTML='<b>Lưu ý:</b> trang đang mở trực tiếp từ ổ đĩa (hoặc trong khung xem trước) nên YouTube chặn phát nhúng '+
+   '(<i>Lỗi 153</i>). Bấm vào video sẽ mở tab YouTube. Đăng trang lên web (https) thì video phát ngay trong trang.';
+  giay.insertBefore(w, giay.firstChild);
+ }
+})();
+</script>
+</body>
+</html>

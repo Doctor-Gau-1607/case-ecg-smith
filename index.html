@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="vi" data-nen="sang">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Case ECG — Dr. Smith’s ECG Blog</title>
+<style>
+:root{--nen:#f2f4f6;--giay:#fff;--chu:#172033;--nhat:#5b6675;--vien:#e3e7ec;--do:#b30000;--xanh:#004b87;--diu:#f6f8fa;--danh:#fff3cd}
+:root[data-nen="toi"]{--nen:#12151b;--giay:#1b2029;--chu:#e6eaf0;--nhat:#9aa5b4;--vien:#2c333f;--do:#ff8a8a;--xanh:#7fb6e6;--diu:#232a35;--danh:#5a4a12}
+*{box-sizing:border-box}
+body{margin:0;background:var(--nen);color:var(--chu);font-family:"Noto Sans","Segoe UI",Roboto,Arial,sans-serif;line-height:1.55;-webkit-text-size-adjust:100%}
+.khung{max-width:980px;margin:0 auto;padding:22px 16px 60px}
+.dau{background:var(--giay);border-radius:16px;padding:24px 28px;box-shadow:0 1px 3px rgba(0,0,0,.06);margin-bottom:16px}
+.nhan{font-size:.76rem;font-weight:800;letter-spacing:.16em;color:var(--nhat)}
+h1{margin:.2em 0 .3em;font-size:1.9rem;line-height:1.25;color:var(--do)}
+.mo-ta{margin:0;color:var(--nhat);font-size:.93rem}
+.mo-ta a{color:var(--xanh)}
+.thanh{position:sticky;top:0;z-index:5;background:var(--nen);padding:10px 0;display:flex;gap:10px;align-items:center}
+.thanh input{flex:1;min-width:0;padding:11px 14px;border:1px solid var(--vien);border-radius:11px;background:var(--giay);color:var(--chu);font:inherit}
+.thanh button{border:1px solid var(--vien);background:var(--giay);color:var(--chu);border-radius:11px;width:44px;height:44px;cursor:pointer;font-size:1rem}
+.dem{color:var(--nhat);font-size:.85rem;margin:4px 2px 12px}
+.ds{list-style:none;margin:0;padding:0;background:var(--giay);border-radius:16px;box-shadow:0 1px 3px rgba(0,0,0,.06);overflow:hidden}
+.ds li+li{border-top:1px solid var(--vien)}
+.ds a{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;padding:12px 18px;text-decoration:none;color:inherit}
+.ds a:hover{background:var(--diu)}
+.so{font-weight:800;font-size:.86rem;color:var(--do);font-variant-numeric:tabular-nums;white-space:nowrap}
+.vi{font-weight:600}
+.en{display:block;color:var(--nhat);font-size:.84rem;margin-top:2px}
+.trong{padding:28px;text-align:center;color:var(--nhat)}
+mark{background:var(--danh);color:inherit;border-radius:3px}
+@media(max-width:560px){h1{font-size:1.5rem}.dau{padding:18px}.ds a{grid-template-columns:84px minmax(0,1fr);padding:11px 14px}}
+</style>
+</head>
+<body>
+<div class="khung">
+ <section class="dau">
+  <div class="nhan">CASE ECG · BẢN DỊCH TIẾNG VIỆT</div>
+  <h1>Case ECG — Dr. Smith’s ECG Blog</h1>
+  <p class="mo-ta">Bản dịch tiếng Việt các case trong <a href="https://drsmithsecgblog.com/" target="_blank" rel="noopener">Dr. Smith’s ECG Blog</a> (Stephen W. Smith, MD — kèm bình luận của Ken Grauer, MD). Bấm vào một case để đọc; case mới nhất ở trên cùng.</p>
+ </section>
+ <div class="thanh">
+  <input id="tim" type="search" placeholder="Tìm theo chẩn đoán, dấu hiệu, từ khoá (Việt hoặc Anh)…" autocomplete="off">
+  <button id="nen" type="button" title="Nền sáng/tối">◐</button>
+ </div>
+ <div class="dem" id="dem">Đang tải danh sách…</div>
+ <ul class="ds" id="ds"></ul>
+</div>
+<script>
+(function(){
+ var goc=document.documentElement;
+ function doc(k,d){try{return localStorage.getItem(k)||d}catch(e){return d}}
+ function ghi(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+ goc.setAttribute('data-nen',doc('gl-nen','sang'));
+ document.getElementById('nen').onclick=function(){var v=goc.getAttribute('data-nen')==='toi'?'sang':'toi';goc.setAttribute('data-nen',v);ghi('gl-nen',v)};
+ function bo(s){return (s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d').replace(/Đ/g,'D').toLowerCase()}
+ function esc(s){return (s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+ var tat=[], xong=[], o=document.getElementById('tim'), ds=document.getElementById('ds'), dem=document.getElementById('dem');
+ function ve(){
+  var q=bo(o.value.trim()), kq=xong.filter(function(c){return !q||c._k.indexOf(q)>=0});
+  dem.textContent='Đã dịch '+xong.length+' / '+tat.length+' case'+(q?(' · tìm thấy '+kq.length):'');
+  ds.innerHTML=kq.length?kq.map(function(c){
+   return '<li><a href="c/'+c.slug+'.html"><span class="so">'+esc(c.nhan)+'</span><span><span class="vi">'+esc(c.tieu_de_vi||c.tieu_de_en)+'</span>'+
+    (c.tieu_de_en?'<span class="en">'+esc(c.tieu_de_en)+'</span>':'')+'</span></a></li>'}).join('')
+   :'<li class="trong">'+(xong.length?'Không có case nào khớp.':'Chưa có case nào được dịch.')+'</li>';
+ }
+ fetch('du-lieu/danh-sach.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){
+  tat=d; xong=d.filter(function(c){return c.trang_thai==='xong'}).sort(function(a,b){return (b.ngay_dang||'').localeCompare(a.ngay_dang||'')});
+  xong.forEach(function(c){c._k=bo([c.nhan,c.tieu_de_vi,c.tieu_de_en,c.tu_khoa].join(' '))});
+  ve();
+ }).catch(function(){dem.textContent='Không tải được danh sách.'});
+ var cho; o.addEventListener('input',function(){clearTimeout(cho);cho=setTimeout(ve,150)});
+})();
+</script>
+</body>
+</html>

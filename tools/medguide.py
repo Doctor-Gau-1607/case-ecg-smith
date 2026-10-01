@@ -38,6 +38,7 @@ a2.add_argument('--nhan', default='')
 a2.add_argument('--nguoi-dich', default='')
 a2.add_argument('--anh-dau', action='store_true', help='đặt ảnh đại diện (og:image) ở đầu bài, không đánh số')
 a2.add_argument('--max-rong', type=int, default=1600)
+a2.add_argument('--jpeg', action='store_true', help='đổi mọi ảnh tĩnh sang .jpg (q85, rộng tối đa --max-rong) cho nhẹ repo')
 a2.add_argument('--khong-dong-nguon', action='store_true', help='không in dòng "Bản dịch tiếng Việt của bài…" ở đầu trang')
 a2.add_argument('--ve', default='', help='link quay về mục lục (vd ../index.html)')
 a2.add_argument('--ds-media', default='', help='tệp liệt kê tên media có trong zip trên máy người dùng '
@@ -114,7 +115,7 @@ def trich():
             s.extract()
 
     og_t = soup.find('meta', property='og:title')
-    h1 = soup.select_one('h1.entry-title') or soup.select_one('.post-title.entry-title') or soup.find('h1')
+    h1 = soup.select_one('h1.entry-title') or soup.select_one('h1.cs-entry__title') or soup.select_one('.post-title.entry-title') or soup.find('h1')
     tieu_de = (h1.get_text(' ', strip=True) if h1 else '') or \
         re.split(r'\s[|–—]\s', (og_t['content'] if og_t else '') or soup.title.get_text())[0].strip()
     for h in body.find_all('h1'):          # tiêu đề bài nằm trong vùng thân bài thì bỏ khỏi thân
@@ -146,8 +147,17 @@ def trich():
         u2 = re.sub(r'=(s\d+|w\d+(-h\d+)?)(-[a-z0-9-]+)?$', '=s1600', u2)
         return u2
 
+    def lon_wp(u):
+        # WordPress: 'anh-1024x451.png' -> 'anh.png' (bản gốc tải lên); URL cũ giữ làm dự phòng
+        if not u or '/wp-content/uploads/' not in u:
+            return u
+        u2 = re.sub(r'-\d+x\d+(\.[A-Za-z0-9]+)$', r'\1', u)
+        if u2 != u:
+            du_phong[url_name(u2)] = u
+        return u2
+
     def goc_anh(img):
-        return lon_blogger(goc_anh0(img))
+        return lon_wp(lon_blogger(goc_anh0(img)))
 
     def goc_anh0(img):
         a = img.find_parent('a')
@@ -163,6 +173,7 @@ def trich():
         return s if s.startswith('http') else None
 
     media = {}          # name -> url
+    du_phong = {}       # name -> URL dự phòng khi bản gốc không còn
     thieu_url = []
     def ghi_anh(img):
         u = goc_anh(img)
@@ -223,6 +234,14 @@ def trich():
     def clean(node, extra=()):
         keep = GIU | set(extra)
         for t in list(node.find_all(True)):
+            wpc = [x for x in re.findall(r'has-([a-z0-9-]+)-color', ' '.join(t.get('class', []) or []))
+                   if x not in ('inline', 'text') and 'background' not in x] if t.name in ('mark', 'span') else []
+            if wpc:
+                m_ = wpc[0]
+                t.name = 'span'
+                t.attrs = {'class': 'c-do' if re.search(r'red|orange|pink', m_) else 'c-xanh' if re.search(r'blue|cyan', m_)
+                           else 'c-luc' if 'green' in m_ else 'c-nhat'}
+                continue
             if t.name in keep:
                 at = {}
                 for k in ('colspan', 'rowspan'):
@@ -423,13 +442,13 @@ def trich():
 
     hero = None
     if ogi and ogi.get('content'):
-        u = lon_blogger(ab(ogi['content']))
+        u = lon_wp(lon_blogger(ab(ogi['content'])))
         if u.startswith('http'):
             hero = url_name(u); media[hero] = u
 
     os.makedirs(os.path.join(A.work, 'lo'), exist_ok=True)
     json.dump(K, open(os.path.join(A.work, 'khoi.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    json.dump([{'name': k, 'url': v} for k, v in media.items()],
+    json.dump([dict({'name': k, 'url': v}, **({'du_phong': du_phong[k]} if k in du_phong else {})) for k, v in media.items()],
               open(os.path.join(A.work, 'media.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     meta = {'url': base, 'tieu_de': tieu_de, 'site': site['content'] if site else urlparse(base).netloc,
             'goc_text': goc_text, 'n_img': n_img, 'hero': hero}
@@ -616,7 +635,7 @@ mark.danh.dang{outline:2px solid var(--do)}
  .khung-bang td{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }'''
 EXTRA_CSS = r'''
-.c-xanh{color:var(--xanh)} .c-do{color:var(--do)} .c-luc{color:var(--luc)}
+.c-xanh{color:var(--xanh)} .c-do{color:var(--do)} .c-luc{color:var(--luc)} .c-nhat{color:var(--nhat)}
 :root{--luc:#1d7a3a} :root[data-nen="toi"]{--luc:#7fd49a}
 .ban-quyen{display:inline-block;margin:.4em 0 1.2em!important;padding:6px 14px;border-radius:9px;
  background:var(--diu);border:1px solid var(--vien);color:var(--nhat);font-size:.88rem}
@@ -916,8 +935,29 @@ def dung():
         print('→ Tải lại bằng đoạn JS qua Chrome; không dùng ảnh trong thư mục _files.')
         sys.exit(2)
     nho = []
+    doi = {}            # tên gốc -> tên tệp trong <slug>_anh (khi --jpeg đổi đuôi)
     for n in sorted(can - chi_tren_may):
         src, dst = os.path.join(A.full, n), os.path.join(OUT_ANH, n)
+        if A.jpeg and Image and re.search(r'\.(jpe?g|png|webp|bmp)$', n, re.I):
+            try:
+                im = Image.open(src); w, h = im.size
+                if im.mode in ('RGBA', 'LA', 'P', 'PA'):
+                    im = im.convert('RGBA'); nen = Image.new('RGB', im.size, (255, 255, 255))
+                    nen.paste(im, mask=im.split()[-1]); im = nen
+                else:
+                    im = im.convert('RGB')
+                if w > A.max_rong:
+                    im = im.resize((A.max_rong, round(h * A.max_rong / w)), Image.LANCZOS)
+                moi = re.sub(r'\.[A-Za-z0-9]+$', '', n) + '.jpg'
+                if moi != n and (moi in can or moi in doi.values()):
+                    moi = n + '.jpg'
+                im.save(os.path.join(OUT_ANH, moi), 'JPEG', quality=85, optimize=True, progressive=True)
+                doi[n] = moi; sizes[n] = im.size
+                if max(im.size) <= 150:
+                    nho.append(n)
+                continue
+            except Exception:
+                pass
         if Image and IMG_RE.search(n):
             try:
                 im = Image.open(src); fmt = im.format; w, h = im.size
@@ -942,6 +982,7 @@ def dung():
 
     def img_html(x, alt):
         wh = sizes.get(x)
+        x = doi.get(x, x)
         a = f' width="{wh[0]}" height="{wh[1]}"' if wh else ''
         alt = html.escape(html.unescape(re.sub(r'<[^>]+>', '', alt or '')), quote=True)
         from urllib.parse import quote
@@ -1013,7 +1054,7 @@ def dung():
         elif L == 'video':
             n_video += 1
             cap = lay(k, 'cap')
-            po = f' poster="{ANH}/{k["poster"]}"' if k.get('poster') else ''
+            po = f' poster="{ANH}/{doi.get(k["poster"], k["poster"])}"' if k.get('poster') else ''
             out.append(f'<figure><video controls preload="metadata" playsinline src="{ANH}/{k["name"]}"{po}></video>'
                        + (f'<figcaption>{cap}</figcaption>' if cap else '') + '</figure>')
         elif L == 'hr':

@@ -1,0 +1,46 @@
+name: Tải nguồn case ECG (Dr. Smith)
+# CHƯA BẬT LỊCH: chỉ chạy khi bấm tay (Actions → Run workflow).
+# Khi người dùng duyệt chạy tự động, thêm:
+#   schedule:
+#     - cron: '23 */3 * * *'
+on:
+  workflow_dispatch:
+    inputs:
+      cua_so:
+        description: 'Số case chưa dịch được chuẩn bị sẵn nguồn'
+        default: '80'
+permissions:
+  contents: write
+concurrency:
+  group: tai-nguon
+  cancel-in-progress: false
+jobs:
+  tai:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: main
+          sparse-checkout: |
+            tools
+            du-lieu
+      - run: pip install -q beautifulsoup4 lxml pillow
+      - name: Lấy nhánh nguon hiện có (nếu có)
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          R="https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git"
+          if git ls-remote --exit-code --heads "$R" nguon >/dev/null; then git clone -q --depth 1 -b nguon "$R" ng_cu; else mkdir ng_cu; fi
+      - run: python3 main/tools/tai_nguon.py --main main --cu ng_cu --out ng_moi --cua-so "${{ github.event.inputs.cua_so || '80' }}"
+      - name: Dựng lại nhánh nguon thành một commit (không tích luỹ lịch sử ảnh)
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          R="https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git"
+          cd ng_moi
+          echo "Nguồn gốc (trang + ảnh) của các case SẮP dịch. Dựng lại mỗi lần tải; không phục vụ web." > README.md
+          git init -q && git checkout -q --orphan nguon
+          git config user.name "case-ecg-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A && git commit -q -m "Nguồn: $(ls -d */ 2>/dev/null | wc -l) case"
+          git push -q -f "$R" HEAD:nguon

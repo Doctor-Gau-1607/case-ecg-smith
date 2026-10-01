@@ -25,12 +25,25 @@ CV = os.environ.get('CASE_VIEC', '/home/claude/cv')          # thư mục làm v
 NG = os.environ.get('CASE_NGUON', '/home/claude/cv/_nguon')  # bản clone sparse nhánh nguon
 REPO = 'https://github.com/Doctor-Gau-1607/case-ecg-smith'
 # Kho trang + ảnh (GitHub Pages tối đa 1 GB/kho). Repo chính giữ index.html, danh sách, công cụ, nhánh nguon
-# và trang các case cũ (không có khoá "kho"); case mới dựng vào KHO_MOI, ghi c["kho"] = KHO_MOI.
-KHO_MOI = 'case-ecg-smith-2'
-KHO_DIR = os.environ.get('CASE_KHO', '/home/claude/kho/' + KHO_MOI)
+# và trang các case cũ (không có khoá "kho"). Các kho case-ecg-smith-2 … -10 đã tạo sẵn (Pages bật sẵn);
+# mỗi lần chạy tự chọn KHO ĐẦU TIÊN còn dưới GIOI_HAN_MB, ghi c["kho"] = tên kho đó — không cần ai đổi tay.
+KHO_DS = [f'case-ecg-smith-{i}' for i in range(2, 11)]
 TRANG_CHU = 'https://doctor-gau-1607.github.io/case-ecg-smith/'
 PHIEN = 1
 GIOI_HAN_MB = 900          # GitHub Pages: trang công khai tối đa 1 GB
+KHO_GOC = os.environ.get('CASE_KHO_GOC', '/home/claude/kho')
+
+
+def _mb_kho(ten):
+    try:
+        ds = json.load(open(DS_P, encoding='utf-8'))
+    except Exception:
+        return 0
+    return sum(c.get('kb', 0) for c in ds if c.get('kho') == ten) / 1024
+
+
+KHO_MOI = next((k for k in KHO_DS if _mb_kho(k) < GIOI_HAN_MB), None)
+KHO_DIR = os.path.join(KHO_GOC, KHO_MOI or 'HET-KHO')
 HET_HAN_GIU = 4 * 3600   # case "dang" quá 4 giờ coi như lượt trước bỏ dở
 
 ap = argparse.ArgumentParser()
@@ -137,7 +150,8 @@ if A.lenh == 'tien-do':
     print(Counter(c['trang_thai'] for c in ds))
     cu = round(sum(c.get('kb', 0) for c in ds if c['trang_thai'] == 'xong' and not c.get('kho')) / 1024)
     print('Dung lượng kho cũ case-ecg-smith/c:', cu, 'MB (đã đóng)')
-    print(f'Dung lượng kho hiện hành {KHO_MOI}/c:', dung_luong_mb(), 'MB /', GIOI_HAN_MB, 'MB')
+    print(f'Kho hiện hành: {KHO_MOI}; dung lượng từng kho (MB, giới hạn {GIOI_HAN_MB}):',
+          ', '.join(f'{k.rsplit("-", 1)[1]}={round(_mb_kho(k))}' for k in KHO_DS))
     try:
         print('Đã có nguồn:', len(nguon_san_sang()), '/', len(ds))
     except SystemExit as e:
@@ -146,8 +160,9 @@ if A.lenh == 'tien-do':
 elif A.lenh == 'chuan-bi':
     sh('git', 'pull', '-q', '--rebase', 'origin', 'main')
     co_nguon = nguon_san_sang()
-    if dung_luong_mb() > GIOI_HAN_MB:
-        print(f'DỪNG: kho {KHO_MOI} đã quá {GIOI_HAN_MB} MB — cần mở repo tiếp theo (báo người dùng).'); sys.exit(0)
+    if KHO_MOI is None:
+        print(f'DỪNG: kho … đã quá {GIOI_HAN_MB} MB — cả {len(KHO_DS)} kho ({KHO_DS[0]} … {KHO_DS[-1]}) đều đầy, '
+              f'cần tạo thêm repo (báo người dùng).'); sys.exit(0)
     kho_san_sang()   # hỏng quyền / chưa có repo thì dừng ngay, trước khi nhận case
     ds = doc_ds(); bay_gio = time.time(); chon = []
     for c in ds:
@@ -190,7 +205,7 @@ elif A.lenh == 'dung':
     than = {x['name'] for k in json.load(open(os.path.join(w, 'khoi.json'), encoding='utf-8')) for x in k.get('anh', [])}
     anh_dau = ['--anh-dau'] if meta0.get('hero') and meta0['hero'] not in than else []
     r = sh(sys.executable, MG, 'dung', '--work', w, '--full', os.path.join(NG, A.slug, 'goc'),
-           '--out', os.path.join(KHO_DIR, 'c'), '--slug', A.slug, '--dich', '--jpeg', *anh_dau, '--ve', TRANG_CHU,
+           '--out', os.path.join(KHO_DIR, 'c'), '--slug', A.slug, '--dich', '--jpeg', '--nen-video', *anh_dau, '--ve', TRANG_CHU,
            '--title', tieu_de, '--nhan', f"CASE ECG {c['nhan']} · DR. SMITH’S ECG BLOG", cap=True, check=False)
     print(r.stdout[-3000:], r.stderr[-2000:])
     if 'KẾT QUẢ: ĐẠT' not in r.stdout:
@@ -209,7 +224,7 @@ elif A.lenh == 'dung':
     ghi_ds(ds); print('ĐÃ XONG', A.slug, '·', tieu_de)
     mb = dung_luong_mb()
     if mb > GIOI_HAN_MB:
-        print(f'CẢNH BÁO: kho {KHO_MOI} đã {mb} MB (> {GIOI_HAN_MB} MB) — đẩy lên rồi dừng lượt, báo người dùng cần repo tiếp theo.')
+        print(f'Ghi chú: kho {KHO_MOI} đã {mb} MB (> {GIOI_HAN_MB} MB) — case sau tự dựng vào kho kế tiếp, không cần báo.')
 
 elif A.lenh == 'tra-lai':
     ds = doc_ds(); c = next(x for x in ds if x['slug'] == A.slug)
@@ -220,6 +235,9 @@ elif A.lenh == 'day-len':
     ds = doc_ds()
     xong = [c['nhan'] for c in ds if c['trang_thai'] == 'xong']
     # đẩy trang + ảnh lên kho trước, rồi mới đẩy danh sách (mục lục không bao giờ trỏ tới trang chưa có)
-    if os.path.isdir(os.path.join(KHO_DIR, '.git')) and os.path.isdir(os.path.join(KHO_DIR, 'c')):
-        day(f'Case ECG: trang + ảnh (đã xong {len(xong)}/{len(ds)})', ['c'], cwd=KHO_DIR)
+    # mọi kho đã clone trong lượt này (có thể đã chuyển kho giữa lượt khi kho trước vừa đầy)
+    for k in KHO_DS:
+        d = os.path.join(KHO_GOC, k)
+        if os.path.isdir(os.path.join(d, '.git')) and os.path.isdir(os.path.join(d, 'c')):
+            day(f'Case ECG: trang + ảnh (đã xong {len(xong)}/{len(ds)})', ['c'], cwd=d)
     day(f'Case ECG: cập nhật bản dịch (đã xong {len(xong)}/{len(ds)})', ['du-lieu'])

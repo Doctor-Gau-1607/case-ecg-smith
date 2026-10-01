@@ -73,6 +73,24 @@ def gon_anh(data, ten):
         return data
 
 
+def gon_video(data, ten):
+    """Video nặng (> 8 MB) -> MP4 H.264 ≤1280×720 CRF 23 (giữ NGUYÊN TÊN tệp; medguide --nen-video xuất .mp4).
+    Máy chủ GitHub Actions có sẵn ffmpeg. Lỗi thì giữ nguyên dữ liệu gốc."""
+    if not re.search(r'\.(mp4|mov|m4v|webm|avi|mkv)$', ten, re.I) or len(data) < 8_000_000 or not shutil.which('ffmpeg'):
+        return data
+    with tempfile.TemporaryDirectory() as t:
+        vao, ra = os.path.join(t, 'vao' + os.path.splitext(ten)[1]), os.path.join(t, 'ra.mp4')
+        open(vao, 'wb').write(data)
+        r = subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', vao, '-vf',
+                            "scale='min(1280,iw)':'min(720,ih)':force_original_aspect_ratio=decrease,"
+                            "scale=trunc(iw/2)*2:trunc(ih/2)*2", '-c:v', 'libx264', '-preset', 'veryfast',
+                            '-crf', '23', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k',
+                            '-movflags', '+faststart', ra], capture_output=True)
+        if r.returncode == 0 and os.path.isfile(ra) and 0 < os.path.getsize(ra) < len(data):
+            return open(ra, 'rb').read()
+    return data
+
+
 # cửa sổ: mọi case "dang" + các case "chua" kế tiếp theo thứ tự danh sách (mới nhất trước)
 can = [c for c in DS if c['trang_thai'] == 'dang']
 can += [c for c in DS if c['trang_thai'] in ('chua', 'cho_anh')][:A.cua_so]
@@ -109,8 +127,9 @@ for c in can:
             for u in [m['url']] + ([m['du_phong']] if m.get('du_phong') else []):
                 try:
                     data, _ = tai(u)
+                    data = gon_video(data, m['name'])
                     if len(data) > 95_000_000:
-                        info['loi'].append(f'{u} quá 95 MB, không lưu được trên GitHub'); ok = True; break
+                        info['loi'].append(f'{u} quá 95 MB (kể cả sau khi nén), không lưu được trên GitHub'); ok = True; break
                     open(f, 'wb').write(gon_anh(data, m['name'])); ok = True
                     if u != m['url']:
                         info.setdefault('dung_du_phong', []).append(u)

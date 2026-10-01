@@ -4,7 +4,7 @@ Mỗi lượt (tác vụ hẹn giờ) dịch các bài kế tiếp của **Dr. S
 
 - **Thứ tự:** từ bài **mới nhất lùi về cũ nhất** (`du-lieu/danh-sach.json` đã xếp sẵn theo thứ tự này). Nhãn `#N` đánh theo thứ tự thời gian (#1 = bài cũ nhất 2008).
 - **Làm liên tục khoảng 45–50 phút mỗi lượt**, nhận theo đợt `chuan-bi --so 5`; case đã nhận mà chưa kịp làm thì `tra-lai` cuối lượt.
-- **Kho trang (từ 01/10/2026):** repo này đã gần 900 MB nên trang + ảnh của case MỚI được dựng vào repo **`Doctor-Gau-1607/case-ecg-smith-2`** (GitHub Pages riêng). `lam_case.py` tự clone sparse kho này vào `/home/claude/kho/case-ecg-smith-2` và ghi `"kho": "case-ecg-smith-2"` vào case; `day-len` đẩy kho trang trước rồi đẩy danh sách. Repo chính vẫn giữ `index.html`, `du-lieu/`, `tools/`, nhánh `nguon` và trang các case cũ. Bị từ chối quyền với kho này thì gọi `add_repo` (owner `Doctor-Gau-1607`, repo `case-ecg-smith-2`, access `push`). Kho này đầy 900 MB thì báo người dùng tạo `case-ecg-smith-3` rồi đổi `KHO_MOI` trong `lam_case.py`.
+- **Kho trang (từ 02/10/2026):** repo chính đã gần 900 MB nên trang + ảnh các case mới nằm ở các kho `Doctor-Gau-1607/case-ecg-smith-2` … `case-ecg-smith-10` (đã tạo sẵn, Pages bật sẵn). `lam_case.py` **tự chọn kho đầu tiên còn dưới 900 MB**, clone sparse vào `/home/claude/kho/<kho>`, ghi `"kho"` vào case; `day-len` đẩy mọi kho đã dùng trong lượt rồi mới đẩy danh sách. Không ai phải đổi tay. Repo chính vẫn giữ `index.html`, `du-lieu/`, `tools/`, nhánh `nguon` và trang 178 case đầu. Bị từ chối quyền với kho nào thì gọi `add_repo` (owner `Doctor-Gau-1607`, repo đó, access `push`).
 - Nguồn (trang + ảnh gốc) do GitHub Actions tải sẵn vào nhánh `nguon` (chỉ giữ các case sắp dịch). **Không tự tải từ drsmithsecgblog.com** (container không truy cập được).
 
 ## 0. Chuẩn bị (mỗi lượt là một phiên mới)
@@ -15,6 +15,7 @@ git clone -q --depth 1 --filter=blob:none --sparse https://github.com/Doctor-Gau
 cd case-ecg-smith && git sparse-checkout set tools du-lieu
 git config user.name "Doctor-Gau-1607"; git config user.email "doctor.gau96@gmail.com"
 pip list 2>/dev/null | grep -qi beautifulsoup4 || pip install -q --break-system-packages beautifulsoup4 lxml pillow
+which ffmpeg >/dev/null || pip install -q --break-system-packages imageio-ffmpeg   # nén video
 python3 tools/lam_case.py tien-do
 ```
 Clone hoặc push bị từ chối vì quyền: gọi tool `add_repo` (owner `Doctor-Gau-1607`, repo `case-ecg-smith`, access `push`) rồi làm lại. Không tìm cách khác.
@@ -24,7 +25,7 @@ Clone hoặc push bị từ chối vì quyền: gọi tool `add_repo` (owner `Do
 python3 tools/lam_case.py chuan-bi --so 5
 ```
 - "KHÔNG CÒN CASE NÀO SẴN SÀNG" → dừng lượt, báo lại (hết việc hoặc nhánh nguon chưa tải tới).
-- "DỪNG: kho … đã quá 900 MB" → dừng lượt, báo người dùng cần mở repo tiếp theo (giới hạn 1 GB của GitHub Pages).
+- "DỪNG: kho … đã quá 900 MB — cả 9 kho … đều đầy" → dừng lượt, báo người dùng cần tạo thêm repo (giới hạn 1 GB của GitHub Pages).
 - Case có ảnh gốc 404 được đánh `cho_anh` tự động, không dịch; trang gốc 404 (tác giả đã gỡ bài) được đánh `khong_ton_tai`. Ghi số lượng vào báo cáo.
 - **Thông báo:** KHÔNG gửi thông báo về các case `cho_anh` ở từng lượt (chỉ ghi trong báo cáo). Chỉ khi `chuan-bi` báo "KHÔNG CÒN CASE NÀO SẴN SÀNG" (đã dịch hết mọi case có thể) mới gửi MỘT thông báo gom danh sách các case còn sót (`cho_anh`, `khong_ton_tai`, lỗi tải, `tra-lai`) để người dùng xử lý.
 
@@ -54,7 +55,7 @@ Từ khoá (`--tu-khoa`): 8–20 từ tiếng Việt + Anh về chẩn đoán/d�
 ```bash
 python3 tools/lam_case.py dung --slug <slug> --title "<tiêu đề tiếng Việt>" --tu-khoa "<từ khoá>"
 ```
-- Ảnh tự đổi sang JPEG (rộng tối đa 1600 px) cho nhẹ repo — người dùng đã đồng ý.
+- Ảnh tự đổi sang JPEG (rộng tối đa 1600 px) và video tự nén sang MP4 720p cho nhẹ repo — người dùng đã đồng ý (02/10/2026). Không có ffmpeg thì video giữ nguyên (ghi vào báo cáo).
 - `CHƯA ĐẠT` (LỖI số thẻ lệch, khối chưa dịch, y hệt bản gốc…): sửa `lo-*.vi.json`, chạy lại.
 - Đọc từng dòng `CẢNH BÁO` (số thiếu/thừa, còn câu tiếng Anh dài): sửa nếu đúng là sót.
 - Không sửa được sau 3 lần: `python3 tools/lam_case.py tra-lai --slug <slug> --ly-do "<vì sao>"` và làm case khác.

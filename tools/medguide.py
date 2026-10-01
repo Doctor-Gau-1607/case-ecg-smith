@@ -38,6 +38,7 @@ a2.add_argument('--nhan', default='')
 a2.add_argument('--nguoi-dich', default='')
 a2.add_argument('--anh-dau', action='store_true', help='đặt ảnh đại diện (og:image) ở đầu bài, không đánh số')
 a2.add_argument('--max-rong', type=int, default=1600)
+a2.add_argument('--nen-video', action='store_true', help='nén video sang MP4 H.264 ≤1280×720 (CRF 26, AAC 96k) cho nhẹ repo')
 a2.add_argument('--jpeg', action='store_true', help='đổi mọi ảnh tĩnh sang .jpg (q85, rộng tối đa --max-rong) cho nhẹ repo')
 a2.add_argument('--khong-dong-nguon', action='store_true', help='không in dòng "Bản dịch tiếng Việt của bài…" ở đầu trang')
 a2.add_argument('--ve', default='', help='link quay về mục lục (vd ../index.html)')
@@ -935,9 +936,39 @@ def dung():
         print('→ Tải lại bằng đoạn JS qua Chrome; không dùng ảnh trong thư mục _files.')
         sys.exit(2)
     nho = []
-    doi = {}            # tên gốc -> tên tệp trong <slug>_anh (khi --jpeg đổi đuôi)
+    doi = {}            # tên gốc -> tên tệp trong <slug>_anh (khi --jpeg / --nen-video đổi đuôi)
+
+    def ffmpeg_exe():
+        try:
+            import imageio_ffmpeg
+            return imageio_ffmpeg.get_ffmpeg_exe()
+        except Exception:
+            return shutil.which('ffmpeg')
+
     for n in sorted(can - chi_tren_may):
         src, dst = os.path.join(A.full, n), os.path.join(OUT_ANH, n)
+        if A.nen_video and re.search(r'\.(mp4|mov|m4v|webm|avi|mkv)$', n, re.I) and ffmpeg_exe():
+            import subprocess
+            moi = re.sub(r'\.[A-Za-z0-9]+$', '', n) + '.mp4'
+            if moi != n and (moi in can or moi in doi.values()):
+                moi = n + '.mp4'
+            ra = os.path.join(OUT_ANH, moi)
+            r = subprocess.run([ffmpeg_exe(), '-v', 'error', '-y', '-i', src, '-vf',
+                                "scale='min(1280,iw)':'min(720,ih)':force_original_aspect_ratio=decrease,"
+                                "scale=trunc(iw/2)*2:trunc(ih/2)*2", '-c:v', 'libx264', '-preset', 'veryfast',
+                                '-crf', '26', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k',
+                                '-movflags', '+faststart', ra], capture_output=True, text=True, timeout=1800)
+            if r.returncode == 0 and os.path.getsize(ra) > 0:
+                if os.path.getsize(ra) < os.path.getsize(src) or not n.lower().endswith('.mp4'):
+                    doi[n] = moi
+                    if moi != n and os.path.exists(dst) and dst != ra:
+                        os.remove(dst)
+                    continue
+                os.remove(ra)          # bản nén không nhỏ hơn: giữ bản gốc
+            else:
+                canh.append(f'không nén được video {n}: {r.stderr[-200:]}')
+                if os.path.exists(ra):
+                    os.remove(ra)
         if A.jpeg and Image and re.search(r'\.(jpe?g|png|webp|bmp)$', n, re.I):
             try:
                 im = Image.open(src); w, h = im.size
@@ -1055,7 +1086,7 @@ def dung():
             n_video += 1
             cap = lay(k, 'cap')
             po = f' poster="{ANH}/{doi.get(k["poster"], k["poster"])}"' if k.get('poster') else ''
-            out.append(f'<figure><video controls preload="metadata" playsinline src="{ANH}/{k["name"]}"{po}></video>'
+            out.append(f'<figure><video controls preload="metadata" playsinline src="{ANH}/{doi.get(k["name"], k["name"])}"{po}></video>'
                        + (f'<figcaption>{cap}</figcaption>' if cap else '') + '</figure>')
         elif L == 'hr':
             out.append('<hr>')

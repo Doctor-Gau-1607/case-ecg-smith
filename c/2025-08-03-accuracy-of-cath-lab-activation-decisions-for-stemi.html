@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="vi" data-nen="sang">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>03/08/2025 — Độ chính xác của quyết định kích hoạt phòng thông tim với các điện tâm đồ tương đương STEMI và giả STEMI: bác sĩ so với AI (PMcardio, Queen of Hearts), và bình luận của John Mandrola trên &quot;This Week in Cardiology Podcast&quot;</title>
+<style>
+:root{
+ --nen:#f2f4f6; --giay:#ffffff; --chu:#172033; --nhat:#5b6675; --vien:#e3e7ec;
+ --do:#b30000; --xanh:#004b87; --diu:#f6f8fa; --danh:#fff3cd;
+}
+:root[data-nen="toi"]{
+ --nen:#12151b; --giay:#1b2029; --chu:#e6eaf0; --nhat:#9aa5b4; --vien:#2c333f;
+ --do:#ff8a8a; --xanh:#7fb6e6; --diu:#232a35; --danh:#5a4a12;
+}
+*{box-sizing:border-box}
+html{font-size:var(--co,16px)}
+body{margin:0;background:var(--nen);color:var(--chu);
+ font-family:"Noto Sans","Segoe UI",Roboto,Arial,sans-serif;
+ font-size:1rem;line-height:1.7;-webkit-text-size-adjust:100%}
+a{color:var(--xanh)}
+.bo-cuc{display:grid;grid-template-columns:320px minmax(0,1fr);gap:22px;
+ max-width:1500px;margin:0 auto;padding:22px}
+/* ---- cột mục lục ---- */
+.muc-luc{position:sticky;top:22px;align-self:start;height:calc(100vh - 44px);
+ background:var(--giay);border-radius:16px;padding:16px 10px;display:flex;
+ flex-direction:column;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.ml-dau{display:flex;justify-content:space-between;align-items:center;
+ padding:2px 10px 10px;font-size:.78rem;font-weight:800;letter-spacing:.09em;
+ color:var(--do);border-bottom:1px solid var(--vien)}
+#phanTram{color:var(--nhat)}
+/* Thu gọn / mở lại cột mục lục. Trang nhớ lựa chọn, vì người đọc guideline
+   mở lại nhiều lần và không muốn mỗi lần lại phải thu tay. */
+.ml-dau .nut-thu{margin-left:8px;border:1px solid var(--vien);background:var(--giay);
+ color:var(--chu);border-radius:7px;padding:1px 8px;cursor:pointer;font:inherit;
+ font-size:.9rem;line-height:1.4}
+@media(min-width:981px){
+ :root[data-ml="thu"] .bo-cuc{grid-template-columns:minmax(0,1fr)}
+ :root[data-ml="thu"] .muc-luc{display:none}
+ :root[data-ml="thu"] .hien-ml{display:block}
+}
+.o-tim{padding:10px 8px 6px}
+.o-tim input{width:100%;padding:8px 10px;border:1px solid var(--vien);
+ border-radius:9px;background:var(--diu);color:var(--chu);font:inherit;font-size:.85rem}
+.tim-dieu-khien{display:flex;gap:6px;align-items:center;margin-top:6px;
+ font-size:.76rem;color:var(--nhat)}
+.tim-dieu-khien button{border:1px solid var(--vien);background:var(--giay);
+ color:var(--chu);border-radius:7px;padding:2px 9px;cursor:pointer;font:inherit}
+.ml-cuon{overflow-y:auto;flex:1;margin-top:4px}
+#dsMuc{list-style:none;margin:0;padding:0}
+#dsMuc a{display:block;padding:7px 12px;border-radius:9px;text-decoration:none;
+ color:var(--chu);font-size:.87rem;line-height:1.4}
+#dsMuc a:hover{background:var(--diu)}
+#dsMuc a.dang-doc{background:var(--diu);color:var(--do);font-weight:700;
+ box-shadow:inset 3px 0 0 var(--do)}
+#dsMuc .cap-1>a{font-weight:700}
+#dsMuc .cap-2>a{padding-left:26px;font-size:.85rem}
+#dsMuc .cap-3>a{padding-left:40px;font-size:.82rem;color:var(--nhat)}
+#dsMuc .cap-4>a,#dsMuc .cap-5>a{padding-left:54px;font-size:.8rem;color:var(--nhat)}
+/* ---- thân bài ---- */
+.dau-bai,.to-giay{background:var(--giay);border-radius:16px;
+ box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.dau-bai{padding:28px 34px;margin-bottom:22px}
+.nhan{font-size:.76rem;font-weight:800;letter-spacing:.16em;color:var(--nhat)}
+.dau-bai h1{margin:.25em 0 .35em;font-size:2rem;line-height:1.25;color:var(--do)}
+.dich-gia{color:var(--nhat);font-size:.92rem;margin:0}
+.dich-gia b{color:var(--xanh)}
+.to-giay{padding:34px 40px 60px}
+.to-giay h2{color:var(--do);font-size:1.65rem;margin:1.7em 0 .5em;
+ padding-bottom:4px;border-bottom:2px solid var(--vien)}
+.to-giay h2:first-child{margin-top:0}
+.to-giay h3{color:var(--xanh);font-size:1.3rem;margin:1.5em 0 .4em}
+.to-giay h4{font-size:1.08rem;margin:1.3em 0 .3em}
+.to-giay h5,.to-giay h6{font-size:1rem;margin:1.2em 0 .3em;color:var(--nhat)}
+.to-giay p{margin:0 0 .85em;text-align:justify}
+.to-giay p.cham{padding-left:1.35em;text-indent:-1.1em;text-align:left}
+figure{margin:1.4em 0;text-align:center}
+figure img{max-width:100%;height:auto;border:1px solid var(--vien);border-radius:10px}
+/* ---- bảng ---- */
+.tham-chieu{color:var(--xanh);font-weight:600;text-decoration:none;
+ border-bottom:1px dotted currentColor}
+.tham-chieu:hover{border-bottom-style:solid}
+.chu-thich-float{font-weight:600;margin:0 0 .4em}
+.khung-bang{overflow-x:auto;margin:1.4em 0;border-radius:10px;
+ border:1px solid var(--vien)}
+.khung-bang table{border-collapse:collapse;width:100%;font-size:.88rem;
+ table-layout:fixed}
+.to-giay p,.to-giay li,.to-giay dd{overflow-wrap:break-word}
+.to-giay sup{overflow-wrap:anywhere}
+.khung-bang td{border:1px solid var(--vien);padding:9px 11px;vertical-align:top;
+ line-height:1.5;word-wrap:break-word}
+.khung-bang td.sat{padding-left:0;padding-right:0}
+.khung-bang td.giua{text-align:center;vertical-align:middle}
+.khung-bang td.ky-hieu{font-weight:800;white-space:nowrap}
+.khung-bang td.nen-toi,.khung-bang td.nen-toi *{color:#fff}
+.khung-bang td.nen-sang,.khung-bang td.nen-sang *{color:#12151b}
+.khung-bang td span{display:block}
+.khung-bang td span.cham{padding-left:1.1em;text-indent:-1em}
+mark.danh{background:var(--danh);color:inherit;border-radius:3px}
+/* Ô có màu ép màu chữ cho cả con cháu, kể cả <mark> của phần tìm trong bài — chữ
+   trắng trên nền vàng nhạt là tìm thấy mà không nhìn thấy. Trả chữ về màu trang. */
+.khung-bang td.nen-toi mark.danh,.khung-bang td.nen-sang mark.danh,
+.khung-bang td.nen-toi mark.danh *,.khung-bang td.nen-sang mark.danh *{color:var(--chu)}
+mark.danh.dang{outline:2px solid var(--do)}
+/* ---- nút nổi ---- */
+.thanh-nut{position:fixed;right:18px;bottom:18px;display:flex;gap:8px;z-index:9}
+.thanh-nut button{width:42px;height:42px;border-radius:50%;cursor:pointer;
+ border:1px solid var(--vien);background:var(--giay);color:var(--chu);
+ font-size:1rem;font-weight:700;box-shadow:0 2px 8px rgba(0,0,0,.14)}
+.hien-ml{display:none}
+/* ---- màn hình hẹp ---- */
+@media(max-width:980px){
+ .bo-cuc{grid-template-columns:minmax(0,1fr);padding:12px}
+ .muc-luc{position:fixed;inset:0 auto 0 0;width:88%;max-width:340px;z-index:20;
+  border-radius:0;height:100vh;transform:translateX(-102%);transition:transform .2s}
+ .muc-luc.mo{transform:none}
+ .hien-ml{display:block}
+ .to-giay{padding:22px 18px 44px}
+ /* Màn hình điện thoại: giữ bề rộng tối thiểu cho bảng rồi cho cuộn ngang,
+    thay vì bóp cột hẹp tới mức "Trung bình" xuống dòng thành "Tr un g bì nh". */
+ .khung-bang table{min-width:620px}
+ .dau-bai{padding:20px}
+ .dau-bai h1{font-size:1.5rem}
+}
+/* ---- in ra giấy ---- */
+@media print{
+ /* Nền tối được nhớ trong localStorage: bật một lần là mọi lần in sau đều dính.
+    Giấy luôn trắng, nên trả bảng màu về bản sáng trước khi in — nếu không, chữ
+    #e6eaf0 in lên giấy trắng là mất hẳn. */
+ :root,:root[data-nen="toi"]{--nen:#fff;--giay:#fff;--chu:#172033;--nhat:#4a5462;
+  --vien:#c9ced5;--do:#b30000;--xanh:#004b87;--diu:#f6f8fa;--danh:#fff3cd}
+ body{background:#fff;font-size:11.5pt}
+ .muc-luc,.thanh-nut{display:none!important}
+ .bo-cuc{display:block;max-width:none;padding:0}
+ .dau-bai,.to-giay{box-shadow:none;border-radius:0;padding:0}
+ .to-giay h2,.to-giay h3{break-after:avoid}
+ .khung-bang,figure{break-inside:avoid}
+ .khung-bang td{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+.c-xanh{color:var(--xanh)} .c-do{color:var(--do)} .c-luc{color:var(--luc)} .c-nhat{color:var(--nhat)}
+:root{--luc:#1d7a3a} :root[data-nen="toi"]{--luc:#7fd49a}
+.ban-quyen{display:inline-block;margin:.4em 0 1.2em!important;padding:6px 14px;border-radius:9px;
+ background:var(--diu);border:1px solid var(--vien);color:var(--nhat);font-size:.88rem}
+.note{background:var(--diu);border-left:4px solid var(--xanh);border-radius:0 10px 10px 0;padding:10px 16px;margin:1.1em 0}
+.note p:last-child{margin-bottom:0}
+.canh-bao{background:#fff4d6;border:1px solid #e8c97a;color:#4a3a10;border-radius:10px;padding:12px 16px;margin:0 0 18px;font-size:.93em}
+:root[data-nen="toi"] .canh-bao{background:#3a2f12;border-color:#6b5a1a;color:#f0e2bd}
+.to-giay blockquote{margin:1em 0;padding:.6em 1em;border-left:4px solid var(--vien);background:var(--diu);border-radius:0 10px 10px 0}
+.to-giay ul,.to-giay ol{padding-left:1.5em;margin:0 0 .9em}
+.to-giay li{margin:.2em 0}
+.to-giay hr{border:0;border-top:1px solid var(--vien);margin:1.6em 0}
+.khung-bang th{border:1px solid var(--vien);padding:9px 11px;vertical-align:top;background:var(--diu);text-align:left;line-height:1.5}
+.khung-bang td[style*="background"],.khung-bang th[style*="background"]{color:#12151b}
+.tk p,.tk li{font-size:.9em;color:var(--nhat);text-align:left}
+figcaption,.chu-thich-anh{font-size:.88rem;color:var(--nhat);margin-top:.45em;text-align:center;line-height:1.55}
+figcaption b{color:var(--chu)}
+figure.anh-dau img{width:100%;max-height:420px;object-fit:cover}
+figure video{width:100%;max-height:78vh;background:#000;border-radius:10px;display:block}
+.khung-video{position:relative;padding-top:56.25%;margin:0;border-radius:10px;overflow:hidden;background:#000}
+.khung-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt{position:relative;width:100%;aspect-ratio:16/9;background:#000;cursor:pointer;display:block;border-radius:10px;overflow:hidden}
+.yt img{width:100%;height:100%;object-fit:cover;display:block;opacity:.86;border:0!important;border-radius:0!important;transition:opacity .2s}
+.yt:hover img{opacity:1}
+.yt .play{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.yt .play svg{width:58px;height:58px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.yt iframe{width:100%;height:100%;border:0;display:block}
+.badge{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.72);color:#fff;font-size:11.5px;padding:2px 8px;border-radius:20px;pointer-events:none}
+.ytlink{display:inline-block;margin-left:8px;font-size:.92em;color:var(--xanh);text-decoration:none;border:1px solid var(--vien);border-radius:20px;padding:1px 10px;white-space:nowrap}
+.bo-anh{display:grid;gap:8px;margin:1em 0 1.4em;align-items:start}
+.bo-anh.cot-1{grid-template-columns:repeat(1,minmax(0,1fr))}
+.bo-anh.cot-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.bo-anh.cot-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.bo-anh.cot-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.bo-anh.cot-5{grid-template-columns:repeat(5,minmax(0,1fr))}
+.bo-anh.cot-6{grid-template-columns:repeat(6,minmax(0,1fr))}
+.o-anh{display:block;border-radius:8px;overflow:hidden;background:#000;
+ border:1px solid var(--vien);cursor:zoom-in;line-height:0}
+.o-anh img{display:block;width:100%;height:auto}
+figure .o-anh{display:inline-block;background:none;border:0}
+figure .o-anh img{border:1px solid var(--vien);border-radius:10px}
+@media(max-width:980px){
+ .bo-anh.cot-3,.bo-anh.cot-4,.bo-anh.cot-5,.bo-anh.cot-6{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:560px){
+ .bo-anh.cot-3,.bo-anh.cot-4,.bo-anh.cot-5,.bo-anh.cot-6{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+.xem-anh{position:fixed;inset:0;z-index:50;background:rgba(8,10,14,.94);display:none;
+ flex-direction:column;align-items:center;justify-content:center;padding:14px}
+.xem-anh.mo{display:flex}
+.xem-anh img{max-width:100%;max-height:calc(100vh - 110px);object-fit:contain;border-radius:6px;background:#000}
+.xem-anh .xa-chu{color:#dfe5ec;font-size:.85rem;max-width:1100px;margin-top:10px;text-align:center;
+ line-height:1.5;max-height:5.2em;overflow:auto}
+.xem-anh .xa-dem{position:absolute;top:14px;left:18px;color:#c4ccd6;font-size:.85rem}
+.xem-anh button{position:absolute;border:0;background:rgba(255,255,255,.12);color:#fff;
+ width:46px;height:46px;border-radius:50%;font-size:1.3rem;cursor:pointer}
+.xem-anh button:hover{background:rgba(255,255,255,.25)}
+.xem-anh .xa-dong{top:12px;right:14px}
+.xem-anh .xa-truoc{left:14px;top:50%;transform:translateY(-50%)}
+.xem-anh .xa-sau{right:14px;top:50%;transform:translateY(-50%)}
+@media print{
+ .xem-anh,.canh-bao,.ytlink{display:none!important}
+ .bo-anh{break-inside:avoid}
+ .o-anh{background:none}
+}
+</style>
+</head>
+<body>
+<div class="bo-cuc">
+ <aside class="muc-luc" id="mucLuc">
+  <div class="ml-dau"><span>NỘI DUNG</span><span id="phanTram">0%</span><button
+    id="nutThu" class="nut-thu" type="button" title="Thu gọn mục lục">«</button></div>
+  <div class="o-tim">
+   <input id="oTim" type="search" placeholder="Tìm trong tài liệu…" autocomplete="off">
+   <div class="tim-dieu-khien">
+    <button id="timTruoc" type="button">↑</button>
+    <button id="timSau" type="button">↓</button>
+    <span id="demTim"></span>
+   </div>
+  </div>
+  <div class="ml-cuon"><ul id="dsMuc"></ul></div>
+ </aside>
+ <main>
+  <section class="dau-bai">
+   <div class="nhan">CASE ECG #1916 · DR. SMITH’S ECG BLOG</div>
+   <h1>03/08/2025 — Độ chính xác của quyết định kích hoạt phòng thông tim với các điện tâm đồ tương đương STEMI và giả STEMI: bác sĩ so với AI (PMcardio, Queen of Hearts), và bình luận của John Mandrola trên &quot;This Week in Cardiology Podcast&quot;</h1>
+   <p class="dich-gia"><a href="../index.html">← Mục lục Case ECG</a></p><p class="dich-gia">Bản dịch tiếng Việt của bài <a href="https://drsmithsecgblog.com/accuracy-of-cath-lab-activation-decisions-for-stemi-equivalent-and-mimic-ecgs-physicians-vs-ai-pmcardio-queen-of-hearts-and-comment-by-john-mandrola-on-this-week-in-cardiology-podcast/" target="_blank" rel="noopener">"Accuracy of cath lab activation decisions for STEMI-equivalent and mimic ECGs: Physicians vs. AI (PMcardio, queen of hearts), and comment by John Mandrola on “This Week in Cardiology Podcast”"</a> – Dr. Smith’s ECG Blog. Giữ nguyên toàn bộ 0 hình ảnh của bản gốc.</p>
+  </section>
+  <section class="to-giay" id="toGiay">
+<figure class="anh-dau"><a class="o-anh" href="2025-08-03-accuracy-of-cath-lab-activation-decisions-for-stemi_anh/2025_08_Screenshot-2025-08-03-at-7.59.26-AM.jpg"><img src="2025-08-03-accuracy-of-cath-lab-activation-decisions-for-stemi_anh/2025_08_Screenshot-2025-08-03-at-7.59.26-AM.jpg" alt="" width="1600" height="1458" loading="lazy" decoding="async"></a></figure>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0735675725005236?utm_campaign=STMJ_220042_AUTH_SERV_PA&amp;utm_medium=email&amp;utm_acid=244376793&amp;SIS_ID=&amp;dgcid=STMJ_220042_AUTH_SERV_PA&amp;CMX_ID=&amp;utm_in=DM587178&amp;utm_source=AC_" rel="noopener" target="_blank">Đây là đường link tới nghiên cứu</a> của Shroyer, Mehta, Thukral, Smiley, Mercaldo, <strong>Meyers và Smith</strong></p>
+<p><a href="https://ars.els-cdn.com/content/image/1-s2.0-S0735675725005236-mmc3.pdf" rel="noopener" target="_blank">Đây là đường link tới toàn bộ các điện tâm đồ.</a></p>
+<p><strong><a href="https://www.medscape.com/viewarticle/1002781#:~:text=For%20the%20week%20ending%20August,that%20caused%20harm%20in%20veterans." rel="noopener" target="_blank">This Week in Cardiology Podcast – August 01, 2025</a></strong> (Podcast Tim mạch trong tuần – ngày 01 tháng Tám năm 2025) — <strong>bản ghi lời ở đây</strong></p>
+<p>Tác giả: John M. Mandrola, MD</p>
+<p>Công bố xung đột lợi ích, ngày 01 tháng Tám năm 2025</p>
+<h2 id="ai-so-voi-bac-si-doc-dien-tam-do-de-kich-hoat-phong-thong-tim">AI so với bác sĩ đọc điện tâm đồ để kích hoạt phòng thông tim</h2>
+<p>Tạp chí American Journal of Emergency Medicine tuần này có một nghiên cứu hay, so sánh độ chính xác của việc kích hoạt phòng thông tim (cath lab activation, CLA) với các điện tâm đồ tương đương nhồi máu cơ tim ST chênh lên (STEMI) và điện tâm đồ giả STEMI.</p>
+<p>Tôi thực sự thích nghiên cứu này. Và đây là một vấn đề quan trọng, vì nhận diện STEMI trong những phút đầu tiên khi người bệnh đến viện là then chốt.</p>
+<p>Mục tiêu là đo độ chính xác của bác sĩ so với thuật toán trí tuệ nhân tạo (AI) dựa trên học máy của Queen of Hearts, một mô hình mạng nơ-ron sâu. Bạn có thể dùng nó trên điện thoại. Nó xác định có hay không có nhồi máu cơ tim do tắc (OMI).</p>
+<p>Mô hình AI điện tâm đồ STEMI của PMcardio đã được FDA cấp danh hiệu Thiết bị Đột phá (Breakthrough Device Designation) vào tháng Ba năm 2025, nhưng vẫn chưa được FDA cấp phép lưu hành tại Mỹ.</p>
+<p>___________</p>
+<p><strong>Ứng dụng PMcardio for Individuals 3.0 mới</strong> nay đã có <strong>mô hình Queen of Hearts mới nhất và khả năng giải thích của AI</strong> (bản đồ nhiệt màu xanh lam)! <strong>Tải ngay cho iOS hoặc Android</strong>.  <a href="https://www.powerfulmedical.com/pmcardio-individuals/" rel="noopener" target="_blank">https://www.powerfulmedical.com/pmcardio-individuals/</a> (BS. Smith và BS. Meyers đã huấn luyện mô hình AI này và là cổ đông của Powerful Medical.</p>
+<p>___________</p>
+<p>Người Mỹ cần chờ FDA phê duyệt, nhưng có cơ hội dùng sớm bot AI PM Cardio thông qua đăng ký bản thử nghiệm beta. Ứng dụng có trên kho ứng dụng Android và Apple ở Liên minh châu Âu và Vương quốc Anh.</p>
+<p>Hơn 2500 bệnh viện đang trong danh sách chờ, và hiện ứng dụng đang được thử nghiệm trong các chương trình thí điểm tại hơn 60 trung tâm trên toàn cầu.</p>
+<p>Nghiên cứu này được thực hiện ở San Antonio, trong một hệ thống bệnh viện gồm hai bệnh viện cộng đồng và bốn khoa cấp cứu (ED) độc lập; các tác giả đã chọn 18 điện tâm đồ khó. Tôi biết điều này vì chúng có trong Phụ lục. Và tôi đã phải thực sự nghiền ngẫm chúng. Trong số đó có bốn dạng tương đương STEMI cần điều trị tái tưới máu ngay lập tức. Họ thêm một điện tâm đồ có sóng T Wellens và STEMI aVR. Họ cũng đưa vào STEMI thoáng qua và OMI kèm blốc nhánh phải (RBBB) với blốc phân nhánh trái trước (LAFB). Tám điện tâm đồ đại diện cho các trường hợp giả STEMI được đưa vào để kiểm tra kích hoạt phòng thông tim dương tính giả.</p>
+<p>Một lần nữa, phản ứng ban đầu của tôi với nghiên cứu là đây có thể là những điện tâm đồ được chọn lọc kỹ, có lẽ để làm nổi bật khác biệt giữa bác sĩ và AI. Có thể đúng là như vậy, nhưng nhìn vào chúng, đây là những điện tâm đồ thật, và chúng là loại điện tâm đồ khiến não căng thẳng khi đọc.</p>
+<p>Một tiêu chí loại trừ quan trọng là các điện tâm đồ gặp trong viêm màng ngoài tim, bệnh cơ tim Takotsubo và đau thắt ngực Prinzmetal, vì hiện có rất ít tiêu chuẩn đã công bố giúp phân biệt chúng với OMI.</p>
+<p>Tóm lại, có 12 dạng điện tâm đồ cần chụp mạch vành ngay lập tức và 6 điện tâm đồ là giả STEMI, không cần kích hoạt phòng thông tim.</p>
+<p>Các điện tâm đồ được đưa cho 53 bác sĩ cấp cứu, 42 bác sĩ tim mạch và thuật toán AI. Tiêu chuẩn tham chiếu là chụp mạch vành. Có OMI hay không? Kết cục là một biến nhị phân: kích hoạt phòng thông tim hay không.</p>
+<h3 id="ket-qua">Kết quả</h3>
+<p>Độ chính xác khi đọc tương tự nhau giữa bác sĩ cấp cứu và bác sĩ tim mạch: cả hai đều là 66%.</p>
+<p>Nhưng cả hai đều thấp hơn rất nhiều so với mô hình AI, vốn quyết định đúng việc kích hoạt phòng thông tim (CLA) ở 89% trường hợp.</p>
+<p>Bác sĩ phân loại sai thường gặp nhất ở hình ảnh de Winter, STEMI thoáng qua, OMI có sóng T tối cấp và các điện tâm đồ blốc nhánh</p>
+<p>Thuật toán AI Queen of Hearts chỉ phân loại sai hai dạng điện tâm đồ: OMI kèm blốc nhánh trái (LBBB có Sgarbossa (+)*) và phình thất trái. Chính các dạng điện tâm đồ này cũng gây khó cho bác sĩ, với chỉ lần lượt 14 % và 58 % bác sĩ đọc đúng.</p>
+<p>Cuối cùng, bác sĩ cấp cứu bỏ sót 41 % số OMI thật (195/477) và chẩn đoán quá mức 32 % số trường hợp không phải OMI (133/415), trong khi AI Queen of Hearts chỉ bỏ sót 11 % và chẩn đoán quá mức 11 %.</p>
+<h3 id="tom-tat-cac-phat-hien-chinh">Tóm tắt các phát hiện chính</h3>
+<p>Độ chính xác chung của bác sĩ thấp (66 %), phù hợp với các nghiên cứu trước báo cáo độ chính xác 70% dù dùng ít điện tâm đồ mơ hồ hơn.</p>
+<p>Độ chính xác của bác sĩ cấp cứu và bác sĩ tim mạch gần như giống hệt nhau (lần lượt 65.6% và 65.5%; P = .969).</p>
+<p>Các dạng điện tâm đồ bị đọc sai nhiều nhất gồm LBBB (±OMI), STEMI thoáng qua và sóng T tối cấp, cũng như sóng T de Winter</p>
+<p><strong>Thuật toán AI Queen of Hearts chính xác hơn bác sĩ (89% so với 66%, P &lt; .001), phân loại đúng tất cả điện tâm đồ trừ phình thất trái (LV) và LBBB kèm OMI, cho thấy tiềm năng cải thiện chăm sóc và sử dụng nguồn lực.</strong></p>
+<h3 id="binh-luan">Bình luận</h3>
+<p>Tôi thấy đây là một nghiên cứu đáng chú ý. AI rõ ràng tốt hơn. Các điện tâm đồ thì khó, nhưng chúng là thật, và tôi đã thấy chúng được xem xét trong các buổi bình duyệt chuyên môn như những ca bỏ sót STEMI.</p>
+<p>Không ai bỏ sót ST chênh lên hình bia mộ 3-4 mm. Chính các trường hợp giả STEMI tinh tế mới khó. Nếu bạn là một bệnh nhân bị tắc động mạch liên thất trước (LAD) nhưng điện tâm đồ không rõ ràng, bạn chỉ có thể hy vọng vào a) may mắn, hoặc b) một người đọc điện tâm đồ bậc thầy, hoặc c) một thuật toán AI thật sự tốt.</p>
+<p>Về mặt khoa học, tôi tự hỏi liệu giải pháp tốt nhất có phải là bác sĩ giỏi đã khám bệnh nhân và có xác suất tiền nghiệm kiểu Bayes dựa trên bệnh sử và dáng vẻ chung (nhồi máu cơ tim thường trông như nhồi máu cơ tim ngay từ lúc bước vào cửa) cộng với AI, so với chỉ AI đơn thuần hay không. Đó là một phép so sánh giả định, vì tôi không nghĩ nghiên cứu như vậy sẽ bao giờ được tiến hành, bởi tôi khó hình dung một phòng cấp cứu không có bác sĩ. (Nhưng trước khi có điện thoại thông minh, tôi cũng không thể hình dung y khoa với điện thoại thông minh.)</p>
+<p>Dù vậy, tôi không hiểu tại sao FDA lại không phê duyệt một thiết bị như vậy để sử dụng. Nó có vẻ là một công cụ hỗ trợ quan trọng để đi đến chẩn đoán đúng. Tôi thấy nó tương tự siêu âm tại giường khi đặt đường truyền tĩnh mạch trung tâm. Đúng vậy. Bạn có thể vào được tĩnh mạch trung tâm mà không cần siêu âm, nhưng tại sao lại làm thế?</p>
+<p><strong>Với điện tâm đồ và việc kích hoạt phòng thông tim (CLA) cũng vậy, đúng là bạn có thể làm mà không cần AI, nhưng tại sao lại làm thế? Các trường hợp tương đương STEMI và giả STEMI không hiếm, và Queen of Hearts trông khá tốt.</strong></p>
+<p>Công nghệ thật tuyệt vời.</p>
+<hr>
+<p><span class="c-do">=====================================</span></p>
+<h2 id="binh-luan-cua-toi-boi-ken-grauer-md-3-8-2025">BÌNH LUẬN CỦA TÔI, bởi KEN GRAUER, MD (3/8/2025):</h2>
+<hr>
+<p>Đây là một bài quan trọng trên Dr. Smith’s ECG Blog — vì <strong><a href="https://www.sciencedirect.com/science/article/pii/S0735675725005236" rel="noopener" target="_blank">bài báo của Shroyer và cs.</a></strong> đóng góp thêm một nghiên cứu nữa ủng hộ ảnh hưởng tích cực mà AI mang lại cho <strong>quá trình <em>ra quyết định</em> CLA (</strong><em>kích hoạt phòng thông tim</em><strong>)</strong>, so với việc đọc điện tâm đồ chỉ bởi các bác sĩ lâm sàng giàu kinh nghiệm <strong>(</strong>tức là <em>53 bác sĩ cấp cứu và 42 bác sĩ tim mạch đã tham gia nghiên cứu của Shroyer</em><strong>)</strong>.</p>
+<ul><li>Dù đã nói như trên — tôi tin rằng một Câu hỏi <em>MẤU CHỐT</em> còn lại là: <strong><em>“Sử dụng dữ liệu mà nghiên cứu này cung cấp như thế nào là TỐT NHẤT?”</em></strong>. </li>
+<li>Ẩn trong Câu hỏi <em>MẤU CHỐT</em> này là câu hỏi phụ: <strong><em>“Tận dụng như thế nào là TỐT NHẤT chuyên môn mà ứng dụng AI này rõ ràng mang lại?”</em></strong>.</li></ul>
+<hr>
+<p>Việc <strong>ứng dụng PMcardio for Individuals 3.0 ( </strong><em>= mô hình </em><strong><em>Q</em></strong><em>ueen-</em><strong><em>O</em></strong><em>f-</em><strong><em>H</em></strong><em>earts mới nhất, có </em><strong><em>khả năng giải thích của AI</em>)</strong> rõ ràng <em>có</em> mang lại chuyên môn cho việc ra quyết định CLA — hẳn đã hiển nhiên từ cách mà ứng dụng AI QOH được phát triển <strong>(</strong><em>cụ thể là qua dữ liệu đầu vào do BS. Smith và BS. Meyers cung cấp — từ một nguồn dữ liệu không ngừng mở rộng dựa trên hàng nghìn điện tâm đồ thực tế</em><strong>)</strong>.</p>
+<ul><li>Giá trị của nguồn dữ liệu này được kiểm chứng tỉ mỉ bằng hồ sơ thông tim, nhằm trả lời câu hỏi lâm sàng <em>MẤU CHỐT</em>:<strong> “Có nên kích hoạt phòng thông tim cho bệnh nhân <em>này</em> dựa trên bệnh sử <em>này</em> và điện tâm đồ <em>này</em> không?”</strong>. </li>
+<li>Minh chứng cho năng lực của BS. Smith và BS. Meyers trong việc thiết kế quá trình huấn luyện ứng dụng AI QOH — chính là thư viện đáng kinh ngạc gồm gần 2,000 ca lâm sàng được tích lũy trong 17 năm qua trên <strong><a href="https://drsmithsecgblog.com" rel="noopener" target="_blank">Dr. Smith’s ECG Blog</a></strong>. </li>
+<li><strong>Xin nhấn mạnh:</strong> Ứng dụng AI QOH <em>tiếp tục</em> ngày càng tốt hơn, vì cơ sở dữ liệu của nó không ngừng mở rộng, cùng với những cải tiến trong cách AI diễn giải được tích hợp vào mỗi phiên bản mới của ứng dụng khi ra mắt.</li></ul>
+<hr>
+<h3 id="18-dien-tam-do-trong-nghien-cuu-cua-shroyer">18 điện tâm đồ trong nghiên cứu của Shroyer:</h3>
+<p>Theo <strong>bài bình luận 6 phút của BS. John Mandrola</strong> <strong>(</strong><em>bắt đầu từ phút 5:45 trong </em><strong><a href="https://www.medscape.com/viewarticle/1002781" rel="noopener" target="_blank">bản trình bày âm thanh</a>)</strong><em> đã dẫn ở trên</em> — 18 điện tâm đồ làm nền tảng cho nghiên cứu của Shroyer “thì khó” — và — “tôi đã phải thực sự nghiền ngẫm chúng” — nhưng — “đây là những điện tâm đồ thật, và chúng là loại điện tâm đồ khiến não căng thẳng khi đọc”.</p>
+<p><strong>ĐỀ XUẤT CỦA TÔI:</strong> Tôi khuyến khích tất cả độc giả của ECG Blog này tự xem lại 18 điện tâm đồ này — và <strong>sau đó so sánh câu trả lời <em>của bạn</em> với câu trả lời của QOH</strong>. Tôi đảm bảo đây sẽ là cách dùng thời gian rất <em>bổ ích</em> — khi bạn so sánh câu trả lời <em>của mình</em> với câu trả lời của QOH, rồi rút ra hiểu biết từ kết quả thông tim và từ hướng xử trí lâm sàng của từng ca.</p>
+<hr>
+<h3 id="suy-nghi-cua-toi">SUY NGHĨ CỦA TÔI:</h3>
+<p>Đã dạy đọc điện tâm đồ suốt 40+ năm cho sinh viên y khoa, bác sĩ nội trú, nhân viên cận y tế, và đặc biệt cho bác sĩ thuộc mọi chuyên khoa ở cấp địa phương, toàn quốc và nay là quốc tế — <strong><em>tôi vẫn là một người lạc quan</em></strong>.</p>
+<ul><li>Tôi tin rằng các bác sĩ lâm sàng, <em>dù</em> được đào tạo y khoa theo hướng nào, đều <em>có thể</em> được dạy để cải thiện khả năng nhận ra các hình ảnh điện tâm đồ cấp — và nhờ đó <em>cải thiện</em> khả năng nhận ra một cách <em>kịp thời hơn</em> nhu cầu kích hoạt (<em>hoặc không kích hoạt</em>) phòng thông tim.</li></ul>
+<p><strong>CẢNH BÁO #1:</strong> 18 điện tâm đồ tạo nên nghiên cứu này chỉ là một cái nhìn thoáng qua về những gì chúng tôi thường xuyên thấy từ các ca lâm sàng mà bác sĩ ở mọi trình độ kinh nghiệm trên khắp thế giới gửi đến.</p>
+<ul><li>Với những người trong chúng tôi thường xuyên soi xét đủ mọi loại bản ghi điện tâm đồ cấp cứu — <em>nhiều</em> bản ghi trong số 18 bản ghi của nghiên cứu Shroyer là dễ đọc, vậy mà có tới 1/3 trong số 95 bác sĩ cấp cứu và bác sĩ tim mạch xem các bản ghi này đã phân loại sai.</li>
+<li>Dù vậy — tôi rất ngờ rằng “độ chính xác” của người tham gia nghiên cứu còn <em>thấp</em> hơn nữa nếu tỷ lệ bản ghi OMI+/STEMI- tinh tế cao hơn.</li></ul>
+<p><strong>CẢNH BÁO #2:</strong> Dữ liệu y văn hiện nay của chúng ta <em>quá thường xuyên</em> có sai sót. Hệ quả là — <strong>lời tiên tri</strong><em><strong> tự ứng nghiệm</strong></em><em><strong> </strong></em>ủng hộ <strong>mô hình STEMI <em>kém hơn</em> về mặt lâm sàng</strong> và <em>lỗi thời</em> vẫn được duy trì <strong>(</strong><em>Bằng chứng ủng hộ tính ưu việt của mô hình OMI có thể</em><strong> </strong><em>dễ dàng truy cập từ Menu Research &amp; Resources (Nghiên cứu &amp; Tài nguyên) ở đầu mỗi trang của Dr. Smith’s ECG Blog — trong mục </em><strong><a href="https://drsmithsecgblog.com/omi-literature-timeline/" rel="noopener" target="_blank">OMI Literature Timeline</a></strong><em> (Dòng thời gian y văn về OMI) và </em><strong><a href="https://drsmithsecgblog.com/omi-facts-and-references/" rel="noopener" target="_blank">OMI Facts &amp; References</a>)</strong>.</p>
+<ul><li>Một ví dụ về <strong>lời tiên tri <em>tự ứng nghiệm </em></strong>này — Chúng tôi đã đăng nhiều ca trên Dr. Smith’s ECG Blog về OMI cấp không đủ tiêu chuẩn STEMI vì không đạt mức ST chênh lên <em>dựa trên milimét</em> theo yêu cầu trên điện tâm đồ ban đầu hay các điện tâm đồ ghi lại. Cuối cùng, một số bản ghi OMI+ này <em>đã</em> đủ tiêu chuẩn “STEMI” <strong>(</strong>tức là <em>cuối cùng ST cũng chênh lên đủ mức — nhưng là nhiều giờ, thậm chí 1-2 ngày sau thời điểm điện tâm đồ ban đầu đã OMI+</em><strong>)</strong>. </li>
+<li>Nếu bác sĩ can thiệp vốn đã từ chối thông tim cho một bệnh nhân có điện tâm đồ OMI+/STEMI-, nay lại thông tim “ngay lập tức” cho bệnh nhân này khi một trong các điện tâm đồ ghi lại <em>cuối cùng</em> đạt tiêu chuẩn STEMI — <strong><em>Điều gì được ghi vào cơ sở dữ liệu?</em></strong></li>
+<li>Điều được ghi vào cơ sở dữ liệu là: <strong>“bác sĩ can thiệp đã kích hoạt phòng thông tim ‘ngay lập tức’</strong> <strong>(</strong>tức là <em>trong vòng vài phút ngay khi đạt tiêu chuẩn STEMI</em><strong>)</strong> — mặc dù <em>không</em> nhận ra rằng PCI thực hiện 3-10 giờ (<em>hoặc hơn</em>) sau một điện tâm đồ ban đầu OMI+ khó có thể mang lại lợi ích đáng kể. <strong><em>Nhưng mô hình STEMI sai lầm vẫn “đóng bê tông” trong tư duy của những người gắn chặt với khái niệm lỗi thời này.</em></strong></li></ul>
+<p><strong>CẢNH BÁO #3:</strong> Dù nghiên cứu này của Shroyer và cs. tốt đến đâu — thiết kế được một “nghiên cứu hoàn hảo” vẫn là mục tiêu khó đạt.</p>
+<ul><li>Đôi khi “câu trả lời đúng” cho một bệnh nhân cụ thể với một điện tâm đồ cụ thể có thể là <strong>có chỉ định thông tim sớm vì có <em>đủ</em> nghi ngờ về một tình trạng tắc mạch vành đang diễn ra để cần một câu trả lời dứt khoát</strong>.</li>
+<li>Đôi khi tốt hơn là <em>loại trừ</em> OMI cấp, thay vì “ngồi chờ” một ca hàng giờ liền trong do dự. </li>
+<li>Và đôi khi … <em><strong>“Phải có mặt ở đó mới biết!”</strong></em>. Những tình huống trong Cảnh báo #3 này rất khó “kiểm tra”.</li></ul>
+<hr>
+<h3 id="cach-tiep-can-cua-toi-voi-van-de">CÁCH TIẾP CẬN CỦA TÔI VỚI VẤN ĐỀ:</h3>
+<p>Tôi tin rằng cách TỐT NHẤT để tối ưu hóa chuyên môn của ứng dụng AI QOH — là <em>kết hợp</em> nó với việc ra quyết định của bác sĩ lâm sàng.</p>
+<ul><li>Dù ứng dụng AI QOH tốt đến đâu — nó <em>không</em> hoàn hảo. Nhờ nỗ lực liên tục của BS. Smith và BS. Meyers cùng Powerful Medical — những sai sót/bỏ sót của các phiên bản QOH trước đây đã được khắc phục. Nhưng đây vẫn là một quá trình <em>liên tục</em>. <strong><em>Nhận định của bác sĩ lâm sàng vẫn quan trọng</em></strong>.</li>
+<li><strong>Bác sĩ lâm sàng học tốt nhất NẾU họ buộc bản thân đọc từng điện tâm đồ gặp phải <em>trước khi</em> xem kết quả đọc của QOH</strong>. Có thể học được rất nhiều từ <strong>khả năng giải thích của AI</strong>, vốn đưa ra dự đoán xác suất theo phần trăm cho từng chuyển đạo trong 12 chuyển đạo có ảnh hưởng đến quyết định của AI.</li>
+<li>Nếu bạn, với tư cách bác sĩ lâm sàng, thấy kết quả đọc của mình phù hợp với QOH — thì 1 + 1 =5, và mức độ tự tin <em>của bạn</em> vào kết quả đọc điện tâm đồ của mình tăng lên <strong>(</strong><em>điều này làm tăng khả năng đưa ra quyết định đúng cho bệnh nhân!</em><strong>)</strong>.</li>
+<li>Ngược lại, nếu có khác biệt giữa kết quả đọc của bác sĩ lâm sàng và của AI — <em>Hãy quay lại “bàn vẽ” để cố tìm hiểu tại sao</em> — đồng thời luôn nhớ rằng <strong>QOH chính xác tới 90% trong đánh giá khả năng OMI cấp trên điện tâm đồ</strong> <strong>(</strong><em>trong khi phần lớn bác sĩ lâm sàng còn kém xa</em><strong>)</strong>. Trong những trường hợp như vậy — khả năng giải thích của AI mang lại cơ hội tối ưu để học xem tại sao QOH trả lời khác bạn.</li>
+<li><strong>Hãy cố gắng hết sức theo dõi diễn tiến <em>tất cả</em> các ca của bạn trong <em>khả năng</em> có thể! </strong>Đây là cách <em>duy nhất</em> để học một cách tối ưu. Có thể đôi khi <em>cả</em> bạn và QOH đều “sai”. <strong>Theo dõi diễn tiến những ca như vậy (</strong><em>lý tưởng là tìm hiểu không chỉ kết quả thông tim — mà cả chuyện gì đã xảy ra với bệnh nhân</em><strong>)</strong> <strong>là cách mà <em>tất cả</em> chúng ta học hỏi</strong>.</li>
+<li><strong>Hãy tạo một kênh để nhận ý kiến <em>chuyên gia</em> khi cần</strong> <strong>(</strong>tức là <em>từ những bác sĩ lâm sàng thật sự giỏi nhận ra các bản ghi OMI+/STEMI-</em><strong>)</strong>. Nếu không thể hỏi ý kiến chuyên gia vào lúc đang khám bệnh nhân — <strong><em>thì hãy hỏi sau đó</em></strong>, bằng cách chụp màn hình các bản ghi liên tiếp quan trọng kèm ghi chú các kết quả xét nghiệm then chốt, và <em>lý tưởng là</em> có đối chiếu với mức độ triệu chứng <em>tại thời điểm</em> ghi từng điện tâm đồ <strong>(</strong><em>tôi khuyên nên ghi ngay trên từng điện tâm đồ thực tế, theo thang điểm từ 1 đến 10, mức độ đau ngực của bệnh nhân tại thời điểm ghi điện tâm đồ đó</em><strong>)</strong>. Năm 2025 rồi — <em>không còn lý do bào chữa nào. </em>Internet giúp mọi người đều có thể tiếp cận một chuyên gia đọc điện tâm đồ.</li>
+<li>Cuối cùng — <strong><em>Hãy tiếp tục theo dõi Dr. Smith’s ECG Blog</em></strong> để có nguồn ca lâm sàng mới và đầy thử thách <em>không bao giờ cạn</em>.</li></ul>
+<hr>
+  </section>
+ </main>
+</div>
+<div class="thanh-nut">
+ <button id="nutMl" class="hien-ml" type="button" title="Mục lục">≡</button>
+ <button id="nutGiam" type="button" title="Chữ nhỏ hơn">A-</button>
+ <button id="nutTang" type="button" title="Chữ lớn hơn">A+</button>
+ <button id="nutNen" type="button" title="Nền sáng/tối">◐</button>
+</div>
+<div class="xem-anh" id="xemAnh" role="dialog" aria-label="Xem ảnh">
+ <span class="xa-dem"></span>
+ <button class="xa-dong" type="button" title="Đóng (Esc)">✕</button>
+ <button class="xa-truoc" type="button" title="Ảnh trước (←)">‹</button>
+ <img alt="">
+ <button class="xa-sau" type="button" title="Ảnh sau (→)">›</button>
+ <div class="xa-chu"></div>
+</div>
+<script>
+(function(){
+ var goc=document.documentElement, ds=document.getElementById('dsMuc'),
+     giay=document.getElementById('toGiay'), pt=document.getElementById('phanTram'),
+     ml=document.getElementById('mucLuc');
+ var dau=[].slice.call(giay.querySelectorAll('h2,h3,h4,h5,h6'));
+
+ // mục lục
+ dau.forEach(function(h){
+  var li=document.createElement('li');
+  li.className='cap-'+(+h.tagName[1]-1);
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  a.addEventListener('click',function(){ ml.classList.remove('mo'); });
+  li.appendChild(a); ds.appendChild(li);
+ });
+ var neo=[].slice.call(ds.querySelectorAll('a'));
+
+ function capNhat(){
+  var i=0;
+  for(var k=0;k<dau.length;k++){ if(dau[k].getBoundingClientRect().top<140) i=k; }
+  neo.forEach(function(a,k){ a.classList.toggle('dang-doc',k===i); });
+  var a=neo[i];
+  if(a){ var cuon=a.closest('.ml-cuon');
+   if(cuon){ var h=a.getBoundingClientRect(), c=cuon.getBoundingClientRect();
+    if(h.top<c.top||h.bottom>c.bottom) cuon.scrollTop+=h.top-c.top-c.height/3; } }
+  var het=document.documentElement.scrollHeight-innerHeight;
+  pt.textContent=(het>0?Math.min(100,Math.round(scrollY/het*100)):100)+'%';
+ }
+ addEventListener('scroll',capNhat,{passive:true});
+ addEventListener('resize',capNhat); capNhat();
+
+ // cỡ chữ + nền tối, nhớ lựa chọn
+ function docNho(k,md){ try{ return localStorage.getItem(k)||md; }catch(e){ return md; } }
+ function ghiNho(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+ var co=parseInt(docNho('gl-co','16'),10);
+ function apCo(){ goc.style.setProperty('--co',co+'px'); ghiNho('gl-co',co); capNhat(); }
+ apCo();
+ goc.setAttribute('data-nen',docNho('gl-nen','sang'));
+ document.getElementById('nutTang').onclick=function(){ co=Math.min(24,co+1); apCo(); };
+ document.getElementById('nutGiam').onclick=function(){ co=Math.max(12,co-1); apCo(); };
+ document.getElementById('nutNen').onclick=function(){
+  var v=goc.getAttribute('data-nen')==='toi'?'sang':'toi';
+  goc.setAttribute('data-nen',v); ghiNho('gl-nen',v);
+ };
+ // thu gọn / mở lại cột mục lục (nhớ lựa chọn)
+ goc.setAttribute('data-ml',docNho('gl-ml',''));
+ function datMl(v){ goc.setAttribute('data-ml',v); ghiNho('gl-ml',v); capNhat(); }
+ document.getElementById('nutThu').onclick=function(){ datMl('thu'); };
+ document.getElementById('nutMl').onclick=function(){
+  // màn hình rộng: nút ≡ mở lại cột đã thu; màn hình hẹp: kéo cột ra/vào
+  if(innerWidth>980 && goc.getAttribute('data-ml')==='thu'){ datMl(''); return; }
+  ml.classList.toggle('mo');
+ };
+
+ // tìm trong bài
+ var o=document.getElementById('oTim'), dem=document.getElementById('demTim'), hit=[], vt=-1;
+ function xoaDanh(){
+  hit=[]; vt=-1;
+  var m=giay.querySelectorAll('mark.danh');
+  for(var i=0;i<m.length;i++){ var p=m[i].parentNode;
+   p.replaceChild(document.createTextNode(m[i].textContent),m[i]); p.normalize(); }
+ }
+ function danhDau(q){
+  xoaDanh();
+  if(q.length<2){ dem.textContent=''; return; }
+  var tw=document.createTreeWalker(giay,NodeFilter.SHOW_TEXT,null), nut=[], n;
+  while((n=tw.nextNode())) if(n.nodeValue.trim()) nut.push(n);
+  var kq=q.toLowerCase();
+  nut.forEach(function(n){
+   var s=n.nodeValue, l=s.toLowerCase(), i=l.indexOf(kq);
+   if(i<0) return;
+   var cha=n.parentNode, sau=n, dich=0;
+   while(i>=0){
+    var giua=sau.splitText(i-dich); dich=i+q.length;
+    sau=giua.splitText(q.length);
+    var mk=document.createElement('mark'); mk.className='danh';
+    cha.replaceChild(mk,giua); mk.appendChild(giua); hit.push(mk);
+    i=l.indexOf(kq,dich);
+   }
+  });
+  dem.textContent=hit.length?('1/'+hit.length):'0';
+  if(hit.length){ vt=0; toi(0); }
+ }
+ function toi(i){
+  if(!hit.length) return;
+  hit.forEach(function(m){ m.classList.remove('dang'); });
+  vt=(i+hit.length)%hit.length;
+  hit[vt].classList.add('dang');
+  hit[vt].scrollIntoView({block:'center',behavior:'smooth'});
+  dem.textContent=(vt+1)+'/'+hit.length;
+ }
+ var cho;
+ o.addEventListener('input',function(){ clearTimeout(cho);
+  cho=setTimeout(function(){ danhDau(o.value.trim()); },250); });
+ o.addEventListener('keydown',function(e){ if(e.key==='Enter'){ e.preventDefault();
+  toi(vt+(e.shiftKey?-1:1)); } });
+ document.getElementById('timTruoc').onclick=function(){ toi(vt-1); };
+ document.getElementById('timSau').onclick=function(){ toi(vt+1); };
+ addEventListener('beforeprint',xoaDanh);
+})();
+// xem ảnh phóng to: bấm ảnh để mở, ←/→ chuyển ảnh trong cùng bộ, Esc để đóng
+(function(){
+ var hop=document.getElementById('xemAnh'), anh=hop.querySelector('img'),
+     chu=hop.querySelector('.xa-chu'), dem=hop.querySelector('.xa-dem'), bo=[], vt=0;
+ function hien(i){
+  vt=(i+bo.length)%bo.length; var a=bo[vt], im=a.querySelector('img');
+  anh.src=a.getAttribute('href'); anh.alt=im.alt; chu.textContent=im.alt;
+  chu.style.display=im.alt?'':'none';
+  dem.textContent=bo.length>1?(vt+1)+' / '+bo.length:'';
+  hop.querySelector('.xa-truoc').style.display=hop.querySelector('.xa-sau').style.display=bo.length>1?'':'none';
+ }
+ function dong(){ hop.classList.remove('mo'); anh.removeAttribute('src'); document.body.style.overflow=''; }
+ document.getElementById('toGiay').addEventListener('click',function(e){
+  var a=e.target.closest('a.o-anh'); if(!a) return;
+  e.preventDefault();
+  var cha=a.closest('.bo-anh');
+  bo=cha?[].slice.call(cha.querySelectorAll('a.o-anh')):[a];
+  hien(bo.indexOf(a)); hop.classList.add('mo'); document.body.style.overflow='hidden';
+ });
+ hop.querySelector('.xa-dong').onclick=dong;
+ hop.querySelector('.xa-truoc').onclick=function(e){ e.stopPropagation(); hien(vt-1); };
+ hop.querySelector('.xa-sau').onclick=function(e){ e.stopPropagation(); hien(vt+1); };
+ hop.addEventListener('click',function(e){ if(e.target===hop) dong(); });
+ addEventListener('keydown',function(e){
+  if(!hop.classList.contains('mo')) return;
+  if(e.key==='Escape') dong();
+  else if(e.key==='ArrowLeft') hien(vt-1);
+  else if(e.key==='ArrowRight') hien(vt+1);
+ });
+ var x0=null;
+ hop.addEventListener('touchstart',function(e){ x0=e.touches[0].clientX; },{passive:true});
+ hop.addEventListener('touchend',function(e){ if(x0===null) return;
+  var dx=e.changedTouches[0].clientX-x0; x0=null;
+  if(Math.abs(dx)>50) hien(vt+(dx<0?1:-1)); });
+})();
+// video YouTube: chỉ tải khi bấm. YouTube trả "Lỗi 153" khi trang không gửi được referrer
+// (mở từ ổ đĩa file:// hoặc khung sandbox) — khi đó mở thẳng tab YouTube.
+(function(){
+ var giay=document.getElementById('toGiay'), ds=giay.querySelectorAll('.yt');
+ if(!ds.length) return;
+ var canEmbed=/^https?:$/.test(location.protocol) &&
+   (typeof window.origin==='undefined' || (window.origin && window.origin!=='null'));
+ var PLAY='<span class="play"><svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8.6 8.6 0 0 0-6-6C55.2 0 34 0 34 0S12.8 0 7.5 1.7a8.6 8.6 0 0 0-6 6A90 90 0 0 0 0 24a90 90 0 0 0 1.5 16.3 8.6 8.6 0 0 0 6 6C12.8 48 34 48 34 48s21.2 0 26.5-1.7a8.6 8.6 0 0 0 6-6A90 90 0 0 0 68 24a90 90 0 0 0-1.5-16.3z"/><path fill="#fff" d="M27 34l18-10-18-10z"/></svg></span>';
+ [].forEach.call(ds,function(b){
+  var id=b.getAttribute('data-id'), n=b.getAttribute('data-n')||'Video', watch='https://www.youtube.com/watch?v='+id;
+  b.innerHTML='<img loading="lazy" src="https://i.ytimg.com/vi/'+id+'/hqdefault.jpg" alt="'+n+'">'+PLAY+'<span class="badge">▶ '+n+'</span>';
+  b.setAttribute('role','button'); b.setAttribute('tabindex','0');
+  var fig=b.closest('figure'), cap=fig&&fig.querySelector('figcaption');
+  if(!cap&&fig){ cap=document.createElement('figcaption'); fig.appendChild(cap); }
+  if(cap){ var a=document.createElement('a'); a.className='ytlink'; a.href=watch; a.target='_blank';
+   a.rel='noopener'; a.textContent='Mở trên YouTube ↗'; cap.appendChild(a); }
+  function load(){
+   if(!canEmbed){ window.open(watch,'_blank','noopener'); return; }
+   b.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?rel=0&autoplay=1" '+
+    'referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer;autoplay;clipboard-write;'+
+    'encrypted-media;gyroscope;picture-in-picture" allowfullscreen title="'+n+'"></iframe>';
+   b.style.cursor='default';
+  }
+  b.addEventListener('click',load);
+  b.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); load(); } });
+ });
+ if(!canEmbed){
+  var w=document.createElement('div'); w.className='canh-bao';
+  w.innerHTML='<b>Lưu ý:</b> trang đang mở trực tiếp từ ổ đĩa (hoặc trong khung xem trước) nên YouTube chặn phát nhúng '+
+   '(<i>Lỗi 153</i>). Bấm vào video sẽ mở tab YouTube. Đăng trang lên web (https) thì video phát ngay trong trang.';
+  giay.insertBefore(w, giay.firstChild);
+ }
+})();
+</script>
+</body>
+</html>

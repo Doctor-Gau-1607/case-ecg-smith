@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="vi" data-nen="sang">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>05/02/2026 — Nam giới ngoài 30 tuổi bị ngừng tim. Nguyên nhân là gì?</title>
+<style>
+:root{
+ --nen:#f2f4f6; --giay:#ffffff; --chu:#172033; --nhat:#5b6675; --vien:#e3e7ec;
+ --do:#b30000; --xanh:#004b87; --diu:#f6f8fa; --danh:#fff3cd;
+}
+:root[data-nen="toi"]{
+ --nen:#12151b; --giay:#1b2029; --chu:#e6eaf0; --nhat:#9aa5b4; --vien:#2c333f;
+ --do:#ff8a8a; --xanh:#7fb6e6; --diu:#232a35; --danh:#5a4a12;
+}
+*{box-sizing:border-box}
+html{font-size:var(--co,16px)}
+body{margin:0;background:var(--nen);color:var(--chu);
+ font-family:"Noto Sans","Segoe UI",Roboto,Arial,sans-serif;
+ font-size:1rem;line-height:1.7;-webkit-text-size-adjust:100%}
+a{color:var(--xanh)}
+.bo-cuc{display:grid;grid-template-columns:320px minmax(0,1fr);gap:22px;
+ max-width:1500px;margin:0 auto;padding:22px}
+/* ---- cột mục lục ---- */
+.muc-luc{position:sticky;top:22px;align-self:start;height:calc(100vh - 44px);
+ background:var(--giay);border-radius:16px;padding:16px 10px;display:flex;
+ flex-direction:column;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.ml-dau{display:flex;justify-content:space-between;align-items:center;
+ padding:2px 10px 10px;font-size:.78rem;font-weight:800;letter-spacing:.09em;
+ color:var(--do);border-bottom:1px solid var(--vien)}
+#phanTram{color:var(--nhat)}
+/* Thu gọn / mở lại cột mục lục. Trang nhớ lựa chọn, vì người đọc guideline
+   mở lại nhiều lần và không muốn mỗi lần lại phải thu tay. */
+.ml-dau .nut-thu{margin-left:8px;border:1px solid var(--vien);background:var(--giay);
+ color:var(--chu);border-radius:7px;padding:1px 8px;cursor:pointer;font:inherit;
+ font-size:.9rem;line-height:1.4}
+@media(min-width:981px){
+ :root[data-ml="thu"] .bo-cuc{grid-template-columns:minmax(0,1fr)}
+ :root[data-ml="thu"] .muc-luc{display:none}
+ :root[data-ml="thu"] .hien-ml{display:block}
+}
+.o-tim{padding:10px 8px 6px}
+.o-tim input{width:100%;padding:8px 10px;border:1px solid var(--vien);
+ border-radius:9px;background:var(--diu);color:var(--chu);font:inherit;font-size:.85rem}
+.tim-dieu-khien{display:flex;gap:6px;align-items:center;margin-top:6px;
+ font-size:.76rem;color:var(--nhat)}
+.tim-dieu-khien button{border:1px solid var(--vien);background:var(--giay);
+ color:var(--chu);border-radius:7px;padding:2px 9px;cursor:pointer;font:inherit}
+.ml-cuon{overflow-y:auto;flex:1;margin-top:4px}
+#dsMuc{list-style:none;margin:0;padding:0}
+#dsMuc a{display:block;padding:7px 12px;border-radius:9px;text-decoration:none;
+ color:var(--chu);font-size:.87rem;line-height:1.4}
+#dsMuc a:hover{background:var(--diu)}
+#dsMuc a.dang-doc{background:var(--diu);color:var(--do);font-weight:700;
+ box-shadow:inset 3px 0 0 var(--do)}
+#dsMuc .cap-1>a{font-weight:700}
+#dsMuc .cap-2>a{padding-left:26px;font-size:.85rem}
+#dsMuc .cap-3>a{padding-left:40px;font-size:.82rem;color:var(--nhat)}
+#dsMuc .cap-4>a,#dsMuc .cap-5>a{padding-left:54px;font-size:.8rem;color:var(--nhat)}
+/* ---- thân bài ---- */
+.dau-bai,.to-giay{background:var(--giay);border-radius:16px;
+ box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.dau-bai{padding:28px 34px;margin-bottom:22px}
+.nhan{font-size:.76rem;font-weight:800;letter-spacing:.16em;color:var(--nhat)}
+.dau-bai h1{margin:.25em 0 .35em;font-size:2rem;line-height:1.25;color:var(--do)}
+.dich-gia{color:var(--nhat);font-size:.92rem;margin:0}
+.dich-gia b{color:var(--xanh)}
+.to-giay{padding:34px 40px 60px}
+.to-giay h2{color:var(--do);font-size:1.65rem;margin:1.7em 0 .5em;
+ padding-bottom:4px;border-bottom:2px solid var(--vien)}
+.to-giay h2:first-child{margin-top:0}
+.to-giay h3{color:var(--xanh);font-size:1.3rem;margin:1.5em 0 .4em}
+.to-giay h4{font-size:1.08rem;margin:1.3em 0 .3em}
+.to-giay h5,.to-giay h6{font-size:1rem;margin:1.2em 0 .3em;color:var(--nhat)}
+.to-giay p{margin:0 0 .85em;text-align:justify}
+.to-giay p.cham{padding-left:1.35em;text-indent:-1.1em;text-align:left}
+figure{margin:1.4em 0;text-align:center}
+figure img{max-width:100%;height:auto;border:1px solid var(--vien);border-radius:10px}
+/* ---- bảng ---- */
+.tham-chieu{color:var(--xanh);font-weight:600;text-decoration:none;
+ border-bottom:1px dotted currentColor}
+.tham-chieu:hover{border-bottom-style:solid}
+.chu-thich-float{font-weight:600;margin:0 0 .4em}
+.khung-bang{overflow-x:auto;margin:1.4em 0;border-radius:10px;
+ border:1px solid var(--vien)}
+.khung-bang table{border-collapse:collapse;width:100%;font-size:.88rem;
+ table-layout:fixed}
+.to-giay p,.to-giay li,.to-giay dd{overflow-wrap:break-word}
+.to-giay sup{overflow-wrap:anywhere}
+.khung-bang td{border:1px solid var(--vien);padding:9px 11px;vertical-align:top;
+ line-height:1.5;word-wrap:break-word}
+.khung-bang td.sat{padding-left:0;padding-right:0}
+.khung-bang td.giua{text-align:center;vertical-align:middle}
+.khung-bang td.ky-hieu{font-weight:800;white-space:nowrap}
+.khung-bang td.nen-toi,.khung-bang td.nen-toi *{color:#fff}
+.khung-bang td.nen-sang,.khung-bang td.nen-sang *{color:#12151b}
+.khung-bang td span{display:block}
+.khung-bang td span.cham{padding-left:1.1em;text-indent:-1em}
+mark.danh{background:var(--danh);color:inherit;border-radius:3px}
+/* Ô có màu ép màu chữ cho cả con cháu, kể cả <mark> của phần tìm trong bài — chữ
+   trắng trên nền vàng nhạt là tìm thấy mà không nhìn thấy. Trả chữ về màu trang. */
+.khung-bang td.nen-toi mark.danh,.khung-bang td.nen-sang mark.danh,
+.khung-bang td.nen-toi mark.danh *,.khung-bang td.nen-sang mark.danh *{color:var(--chu)}
+mark.danh.dang{outline:2px solid var(--do)}
+/* ---- nút nổi ---- */
+.thanh-nut{position:fixed;right:18px;bottom:18px;display:flex;gap:8px;z-index:9}
+.thanh-nut button{width:42px;height:42px;border-radius:50%;cursor:pointer;
+ border:1px solid var(--vien);background:var(--giay);color:var(--chu);
+ font-size:1rem;font-weight:700;box-shadow:0 2px 8px rgba(0,0,0,.14)}
+.hien-ml{display:none}
+/* ---- màn hình hẹp ---- */
+@media(max-width:980px){
+ .bo-cuc{grid-template-columns:minmax(0,1fr);padding:12px}
+ .muc-luc{position:fixed;inset:0 auto 0 0;width:88%;max-width:340px;z-index:20;
+  border-radius:0;height:100vh;transform:translateX(-102%);transition:transform .2s}
+ .muc-luc.mo{transform:none}
+ .hien-ml{display:block}
+ .to-giay{padding:22px 18px 44px}
+ /* Màn hình điện thoại: giữ bề rộng tối thiểu cho bảng rồi cho cuộn ngang,
+    thay vì bóp cột hẹp tới mức "Trung bình" xuống dòng thành "Tr un g bì nh". */
+ .khung-bang table{min-width:620px}
+ .dau-bai{padding:20px}
+ .dau-bai h1{font-size:1.5rem}
+}
+/* ---- in ra giấy ---- */
+@media print{
+ /* Nền tối được nhớ trong localStorage: bật một lần là mọi lần in sau đều dính.
+    Giấy luôn trắng, nên trả bảng màu về bản sáng trước khi in — nếu không, chữ
+    #e6eaf0 in lên giấy trắng là mất hẳn. */
+ :root,:root[data-nen="toi"]{--nen:#fff;--giay:#fff;--chu:#172033;--nhat:#4a5462;
+  --vien:#c9ced5;--do:#b30000;--xanh:#004b87;--diu:#f6f8fa;--danh:#fff3cd}
+ body{background:#fff;font-size:11.5pt}
+ .muc-luc,.thanh-nut{display:none!important}
+ .bo-cuc{display:block;max-width:none;padding:0}
+ .dau-bai,.to-giay{box-shadow:none;border-radius:0;padding:0}
+ .to-giay h2,.to-giay h3{break-after:avoid}
+ .khung-bang,figure{break-inside:avoid}
+ .khung-bang td{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+.c-xanh{color:var(--xanh)} .c-do{color:var(--do)} .c-luc{color:var(--luc)} .c-nhat{color:var(--nhat)}
+:root{--luc:#1d7a3a} :root[data-nen="toi"]{--luc:#7fd49a}
+.ban-quyen{display:inline-block;margin:.4em 0 1.2em!important;padding:6px 14px;border-radius:9px;
+ background:var(--diu);border:1px solid var(--vien);color:var(--nhat);font-size:.88rem}
+.note{background:var(--diu);border-left:4px solid var(--xanh);border-radius:0 10px 10px 0;padding:10px 16px;margin:1.1em 0}
+.note p:last-child{margin-bottom:0}
+.canh-bao{background:#fff4d6;border:1px solid #e8c97a;color:#4a3a10;border-radius:10px;padding:12px 16px;margin:0 0 18px;font-size:.93em}
+:root[data-nen="toi"] .canh-bao{background:#3a2f12;border-color:#6b5a1a;color:#f0e2bd}
+.to-giay blockquote{margin:1em 0;padding:.6em 1em;border-left:4px solid var(--vien);background:var(--diu);border-radius:0 10px 10px 0}
+.to-giay ul,.to-giay ol{padding-left:1.5em;margin:0 0 .9em}
+.to-giay li{margin:.2em 0}
+.to-giay hr{border:0;border-top:1px solid var(--vien);margin:1.6em 0}
+.khung-bang th{border:1px solid var(--vien);padding:9px 11px;vertical-align:top;background:var(--diu);text-align:left;line-height:1.5}
+.khung-bang td[style*="background"],.khung-bang th[style*="background"]{color:#12151b}
+.tk p,.tk li{font-size:.9em;color:var(--nhat);text-align:left}
+figcaption,.chu-thich-anh{font-size:.88rem;color:var(--nhat);margin-top:.45em;text-align:center;line-height:1.55}
+figcaption b{color:var(--chu)}
+figure.anh-dau img{width:100%;max-height:420px;object-fit:cover}
+figure video{width:100%;max-height:78vh;background:#000;border-radius:10px;display:block}
+.khung-video{position:relative;padding-top:56.25%;margin:0;border-radius:10px;overflow:hidden;background:#000}
+.khung-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt{position:relative;width:100%;aspect-ratio:16/9;background:#000;cursor:pointer;display:block;border-radius:10px;overflow:hidden}
+.yt img{width:100%;height:100%;object-fit:cover;display:block;opacity:.86;border:0!important;border-radius:0!important;transition:opacity .2s}
+.yt:hover img{opacity:1}
+.yt .play{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.yt .play svg{width:58px;height:58px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.yt iframe{width:100%;height:100%;border:0;display:block}
+.badge{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.72);color:#fff;font-size:11.5px;padding:2px 8px;border-radius:20px;pointer-events:none}
+.ytlink{display:inline-block;margin-left:8px;font-size:.92em;color:var(--xanh);text-decoration:none;border:1px solid var(--vien);border-radius:20px;padding:1px 10px;white-space:nowrap}
+.bo-anh{display:grid;gap:8px;margin:1em 0 1.4em;align-items:start}
+.bo-anh.cot-1{grid-template-columns:repeat(1,minmax(0,1fr))}
+.bo-anh.cot-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.bo-anh.cot-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.bo-anh.cot-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.bo-anh.cot-5{grid-template-columns:repeat(5,minmax(0,1fr))}
+.bo-anh.cot-6{grid-template-columns:repeat(6,minmax(0,1fr))}
+.o-anh{display:block;border-radius:8px;overflow:hidden;background:#000;
+ border:1px solid var(--vien);cursor:zoom-in;line-height:0}
+.o-anh img{display:block;width:100%;height:auto}
+figure .o-anh{display:inline-block;background:none;border:0}
+figure .o-anh img{border:1px solid var(--vien);border-radius:10px}
+@media(max-width:980px){
+ .bo-anh.cot-3,.bo-anh.cot-4,.bo-anh.cot-5,.bo-anh.cot-6{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:560px){
+ .bo-anh.cot-3,.bo-anh.cot-4,.bo-anh.cot-5,.bo-anh.cot-6{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+.xem-anh{position:fixed;inset:0;z-index:50;background:rgba(8,10,14,.94);display:none;
+ flex-direction:column;align-items:center;justify-content:center;padding:14px}
+.xem-anh.mo{display:flex}
+.xem-anh img{max-width:100%;max-height:calc(100vh - 110px);object-fit:contain;border-radius:6px;background:#000}
+.xem-anh .xa-chu{color:#dfe5ec;font-size:.85rem;max-width:1100px;margin-top:10px;text-align:center;
+ line-height:1.5;max-height:5.2em;overflow:auto}
+.xem-anh .xa-dem{position:absolute;top:14px;left:18px;color:#c4ccd6;font-size:.85rem}
+.xem-anh button{position:absolute;border:0;background:rgba(255,255,255,.12);color:#fff;
+ width:46px;height:46px;border-radius:50%;font-size:1.3rem;cursor:pointer}
+.xem-anh button:hover{background:rgba(255,255,255,.25)}
+.xem-anh .xa-dong{top:12px;right:14px}
+.xem-anh .xa-truoc{left:14px;top:50%;transform:translateY(-50%)}
+.xem-anh .xa-sau{right:14px;top:50%;transform:translateY(-50%)}
+@media print{
+ .xem-anh,.canh-bao,.ytlink{display:none!important}
+ .bo-anh{break-inside:avoid}
+ .o-anh{background:none}
+}
+</style>
+</head>
+<body>
+<div class="bo-cuc">
+ <aside class="muc-luc" id="mucLuc">
+  <div class="ml-dau"><span>NỘI DUNG</span><span id="phanTram">0%</span><button
+    id="nutThu" class="nut-thu" type="button" title="Thu gọn mục lục">«</button></div>
+  <div class="o-tim">
+   <input id="oTim" type="search" placeholder="Tìm trong tài liệu…" autocomplete="off">
+   <div class="tim-dieu-khien">
+    <button id="timTruoc" type="button">↑</button>
+    <button id="timSau" type="button">↓</button>
+    <span id="demTim"></span>
+   </div>
+  </div>
+  <div class="ml-cuon"><ul id="dsMuc"></ul></div>
+ </aside>
+ <main>
+  <section class="dau-bai">
+   <div class="nhan">CASE ECG #1981 · DR. SMITH’S ECG BLOG</div>
+   <h1>05/02/2026 — Nam giới ngoài 30 tuổi bị ngừng tim. Nguyên nhân là gì?</h1>
+   <p class="dich-gia"><a href="../index.html">← Mục lục Case ECG</a></p><p class="dich-gia">Bản dịch tiếng Việt của bài <a href="https://drsmithsecgblog.com/a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology/" target="_blank" rel="noopener">"A male in his 30s with cardiac arrest. What is the etiology?"</a> – Dr. Smith’s ECG Blog. Giữ nguyên toàn bộ 6 hình ảnh của bản gốc.</p>
+  </section>
+  <section class="to-giay" id="toGiay">
+<figure class="anh-dau"><a class="o-anh" href="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_imagearticle32.jpg"><img src="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_imagearticle32.jpg" alt="" width="894" height="650" loading="lazy" decoding="async"></a></figure>
+<p>Tác giả: <a href="https://x.com/MagnusNossen" rel="noopener" target="_blank">Magnus Nossen</a></p>
+<p>Một người đàn ông ngoài 30 tuổi được vợ phát hiện nằm bất tỉnh trên giường. Bà lập tức tiến hành hồi sinh tim phổi (CPR). Khi đến nơi, đội cấp cứu ngoài viện (EMS) ghi nhận bệnh nhân đang rung thất (VFib). Tái lập tuần hoàn tự nhiên (ROSC) đạt được sau khoảng 15 phút hồi sức. Bệnh nhân vẫn không đáp ứng và được đặt nội khí quản. Điện tâm đồ sau đây được ghi sau ROSC.</p>
+<h2 id="dien-tam-do-1">Điện tâm đồ #1</h2>
+<figure><a class="o-anh" href="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_imagearticle1.jpg"><img src="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_imagearticle1.jpg" alt="" width="1399" height="503" loading="lazy" decoding="async"></a></figure>
+<p><em>Điện tâm đồ</em> <em>ghi trên xe cứu thương sau khi tái lập tuần hoàn tự nhiên. Điện tâm đồ cho thấy rung nhĩ kèm ST chênh lên không điển hình ở các chuyển đạo V2–V6, I và aVL.</em></p>
+<hr>
+<p><strong>Smith</strong>: có sóng J nổi bật một cách kỳ lạ ở II và aVF. Có những sóng trông giống sóng T tối cấp ở I, aVL và V2-V6, kèm nhiều ST chênh lên, đồng thời có ST chênh xuống (STD) soi gương ở III và aVF. Luôn phải hơi hoài nghi nếu điện tâm đồ được ghi NGAY sau ROSC, vì tình trạng dòng chảy thấp có thể tạo ra một điện tâm đồ trông như OMI ngay cả khi không có OMI. Trừ khi không còn gì nghi ngờ, tôi khuyên nên chờ 10-15 phút rồi ghi lại.</p>
+<h3 id="ca-benh-tiep-dien">Ca bệnh tiếp diễn:</h3>
+<p>Bệnh nhân ổn định trong suốt quá trình vận chuyển đến khoa cấp cứu (ED), không có thêm cơn rung thất nào. Bệnh nhân đến viện trong tình trạng đã đặt nội khí quản, đang truyền adrenalin liên tục để duy trì huyết áp động mạch trung bình (MAP) đầy đủ.</p>
+<h2 id="dien-tam-do-ghi-luc-nhap-vien-dien-tam-do-2">Điện tâm đồ ghi lúc nhập viện (điện tâm đồ #2)</h2>
+<figure><a class="o-anh" href="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_inkkomst.jpg"><img src="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_inkkomst.jpg" alt="" width="1472" height="1472" loading="lazy" decoding="async"></a></figure>
+<p><em>Điện tâm đồ lúc nhập viện có chất lượng kém. Ở đây đã dùng ứng dụng PM cardio để tối ưu hóa hình ảnh. Lúc này là nhịp xoang (SR) và ST chênh xuống không đặc hiệu ở các chuyển đạo dưới. Điện tâm đồ này được ghi khoảng 45 phút sau ROSC, trong khi đang truyền adrenalin liên tục — điều có thể đã góp phần gây ra ST chênh xuống không đặc hiệu ở thành dưới.</em></p>
+<hr>
+<p><strong>Smith</strong>: đúng như nghi ngờ, các dấu hiệu OMI phần lớn đã biến mất. Vậy đây có thể là một OMI đã tái tưới máu, hoặc là một ca mà tình trạng dòng chảy thấp đã giả OMI. Dù là trường hợp nào, việc chuyển vào phòng thông tim (cath lab) cũng rất hợp lý.</p>
+<p>Siêu âm tim tại giường ở khoa cấp cứu cho thấy chức năng tâm thu bình thường và không có rối loạn vận động thành. <strong>Smith</strong>: điều này làm OMI ít có khả năng hơn, tùy thuộc vào chất lượng hình ảnh và kinh nghiệm của người làm siêu âm.</p>
+<p><strong>Ca bệnh tiếp diễn:</strong> Do có rung thất và ST chênh lên (STE) không điển hình sau ROSC, bệnh nhân được chụp mạch vành; kết quả không thấy dấu hiệu xơ vữa động mạch hay co thắt mạch vành nào. Đánh giá thêm bằng CT đã loại trừ bệnh lý động mạch chủ, thuyên tắc phổi và tai biến mạch máu não. Điện giải huyết thanh trong giới hạn bình thường.</p>
+<p>Troponin T lúc nhập viện là 349ng/L và đạt đỉnh ở mức khiêm tốn <strong>619ng/L</strong>. Giá trị troponin này sau ROSC không cho biết gì về nguyên nhân ngừng tim, vì các giá trị ở mức hàng trăm có thể xuất hiện do dòng chảy mạch vành bị ngưng trệ bởi chính tình trạng ngừng tim.</p>
+<p>Bệnh nhân được nhập đơn vị hồi sức tích cực tim mạch (CICU) mà chưa rõ nguyên nhân ngừng tim.</p>
+<hr>
+<p>Ngày hôm sau, khi đang nằm ở CICU, các thay đổi điện tâm đồ động (dynamic) được ghi nhận trên monitor theo dõi liên tục 12 chuyển đạo, dẫn đến một cơn ngừng tim trong bệnh viện. Một điện tâm đồ 12 chuyển đạo ghi ngay trước cơn ngừng tim (<strong>điện tâm đồ #3</strong>) được trình bày dưới đây, tiếp theo là <strong>Hình #1</strong> so sánh các chuyển đạo trước tim của <strong>điện tâm đồ #2</strong> (lúc nhập viện) và <strong>điện tâm đồ #3</strong> (trước khi ngừng tim)</p>
+<p><em>Các bản ghi này cho thấy những manh mối tinh tế nhưng quan trọng cho chẩn đoán và nguyên nhân nền gây ngừng tim ở bệnh nhân này. Hãy phóng to hình và nhìn kỹ. Điều gì có thể là nguyên nhân gây ngừng tim</em>?</p>
+<h2 id="dien-tam-do-3">Điện tâm đồ #3</h2>
+<figure><a class="o-anh" href="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_imagearticle3-1.jpg"><img src="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_imagearticle3-1.jpg" alt="" width="894" height="677" loading="lazy" decoding="async"></a></figure>
+<p><em>Điện tâm đồ ngay trước khi ngừng tim (định dạng Cabrera, tốc độ giấy 25 mm/s). Nhịp xoang, tần số 65 nhịp/phút. Các nhát xoang (đánh dấu N) có trục thẳng đứng và phức bộ QRS hẹp. Khoảng PR bình thường (174 ms), khoảng QT hiệu chỉnh cũng vậy (414 ms), và không có thay đổi đoạn ST hay sóng T do thiếu máu cục bộ. Có nhiều ngoại tâm thu thất đơn ổ (PVC, đánh dấu V), xảy ra với khoảng ghép tương đối ngắn (400 ms) và trùng vào sóng T (hiện tượng R trên T). Thấy rõ sóng J ở các chuyển đạo dưới và bên. Về cuối bản ghi, một PVC R trên T khởi phát rung thất (đánh dấu VF).</em></p>
+<hr>
+<h2 id="hinh-1">Hình #1</h2>
+<figure><a class="o-anh" href="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_comparison.jpg"><img src="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_comparison.jpg" alt="" width="953" height="530" loading="lazy" decoding="async"></a></figure>
+<p><em>Các chuyển đạo ngực lúc nhập viện (bên trái) so với các chuyển đạo ngực trước cơn ngừng tim xảy ra vào ngày hôm sau khi nhập viện. Hãy chú ý sự phân bố lan rộng và biên độ thay đổi rõ rệt của sóng J trước khi ngừng tim!</em></p>
+<hr>
+<h2 id="ban-luan">Bàn luận:</h2>
+<p>Bệnh nhân này được chẩn đoán hội chứng tái cực sớm (Early Repolarization Syndrome, ERS). ERS là một hội chứng rối loạn nhịp, trong đó hình ảnh tái cực sớm trên điện tâm đồ đi kèm với các rối loạn nhịp thất ác tính hoặc ngừng tim đột ngột. Về bản chất, đây là nhóm “ác tính” của tái cực sớm. Để chẩn đoán ERS, cần có hình ảnh tái cực sớm (Early Repolarization Pattern, ERP) ở một bệnh nhân đã được ghi nhận nhịp nhanh thất đa dạng hoặc rung thất và có tim bình thường về cấu trúc. Phải loại trừ các nguyên nhân khác gây rối loạn nhịp ác tính mới chẩn đoán được ERS (<a href="https://onlinelibrary.wiley.com/doi/10.1016/j.joa.2016.07.002" rel="noopener" target="_blank">1</a>). ERS là một chẩn đoán loại trừ, không nên đưa ra khi chưa thăm dò chẩn đoán kỹ lưỡng. Nếu thăm dò toàn diện không tìm ra nguyên nhân rõ ràng nào khác gây nhịp nhanh thất đa dạng (PMVT) hoặc rung thất, và bệnh nhân có ERP trên điện tâm đồ — khi đó chẩn đoán ERS.</p>
+<p>Tái cực sớm <strong>RẤT </strong>phổ biến, và khi được phát hiện tình cờ ở người không triệu chứng thì không cần thăm dò thêm. ERP được định nghĩa bởi sự hiện diện của sóng J trên điện tâm đồ (<a href="https://onlinelibrary.wiley.com/doi/10.1016/j.joa.2016.07.002" rel="noopener" target="_blank">1</a>). Sóng J có nhiều hình thái khác nhau, như trình bày ở <strong>Hình #2</strong>.</p>
+<h2 id="hinh-2">Hình #2</h2>
+<figure><a class="o-anh" href="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_imagearticle3a.jpg"><img src="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_imagearticle3a.jpg" alt="" width="1315" height="641" loading="lazy" decoding="async"></a></figure>
+<p><em>Các biểu hiện khác nhau của tái cực sớm. Chỉnh sửa từ <a href="https://onlinelibrary.wiley.com/doi/10.1016/j.joa.2016.07.002" rel="noopener" target="_blank">Antzelevitch và cs.</a>. <strong>A</strong>) Sóng J có thể rõ nét (mũi tên đỏ) hoặc biểu hiện như một biến dạng phần cuối phức bộ QRS, với sóng J “bị vùi” ở cuối phức bộ (mũi tên xanh). <strong>B</strong>) ST chênh lên thường gặp trong các hình ảnh tái cực sớm nhưng không phải là tiêu chuẩn bắt buộc. Đoạn ST có thể đi lên, nằm ngang hoặc đi xuống, trong đó dạng đi xuống liên quan chặt chẽ hơn với rối loạn nhịp.</em></p>
+<hr>
+<p>Hội chứng tái cực sớm và hội chứng Brugada đều là bệnh kênh ion, và cùng được xếp vào nhóm các hội chứng sóng J (J‑wave syndromes) (<a href="https://onlinelibrary.wiley.com/doi/10.1016/j.joa.2016.07.002" rel="noopener" target="_blank">1</a>). Trong hội chứng Brugada, sóng J nổi bật thấy ở các chuyển đạo trước tim phải V1–V3, tạo nên hình ảnh như ST chênh lên ở các chuyển đạo này. Trong ERS, sóng J thường thấy ở các chuyển đạo dưới-bên.</p>
+<p>ERS và hội chứng Brugada có chung nhiều đặc điểm lâm sàng; ngừng tim thường xảy ra lúc nghỉ ngơi hoặc trong những giai đoạn trương lực phế vị tăng cao, và thường được khởi phát bởi các ngoại tâm thu thất (PVC) có khoảng ghép ngắn. Trong giai đoạn trước khi ngừng tim, thường quan sát thấy sóng J tăng biên độ và PVC thường xuyên. Một dấu ấn điện tâm đồ khác liên quan đến tăng nguy cơ rối loạn nhịp trong ERS là tăng biên độ sóng J sau ngoại tâm thu (post‑extrasystolic J‑wave augmentation), hiện diện trên điện tâm đồ #2 và được trình bày chi tiết hơn trong hình dưới đây.</p>
+<h2 id="hinh-3">Hình #3</h2>
+<figure><a class="o-anh" href="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_iamge4a.jpg"><img src="2026-02-05-a-male-in-his-30s-with-cardiac-arrest-what-is-the-etiology_anh/2026_01_iamge4a.jpg" alt="" width="861" height="194" loading="lazy" decoding="async"></a></figure>
+<p><em>Dải nhịp chuyển đạo V4 ngay trước khi ngừng tim. Các phức bộ QRS đứng sau một khoảng ngưng sau ngoại tâm thu, tức là có khoảng RR kéo dài, cho thấy sóng J nổi bật hơn (mũi tên) so với các phức bộ QRS không đứng sau một khoảng RR kéo dài (vòng tròn). Hiện tượng này gọi là tăng biên độ sóng J sau ngoại tâm thu và là một dấu ấn nguy cơ rối loạn nhịp trong ERS (<a href="https://www.nejm.org/doi/full/10.1056/NEJMc0708182" rel="noopener" target="_blank">2</a>)</em>.</p>
+<hr>
+<p>Bệnh nhân được điều trị bằng tạo nhịp nhĩ ở tần số 90 nhịp/phút để phòng nhịp chậm và ức chế ngoại tâm thu thất, nhờ đó đã ngăn chặn thành công các cơn rung thất tiếp theo. Đáng tiếc, bệnh nhân trong ca này đã bị tổn thương não nặng do thiếu oxy từ cơn ngừng tim ngoài bệnh viện, và sau khi đánh giá tiên lượng, cuối cùng đã quyết định ngừng các biện pháp hỗ trợ duy trì sự sống</p>
+<h2 id="ket-luan">Kết luận:</h2>
+<p>Chúng ta có nên lo ngại về tái cực sớm và thông báo cho bệnh nhân rằng hình ảnh điện tâm đồ của họ có liên quan đến đột tử do tim hay không? Câu trả lời là không.</p>
+<p>Tái cực sớm và sóng J là những dấu hiệu cực kỳ phổ biến. Rung thất “vô căn” rất hiếm gặp, với tần suất khoảng 3 trên 100.000 người-năm ở những người ≤45 tuổi. Ở những người có tái cực sớm, tần suất chỉ tăng nhẹ lên 11 trên 100.000 người-năm (<a href="https://pubmed.ncbi.nlm.nih.gov/26485130/" rel="noopener" target="_blank">3</a>).</p>
+<p>Nói cách khác, ERP gần như luôn là một phát hiện tình cờ, không có hậu quả lâm sàng, và sóng J gần như luôn lành tính. Chỉ trong những tình huống rất hiếm và trong một số bối cảnh nhất định, chúng mới có thể chỉ điểm nguy cơ rối loạn nhịp — điều này đặc biệt đúng khi sóng J rõ rệt, tăng biên độ và đi kèm nhịp chậm. Điều này có thể xảy ra trong các bối cảnh như hội chứng tái cực sớm (ERS), hội chứng Brugada (BrS) hoặc hạ thân nhiệt<em>.</em></p>
+<p>Đường link tới báo cáo ca bệnh đầy đủ. <a href="https://tidsskriftet.no/en/2025/12/educational-case-report/man-his-30s-cardiac-arrest" rel="noopener" target="_blank">A man in his 30s with cardiac arrest | Tidsskrift for Den norske legeforening</a></p>
+<hr>
+<h2 id="nhung-diem-can-hoc">Những điểm cần học:</h2>
+<ul><li>ERP và sóng J cực kỳ phổ biến. Khi xuất hiện đơn độc, ERP KHÔNG phải là lý do để thăm dò thêm.</li>
+<li>ERS là một chẩn đoán loại trừ và chỉ nên được cân nhắc khi các nguyên nhân tiềm tàng khác gây rung thất đã được loại trừ và có hình ảnh tái cực sớm được ghi nhận trên điện tâm đồ.</li>
+<li>ERS và BrS tương tự nhau về lâm sàng, đặc trưng bởi sóng J và liên quan đến đột tử do tim. ERS và BrS cùng được gọi là các hội chứng sóng J.</li>
+<li>Xử trí ERS (và BrS) tập trung vào cấy máy khử rung tim cấy được (ICD). Quinidin là thuốc được lựa chọn ở bệnh nhân có gánh nặng rối loạn nhịp cao.</li></ul>
+<h2 id="tai-lieu-tham-khao">Tài liệu tham khảo:</h2>
+<ol><li>Antzelevitch C, Yan GX, Ackerman MJ và cs. <a href="http://dx.doi.org/10.1016%2Fj.joa.2016.07.002" rel="noopener" target="_blank">J-Wave syndromes expert consensus conference report: Emerging concepts and gaps in knowledge.</a> Tạp chí J Arrhythm 2016; 32: 315–39. [<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=27761155&amp;dopt=Abstract" rel="noopener" target="_blank">PubMed</a>][<a href="http://dx.doi.org/10.1016%2Fj.joa.2016.07.002" rel="noopener" target="_blank">CrossRef</a>]</li>
+<li>Nam GB, Kim YH, Antzelevitch C. <a href="http://dx.doi.org/10.1056%2FNEJMc0708182" rel="noopener" target="_blank">Augmentation of J waves and electrical storms in patients with early repolarization.</a> Tạp chí N Engl J Med 2008; 358: 2078–9. [<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=18463391&amp;dopt=Abstract" rel="noopener" target="_blank">PubMed</a>][<a href="http://dx.doi.org/10.1056%2FNEJMc0708182" rel="noopener" target="_blank">CrossRef</a>]</li>
+<li>Aagaard P, Sydow J, Börjesson M và cs. Early repolarization in ECG. Definition, prevalence and prognostic significance. Tạp chí Lakartidningen 2015; 112: DLUT. [<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=26485130&amp;dopt=Abstract" rel="noopener" target="_blank">PubMed</a>]</li></ol>
+<p><span class="c-nhat">= = =</span></p>
+<hr>
+<p>======================================</p>
+<h2 id="binh-luan-cua-toi-boi-ken-grauer-md-5-2-2026">BÌNH LUẬN CỦA TÔI, bởi KEN GRAUER, MD (5/2/2026 ):</h2>
+<hr>
+<p>Ca bệnh đáng tiếc hôm nay điểm lại diễn biến của một cơn ngừng tim không có người chứng kiến xảy ra tại nhà bệnh nhân. Mặc dù ban đầu đã được đội cấp cứu hồi sức thành công — người đàn ông ngoài 30 tuổi trước đó khỏe mạnh này cuối cùng đã tử vong do tổn thương não nặng vì thiếu oxy, hậu quả của khoảng thời gian kéo dài cho đến khi bệnh nhân được phát hiện.</p>
+<ul><li><strong>Thú nhận của tôi:</strong> Bàn luận của Dr. Nossen thú vị và sâu sắc là vậy — nhưng với tôi, nó đặt ra nhiều câu hỏi hơn là trả lời. Tôi thấy chủ đề <strong>ERS (</strong><em>các <strong>hội chứng</strong> tái cực sớm — Early Repolarization Syndromes</em><strong>)</strong> không chỉ hết sức khó hiểu — mà còn phức tạp thêm bởi nhu cầu phải phân biệt thực thể ERS có khả năng gây tử vong — với thực thể <em>nghe na ná</em> nhưng <em>gần như luôn luôn</em> lành tính là <strong>ERP (</strong><em><strong>hình ảnh</strong> tái cực sớm — Early Repolarization Pattern</em><strong>)</strong>.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<p>Xin nhắc lại định nghĩa được chấp nhận về <strong>ERS</strong> <strong>(</strong><em>hội chứng tái cực sớm</em><strong>)</strong> mà Dr. Nossen đã đưa ra trong phần bàn luận ở trên:</p>
+<ul><li><strong>ERS</strong> — là một hội chứng rối loạn nhịp, trong đó bệnh nhân có <strong>ERP</strong> <strong>(</strong><em>“hình ảnh” tái cực sớm</em><strong>)</strong> trên điện tâm đồ và đã có một hoặc nhiều rối loạn nhịp ác tính <em>và/hoặc</em> một cơn ngừng tim đột ngột.</li>
+<li>Điều cốt yếu trong định nghĩa <strong>ERS</strong> này — là sự hiện diện của <strong>ERP</strong>. <em>Nhưng ERP là gì?</em></li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<h3 id="erp-la-gi-hinh-anh-tai-cuc-som-early-repolarization-pattern">ERP là gì? (hình ảnh tái cực sớm — Early Repolarization Pattern)?</h3>
+<p>Khái niệm <strong>ER (</strong><em>tái cực sớm — Early Repolarization</em><strong>) </strong>từng rất đơn giản.<em> Giờ thì không còn nữa …</em></p>
+<ul><li>Từng có sự đồng thuận giữa các bác sĩ lâm sàng rằng ER <strong>( </strong>= <em>“tái cực sớm”</em> <strong>)</strong> là một dấu hiệu phổ biến, thường gặp nhất ở người trẻ trưởng thành vốn khỏe mạnh (<em>đặc biệt là người da đen</em>) — trong đó có ST chênh lên nhẹ, đôi khi ở nhiều chuyển đạo — thường kèm khía điểm J — với <strong>tiên lượng lâu dài</strong> <strong><em>lành tính</em></strong> <strong>(</strong><em>đó là lý do nhiều người gọi thực thể này là <strong>“BER” = </strong>tái cực sớm lành tính — Benign Early Repolarization</em><strong>)</strong>.</li>
+<li>Ý nghĩa lâm sàng chủ yếu của việc nhận biết ER — từng chỉ giới hạn ở việc phân biệt dấu hiệu điện tâm đồ phổ biến, lành tính này với viêm màng ngoài tim cấp và nhồi máu cấp.</li>
+<li>Mọi thứ đã thay đổi vào năm 2008 — khi Haïssaguerre và cs. phát hiện tỷ lệ ER tăng ở các bệnh nhân rung thất vô căn <strong>(<a href="https://www.nejm.org/doi/full/10.1056/NEJMoa071968" rel="noopener" target="_blank">N Engl J Med 358:2016-2023, 2008</a>)</strong>. Kể từ đó — thách thức là cố gắng phân biệt giữa dấu hiệu điện tâm đồ rất phổ biến là tái cực sớm <u>với</u> những người <em>không triệu chứng</em> có ERP nhưng mang nguy cơ đáng kể xuất hiện rối loạn nhịp ác tính. </li>
+<li>Như tôi đã nêu và dẫn nguồn trong <em>Bình luận của tôi</em> ở cuối trang của <strong>bài ngày <a href="https://drsmithsecgblog.com/inferior-st-elevation-with-reciprocal/" rel="noopener" target="_blank">23 tháng Năm năm 2022</a></strong> trên Dr. Smith’s ECG Blog — <strong><em>tỷ lệ hiện mắc</em> </strong>của <strong>ER</strong> trong <strong>dân số</strong> <strong><em>chung</em></strong> được trích dẫn dao động <strong><em>trong khoảng</em> từ 2 đến 31%</strong> — với tỷ lệ phần trăm này phụ thuộc vào tuổi, giới, chủng tộc, khác biệt thuật ngữ, và đặc biệt là mức độ chênh lên của điểm J được chấp nhận là “đủ điều kiện” theo định nghĩa. Riêng sự dao động về tỷ lệ hiện mắc của ER này đã làm nổi bật <strong><em>sự thiếu đồng thuận giữa các bác sĩ lâm sàng về điều gì là và không là tiêu chuẩn của “tái cực sớm”</em></strong> <strong>(</strong><em>và điều này làm phức tạp thêm định nghĩa “ERS” — vì tiêu chuẩn ERS phụ thuộc vào sự hiện diện của ERP</em><strong>)</strong>.</li>
+<li><strong>Macfarlane</strong>, Antzelevitch, Haissaguerre, Tikkanen, Wellens và cs. — trong Bài báo <em>Đồng thuận </em>năm 2015 của họ <strong>(<a href="https://www.sciencedirect.com/science/article/pii/S073510971502478X?via%3Dihub" rel="noopener" target="_blank">JACC 66(4):470-477, 2015</a>) </strong>— đã thừa nhận sự thiếu thống nhất này giữa các bác sĩ lâm sàng trong việc định nghĩa ERP — và các chuyên gia này đã đưa ra định nghĩa ERP <em>mới</em> của họ:
+<ul>
+<li><strong>LƯU Ý #1:</strong><em> </em>Với những độc giả của Blog này muốn làm rõ điều mà các tác giả này xác định là “khía” (notch) và/hoặc “trát đậm” (slur) — có rất nhiều hình minh họa hữu ích trong bài báo JACC này. Dù vậy — các thông số đo lường dùng để định nghĩa những dấu hiệu điện tâm đồ này phức tạp hơn mức tôi muốn khuyến nghị cho bác sĩ lâm sàng bận rộn trong thực hành.</li>
+<li><strong>LƯU Ý #2:</strong> Dù đã dành hàng giờ cố gắng sàng lọc y văn về ERP/ERS — tôi vẫn không chắc liệu có khác biệt nào giữa việc dùng thuật ngữ “<strong>ER</strong>“<strong> (</strong><em>tái cực sớm</em><strong>)</strong> và “<strong>ERP</strong>“<strong> (</strong><em>hình ảnh tái cực sớm</em><strong>)</strong> hay không. Vì vậy, tôi dùng các thuật ngữ này thay thế cho nhau.</li>
+<li><strong>LƯU Ý #3:</strong> Theo định nghĩa mới của <em>Macfarlane và cs. </em>— <strong>ST chênh lên <em>không còn là điều bắt buộc</em> </strong>để thỏa mãn tiêu chuẩn của <strong>“ERP”</strong>. Tất cả những gì cần có là “trát đậm” hoặc “khía” đáp ứng các đặc điểm nêu dưới đây.</li>
+</ul>
+</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<p>Chi tiết định nghĩa ERP năm 2015 của <em>Macfarlane và cs.</em>:</p>
+<ul><li><strong><em><u>Tái cực</u></em></strong> <strong><u>sớm</u></strong> <strong>(</strong><em>theo định nghĩa của Macfarlane và cs.</em><strong>)</strong> — được xem là có trên điện tâm đồ nếu <em><u>mỗi</u></em> <strong><u>Tiêu chuẩn</u></strong> sau đây đều được đáp ứng:<strong> i<span class="c-do">)</span></strong> Phải có một <strong>khía (</strong><em>sóng J</em><strong>)</strong> hoặc <strong>“trát đậm” </strong>ở cuối QRS, trên sườn xuống của một sóng R nổi bật — và khía hoặc “trát đậm” này phải nằm hoàn toàn <em>phía trên</em> đường nền; — <strong>ii<span class="c-do">)</span></strong> Đỉnh của <strong>khía (</strong><em>Jp</em><strong>)</strong> này phải chênh lên ≥0,1 mV ( <em>= 1mm</em>) so với đường nền ở <strong>≥2 chuyển đạo liên tiếp (</strong><em>không tính các chuyển đạo V1-V3</em><strong> </strong><em>— để tránh nhầm lẫn với hình ảnh Brugada</em>). NẾU là <strong>“trát đậm” (</strong><em>thay vì khía</em><strong>)</strong> — điểm khởi đầu của trát đậm phải chênh lên ≥0,1 mV ( <em>= 1mm</em>) so với đường nền; — và, <strong>iii<span class="c-do">)</span> </strong>Các dấu hiệu điện tâm đồ này phải đi kèm sóng T nổi bật (<em>ở ≥2 chuyển đạo liên tiếp</em>) — và — <strong>thời gian QRS (</strong><em>đo ở các chuyển đạo không có trát đậm hay khía</em><strong>) </strong><strong><u><em>dưới</em></u> 0,12 giây</strong>.</li>
+<li><strong>ST chênh lên <em><u>không</u></em> kèm khía hoặc trát đậm (</strong><em>theo các tiêu chuẩn nêu trên</em>) — <strong><em><u>không</u></em> nên được xem là “ER”</strong> theo các tác giả của Bài báo Đồng thuận. Thay vào đó — họ cho rằng nên dùng thuật ngữ <strong>ST chênh lên</strong> <strong><em>không đặc hiệu</em></strong>.</li>
+<li><strong>ERP <em>không</em> đòi hỏi ST chênh lên (</strong><em>theo định nghĩa mới hơn</em><strong>)</strong>. </li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<p>Một năm sau, vào năm 2016 — <strong>Patton</strong> dẫn đầu một hội đồng gồm 10 chuyên gia <strong>(</strong><em>tất cả đều là những chuyên gia khác với 10 chuyên gia trong hội đồng Macfarlane năm 2015</em><strong>)</strong> — trong đó Patton và cs. đã ban hành một Tuyên bố Khoa học của AHA nhấn mạnh một góc nhìn khác<strong> (<a href="https://www.ahajournals.org/doi/10.1161/cir.0000000000000388" rel="noopener" target="_blank">Circulation 133:1520-1529, 2016</a>)</strong>.</p>
+<ul><li>Patton và cs. mở đầu Tuyên bố Khoa học của AHA bằng việc thừa nhận rằng mặc dù ERP khởi đầu là một “thực thể lành tính trong đó ≥1 chuyển đạo biểu hiện ST chênh lên” — “các nghiên cứu gần đây hơn đã cho thấy những mối liên quan dương tính, âm tính và trung tính giữa ERP và nhiều tiêu chí đánh giá khác nhau, bao gồm tử vong do mọi nguyên nhân, tử vong do tim và tử vong do rối loạn nhịp” — với các nghiên cứu này sử dụng “những định nghĩa phức tạp hơn về ER”, bao gồm khía hoặc trát đậm sóng J kèm hoặc <em>không kèm</em> ST chênh lên.</li>
+<li>Patton và cs. viết tiếp, <em>“Kết quả là — vẫn còn nhiều nhầm lẫn đáng kể liên quan đến định nghĩa ERP, ý nghĩa tiên lượng của nó, và liệu có cần đánh giá hay điều trị thêm hay không”.</em></li>
+<li>Patton và cs. kết luận rằng còn nhiều thách thức trong việc diễn giải ERP trong bối cảnh lâm sàng, với “sự thiếu hụt kiến thức nền tảng để hiểu về tình trạng rất phổ biến này”.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<h3 id="dieu-cot-loi-nhung-gi-toi-cho-la-quan-trong-can-nho">Điều cốt lõi: Những gì tôi cho là quan trọng cần nhớ</h3>
+<p>Theo tổng hợp của tôi từ các bài báo nêu trên của <strong><em>Macfarlane</em></strong> và cs. và <strong><em>Patton</em></strong> và cs. — mà tôi thấy đã được Sayedahmad và cs. tóm lược <strong>(<a href="https://www.ccjm.org/content/86/3/165" rel="noopener" target="_blank">Cleveland Clin J Med 86(30):165-166, 2019</a>)</strong>:</p>
+<ul><li><strong>Các chuyên gia chưa có sự đồng thuận về cách tốt nhất để định nghĩa ERP</strong>. Đây vẫn là nguồn gây nhầm lẫn cho các bác sĩ lâm sàng trong thực hành — điều đặc biệt quan trọng khi xét đến tỷ lệ hiện mắc của ER trong dân số chung.</li>
+<li>Dù vậy — <strong>việc phát hiện tình cờ một dạng nào đó của “biến thể tái cực”</strong> <strong>(</strong><em>dù theo tiêu chuẩn của Macfarlane, Patton hay tiêu chuẩn khác</em><strong> </strong><em>cho ER</em>) trên một điện tâm đồ vốn bình thường — ghi ở một người vốn khỏe mạnh, <em>không</em> có rối loạn nhịp đáng lo ngại, ngất/tiền ngất, hay tiền sử gia đình có đột tử hoặc rối loạn nhịp ác tính —<strong> <em>gần như luôn luôn</em> là một dấu hiệu lành tính, <em>không</em> cần đánh giá thêm</strong>.</li>
+<li><em><strong>Không hẳn như vậy</strong> </em>khi ERP được thấy ở một bệnh nhân <em>có</em> biểu hiện rối loạn nhịp đáng lo ngại (<em>hoặc có tiền sử như vậy</em>) — hoặc có ngất/tiền ngất hay tiền sử gia đình dương tính.</li>
+<li>Và, một dấu hiệu đáng báo động ở bệnh nhân có ERP kèm rối loạn nhịp đáng lo ngại <em>và/hoặc </em>ngất/tiền ngất — là sự hiện diện của <strong>sóng J</strong><em> </em>ở nhiều chuyển đạo, đặc biệt khi các bản ghi liên tiếp cho thấy <strong>sóng J tăng biên độ (</strong><em>như đã thấy trong ca hôm nay</em><strong>)</strong>.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<p><strong>T.B. (P.S.):</strong> Đáng đề cập trong tài liệu tham khảo của Sayedahmad và cs. được trích dẫn ở trên — là <strong>cơ chế</strong> <strong><em>được đề xuất</em></strong> cho <strong>ERP</strong> đi kèm “khía” hoặc “trát đậm”:</p>
+<ul><li>Sự hiện diện của khía hoặc trát đậm sóng J có thể phản ánh một tình trạng mất cân bằng ion dẫn đến sự phân tán tính trơ ở nhiều vùng cơ tim có mức độ kích thích khác nhau.</li>
+<li>Điều này có thể tạo ra một chênh lệch điện thế giữa các vùng cơ tim khác nhau — với mức độ kích thích cơ tim không thể dự đoán <strong>(</strong><em>biểu hiện trên điện tâm đồ bằng khía và/hoặc trát đậm — với sự “tăng biên độ” của các dấu hiệu này trên các điện tâm đồ liên tiếp phản ánh tình trạng bất ổn gia tăng và nguy cơ rối loạn nhịp</em><strong>)</strong>. </li>
+<li><strong><em>Như đã thấy trong</em> CA BỆNH hôm nay:</strong> Hãy cảnh giác với <strong>sóng J</strong> xuất hiện ở những bệnh nhân có biểu hiện rối loạn nhịp đáng lo ngại <strong>(</strong><em>như ở điện tâm đồ #1</em><strong>)</strong> <em>và/hoặc</em> ngất/tiền ngất hay tiền sử gia đình dương tính — đặc biệt khi có <strong>khía sóng J (</strong><em>hoặc trát đậm</em><strong>) </strong>cho thấy <strong><em>tăng biên độ</em></strong> trên các bản ghi liên tiếp <strong>(</strong><em>như ở Hình #3</em><strong>)</strong>.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<p><span class="c-nhat">= = =</span></p>
+  </section>
+ </main>
+</div>
+<div class="thanh-nut">
+ <button id="nutMl" class="hien-ml" type="button" title="Mục lục">≡</button>
+ <button id="nutGiam" type="button" title="Chữ nhỏ hơn">A-</button>
+ <button id="nutTang" type="button" title="Chữ lớn hơn">A+</button>
+ <button id="nutNen" type="button" title="Nền sáng/tối">◐</button>
+</div>
+<div class="xem-anh" id="xemAnh" role="dialog" aria-label="Xem ảnh">
+ <span class="xa-dem"></span>
+ <button class="xa-dong" type="button" title="Đóng (Esc)">✕</button>
+ <button class="xa-truoc" type="button" title="Ảnh trước (←)">‹</button>
+ <img alt="">
+ <button class="xa-sau" type="button" title="Ảnh sau (→)">›</button>
+ <div class="xa-chu"></div>
+</div>
+<script>
+(function(){
+ var goc=document.documentElement, ds=document.getElementById('dsMuc'),
+     giay=document.getElementById('toGiay'), pt=document.getElementById('phanTram'),
+     ml=document.getElementById('mucLuc');
+ var dau=[].slice.call(giay.querySelectorAll('h2,h3,h4,h5,h6'));
+
+ // mục lục
+ dau.forEach(function(h){
+  var li=document.createElement('li');
+  li.className='cap-'+(+h.tagName[1]-1);
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  a.addEventListener('click',function(){ ml.classList.remove('mo'); });
+  li.appendChild(a); ds.appendChild(li);
+ });
+ var neo=[].slice.call(ds.querySelectorAll('a'));
+
+ function capNhat(){
+  var i=0;
+  for(var k=0;k<dau.length;k++){ if(dau[k].getBoundingClientRect().top<140) i=k; }
+  neo.forEach(function(a,k){ a.classList.toggle('dang-doc',k===i); });
+  var a=neo[i];
+  if(a){ var cuon=a.closest('.ml-cuon');
+   if(cuon){ var h=a.getBoundingClientRect(), c=cuon.getBoundingClientRect();
+    if(h.top<c.top||h.bottom>c.bottom) cuon.scrollTop+=h.top-c.top-c.height/3; } }
+  var het=document.documentElement.scrollHeight-innerHeight;
+  pt.textContent=(het>0?Math.min(100,Math.round(scrollY/het*100)):100)+'%';
+ }
+ addEventListener('scroll',capNhat,{passive:true});
+ addEventListener('resize',capNhat); capNhat();
+
+ // cỡ chữ + nền tối, nhớ lựa chọn
+ function docNho(k,md){ try{ return localStorage.getItem(k)||md; }catch(e){ return md; } }
+ function ghiNho(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+ var co=parseInt(docNho('gl-co','16'),10);
+ function apCo(){ goc.style.setProperty('--co',co+'px'); ghiNho('gl-co',co); capNhat(); }
+ apCo();
+ goc.setAttribute('data-nen',docNho('gl-nen','sang'));
+ document.getElementById('nutTang').onclick=function(){ co=Math.min(24,co+1); apCo(); };
+ document.getElementById('nutGiam').onclick=function(){ co=Math.max(12,co-1); apCo(); };
+ document.getElementById('nutNen').onclick=function(){
+  var v=goc.getAttribute('data-nen')==='toi'?'sang':'toi';
+  goc.setAttribute('data-nen',v); ghiNho('gl-nen',v);
+ };
+ // thu gọn / mở lại cột mục lục (nhớ lựa chọn)
+ goc.setAttribute('data-ml',docNho('gl-ml',''));
+ function datMl(v){ goc.setAttribute('data-ml',v); ghiNho('gl-ml',v); capNhat(); }
+ document.getElementById('nutThu').onclick=function(){ datMl('thu'); };
+ document.getElementById('nutMl').onclick=function(){
+  // màn hình rộng: nút ≡ mở lại cột đã thu; màn hình hẹp: kéo cột ra/vào
+  if(innerWidth>980 && goc.getAttribute('data-ml')==='thu'){ datMl(''); return; }
+  ml.classList.toggle('mo');
+ };
+
+ // tìm trong bài
+ var o=document.getElementById('oTim'), dem=document.getElementById('demTim'), hit=[], vt=-1;
+ function xoaDanh(){
+  hit=[]; vt=-1;
+  var m=giay.querySelectorAll('mark.danh');
+  for(var i=0;i<m.length;i++){ var p=m[i].parentNode;
+   p.replaceChild(document.createTextNode(m[i].textContent),m[i]); p.normalize(); }
+ }
+ function danhDau(q){
+  xoaDanh();
+  if(q.length<2){ dem.textContent=''; return; }
+  var tw=document.createTreeWalker(giay,NodeFilter.SHOW_TEXT,null), nut=[], n;
+  while((n=tw.nextNode())) if(n.nodeValue.trim()) nut.push(n);
+  var kq=q.toLowerCase();
+  nut.forEach(function(n){
+   var s=n.nodeValue, l=s.toLowerCase(), i=l.indexOf(kq);
+   if(i<0) return;
+   var cha=n.parentNode, sau=n, dich=0;
+   while(i>=0){
+    var giua=sau.splitText(i-dich); dich=i+q.length;
+    sau=giua.splitText(q.length);
+    var mk=document.createElement('mark'); mk.className='danh';
+    cha.replaceChild(mk,giua); mk.appendChild(giua); hit.push(mk);
+    i=l.indexOf(kq,dich);
+   }
+  });
+  dem.textContent=hit.length?('1/'+hit.length):'0';
+  if(hit.length){ vt=0; toi(0); }
+ }
+ function toi(i){
+  if(!hit.length) return;
+  hit.forEach(function(m){ m.classList.remove('dang'); });
+  vt=(i+hit.length)%hit.length;
+  hit[vt].classList.add('dang');
+  hit[vt].scrollIntoView({block:'center',behavior:'smooth'});
+  dem.textContent=(vt+1)+'/'+hit.length;
+ }
+ var cho;
+ o.addEventListener('input',function(){ clearTimeout(cho);
+  cho=setTimeout(function(){ danhDau(o.value.trim()); },250); });
+ o.addEventListener('keydown',function(e){ if(e.key==='Enter'){ e.preventDefault();
+  toi(vt+(e.shiftKey?-1:1)); } });
+ document.getElementById('timTruoc').onclick=function(){ toi(vt-1); };
+ document.getElementById('timSau').onclick=function(){ toi(vt+1); };
+ addEventListener('beforeprint',xoaDanh);
+})();
+// xem ảnh phóng to: bấm ảnh để mở, ←/→ chuyển ảnh trong cùng bộ, Esc để đóng
+(function(){
+ var hop=document.getElementById('xemAnh'), anh=hop.querySelector('img'),
+     chu=hop.querySelector('.xa-chu'), dem=hop.querySelector('.xa-dem'), bo=[], vt=0;
+ function hien(i){
+  vt=(i+bo.length)%bo.length; var a=bo[vt], im=a.querySelector('img');
+  anh.src=a.getAttribute('href'); anh.alt=im.alt; chu.textContent=im.alt;
+  chu.style.display=im.alt?'':'none';
+  dem.textContent=bo.length>1?(vt+1)+' / '+bo.length:'';
+  hop.querySelector('.xa-truoc').style.display=hop.querySelector('.xa-sau').style.display=bo.length>1?'':'none';
+ }
+ function dong(){ hop.classList.remove('mo'); anh.removeAttribute('src'); document.body.style.overflow=''; }
+ document.getElementById('toGiay').addEventListener('click',function(e){
+  var a=e.target.closest('a.o-anh'); if(!a) return;
+  e.preventDefault();
+  var cha=a.closest('.bo-anh');
+  bo=cha?[].slice.call(cha.querySelectorAll('a.o-anh')):[a];
+  hien(bo.indexOf(a)); hop.classList.add('mo'); document.body.style.overflow='hidden';
+ });
+ hop.querySelector('.xa-dong').onclick=dong;
+ hop.querySelector('.xa-truoc').onclick=function(e){ e.stopPropagation(); hien(vt-1); };
+ hop.querySelector('.xa-sau').onclick=function(e){ e.stopPropagation(); hien(vt+1); };
+ hop.addEventListener('click',function(e){ if(e.target===hop) dong(); });
+ addEventListener('keydown',function(e){
+  if(!hop.classList.contains('mo')) return;
+  if(e.key==='Escape') dong();
+  else if(e.key==='ArrowLeft') hien(vt-1);
+  else if(e.key==='ArrowRight') hien(vt+1);
+ });
+ var x0=null;
+ hop.addEventListener('touchstart',function(e){ x0=e.touches[0].clientX; },{passive:true});
+ hop.addEventListener('touchend',function(e){ if(x0===null) return;
+  var dx=e.changedTouches[0].clientX-x0; x0=null;
+  if(Math.abs(dx)>50) hien(vt+(dx<0?1:-1)); });
+})();
+// video YouTube: chỉ tải khi bấm. YouTube trả "Lỗi 153" khi trang không gửi được referrer
+// (mở từ ổ đĩa file:// hoặc khung sandbox) — khi đó mở thẳng tab YouTube.
+(function(){
+ var giay=document.getElementById('toGiay'), ds=giay.querySelectorAll('.yt');
+ if(!ds.length) return;
+ var canEmbed=/^https?:$/.test(location.protocol) &&
+   (typeof window.origin==='undefined' || (window.origin && window.origin!=='null'));
+ var PLAY='<span class="play"><svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8.6 8.6 0 0 0-6-6C55.2 0 34 0 34 0S12.8 0 7.5 1.7a8.6 8.6 0 0 0-6 6A90 90 0 0 0 0 24a90 90 0 0 0 1.5 16.3 8.6 8.6 0 0 0 6 6C12.8 48 34 48 34 48s21.2 0 26.5-1.7a8.6 8.6 0 0 0 6-6A90 90 0 0 0 68 24a90 90 0 0 0-1.5-16.3z"/><path fill="#fff" d="M27 34l18-10-18-10z"/></svg></span>';
+ [].forEach.call(ds,function(b){
+  var id=b.getAttribute('data-id'), n=b.getAttribute('data-n')||'Video', watch='https://www.youtube.com/watch?v='+id;
+  b.innerHTML='<img loading="lazy" src="https://i.ytimg.com/vi/'+id+'/hqdefault.jpg" alt="'+n+'">'+PLAY+'<span class="badge">▶ '+n+'</span>';
+  b.setAttribute('role','button'); b.setAttribute('tabindex','0');
+  var fig=b.closest('figure'), cap=fig&&fig.querySelector('figcaption');
+  if(!cap&&fig){ cap=document.createElement('figcaption'); fig.appendChild(cap); }
+  if(cap){ var a=document.createElement('a'); a.className='ytlink'; a.href=watch; a.target='_blank';
+   a.rel='noopener'; a.textContent='Mở trên YouTube ↗'; cap.appendChild(a); }
+  function load(){
+   if(!canEmbed){ window.open(watch,'_blank','noopener'); return; }
+   b.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?rel=0&autoplay=1" '+
+    'referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer;autoplay;clipboard-write;'+
+    'encrypted-media;gyroscope;picture-in-picture" allowfullscreen title="'+n+'"></iframe>';
+   b.style.cursor='default';
+  }
+  b.addEventListener('click',load);
+  b.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); load(); } });
+ });
+ if(!canEmbed){
+  var w=document.createElement('div'); w.className='canh-bao';
+  w.innerHTML='<b>Lưu ý:</b> trang đang mở trực tiếp từ ổ đĩa (hoặc trong khung xem trước) nên YouTube chặn phát nhúng '+
+   '(<i>Lỗi 153</i>). Bấm vào video sẽ mở tab YouTube. Đăng trang lên web (https) thì video phát ngay trong trang.';
+  giay.insertBefore(w, giay.firstChild);
+ }
+})();
+</script>
+</body>
+</html>

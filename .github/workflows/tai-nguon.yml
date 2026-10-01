@@ -1,9 +1,8 @@
 name: Tải nguồn case ECG (Dr. Smith)
-# CHƯA BẬT LỊCH: chỉ chạy khi bấm tay (Actions → Run workflow).
-# Khi người dùng duyệt chạy tự động, thêm:
-#   schedule:
-#     - cron: '23 */3 * * *'
+# Người dùng đã duyệt chạy tự động (01/10/2026): tải nguồn mỗi 3 giờ.
 on:
+  schedule:
+    - cron: '23 */3 * * *'
   workflow_dispatch:
     inputs:
       cua_so:

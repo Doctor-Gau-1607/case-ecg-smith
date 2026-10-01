@@ -26,6 +26,10 @@ python3 tools/lam_case.py chuan-bi --so 5
 - "DỪNG: thư mục c/ đã quá 900 MB" → dừng lượt, báo người dùng cần mở repo tiếp theo (giới hạn 1 GB của GitHub Pages).
 - Case có ảnh gốc 404 được đánh `cho_anh` tự động, không dịch; ghi số lượng vào báo cáo.
 
+## 1b. Case `cho_anh` (ảnh gốc 404 từ máy chủ GitHub) — chỉ xử lý khi CÓ Claude in Chrome
+Lượt hẹn giờ trên đám mây thường KHÔNG có Chrome: bỏ qua, chỉ ghi số lượng vào báo cáo. Không đăng case với ảnh báo/ảnh thiếu.
+Phiên có công cụ `mcp__claude-in-chrome__*` (máy người dùng đang bật): mở trang gốc trong Chrome, lấy từng ảnh trong `anh_mat` (tên tệp đích: `/home/claude/cv/<slug>/W/media.json`, khoá `url`/`du_phong` → `name`; chạy `medguide.py trich` nếu chưa có), đặt vào `/home/claude/cv/_nguon/<slug>/goc/<name>`, kiểm mở được, sửa `nguon.json` (`anh_mat` → `anh_chrome`), rồi đặt case về `chua` và dịch/dựng như thường (lệnh `dung` đọc ảnh từ thư mục đó). Không đẩy lên nhánh `nguon` (workflow tự dựng lại nhánh này).
+
 ## 2. Dịch từng case
 Với mỗi case: đọc `/home/claude/cv/<slug>/W/lo/lo-NNN.json`, dịch thành `lo-NNN.vi.json` **cùng id, cùng các trường**, chỉ thay chữ. Đọc `tools/thuat-ngu.md` trước khi dịch, dùng thống nhất; gặp thuật ngữ mới hay gặp thì **thêm vào** tệp này (một dòng).
 

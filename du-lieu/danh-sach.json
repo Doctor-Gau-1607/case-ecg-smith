@@ -1740,8 +1740,11 @@
 "url": "https://drsmithsecgblog.com/by-magnus-nossen-i-was-sent-this-ecg-by/",
 "ngay_dang": "2025-07-28",
 "tieu_de_en": "Can you guess the diagnosis?",
-"trang_thai": "dang",
-"giu_luc": 1790887163
+"trang_thai": "xong",
+"tieu_de_vi": "28/07/2025 — Bạn có đoán được chẩn đoán không?",
+"tu_khoa": "thuyên tắc phổi, pulmonary embolism, PE dưới diện rộng, submassive PE, S1Q3T3, sóng T đảo ngược, T wave inversion, chuyển đạo III, V1, tăng gánh thất phải, RV strain, hình ảnh qR ở V1, tăng áp phổi, pulmonary hypertension, Kosuge, tỷ số khả dĩ, likelihood ratio, IRBBB",
+"ngay": "2026-10-01",
+"kb": 2084
 },
 {
 "stt": 1912,
@@ -1750,8 +1753,11 @@
 "url": "https://drsmithsecgblog.com/70-something-with-acute-chest-pain-right-bundle-branch-block-st-elevation-and-large-t-waves/",
 "ngay_dang": "2025-07-26",
 "tieu_de_en": "70-something with acute chest pain, Right Bundle Branch block, ST Elevation, and large T-waves",
-"trang_thai": "dang",
-"giu_luc": 1790887163
+"trang_thai": "xong",
+"tieu_de_vi": "26/07/2025 — Bệnh nhân ngoài 70 tuổi đau ngực cấp, blốc nhánh phải, ST chênh lên và sóng T lớn",
+"tu_khoa": "blốc nhánh phải, RBBB, blốc phân nhánh trái trước, LAFB, LAHB, blốc hai phân nhánh, bifascicular block, ST chênh lên, ST elevation, sóng T tối cấp, hyperacute T waves, giả STEMI, STEMI mimic, OMI, tắc LAD, Queen of Hearts, dương tính giả, false positive cath lab activation",
+"ngay": "2026-10-01",
+"kb": 1658
 },
 {
 "stt": 1911,
@@ -1759,9 +1765,12 @@
 "slug": "2025-07-23-acute-chest-pain-activate-the-cath-lab",
 "url": "https://drsmithsecgblog.com/acute-chest-pain-activate-the-cath-lab/",
 "ngay_dang": "2025-07-23",
-"tieu_de_en": "Acute chest pain and ST Elevation. Activate the cath lab?",
-"trang_thai": "dang",
-"giu_luc": 1790887163
+"tieu_de_en": "Acute chest pain and ST Elevation.  Activate the cath lab?",
+"trang_thai": "xong",
+"tieu_de_vi": "23/07/2025 — Đau ngực cấp và ST chênh lên. Kích hoạt phòng thông tim?",
+"tu_khoa": "nhiễu, artifact, nhiễu điện cực tay trái, left arm electrode artifact, APTA, nhiễu do mạch đập động mạch, arterial pulse tapping artifact, giả STEMI, STEMI mimic, kích hoạt phòng thông tim, cath lab activation, cực trung tâm Wilson, Wilson central terminal, Queen of Hearts, sự cố kỹ thuật, technical misadventures, đảo điện cực, lead reversal",
+"ngay": "2026-10-01",
+"kb": 1385
 },
 {
 "stt": 1910,
@@ -1770,8 +1779,11 @@
 "url": "https://drsmithsecgblog.com/chest-pain-and-a-fast-rhythm/",
 "ngay_dang": "2025-07-21",
 "tieu_de_en": "Chest pain and a fast rhythm",
-"trang_thai": "dang",
-"giu_luc": 1790887163
+"trang_thai": "xong",
+"tieu_de_vi": "21/07/2025 — Đau ngực và một nhịp nhanh",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, WCT, nhịp nhanh thất, VT, PSVT, AVNRT, nhịp nhanh trên thất, SVT, adenosine, điện tâm đồ cũ, prior ECG, VT phân nhánh, fascicular VT, trục lệch cực độ, extreme axis deviation, Queen of Hearts",
+"ngay": "2026-10-01",
+"kb": 1750
 },
 {
 "stt": 1909,
@@ -1780,8 +1792,11 @@
 "url": "https://drsmithsecgblog.com/even-omi-that-are-stemi-are-missed-and-called-not-a-stemi/",
 "ngay_dang": "2025-07-19",
 "tieu_de_en": "Even OMI that are STEMI are missed, and called “Not a STEMI”",
-"trang_thai": "dang",
-"giu_luc": 1790887163
+"trang_thai": "xong",
+"tieu_de_vi": "19/07/2025 — Ngay cả OMI thỏa tiêu chuẩn STEMI cũng bị bỏ sót, và bị gọi là “Không phải STEMI”",
+"tu_khoa": "OMI, STEMI, tắc LAD, LAD occlusion, sóng T tối cấp, hyperacute T waves, Queen of Hearts, phù phổi cấp, acute pulmonary edema, tiêu chuẩn STEMI, STEMI criteria, mất cân đối sóng T, T wave imbalance, thời gian từ cửa đến bóng, door-to-balloon, sóng T tái tưới máu, reperfusion T waves",
+"ngay": "2026-10-01",
+"kb": 1521
 },
 {
 "stt": 1908,

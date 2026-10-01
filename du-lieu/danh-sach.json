@@ -344,8 +344,11 @@
 "url": "https://drsmithsecgblog.com/60-something-male-with-2-hours-of-chest-pain/",
 "ngay_dang": "2026-06-15",
 "tieu_de_en": "60-something male with 2 hours of chest pain",
-"trang_thai": "dang",
-"giu_luc": 1790870263
+"trang_thai": "xong",
+"tieu_de_vi": "15/06/2026 — Bệnh nhân nam ngoài 60 tuổi đau ngực 2 giờ",
+"tu_khoa": "OMI, tắc đoạn gần LAD, proximal LAD occlusion, xoáy trước tim, precordial swirl, sóng T tối cấp, hyperacute T waves, thay đổi soi gương, reciprocal change, không đạt tiêu chuẩn STEMI, STEMI criteria, Queen of Hearts, PMcardio, đau ngực, chest pain",
+"ngay": "2026-10-01",
+"kb": 683
 },
 {
 "stt": 2020,
@@ -354,8 +357,11 @@
 "url": "https://drsmithsecgblog.com/a-60s-year-old-man-with-neck-and-shoulder-pain-no-chest-pain/",
 "ngay_dang": "2026-06-12",
 "tieu_de_en": "A 60s year-old man with neck and shoulder pain, no chest pain.",
-"trang_thai": "dang",
-"giu_luc": 1790870263
+"trang_thai": "xong",
+"tieu_de_vi": "12/06/2026 — Một người đàn ông ngoài 60 tuổi đau cổ và vai, không đau ngực",
+"tu_khoa": "nhồi máu cơ tim do tắc (OMI), OMI, STEMI, hình ảnh Cờ Nam Phi, South African Flag pattern, nhánh chéo thứ nhất, first diagonal occlusion, D1, sóng T tối cấp, hyperacute T waves, HATW, Queen of Hearts, điện tâm đồ liên tiếp, serial ECGs, đau cổ vai, neck and shoulder pain, không đau ngực, no chest pain, OMI vùng bên cao, high lateral OMI",
+"ngay": "2026-10-01",
+"kb": 2861
 },
 {
 "stt": 2019,
@@ -364,8 +370,11 @@
 "url": "https://drsmithsecgblog.com/syncope-in-a-healthy-person/",
 "ngay_dang": "2026-06-09",
 "tieu_de_en": "Syncope in a healthy person",
-"trang_thai": "dang",
-"giu_luc": 1790870263
+"trang_thai": "xong",
+"tieu_de_vi": "09/06/2026 — Ngất ở một người khỏe mạnh",
+"tu_khoa": "ngất, syncope, ngất do phản xạ phế vị, vasovagal syncope, phân ly nhĩ thất, AV dissociation, phân ly nhĩ thất đồng nhịp, isorhythmic AV dissociation, nhịp bộ nối gia tốc, accelerated junctional rhythm, sóng P ngược dòng, retrograde P waves, chiếm quyền, usurpation, mặc định, default, giản đồ bậc thang, laddergram, trương lực phế vị, vagal tone",
+"ngay": "2026-10-01",
+"kb": 56596
 },
 {
 "stt": 2018,
@@ -374,8 +383,11 @@
 "url": "https://drsmithsecgblog.com/dyspnea-syncope-and-st-elevation-in-a-young-female/",
 "ngay_dang": "2026-06-05",
 "tieu_de_en": "Dyspnea, syncope and ST-elevation in a young female",
-"trang_thai": "dang",
-"giu_luc": 1790870263
+"trang_thai": "xong",
+"tieu_de_vi": "05/06/2026 — Khó thở, ngất và ST chênh lên ở một phụ nữ trẻ",
+"tu_khoa": "thuyên tắc phổi, pulmonary embolism, PE diện rộng, massive PE, sốc tắc nghẽn, obstructive shock, thai kỳ, pregnancy, tăng gánh thất phải, RV strain, dấu hiệu Kosuge, Kosuge sign, S1Q3T3, RBBB, ST chênh lên trước tim phải, tiêu sợi huyết, thrombolysis, giả STEMI",
+"ngay": "2026-10-01",
+"kb": 1740
 },
 {
 "stt": 2017,
@@ -383,9 +395,12 @@
 "slug": "2026-06-02-an-ecg-finding-every-doctor-should-recognize-its-more",
 "url": "https://drsmithsecgblog.com/an-ecg-finding-every-doctor-should-recognize-its-more-common-than-you-think/",
 "ngay_dang": "2026-06-02",
-"tieu_de_en": "An ECG Finding Every Doctor Should Recognize — It’s More Common than You Think!",
-"trang_thai": "dang",
-"giu_luc": 1790870263
+"tieu_de_en": "An ECG Finding Every Doctor Should Recognize —  It’s More Common than You Think!",
+"trang_thai": "xong",
+"tieu_de_vi": "02/06/2026 — Một dấu hiệu điện tâm đồ mọi bác sĩ nên nhận ra — thường gặp hơn bạn nghĩ!",
+"tu_khoa": "nhiễu do mạch đập động mạch, arterial pulse-tapping artifact, APTA, PTA, nhiễu điện tâm đồ, ECG artifact, điện cực thủ phạm, culprit electrode, tam giác Einthoven, Einthoven's triangle, giả OMI, sóng T tối cấp giả, ST vây cá mập, shark fin, đặt lại điện cực, phì đại thất phải, RVH, rung nhĩ, máy tạo nhịp",
+"ngay": "2026-10-01",
+"kb": 19092
 },
 {
 "stt": 2016,

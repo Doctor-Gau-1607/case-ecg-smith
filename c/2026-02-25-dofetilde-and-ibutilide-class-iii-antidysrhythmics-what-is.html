@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="vi" data-nen="sang">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>25/02/2026 — Dofetilide (và ibutilide – thuốc chống loạn nhịp nhóm III). Nguy cơ là gì? Biểu hiện trên điện tâm đồ ra sao? Xử trí biến chứng thế nào?</title>
+<style>
+:root{
+ --nen:#f2f4f6; --giay:#ffffff; --chu:#172033; --nhat:#5b6675; --vien:#e3e7ec;
+ --do:#b30000; --xanh:#004b87; --diu:#f6f8fa; --danh:#fff3cd;
+}
+:root[data-nen="toi"]{
+ --nen:#12151b; --giay:#1b2029; --chu:#e6eaf0; --nhat:#9aa5b4; --vien:#2c333f;
+ --do:#ff8a8a; --xanh:#7fb6e6; --diu:#232a35; --danh:#5a4a12;
+}
+*{box-sizing:border-box}
+html{font-size:var(--co,16px)}
+body{margin:0;background:var(--nen);color:var(--chu);
+ font-family:"Noto Sans","Segoe UI",Roboto,Arial,sans-serif;
+ font-size:1rem;line-height:1.7;-webkit-text-size-adjust:100%}
+a{color:var(--xanh)}
+.bo-cuc{display:grid;grid-template-columns:320px minmax(0,1fr);gap:22px;
+ max-width:1500px;margin:0 auto;padding:22px}
+/* ---- cột mục lục ---- */
+.muc-luc{position:sticky;top:22px;align-self:start;height:calc(100vh - 44px);
+ background:var(--giay);border-radius:16px;padding:16px 10px;display:flex;
+ flex-direction:column;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.ml-dau{display:flex;justify-content:space-between;align-items:center;
+ padding:2px 10px 10px;font-size:.78rem;font-weight:800;letter-spacing:.09em;
+ color:var(--do);border-bottom:1px solid var(--vien)}
+#phanTram{color:var(--nhat)}
+/* Thu gọn / mở lại cột mục lục. Trang nhớ lựa chọn, vì người đọc guideline
+   mở lại nhiều lần và không muốn mỗi lần lại phải thu tay. */
+.ml-dau .nut-thu{margin-left:8px;border:1px solid var(--vien);background:var(--giay);
+ color:var(--chu);border-radius:7px;padding:1px 8px;cursor:pointer;font:inherit;
+ font-size:.9rem;line-height:1.4}
+@media(min-width:981px){
+ :root[data-ml="thu"] .bo-cuc{grid-template-columns:minmax(0,1fr)}
+ :root[data-ml="thu"] .muc-luc{display:none}
+ :root[data-ml="thu"] .hien-ml{display:block}
+}
+.o-tim{padding:10px 8px 6px}
+.o-tim input{width:100%;padding:8px 10px;border:1px solid var(--vien);
+ border-radius:9px;background:var(--diu);color:var(--chu);font:inherit;font-size:.85rem}
+.tim-dieu-khien{display:flex;gap:6px;align-items:center;margin-top:6px;
+ font-size:.76rem;color:var(--nhat)}
+.tim-dieu-khien button{border:1px solid var(--vien);background:var(--giay);
+ color:var(--chu);border-radius:7px;padding:2px 9px;cursor:pointer;font:inherit}
+.ml-cuon{overflow-y:auto;flex:1;margin-top:4px}
+#dsMuc{list-style:none;margin:0;padding:0}
+#dsMuc a{display:block;padding:7px 12px;border-radius:9px;text-decoration:none;
+ color:var(--chu);font-size:.87rem;line-height:1.4}
+#dsMuc a:hover{background:var(--diu)}
+#dsMuc a.dang-doc{background:var(--diu);color:var(--do);font-weight:700;
+ box-shadow:inset 3px 0 0 var(--do)}
+#dsMuc .cap-1>a{font-weight:700}
+#dsMuc .cap-2>a{padding-left:26px;font-size:.85rem}
+#dsMuc .cap-3>a{padding-left:40px;font-size:.82rem;color:var(--nhat)}
+#dsMuc .cap-4>a,#dsMuc .cap-5>a{padding-left:54px;font-size:.8rem;color:var(--nhat)}
+/* ---- thân bài ---- */
+.dau-bai,.to-giay{background:var(--giay);border-radius:16px;
+ box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.dau-bai{padding:28px 34px;margin-bottom:22px}
+.nhan{font-size:.76rem;font-weight:800;letter-spacing:.16em;color:var(--nhat)}
+.dau-bai h1{margin:.25em 0 .35em;font-size:2rem;line-height:1.25;color:var(--do)}
+.dich-gia{color:var(--nhat);font-size:.92rem;margin:0}
+.dich-gia b{color:var(--xanh)}
+.to-giay{padding:34px 40px 60px}
+.to-giay h2{color:var(--do);font-size:1.65rem;margin:1.7em 0 .5em;
+ padding-bottom:4px;border-bottom:2px solid var(--vien)}
+.to-giay h2:first-child{margin-top:0}
+.to-giay h3{color:var(--xanh);font-size:1.3rem;margin:1.5em 0 .4em}
+.to-giay h4{font-size:1.08rem;margin:1.3em 0 .3em}
+.to-giay h5,.to-giay h6{font-size:1rem;margin:1.2em 0 .3em;color:var(--nhat)}
+.to-giay p{margin:0 0 .85em;text-align:justify}
+.to-giay p.cham{padding-left:1.35em;text-indent:-1.1em;text-align:left}
+figure{margin:1.4em 0;text-align:center}
+figure img{max-width:100%;height:auto;border:1px solid var(--vien);border-radius:10px}
+/* ---- bảng ---- */
+.tham-chieu{color:var(--xanh);font-weight:600;text-decoration:none;
+ border-bottom:1px dotted currentColor}
+.tham-chieu:hover{border-bottom-style:solid}
+.chu-thich-float{font-weight:600;margin:0 0 .4em}
+.khung-bang{overflow-x:auto;margin:1.4em 0;border-radius:10px;
+ border:1px solid var(--vien)}
+.khung-bang table{border-collapse:collapse;width:100%;font-size:.88rem;
+ table-layout:fixed}
+.to-giay p,.to-giay li,.to-giay dd{overflow-wrap:break-word}
+.to-giay sup{overflow-wrap:anywhere}
+.khung-bang td{border:1px solid var(--vien);padding:9px 11px;vertical-align:top;
+ line-height:1.5;word-wrap:break-word}
+.khung-bang td.sat{padding-left:0;padding-right:0}
+.khung-bang td.giua{text-align:center;vertical-align:middle}
+.khung-bang td.ky-hieu{font-weight:800;white-space:nowrap}
+.khung-bang td.nen-toi,.khung-bang td.nen-toi *{color:#fff}
+.khung-bang td.nen-sang,.khung-bang td.nen-sang *{color:#12151b}
+.khung-bang td span{display:block}
+.khung-bang td span.cham{padding-left:1.1em;text-indent:-1em}
+mark.danh{background:var(--danh);color:inherit;border-radius:3px}
+/* Ô có màu ép màu chữ cho cả con cháu, kể cả <mark> của phần tìm trong bài — chữ
+   trắng trên nền vàng nhạt là tìm thấy mà không nhìn thấy. Trả chữ về màu trang. */
+.khung-bang td.nen-toi mark.danh,.khung-bang td.nen-sang mark.danh,
+.khung-bang td.nen-toi mark.danh *,.khung-bang td.nen-sang mark.danh *{color:var(--chu)}
+mark.danh.dang{outline:2px solid var(--do)}
+/* ---- nút nổi ---- */
+.thanh-nut{position:fixed;right:18px;bottom:18px;display:flex;gap:8px;z-index:9}
+.thanh-nut button{width:42px;height:42px;border-radius:50%;cursor:pointer;
+ border:1px solid var(--vien);background:var(--giay);color:var(--chu);
+ font-size:1rem;font-weight:700;box-shadow:0 2px 8px rgba(0,0,0,.14)}
+.hien-ml{display:none}
+/* ---- màn hình hẹp ---- */
+@media(max-width:980px){
+ .bo-cuc{grid-template-columns:minmax(0,1fr);padding:12px}
+ .muc-luc{position:fixed;inset:0 auto 0 0;width:88%;max-width:340px;z-index:20;
+  border-radius:0;height:100vh;transform:translateX(-102%);transition:transform .2s}
+ .muc-luc.mo{transform:none}
+ .hien-ml{display:block}
+ .to-giay{padding:22px 18px 44px}
+ /* Màn hình điện thoại: giữ bề rộng tối thiểu cho bảng rồi cho cuộn ngang,
+    thay vì bóp cột hẹp tới mức "Trung bình" xuống dòng thành "Tr un g bì nh". */
+ .khung-bang table{min-width:620px}
+ .dau-bai{padding:20px}
+ .dau-bai h1{font-size:1.5rem}
+}
+/* ---- in ra giấy ---- */
+@media print{
+ /* Nền tối được nhớ trong localStorage: bật một lần là mọi lần in sau đều dính.
+    Giấy luôn trắng, nên trả bảng màu về bản sáng trước khi in — nếu không, chữ
+    #e6eaf0 in lên giấy trắng là mất hẳn. */
+ :root,:root[data-nen="toi"]{--nen:#fff;--giay:#fff;--chu:#172033;--nhat:#4a5462;
+  --vien:#c9ced5;--do:#b30000;--xanh:#004b87;--diu:#f6f8fa;--danh:#fff3cd}
+ body{background:#fff;font-size:11.5pt}
+ .muc-luc,.thanh-nut{display:none!important}
+ .bo-cuc{display:block;max-width:none;padding:0}
+ .dau-bai,.to-giay{box-shadow:none;border-radius:0;padding:0}
+ .to-giay h2,.to-giay h3{break-after:avoid}
+ .khung-bang,figure{break-inside:avoid}
+ .khung-bang td{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+.c-xanh{color:var(--xanh)} .c-do{color:var(--do)} .c-luc{color:var(--luc)} .c-nhat{color:var(--nhat)}
+:root{--luc:#1d7a3a} :root[data-nen="toi"]{--luc:#7fd49a}
+.ban-quyen{display:inline-block;margin:.4em 0 1.2em!important;padding:6px 14px;border-radius:9px;
+ background:var(--diu);border:1px solid var(--vien);color:var(--nhat);font-size:.88rem}
+.note{background:var(--diu);border-left:4px solid var(--xanh);border-radius:0 10px 10px 0;padding:10px 16px;margin:1.1em 0}
+.note p:last-child{margin-bottom:0}
+.canh-bao{background:#fff4d6;border:1px solid #e8c97a;color:#4a3a10;border-radius:10px;padding:12px 16px;margin:0 0 18px;font-size:.93em}
+:root[data-nen="toi"] .canh-bao{background:#3a2f12;border-color:#6b5a1a;color:#f0e2bd}
+.to-giay blockquote{margin:1em 0;padding:.6em 1em;border-left:4px solid var(--vien);background:var(--diu);border-radius:0 10px 10px 0}
+.to-giay ul,.to-giay ol{padding-left:1.5em;margin:0 0 .9em}
+.to-giay li{margin:.2em 0}
+.to-giay hr{border:0;border-top:1px solid var(--vien);margin:1.6em 0}
+.khung-bang th{border:1px solid var(--vien);padding:9px 11px;vertical-align:top;background:var(--diu);text-align:left;line-height:1.5}
+.khung-bang td[style*="background"],.khung-bang th[style*="background"]{color:#12151b}
+.tk p,.tk li{font-size:.9em;color:var(--nhat);text-align:left}
+figcaption,.chu-thich-anh{font-size:.88rem;color:var(--nhat);margin-top:.45em;text-align:center;line-height:1.55}
+figcaption b{color:var(--chu)}
+figure.anh-dau img{width:100%;max-height:420px;object-fit:cover}
+figure video{width:100%;max-height:78vh;background:#000;border-radius:10px;display:block}
+.khung-video{position:relative;padding-top:56.25%;margin:0;border-radius:10px;overflow:hidden;background:#000}
+.khung-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt{position:relative;width:100%;aspect-ratio:16/9;background:#000;cursor:pointer;display:block;border-radius:10px;overflow:hidden}
+.yt img{width:100%;height:100%;object-fit:cover;display:block;opacity:.86;border:0!important;border-radius:0!important;transition:opacity .2s}
+.yt:hover img{opacity:1}
+.yt .play{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none}
+.yt .play svg{width:58px;height:58px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.yt iframe{width:100%;height:100%;border:0;display:block}
+.badge{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.72);color:#fff;font-size:11.5px;padding:2px 8px;border-radius:20px;pointer-events:none}
+.ytlink{display:inline-block;margin-left:8px;font-size:.92em;color:var(--xanh);text-decoration:none;border:1px solid var(--vien);border-radius:20px;padding:1px 10px;white-space:nowrap}
+.bo-anh{display:grid;gap:8px;margin:1em 0 1.4em;align-items:start}
+.bo-anh.cot-1{grid-template-columns:repeat(1,minmax(0,1fr))}
+.bo-anh.cot-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.bo-anh.cot-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.bo-anh.cot-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.bo-anh.cot-5{grid-template-columns:repeat(5,minmax(0,1fr))}
+.bo-anh.cot-6{grid-template-columns:repeat(6,minmax(0,1fr))}
+.o-anh{display:block;border-radius:8px;overflow:hidden;background:#000;
+ border:1px solid var(--vien);cursor:zoom-in;line-height:0}
+.o-anh img{display:block;width:100%;height:auto}
+figure .o-anh{display:inline-block;background:none;border:0}
+figure .o-anh img{border:1px solid var(--vien);border-radius:10px}
+@media(max-width:980px){
+ .bo-anh.cot-3,.bo-anh.cot-4,.bo-anh.cot-5,.bo-anh.cot-6{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:560px){
+ .bo-anh.cot-3,.bo-anh.cot-4,.bo-anh.cot-5,.bo-anh.cot-6{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+.xem-anh{position:fixed;inset:0;z-index:50;background:rgba(8,10,14,.94);display:none;
+ flex-direction:column;align-items:center;justify-content:center;padding:14px}
+.xem-anh.mo{display:flex}
+.xem-anh img{max-width:100%;max-height:calc(100vh - 110px);object-fit:contain;border-radius:6px;background:#000}
+.xem-anh .xa-chu{color:#dfe5ec;font-size:.85rem;max-width:1100px;margin-top:10px;text-align:center;
+ line-height:1.5;max-height:5.2em;overflow:auto}
+.xem-anh .xa-dem{position:absolute;top:14px;left:18px;color:#c4ccd6;font-size:.85rem}
+.xem-anh button{position:absolute;border:0;background:rgba(255,255,255,.12);color:#fff;
+ width:46px;height:46px;border-radius:50%;font-size:1.3rem;cursor:pointer}
+.xem-anh button:hover{background:rgba(255,255,255,.25)}
+.xem-anh .xa-dong{top:12px;right:14px}
+.xem-anh .xa-truoc{left:14px;top:50%;transform:translateY(-50%)}
+.xem-anh .xa-sau{right:14px;top:50%;transform:translateY(-50%)}
+@media print{
+ .xem-anh,.canh-bao,.ytlink{display:none!important}
+ .bo-anh{break-inside:avoid}
+ .o-anh{background:none}
+}
+</style>
+</head>
+<body>
+<div class="bo-cuc">
+ <aside class="muc-luc" id="mucLuc">
+  <div class="ml-dau"><span>NỘI DUNG</span><span id="phanTram">0%</span><button
+    id="nutThu" class="nut-thu" type="button" title="Thu gọn mục lục">«</button></div>
+  <div class="o-tim">
+   <input id="oTim" type="search" placeholder="Tìm trong tài liệu…" autocomplete="off">
+   <div class="tim-dieu-khien">
+    <button id="timTruoc" type="button">↑</button>
+    <button id="timSau" type="button">↓</button>
+    <span id="demTim"></span>
+   </div>
+  </div>
+  <div class="ml-cuon"><ul id="dsMuc"></ul></div>
+ </aside>
+ <main>
+  <section class="dau-bai">
+   <div class="nhan">CASE ECG #1989 · DR. SMITH’S ECG BLOG</div>
+   <h1>25/02/2026 — Dofetilide (và ibutilide – thuốc chống loạn nhịp nhóm III). Nguy cơ là gì? Biểu hiện trên điện tâm đồ ra sao? Xử trí biến chứng thế nào?</h1>
+   <p class="dich-gia"><a href="../index.html">← Mục lục Case ECG</a></p><p class="dich-gia">Bản dịch tiếng Việt của bài <a href="https://drsmithsecgblog.com/dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is-the-risk-how-does-it-show-on-the-ecg-what-to-do-about-the-complication/" target="_blank" rel="noopener">"Dofetilde (and ibutilide -Class III antidysrhythmics).  What is the risk? How does it show on the ECG? What to do about the complication?"</a> – Dr. Smith’s ECG Blog. Giữ nguyên toàn bộ 9 hình ảnh của bản gốc.</p>
+  </section>
+  <section class="to-giay" id="toGiay">
+<figure class="anh-dau"><a class="o-anh" href="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2026_02_after-dofetilide-high-res.jpg"><img src="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2026_02_after-dofetilide-high-res.jpg" alt="" width="1600" height="870" loading="lazy" decoding="async"></a></figure>
+<p>Tác giả: Willy Frick</p>
+<h2 id="trinh-bay-ca-benh">TRÌNH BÀY CA BỆNH</h2>
+<p>Một phụ nữ trung niên bị suy tim phân suất tống máu giảm (HFrEF) (EF 25-30%) và rung nhĩ dai dẳng (persistent atrial fibrillation) được nhập viện theo chương trình để nạp liều dofetilide. <strong>Dofetilide</strong> là thuốc chống loạn nhịp nhóm 3, hữu ích ở những bệnh nhân theo chiến lược kiểm soát nhịp (rhythm control) đối với rung nhĩ. <strong>Chiến lược kiểm soát nhịp là nỗ lực nhằm khôi phục nhịp xoang.</strong> Dofetilide bắt buộc phải được khởi trị khi bệnh nhân nằm viện do nguy cơ đã biết gây xoắn đỉnh (Torsades de Pointes, TdP).  Nguy cơ TdP đặc biệt tăng cao khi phân suất tống máu thấp, như trong ca này. Điện tâm đồ nền của bệnh nhân là bản ghi đầu tiên dưới đây.</p>
+<p><strong>Smith</strong> <strong>Bình luận (đặc biệt hữu ích cho bác sĩ cấp cứu):</strong> Dofetilide cùng nhóm thuốc với ibutilide, thuốc có thể dùng để hỗ trợ sốc điện chuyển nhịp rung nhĩ tại khoa cấp cứu <strong>(xem phần bàn luận chi tiết và quan trọng ở cuối bài)</strong>. Dofetilide và ibutilide là <mark><strong>thuốc chống loạn nhịp nhóm III</strong></mark>. Chúng hoạt động như thuốc chẹn kênh kali, chủ yếu ức chế thành phần nhanh của dòng kali chỉnh lưu chậm (rapid component of the delayed rectifier potassium current). Đây là dòng làm tái cực cơ tim. Nếu làm chậm dòng này, bạn làm chậm tái cực, do đó kéo dài tái cực và vì vậy kéo dài khoảng QT. Vì thế biến chứng chính của dofetilide và ibutilide là QT kéo dài và nguy cơ xoắn đỉnh (Torsades de Pointes).</p>
+<p><strong>Hình 1: Điện tâm đồ nền</strong></p>
+<figure><a class="o-anh" href="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Report-4955780c-scaled.jpg"><img src="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Report-4955780c-scaled.jpg" alt="" width="1600" height="623" loading="lazy" decoding="async"></a></figure>
+<p><strong>Ở đây tần số tim là 55.</strong></p>
+<p>Máy đo QT là 526 ms, có vẻ chính xác và thuộc loại dài. Tuy nhiên, có thể nới lỏng hơn một chút ở bệnh nhân có QRS rộng. Nói một cách chặt chẽ, tờ hướng dẫn sử dụng thuốc không khuyến cáo khởi trị dofetilide ở bệnh nhân có QRS rộng và QTc (hoặc QT chưa hiệu chỉnh khi tần số tim dưới 60). Tuy nhiên, thực hành ở điểm này còn khác nhau và nhiều bác sĩ điện sinh lý tự cân nhắc dựa trên độ rộng tuyệt đối của QRS.</p>
+<p><mark><strong>Smith</strong>: lưu ý còn có nhịp chậm xoang.  Điều này làm khả năng xảy ra TdP cao hơn đáng kể vì nó tạo điều kiện cho thời kỳ trơ dài hơn và khả năng xuất hiện PVC cao hơn.  Hiện tượng này còn được gọi là “phụ thuộc khoảng ngưng” (Pause dependence) vì bất kỳ khoảng ngưng nào cũng làm tăng khả năng xảy ra TdP.</mark></p>
+<h3 id="vi-sao-lai-nhu-vay">Vì sao lại như vậy?</h3>
+<p>Nguy cơ TdP tỷ lệ thuận với QTc. TdP xảy ra khi một PVC khử cực tâm thất lúc tâm thất vẫn còn trơ <strong>một phần</strong>. Đây được gọi là “hiện tượng R trên T” (R on T phenomenon). PVC là một sóng R, còn sóng T là giai đoạn dễ tổn thương (vulnerable period) khi tâm thất trơ một phần. Sẽ hữu ích nếu xem lại hình này từ <a href="https://litfl.com/qt-interval-ecg-library/" rel="noopener" target="_blank">Life In The Fast Lane</a>:</p>
+<p><strong>Hình 2: Các khoảng trên điện tâm đồ</strong></p>
+<figure><a class="o-anh" href="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_image.jpg"><img src="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_image.jpg" alt="" width="1000" height="601" loading="lazy" decoding="async"></a></figure>
+<p>Ở đây, chúng ta thấy rõ rằng:</p>
+<p><strong>Khoảng QT = thời gian QRS + khoảng ST</strong></p>
+<p>Do đó, bất cứ điều gì kéo dài thời gian QRS (ví dụ chậm dẫn truyền trong thất như trong trường hợp bệnh nhân của chúng tôi) cũng tất yếu kéo dài khoảng QT. Nhưng thực ra chỉ <strong>một phần của khoảng ST</strong> mới tạo thành giai đoạn dễ tổn thương đối với hiện tượng R trên T. Trong lúc QRS diễn ra, tâm thất đã đang khử cực. Nếu một phần tâm thất bị kích thích RẤT sớm ngay sau QRS, tâm thất sẽ ở trạng thái trơ tuyệt đối và không có gì xảy ra. Nhưng nếu kích thích xảy ra muộn hơn một chút (đâu đó trong khoảng từ giữa đến cuối sóng T), tâm thất chỉ trơ <strong>một phần</strong> và có thể khử cực lại, dẫn tới TdP.</p>
+<p><strong>Smith</strong>: đây là lý do một số tác giả cho rằng cách tốt nhất để đo QT kéo dài khi có blốc nhánh trái (LBBB) là dùng <strong>thời gian từ đỉnh T đến cuối T (T-peak to T-end, TpTe)</strong>.  Đó là khoảng có nguy cơ cao nhất và cũng là khoảng bị kéo dài trong QT dài. <strong>TpTe kéo dài là trong khoảng 85-100ms</strong>. Xem bài báo của chúng tôi: Dodd KW, Elm KD, Dodd EM, Smith SW. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167527316324445" rel="noopener" target="_blank">Among patients with left bundle branch block, T-wave peak to T-wave end time is prolonged in the presence of acute coronary occlusion</a>. Int J Cardiol [Internet] 2017;236:1–4. Truy cập tại: http://dx.doi.org/10.1016/j.ijcard.2017.01.064</p>
+<p>Một số tác giả khuyến nghị dùng <strong>công thức hiệu chỉnh Rautaharju</strong> khi QRS rộng.</p>
+<p>——QTcR = QT – 0.185(RR – 1) + k, trong đó k = +0.006 với nam và 0 với nữ.</p>
+<p>Những tác giả khác khuyến nghị dùng <strong>khoảng JT và khoảng JT hiệu chỉnh</strong> (JTc).</p>
+<p>——(JTc = QTc – thời gian QRS [QRSd])</p>
+<h3 id="quay-lai-ca-benh">Quay lại ca bệnh:</h3>
+<p>Vì hết sức thận trọng, nhóm điều trị đã chọn khởi đầu cho bà liều 250 mcg. (Liều khởi đầu thường dùng cho bệnh nhân có chức năng thận bình thường là 500 mcg.) Điện tâm đồ 2 giờ sau liều này được trình bày dưới đây:</p>
+<p><strong>Hình 3: Điện tâm đồ 2 giờ sau liều dofetilide đầu tiên</strong></p>
+<figure><a class="o-anh" href="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Screenshot-2025-11-16-at-8.07.25-PM.jpg"><img src="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Screenshot-2025-11-16-at-8.07.25-PM.jpg" alt="" width="1600" height="589" loading="lazy" decoding="async"></a></figure>
+<p><strong>Tần số tim chậm đến mức nguy hiểm, 48 nhịp/phút.</strong> <strong>QT đã tăng lên khoảng 560 ms</strong>, <strong>dài hơn đáng kể so với mức 526 ms trước đó. </strong></p>
+<p>Nếu QTc (hoặc QT nếu HR &lt; 60) tăng trên 550 ms ở bệnh nhân có QRS rộng, cần giảm liều 50%. QTc ở đây đo được 554 ms. Y lệnh được thay đổi để sáng hôm sau bệnh nhân nhận liều 125 mcg.</p>
+<p>Tuy nhiên, vào tối hôm đó, theo dõi từ xa (telemetry) cho thấy như sau:</p>
+<p><strong>Hình 4: Theo dõi tim từ xa (telemetry)</strong></p>
+<figure><a class="o-anh" href="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Screenshot-2025-11-16-at-8.16.15-PM.jpg"><img src="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Screenshot-2025-11-16-at-8.16.15-PM.jpg" alt="" width="1600" height="379" loading="lazy" decoding="async"></a></figure>
+<p>Bệnh nhân xuất hiện hiện tượng R trên T dẫn tới TdP, rồi nhanh chóng thoái hóa thành rung thất (ngay sau dải nhịp này). Vì bệnh nhân đang được theo dõi tim từ xa, nhóm điều dưỡng đã kích hoạt báo động code blue và bắt đầu hồi sinh tim nâng cao (ACLS). Bệnh nhân nhanh chóng được đặt nội khí quản, khử rung và chuyển vào ICU. Bà không tái phát rối loạn nhịp trong suốt phần còn lại của đêm, và dĩ nhiên dofetilide đã được ngừng.</p>
+<p>Vào giữa ngày hôm sau ( = ngày nằm viện thứ 2), khi vẫn còn đặt nội khí quản và an thần — bà có nhịp chậm xoang lúc nghỉ ở mức khoảng trên 40 một chút, ban đầu không có biến cố gì. Bạn có thể thấy trên dải nhịp nén này, thể hiện 12 phút theo dõi từ xa, rằng bà không hề có PVC nào.</p>
+<p><strong>Hình 5: Nhịp chậm xoang trên theo dõi từ xa</strong></p>
+<figure><a class="o-anh" href="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Screenshot-2025-11-16-at-8.22.36-PM.jpg"><img src="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Screenshot-2025-11-16-at-8.22.36-PM.jpg" alt="" width="1600" height="372" loading="lazy" decoding="async"></a></figure>
+<p>Tuy nhiên, bà đột ngột bắt đầu xuất hiện các PVC và các loạt TdP tự kết thúc.</p>
+<p><strong>Hình 6: Các PVC và TdP tái phát</strong></p>
+<figure><a class="o-anh" href="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Screenshot-2025-11-19-at-7.48.03-PM.jpg"><img src="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Screenshot-2025-11-19-at-7.48.03-PM.jpg" alt="" width="1600" height="375" loading="lazy" decoding="async"></a></figure>
+<p><strong>Hình 7: Phóng to một loạt TdP ngắn</strong></p>
+<figure><a class="o-anh" href="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Screenshot-2025-11-16-at-8.27.14-PM.jpg"><img src="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Screenshot-2025-11-16-at-8.27.14-PM.jpg" alt="" width="1600" height="372" loading="lazy" decoding="async"></a></figure>
+<p>Nhóm điều trị nhanh chóng cho bệnh nhân 4 g magnesi tĩnh mạch, nhưng các PVC và TdP vẫn tiếp diễn.</p>
+<p><strong>Hãy dành một chút thời gian và tự hỏi, bạn sẽ làm gì tiếp theo?</strong></p>
+<p><strong>Trả lời</strong>: <strong>Tăng tần số tim.</strong> Tạo nhịp vượt tần số (overdrive pacing) là cách rất hiệu quả để ức chế TdP. Cơ chế lợi ích chính xác chưa hoàn toàn rõ, nhưng có lẽ là do tác động kép của nhịp nhanh: 1) Rút ngắn QT, và 2) Giảm sự phân tán tái cực (repolarization dispersion) (tức là tính không đồng nhất theo vùng về trạng thái tái cực giữa các vùng khác nhau của tim tại một thời điểm nhất định trong chu chuyển tim).</p>
+<p>Làm thế nào để tăng tần số tim? Hai kỹ thuật thường dùng là <strong>1. máy tạo nhịp tạm thời qua đường tĩnh mạch</strong> hoặc <strong>2. truyền liên tục thuốc chủ vận beta-1</strong>.  Trước đây, thuốc chủ vận beta-1 được dùng phổ biến nhất là isoproterenol, nhưng nay thuốc này đắt đến mức dobutamine được dùng phổ biến hơn. Tuy nhiên, cả hai phương pháp này thường mất 20 phút trở lên mới bắt đầu được. Hai mươi phút là quãng thời gian dài khi bạn đứng cạnh giường nhìn những loạt TdP tái phát trên màn hình monitor.</p>
+<p>Chúng ta có thể làm gì cho bệnh nhân ngay lúc này bằng những gì có trong xe cấp cứu (crash cart)? <strong>Atropine!</strong> Atropine luôn có trong xe cấp cứu, và nó có thể làm tăng tần số tim ngay lập tức trong khi chờ khoa dược pha isoproterenol. Điều này không được giảng dạy rộng rãi như một biện pháp điều trị TdP, nhưng thường cực kỳ hiệu quả. Isoproterenol chẳng có gì thần kỳ cả, chỉ đơn giản là một thuốc tĩnh mạch có thể chỉnh liều, dùng để duy trì tần số tim cao tương đối dễ dàng.</p>
+<h3 id="quay-lai-ca-benh-2">Quay lại ca bệnh:</h3>
+<p>Bệnh nhân được tiêm atropine 1 mg tĩnh mạch lấy từ xe cấp cứu và hãy xem điều gì đã xảy ra:</p>
+<p><strong>Hình 8: Theo dõi từ xa trước và sau khi dùng atropine</strong></p>
+<figure><a class="o-anh" href="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Annotated-telemetry-scaled.jpg"><img src="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_11_Annotated-telemetry-scaled.jpg" alt="" width="1600" height="337" loading="lazy" decoding="async"></a></figure>
+<p>Xem qua đoạn này, thể hiện 11 phút (tôi đã cắt bỏ dòng trên cùng để tập trung vào các phần quan trọng), chúng ta thấy các loạt TdP tái phát. Các hình chữ nhật màu đỏ đánh dấu nhiễu do ép tim trong các cơn TdP bền bỉ. Các đầu mũi tên màu đỏ chỉ vào nhiễu do khử rung ngoài lồng ngực. Đầu mũi tên màu đen chỉ thời điểm tiêm atropine.</p>
+<p>Sau đó bệnh nhân được bắt đầu truyền isoproterenol, chỉnh liều để đạt tần số tim mục tiêu 80 nhịp/phút. Thuốc được giảm dần và ngừng trong 48 giờ khi dofetilide đã được thải trừ hết. Bệnh nhân không còn tái phát TdP.</p>
+<h3 id="nhung-diem-can-hoc">Những điểm cần học:</h3>
+<ul><li>Ngoài magnesi tĩnh mạch, hãy nghĩ tới atropine khi điều trị xoắn đỉnh (Torsades de Pointes) nếu có kèm nhịp chậm.</li>
+<li>QTc khó diễn giải hơn ở bệnh nhân có QRS rộng.</li></ul>
+<h3 id="vt-da-dang-kem-qt-keo-dai-xoan-dinh-torsades-de-pointes">VT đa dạng kèm QT kéo dài (xoắn đỉnh – Torsades de Pointes)</h3>
+<p>•Thường tự kết thúc, có thể tiến triển thành rung thất</p>
+<p>•“Phụ thuộc khoảng ngưng” (nặng hơn khi nhịp chậm)</p>
+<p>•Điều trị: điều chỉnh điện giải (K, Mg)</p>
+<p>•Có nguy cơ xoắn đỉnh: Mg, 2g trong 15 phút</p>
+<p>•Đang có VT:</p>
+<p>–<strong>Sốc điện chuyển nhịp</strong></p>
+<p>–Mg, 2g trong 30-60 giây, tối đa 6g</p>
+<p>•đưa K huyết thanh lên 4.0 đến 4.5</p>
+<p>•Lidocaine có thể ngăn PVC, không kéo dài QT như các thuốc khác</p>
+<p>•Tạo nhịp vượt tần số (100-140): tần số tạo nhịp thấp nhất ngăn được PVC</p>
+<p>•<strong>Isoproterenol</strong> (thuốc <strong>chủ vận</strong> beta 1 và 2!), nếu không thể bắt đầu tạo nhịp ngay.</p>
+<p>•Dobutamine là thuốc thay thế và hiện nay rẻ hơn.</p>
+<p>•Ngăn xoắn đỉnh do LQTS phụ thuộc khoảng ngưng bằng cách tăng HR</p>
+<p>•Dùng nếu xoắn đỉnh có vẻ phụ thuộc khoảng ngưng</p>
+<p>–<strong>Nếu phụ thuộc khoảng ngưng, thì hầu như luôn là QT dài <em>mắc phải</em></strong> <strong>(do thuốc hoặc điện giải)</strong></p>
+<p>–Có nhịp chậm nền trước cơn nhịp nhanh (“phụ thuộc khoảng ngưng”)</p>
+<p>•<strong>Cảnh giác VT đa dạng do catecholamine (CPVT)</strong></p>
+<p><strong>–Loại VT đa dạng này nặng lên khi dùng thuốc chủ vận beta-1!)</strong></p>
+<p>–Nó cũng <strong>nặng lên khi sốc điện chuyển nhịp</strong> (do tăng vọt catecholamine)</p>
+<p>–Sốc điện kèm chẹn beta</p>
+<p>–Điện tâm đồ không có QT dài</p>
+<p><span class="c-nhat">= = =</span></p>
+<h2 id="dung-ibutilide-de-ho-tro-soc-dien-chuyen-nhip-rung-nhi-tai-khoa-cap-cuu">Dùng ibutilide để hỗ trợ sốc điện chuyển nhịp rung nhĩ tại khoa cấp cứu</h2>
+<p>Ibutilide có thể dùng để hỗ trợ sốc điện chuyển nhịp ở những bệnh nhân mà chỉ dùng sốc điện đơn thuần không hiệu quả. Xem bài báo này (không phải dùng tại khoa cấp cứu), được mô tả chi tiết dưới đây: <a href="https://www.nejm.org/doi/full/10.1056/NEJM199906173402401" rel="noopener" target="_blank">Facilitating Transthoracic Cardioversion of Atrial Fibrillation with Ibutilide Pretreatment</a></p>
+<p>Và đây là mô tả về việc dùng <strong>ibutilide tại khoa cấp cứu</strong> (họ ít hạn chế hơn nhiều so với nghiên cứu gốc, được mô tả dưới đây, với ít biến chứng): <a href="https://www.annemergmed.com/article/S0196-0644(17)31381-1/abstract" rel="noopener" target="_blank">Ibutilide Effectiveness and Safety in the Cardioversion of Atrial Fibrillation and Flutter in the Community Emergency Department</a></p>
+<p><strong>Facilitating Transthoracic Cardioversion of Atrial Fibrillation with Ibutilide Pretreatment.</strong> Oral H và cs., New Engl J Med ngày 17 tháng Sáu năm 1999; 340(24):1849-54.</p>
+<h3 id="tom-tat">Tóm tắt</h3>
+<p><strong>Bối cảnh</strong>. Không phải lúc nào rung nhĩ cũng chuyển được về nhịp xoang bằng sốc điện chuyển nhịp qua thành ngực. Chúng tôi khảo sát tác dụng của ibutilide, một thuốc chống loạn nhịp nhóm III, lên mức năng lượng cần thiết để khử rung nhĩ và đánh giá giá trị của thuốc này trong việc hỗ trợ chuyển nhịp ở bệnh nhân rung nhĩ kháng trị với sốc điện chuyển nhịp qua thành ngực thông thường.</p>
+<p><strong>Phương pháp</strong>. Một trăm bệnh nhân đã bị rung nhĩ trung bình (±SD) 117±201 ngày được phân ngẫu nhiên để sốc điện chuyển nhịp qua thành ngực có hoặc không có tiền điều trị bằng 1 mg ibutilide. Chúng tôi thiết kế một phác đồ tăng bậc, trong đó các cú sốc 50, 100, 200, 300 và 360 J được dùng để sốc điện chuyển nhịp qua thành ngực. Nếu sốc điện chuyển nhịp qua thành ngực không thành công ở bệnh nhân không được tiền điều trị bằng ibutilide, ibutilide sẽ được dùng và sốc điện chuyển nhịp qua thành ngực được thực hiện lại.</p>
+<p><strong>Kết quả</strong>. Chuyển về nhịp xoang xảy ra ở 36 trong 50 bệnh nhân không dùng ibutilide (72 phần trăm) và ở cả 50 bệnh nhân đã dùng ibutilide (100 phần trăm, P&lt;0.001). Ở cả 14 bệnh nhân mà sốc điện chuyển nhịp qua thành ngực đơn thuần thất bại, nhịp xoang đã được khôi phục khi sốc điện lại sau khi dùng ibutilide. Tiền điều trị bằng ibutilide đi kèm với giảm năng lượng trung bình cần cho khử rung (166±80 J, so với 228±93 J khi không tiền điều trị; P&lt;0.001). Nhịp nhanh thất đa dạng bền bỉ xảy ra ở 2 trong 64 bệnh nhân dùng ibutilide (3 phần trăm), cả hai đều có phân suất tống máu từ 0.20 trở xuống. Tỷ lệ không tái phát rung nhĩ sau sáu tháng theo dõi là tương tự nhau ở hai nhóm ngẫu nhiên.</p>
+<p><strong>Kết luận</strong>. Hiệu quả của sốc điện chuyển nhịp qua thành ngực trong việc chuyển rung nhĩ về nhịp xoang được tăng cường nhờ tiền điều trị bằng ibutilide. Tuy nhiên, nên tránh dùng thuốc này ở bệnh nhân có phân suất tống máu rất thấp. (N Engl J Med 1999;340:1849-54.) *</p>
+<h3 id="nhan-xet-quan-trong">Nhận xét quan trọng:</h3>
+<p>Liều dùng là 1 mg tĩnh mạch trong 10 phút.</p>
+<p>Họ đưa vào nghiên cứu những bệnh nhân bị rung nhĩ dưới 48 giờ</p>
+<p>Họ loại trừ bệnh nhân rung nhĩ kéo dài hơn 48 giờ trừ khi chứng minh được bằng siêu âm tim qua thực quản (TE echo) là không có huyết khối nhĩ, HOẶC trừ khi đã cho họ dùng thuốc chống đông trước 3 tuần</p>
+<p>Vì vậy, những bệnh nhân của chúng ta đã bị rung nhĩ &lt; 48 giờ, hoặc đã đang dùng thuốc chống đông, thì áp dụng được</p>
+<p>Họ loại trừ bất kỳ ai có QTc &gt; 480ms vì ibutilide có thể gây xoắn đỉnh</p>
+<p>Liều dùng là 1mg trong 10 phút</p>
+<p>Ở 2 bệnh nhân bị xoắn đỉnh (cả hai đều có phân suất tống máu thấp, &lt;20%), cả hai đều được kiểm soát dễ dàng.</p>
+<p>Các tác giả khuyến nghị không dùng ibutilide cho chỉ định này ở bệnh nhân ổn định nếu EF &lt; 30%. Tuy nhiên, đây vẫn là một lựa chọn ở bệnh nhân không ổn định.</p>
+<p>Ibutilide làm tăng QTc đáng kể (432+/-37 trước so với 482+/-49 sau)</p>
+<p>Mặc dù bài báo không bàn tới điểm này, tôi sẽ không cho bệnh nhân như vậy về nhà trừ khi QT đã được điều chỉnh về bình thường.</p>
+<p><strong>Cuối cùng, tôi luôn dùng sốc điện chuyển nhịp không kèm ibutilide trước.  Như trong nghiên cứu này, tôi chỉ dùng ibutilide nếu sốc điện không hiệu quả.</strong></p>
+<hr>
+<p>======================================</p>
+<h2 id="binh-luan-cua-toi-boi-ken-grauer-md-25-2-2026">BÌNH LUẬN CỦA TÔI, bởi KEN GRAUER, MD (25/2/2026):</h2>
+<hr>
+<p>Đánh giá nguy cơ tiềm tàng của <strong>TdP (</strong><em>xoắn đỉnh – Torsades de Pointes</em><strong>)</strong> luôn là thách thức — nhưng đặc biệt khó khi có <strong>QRS giãn rộng</strong> và <strong>nhịp chậm (</strong><em>cả hai dấu hiệu này đều có mặt trong ca hôm nay</em><strong>)</strong>.</p>
+<ul><li>Nhịp chậm làm khoảng R-R dài hơn. Vì khoảng R-R đứng trước một phức bộ QRS ảnh hưởng tới độ dài khoảng QT của phức bộ QRS đó — tần số tim <em>chậm hơn</em><strong> </strong>làm tăng thời gian khoảng QT của các nhát tiếp theo <strong>(</strong><em>và do đó kéo dài giai đoạn “dễ tổn thương” tiếp theo</em><strong>)</strong>. Chính vì lý do này mà khi chúng ta lo ngại về “nguy cơ” TdP — <strong>có lẽ không nên “hiệu chỉnh” khoảng QT khi tần số tim dưới 60/phút</strong> <strong>(</strong><em>vì tần số tim chậm tự nó đã làm tăng nguy cơ xoắn đỉnh</em><strong>)</strong>.</li>
+<li>Vì vậy, tôi xin bổ sung vào <strong>Những điểm cần học</strong> của BS. Frick như sau: <strong>i<span class="c-do">)</span></strong> Mức độ <strong><em>nhịp chậm</em></strong> càng nặng có thể càng làm tăng đáng kể nguy cơ xoắn đỉnh; — và, <strong>ii<span class="c-do">)</span> </strong>Các công thức hiệu chỉnh để ước tính QTc trở nên kém chính xác hơn khi tần số tim chậm <strong>(</strong><em>đến mức hiệu chỉnh ít đi, nếu có, đối với QT đo được có thể là cách tốt nhất để đánh giá “QTc” khi tần số tim dưới 60/phút</em><strong>)</strong>.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<hr>
+<h3 id="lam-the-nao-de-uoc-tinh-qtc-khi-qrs-rong">Làm thế nào để ước tính QTc khi QRS rộng?</h3>
+<ul><li>Ca hôm nay của BS. Frick nhấn mạnh tầm quan trọng lâm sàng của việc ước tính QTc (<em>trong ca này liên quan tới việc chỉnh liều Dofetilide</em>).</li>
+<li>Chúng tôi đã thêm một <em>đường dẫn nhanh</em> tới <strong>công cụ tính QTc</strong> — trong Menu ở đầu mỗi trang của Dr. Smith’s ECG Blog (<strong>Hình 1).</strong> Công cụ tính này giúp ước tính QTc bằng các công thức được chấp nhận rộng rãi nhất cho cả phức bộ QRS bình thường và QRS kéo dài <strong>(</strong><em>Chỉ cần trượt công cụ tính sang trái để dùng ứng dụng khi QRS rộng</em><strong>)</strong>.</li></ul>
+<p><span class="c-nhat">= = =</span></p>
+<hr>
+<p><strong>Hình 1:</strong> Đường dẫn nhanh tới công cụ tính QTc trong Menu ở ĐẦU mỗi trang của Dr. Smith’s ECG Blog.</p>
+<figure><a class="o-anh" href="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_07_Figure-1-QTc-Calculator-7-12.21-2025-USE.jpg"><img src="2026-02-25-dofetilde-and-ibutilide-class-iii-antidysrhythmics-what-is_anh/2025_07_Figure-1-QTc-Calculator-7-12.21-2025-USE.jpg" alt="" width="1600" height="1092" loading="lazy" decoding="async"></a></figure>
+<p><span class="c-nhat">= = =</span></p>
+<p><span class="c-nhat">= </span></p>
+  </section>
+ </main>
+</div>
+<div class="thanh-nut">
+ <button id="nutMl" class="hien-ml" type="button" title="Mục lục">≡</button>
+ <button id="nutGiam" type="button" title="Chữ nhỏ hơn">A-</button>
+ <button id="nutTang" type="button" title="Chữ lớn hơn">A+</button>
+ <button id="nutNen" type="button" title="Nền sáng/tối">◐</button>
+</div>
+<div class="xem-anh" id="xemAnh" role="dialog" aria-label="Xem ảnh">
+ <span class="xa-dem"></span>
+ <button class="xa-dong" type="button" title="Đóng (Esc)">✕</button>
+ <button class="xa-truoc" type="button" title="Ảnh trước (←)">‹</button>
+ <img alt="">
+ <button class="xa-sau" type="button" title="Ảnh sau (→)">›</button>
+ <div class="xa-chu"></div>
+</div>
+<script>
+(function(){
+ var goc=document.documentElement, ds=document.getElementById('dsMuc'),
+     giay=document.getElementById('toGiay'), pt=document.getElementById('phanTram'),
+     ml=document.getElementById('mucLuc');
+ var dau=[].slice.call(giay.querySelectorAll('h2,h3,h4,h5,h6'));
+
+ // mục lục
+ dau.forEach(function(h){
+  var li=document.createElement('li');
+  li.className='cap-'+(+h.tagName[1]-1);
+  var a=document.createElement('a');
+  a.href='#'+h.id; a.textContent=h.textContent;
+  a.addEventListener('click',function(){ ml.classList.remove('mo'); });
+  li.appendChild(a); ds.appendChild(li);
+ });
+ var neo=[].slice.call(ds.querySelectorAll('a'));
+
+ function capNhat(){
+  var i=0;
+  for(var k=0;k<dau.length;k++){ if(dau[k].getBoundingClientRect().top<140) i=k; }
+  neo.forEach(function(a,k){ a.classList.toggle('dang-doc',k===i); });
+  var a=neo[i];
+  if(a){ var cuon=a.closest('.ml-cuon');
+   if(cuon){ var h=a.getBoundingClientRect(), c=cuon.getBoundingClientRect();
+    if(h.top<c.top||h.bottom>c.bottom) cuon.scrollTop+=h.top-c.top-c.height/3; } }
+  var het=document.documentElement.scrollHeight-innerHeight;
+  pt.textContent=(het>0?Math.min(100,Math.round(scrollY/het*100)):100)+'%';
+ }
+ addEventListener('scroll',capNhat,{passive:true});
+ addEventListener('resize',capNhat); capNhat();
+
+ // cỡ chữ + nền tối, nhớ lựa chọn
+ function docNho(k,md){ try{ return localStorage.getItem(k)||md; }catch(e){ return md; } }
+ function ghiNho(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+ var co=parseInt(docNho('gl-co','16'),10);
+ function apCo(){ goc.style.setProperty('--co',co+'px'); ghiNho('gl-co',co); capNhat(); }
+ apCo();
+ goc.setAttribute('data-nen',docNho('gl-nen','sang'));
+ document.getElementById('nutTang').onclick=function(){ co=Math.min(24,co+1); apCo(); };
+ document.getElementById('nutGiam').onclick=function(){ co=Math.max(12,co-1); apCo(); };
+ document.getElementById('nutNen').onclick=function(){
+  var v=goc.getAttribute('data-nen')==='toi'?'sang':'toi';
+  goc.setAttribute('data-nen',v); ghiNho('gl-nen',v);
+ };
+ // thu gọn / mở lại cột mục lục (nhớ lựa chọn)
+ goc.setAttribute('data-ml',docNho('gl-ml',''));
+ function datMl(v){ goc.setAttribute('data-ml',v); ghiNho('gl-ml',v); capNhat(); }
+ document.getElementById('nutThu').onclick=function(){ datMl('thu'); };
+ document.getElementById('nutMl').onclick=function(){
+  // màn hình rộng: nút ≡ mở lại cột đã thu; màn hình hẹp: kéo cột ra/vào
+  if(innerWidth>980 && goc.getAttribute('data-ml')==='thu'){ datMl(''); return; }
+  ml.classList.toggle('mo');
+ };
+
+ // tìm trong bài
+ var o=document.getElementById('oTim'), dem=document.getElementById('demTim'), hit=[], vt=-1;
+ function xoaDanh(){
+  hit=[]; vt=-1;
+  var m=giay.querySelectorAll('mark.danh');
+  for(var i=0;i<m.length;i++){ var p=m[i].parentNode;
+   p.replaceChild(document.createTextNode(m[i].textContent),m[i]); p.normalize(); }
+ }
+ function danhDau(q){
+  xoaDanh();
+  if(q.length<2){ dem.textContent=''; return; }
+  var tw=document.createTreeWalker(giay,NodeFilter.SHOW_TEXT,null), nut=[], n;
+  while((n=tw.nextNode())) if(n.nodeValue.trim()) nut.push(n);
+  var kq=q.toLowerCase();
+  nut.forEach(function(n){
+   var s=n.nodeValue, l=s.toLowerCase(), i=l.indexOf(kq);
+   if(i<0) return;
+   var cha=n.parentNode, sau=n, dich=0;
+   while(i>=0){
+    var giua=sau.splitText(i-dich); dich=i+q.length;
+    sau=giua.splitText(q.length);
+    var mk=document.createElement('mark'); mk.className='danh';
+    cha.replaceChild(mk,giua); mk.appendChild(giua); hit.push(mk);
+    i=l.indexOf(kq,dich);
+   }
+  });
+  dem.textContent=hit.length?('1/'+hit.length):'0';
+  if(hit.length){ vt=0; toi(0); }
+ }
+ function toi(i){
+  if(!hit.length) return;
+  hit.forEach(function(m){ m.classList.remove('dang'); });
+  vt=(i+hit.length)%hit.length;
+  hit[vt].classList.add('dang');
+  hit[vt].scrollIntoView({block:'center',behavior:'smooth'});
+  dem.textContent=(vt+1)+'/'+hit.length;
+ }
+ var cho;
+ o.addEventListener('input',function(){ clearTimeout(cho);
+  cho=setTimeout(function(){ danhDau(o.value.trim()); },250); });
+ o.addEventListener('keydown',function(e){ if(e.key==='Enter'){ e.preventDefault();
+  toi(vt+(e.shiftKey?-1:1)); } });
+ document.getElementById('timTruoc').onclick=function(){ toi(vt-1); };
+ document.getElementById('timSau').onclick=function(){ toi(vt+1); };
+ addEventListener('beforeprint',xoaDanh);
+})();
+// xem ảnh phóng to: bấm ảnh để mở, ←/→ chuyển ảnh trong cùng bộ, Esc để đóng
+(function(){
+ var hop=document.getElementById('xemAnh'), anh=hop.querySelector('img'),
+     chu=hop.querySelector('.xa-chu'), dem=hop.querySelector('.xa-dem'), bo=[], vt=0;
+ function hien(i){
+  vt=(i+bo.length)%bo.length; var a=bo[vt], im=a.querySelector('img');
+  anh.src=a.getAttribute('href'); anh.alt=im.alt; chu.textContent=im.alt;
+  chu.style.display=im.alt?'':'none';
+  dem.textContent=bo.length>1?(vt+1)+' / '+bo.length:'';
+  hop.querySelector('.xa-truoc').style.display=hop.querySelector('.xa-sau').style.display=bo.length>1?'':'none';
+ }
+ function dong(){ hop.classList.remove('mo'); anh.removeAttribute('src'); document.body.style.overflow=''; }
+ document.getElementById('toGiay').addEventListener('click',function(e){
+  var a=e.target.closest('a.o-anh'); if(!a) return;
+  e.preventDefault();
+  var cha=a.closest('.bo-anh');
+  bo=cha?[].slice.call(cha.querySelectorAll('a.o-anh')):[a];
+  hien(bo.indexOf(a)); hop.classList.add('mo'); document.body.style.overflow='hidden';
+ });
+ hop.querySelector('.xa-dong').onclick=dong;
+ hop.querySelector('.xa-truoc').onclick=function(e){ e.stopPropagation(); hien(vt-1); };
+ hop.querySelector('.xa-sau').onclick=function(e){ e.stopPropagation(); hien(vt+1); };
+ hop.addEventListener('click',function(e){ if(e.target===hop) dong(); });
+ addEventListener('keydown',function(e){
+  if(!hop.classList.contains('mo')) return;
+  if(e.key==='Escape') dong();
+  else if(e.key==='ArrowLeft') hien(vt-1);
+  else if(e.key==='ArrowRight') hien(vt+1);
+ });
+ var x0=null;
+ hop.addEventListener('touchstart',function(e){ x0=e.touches[0].clientX; },{passive:true});
+ hop.addEventListener('touchend',function(e){ if(x0===null) return;
+  var dx=e.changedTouches[0].clientX-x0; x0=null;
+  if(Math.abs(dx)>50) hien(vt+(dx<0?1:-1)); });
+})();
+// video YouTube: chỉ tải khi bấm. YouTube trả "Lỗi 153" khi trang không gửi được referrer
+// (mở từ ổ đĩa file:// hoặc khung sandbox) — khi đó mở thẳng tab YouTube.
+(function(){
+ var giay=document.getElementById('toGiay'), ds=giay.querySelectorAll('.yt');
+ if(!ds.length) return;
+ var canEmbed=/^https?:$/.test(location.protocol) &&
+   (typeof window.origin==='undefined' || (window.origin && window.origin!=='null'));
+ var PLAY='<span class="play"><svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8.6 8.6 0 0 0-6-6C55.2 0 34 0 34 0S12.8 0 7.5 1.7a8.6 8.6 0 0 0-6 6A90 90 0 0 0 0 24a90 90 0 0 0 1.5 16.3 8.6 8.6 0 0 0 6 6C12.8 48 34 48 34 48s21.2 0 26.5-1.7a8.6 8.6 0 0 0 6-6A90 90 0 0 0 68 24a90 90 0 0 0-1.5-16.3z"/><path fill="#fff" d="M27 34l18-10-18-10z"/></svg></span>';
+ [].forEach.call(ds,function(b){
+  var id=b.getAttribute('data-id'), n=b.getAttribute('data-n')||'Video', watch='https://www.youtube.com/watch?v='+id;
+  b.innerHTML='<img loading="lazy" src="https://i.ytimg.com/vi/'+id+'/hqdefault.jpg" alt="'+n+'">'+PLAY+'<span class="badge">▶ '+n+'</span>';
+  b.setAttribute('role','button'); b.setAttribute('tabindex','0');
+  var fig=b.closest('figure'), cap=fig&&fig.querySelector('figcaption');
+  if(!cap&&fig){ cap=document.createElement('figcaption'); fig.appendChild(cap); }
+  if(cap){ var a=document.createElement('a'); a.className='ytlink'; a.href=watch; a.target='_blank';
+   a.rel='noopener'; a.textContent='Mở trên YouTube ↗'; cap.appendChild(a); }
+  function load(){
+   if(!canEmbed){ window.open(watch,'_blank','noopener'); return; }
+   b.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?rel=0&autoplay=1" '+
+    'referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer;autoplay;clipboard-write;'+
+    'encrypted-media;gyroscope;picture-in-picture" allowfullscreen title="'+n+'"></iframe>';
+   b.style.cursor='default';
+  }
+  b.addEventListener('click',load);
+  b.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); load(); } });
+ });
+ if(!canEmbed){
+  var w=document.createElement('div'); w.className='canh-bao';
+  w.innerHTML='<b>Lưu ý:</b> trang đang mở trực tiếp từ ổ đĩa (hoặc trong khung xem trước) nên YouTube chặn phát nhúng '+
+   '(<i>Lỗi 153</i>). Bấm vào video sẽ mở tab YouTube. Đăng trang lên web (https) thì video phát ngay trong trang.';
+  giay.insertBefore(w, giay.firstChild);
+ }
+})();
+</script>
+</body>
+</html>

@@ -11332,9 +11332,13 @@
 "slug": "2020-09-21-interventionalist-at-receiving-hospital",
 "url": "https://drsmithsecgblog.com/interventionalist-at-receiving-hospital/",
 "ngay_dang": "2020-09-21",
-"tieu_de_en": "Interventionalist at the Receiving Hospital: “No STEMI, no cath. I do not accept the transfer.”",
-"trang_thai": "dang",
-"giu_luc": 1790964489
+"tieu_de_en": "Interventionalist at the Receiving Hospital: “No STEMI, no cath.  I do not accept the transfer.”",
+"trang_thai": "xong",
+"tieu_de_vi": "21/09/2020 — Bác sĩ can thiệp ở bệnh viện tiếp nhận: “Không STEMI thì không thông tim. Tôi không nhận chuyển viện.”",
+"tu_khoa": "OMI thành sau, posterior OMI, OMI dưới-sau-bên, infero-postero-lateral OMI, sóng T tái tưới máu thành sau, posterior reperfusion T-waves, nghiệm pháp soi gương, Mirror Test, chuyển đạo phía sau, posterior leads V7-V9, tiêu chuẩn STEMI dựa trên milimét, STEMI millimeter criteria, tương đương STEMI, STEMI equivalent, rung thất, ngừng tim, tái tưới máu tự phát, chuyển đạo bên phải",
+"ngay": "2026-10-02",
+"kb": 851,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1206,
@@ -11343,8 +11347,12 @@
 "url": "https://drsmithsecgblog.com/implementation-of-abbott-architect-high/",
 "ngay_dang": "2020-09-21",
 "tieu_de_en": "Implementation of Abbott Architect High Sensitivity Troponin I in the ED",
-"trang_thai": "dang",
-"giu_luc": 1790964489
+"trang_thai": "xong",
+"tieu_de_vi": "21/09/2020 — Triển khai xét nghiệm troponin I độ nhạy cao Abbott Architect tại khoa cấp cứu",
+"tu_khoa": "troponin I độ nhạy cao, high sensitivity troponin I, hs-troponin, Abbott Architect, khoa cấp cứu, emergency department, thuật toán troponin, troponin algorithm, UTROPIA, High STEACS, loại trừ nhồi máu cơ tim, rule out MI, phán đoán lâm sàng, clinical judgment",
+"ngay": "2026-10-02",
+"kb": 24,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1205,
@@ -11353,8 +11361,12 @@
 "url": "https://drsmithsecgblog.com/cardiac-arrest-with-anterior-inferior/",
 "ngay_dang": "2020-09-19",
 "tieu_de_en": "Cardiac arrest with anterior-inferior STEMI: Guess the value of the initial ED high sensitivity Abbott troponin I",
-"trang_thai": "dang",
-"giu_luc": 1790964489
+"trang_thai": "xong",
+"tieu_de_vi": "19/09/2020 — Ngừng tim do STEMI thành trước-dưới: Hãy đoán giá trị troponin I độ nhạy cao Abbott đầu tiên tại khoa cấp cứu",
+"tu_khoa": "ngừng tim, cardiac arrest, rung thất, ventricular fibrillation, STEMI thành trước-dưới, anterior-inferior STEMI, tắc LAD đoạn xa, distal LAD occlusion, LAD vòng qua mỏm, wraparound LAD, bóc tách động mạch vành, coronary dissection, troponin I độ nhạy cao, hs-troponin I, giới hạn phát hiện, limit of detection, thuốc chẹn beta, beta blocker, OMI, sóng T tối cấp",
+"ngay": "2026-10-02",
+"kb": 1065,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1204,
@@ -11363,8 +11375,12 @@
 "url": "https://drsmithsecgblog.com/a-60-something-woman-with-chest-pain/",
 "ngay_dang": "2020-09-17",
 "tieu_de_en": "A 60-something Woman with Chest Pain and a Wide QRS",
-"trang_thai": "dang",
-"giu_luc": 1790964489
+"trang_thai": "xong",
+"tieu_de_vi": "17/09/2020 — Phụ nữ 60 mấy tuổi bị đau ngực và QRS rộng",
+"tu_khoa": "blốc nhánh trái, LBBB, tiêu chuẩn Smith-Sgarbossa cải biên, modified Sgarbossa criteria, OMI, STEMI thành dưới-sau-bên, inferior-posterior-lateral STEMI, sóng T tối cấp, hyperacute T waves, tương đương sóng Q, Q-wave equivalent, thay đổi soi gương, reciprocal change, ST chênh lên ngược hướng, discordant ST elevation, kích hoạt phòng thông tim, cath lab activation, tắc RCA",
+"ngay": "2026-10-02",
+"kb": 664,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1203,

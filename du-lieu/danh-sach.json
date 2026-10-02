@@ -5556,8 +5556,12 @@
 "url": "https://drsmithsecgblog.com/quiz-post-2-similar-patients-with/",
 "ngay_dang": "2023-11-29",
 "tieu_de_en": "Quiz post: 2 similar patients with similar ECGs. Which, if any, or both, are OMI? Will you outperform the Queen of Hearts?",
-"trang_thai": "dang",
-"giu_luc": 1790920599
+"trang_thai": "xong",
+"tieu_de_vi": "29/11/2023 — Bài đố: 2 bệnh nhân tương tự với điện tâm đồ tương tự. Ca nào là OMI — không ca nào, một ca, hay cả hai? Bạn có làm tốt hơn Queen of Hearts không?",
+"tu_khoa": "nhồi máu cơ tim do tắc, OMI, tắc LAD đoạn giữa, LAD occlusion, cắt cụt QRS, QRS truncation, tính tương xứng, proportionality, phì đại thất trái, LVH, tăng gánh thất trái, LV strain, xoáy trước tim, Precordial Swirl, sóng T tối cấp, hyperacute T waves, điện tâm đồ trước viện, EMS, Queen of Hearts, kích hoạt phòng thông tim dương tính giả",
+"ngay": "2026-10-02",
+"kb": 3369,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1626,
@@ -5566,8 +5570,12 @@
 "url": "https://drsmithsecgblog.com/chest-pain-and-new-regionalreciprocal/",
 "ngay_dang": "2023-11-27",
 "tieu_de_en": "Chest pain and new regional/reciprocal ECG changes compared to previous ECGs: code STEMI?",
-"trang_thai": "dang",
-"giu_luc": 1790920599
+"trang_thai": "xong",
+"tieu_de_vi": "27/11/2023 — Đau ngực và thay đổi điện tâm đồ khu trú/soi gương mới so với các điện tâm đồ trước: báo động STEMI?",
+"tu_khoa": "dương tính giả kích hoạt phòng thông tim, false positive cath lab activation, sóng T tối cấp, hyperacute T waves, thay đổi soi gương, reciprocal change, điện tâm đồ nền dao động, fluctuating baseline ECG, co thắt mạch vành, coronary vasospasm, tăng gánh thất trái, LVH strain, Queen of Hearts, not OMI, Code STEMI, so sánh điện tâm đồ liên tiếp",
+"ngay": "2026-10-02",
+"kb": 687,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1625,
@@ -5576,8 +5584,12 @@
 "url": "https://drsmithsecgblog.com/infection-and-dka-then-sudden-dyspnea/",
 "ngay_dang": "2023-11-22",
 "tieu_de_en": "Infection and DKA, then sudden dyspnea with chest pain while in the ED",
-"trang_thai": "dang",
-"giu_luc": 1790920599
+"trang_thai": "xong",
+"tieu_de_vi": "22/11/2023 — Nhiễm trùng và DKA, rồi đột ngột khó thở kèm đau ngực khi đang ở khoa cấp cứu",
+"tu_khoa": "hình ảnh Aslanger, Aslanger pattern, OMI thành dưới, inferior OMI, OMI thành sau, posterior OMI, thiếu máu cục bộ dưới nội tâm mạc lan tỏa, DSI, ST chênh xuống lan tỏa, nhiễm toan ceton do đái tháo đường, DKA, thiếu máu cục bộ do tăng nhu cầu, demand ischemia, bệnh nhiều nhánh mạch vành, multivessel disease, NSTEMI, so sánh điện tâm đồ liên tiếp, serial ECGs",
+"ngay": "2026-10-02",
+"kb": 1449,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1624,
@@ -5586,8 +5598,12 @@
 "url": "https://drsmithsecgblog.com/acute-dyspnea-and-right-bundle-branch/",
 "ngay_dang": "2023-11-18",
 "tieu_de_en": "Acute Dyspnea and Right Bundle Branch Block",
-"trang_thai": "dang",
-"giu_luc": 1790920599
+"trang_thai": "xong",
+"tieu_de_vi": "18/11/2023 — Khó thở cấp và blốc nhánh phải",
+"tu_khoa": "phình thất trái, LV aneurysm, blốc nhánh phải, RBBB, sóng QR, ST dạng vòm, ST coving, OMI đã tái tưới máu, reperfused OMI, thuyên tắc phổi, pulmonary embolism, tăng gánh thất phải, RV strain, loạn động, dyskinesis, Queen of Hearts, xác suất tiền nghiệm, khó thở, dyspnea",
+"ngay": "2026-10-02",
+"kb": 545,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1623,
@@ -5595,9 +5611,13 @@
 "slug": "2023-11-16-what-does-angiogram-show-echo-ct",
 "url": "https://drsmithsecgblog.com/what-does-angiogram-show-echo-ct/",
 "ngay_dang": "2023-11-16",
-"tieu_de_en": "What does the angiogram show? The Echo? The CT coronary angiogram? How do you explain this?",
-"trang_thai": "dang",
-"giu_luc": 1790920599
+"tieu_de_en": "What does the angiogram show?  The Echo?  The CT coronary angiogram? How do you explain this?",
+"trang_thai": "xong",
+"tieu_de_vi": "16/11/2023 — Chụp mạch vành cho thấy gì? Siêu âm tim? Chụp CT mạch vành? Bạn giải thích điều này thế nào?",
+"tu_khoa": "MINOCA, nhồi máu cơ tim với động mạch vành không tắc nghẽn, OMI thành sau, posterior OMI, sóng T tối cấp, hyperacute T waves, ST chênh xuống V2, tái tưới máu tự phát, spontaneous reperfusion, huyết khối mạch vành thoáng qua, transient coronary thrombosis, chụp CT mạch vành, CTCA, rối loạn vận động thành, IVUS, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 2299,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1622,

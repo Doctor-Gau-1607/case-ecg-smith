@@ -4787,8 +4787,12 @@
 "url": "https://drsmithsecgblog.com/ventricular-fibrillation-icd-lbbb-qrs/",
 "ngay_dang": "2024-04-02",
 "tieu_de_en": "Ventricular Fibrillation, ICD, LBBB, QRS of 210 ms, Positive Smith Modified Sgarbossa Criteria, and Pacemaker-Mediated Tachycardia",
-"trang_thai": "dang",
-"giu_luc": 1790916312
+"trang_thai": "xong",
+"tieu_de_vi": "02/04/2024 — Rung thất, ICD, LBBB, QRS 210 ms, tiêu chuẩn Sgarbossa cải biên theo Smith dương tính và nhịp nhanh do máy tạo nhịp",
+"tu_khoa": "rung thất, ventricular fibrillation, ICD, blốc nhánh trái, LBBB, QRS rất rộng, tiêu chuẩn Sgarbossa cải biên theo Smith, Smith modified Sgarbossa, dương tính giả, bệnh cơ tim giãn, dilated cardiomyopathy, nhịp nhanh do máy tạo nhịp, pacemaker-mediated tachycardia, PMT, CRT, ngừng tim, OMI",
+"ngay": "2026-10-02",
+"kb": 1507,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1682,
@@ -4797,8 +4801,12 @@
 "url": "https://drsmithsecgblog.com/what-happened-after-cath-lab-was/",
 "ngay_dang": "2024-03-31",
 "tieu_de_en": "What happened after the Cath lab was activated for a chest pain patient with this ECG?",
-"trang_thai": "dang",
-"giu_luc": 1790916312
+"trang_thai": "xong",
+"tieu_de_vi": "31/03/2024 — Chuyện gì đã xảy ra sau khi kích hoạt phòng thông tim cho một bệnh nhân đau ngực với điện tâm đồ này?",
+"tu_khoa": "OMI thành sau, posterior OMI, ST chênh xuống V1-V4, ST depression maximal in V1-V4, chuyển đạo phía sau, posterior leads, tương đương STEMI, STEMI equivalent, nhánh bờ tù, obtuse marginal, nghiệm pháp soi gương, Mirror Test, hủy kích hoạt phòng thông tim, cath lab activation, Queen of Hearts, đảo điện cực chi, NSTEMI",
+"ngay": "2026-10-02",
+"kb": 1373,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1681,
@@ -4806,9 +4814,13 @@
 "slug": "2024-03-28-wide-complex-tachycardia-vt-svt-or-fib",
 "url": "https://drsmithsecgblog.com/wide-complex-tachycardia-vt-svt-or-fib/",
 "ngay_dang": "2024-03-28",
-"tieu_de_en": "Wide Complex Tachycardia — VT, SVT, or A Fib with RVR? If SVT, is it AVNRT or AVRT?",
-"trang_thai": "dang",
-"giu_luc": 1790916312
+"tieu_de_en": "Wide Complex Tachycardia — VT, SVT, or A Fib with RVR?  If SVT, is it AVNRT or AVRT?",
+"trang_thai": "xong",
+"tieu_de_vi": "28/03/2024 — Nhịp nhanh QRS rộng — VT, SVT hay rung nhĩ đáp ứng thất nhanh? Nếu là SVT, đó là AVNRT hay AVRT?",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, WCT, nhịp nhanh thất, VT, SVT kèm dẫn truyền lệch hướng, SVT with aberrancy, AVNRT, AVRT, rung nhĩ đáp ứng thất nhanh, AFib with RVR, PVC giữa cơn nhịp nhanh, RBBB, LPFB, adenosine, dofetilide, metoprolol",
+"ngay": "2026-10-02",
+"kb": 2132,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1680,

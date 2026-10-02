@@ -5974,9 +5974,13 @@
 "slug": "2023-09-27-very-fast-regular-tachycardia-2-ecgs",
 "url": "https://drsmithsecgblog.com/very-fast-regular-tachycardia-2-ecgs/",
 "ngay_dang": "2023-09-27",
-"tieu_de_en": "Very fast regular tachycardia: 2 ECGs from the same patient. What is going on?",
-"trang_thai": "dang",
-"giu_luc": 1790923850
+"tieu_de_en": "Very fast regular tachycardia: 2 ECGs from the same patient.  What is going on?",
+"trang_thai": "xong",
+"tieu_de_vi": "27/09/2023 — Nhịp nhanh đều rất nhanh: 2 điện tâm đồ của cùng một bệnh nhân. Chuyện gì đang xảy ra?",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, SVT, nhịp nhanh trên thất, VT, nhịp nhanh thất, ST chênh lên vây cá mập, shark fin, OMI, LAD, sóng P ngược dòng, retrograde P waves, VT đa dạng, polymorphic VT, nhịp đôi thất, ventricular bigeminy, LAFB, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 2558,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1595,
@@ -5985,8 +5989,12 @@
 "url": "https://drsmithsecgblog.com/which-patient-has-more-severe-chest-pain/",
 "ngay_dang": "2023-09-26",
 "tieu_de_en": "Which patient has the more severe chest pain?",
-"trang_thai": "dang",
-"giu_luc": 1790923850
+"trang_thai": "xong",
+"tieu_de_vi": "26/09/2023 — Bệnh nhân nào đau ngực dữ dội hơn?",
+"tu_khoa": "mức độ đau ngực, chest pain severity, OMI, STEMI, OMI thành dưới, inferior OMI, OMI thành sau, posterior OMI, thay đổi soi gương, reciprocal change, ST thẳng đuỗn, ST straightening, sóng T tối cấp, hyperacute T waves, door-to-balloon, morphine, kích hoạt phòng thông tim, cath lab activation",
+"ngay": "2026-10-02",
+"kb": 869,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1594,
@@ -5995,8 +6003,12 @@
 "url": "https://drsmithsecgblog.com/morphine-omi-is-bad-combination/",
 "ngay_dang": "2023-09-24",
 "tieu_de_en": "Morphine + OMI is a bad combination",
-"trang_thai": "dang",
-"giu_luc": 1790923850
+"trang_thai": "xong",
+"tieu_de_vi": "24/09/2023 — Morphine + OMI là một sự kết hợp tồi",
+"tu_khoa": "OMI, nhồi máu cơ tim do tắc, OMI dưới-sau, posterior OMI, morphine, rung nhĩ, atrial fibrillation, sóng T tối cấp, hyperacute T waves, thay đổi soi gương, reciprocal change, Queen of Hearts, AI, RCA, sóng T tái tưới máu, reperfusion T waves, đau ngực",
+"ngay": "2026-10-02",
+"kb": 1933,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1593,
@@ -6005,8 +6017,12 @@
 "url": "https://drsmithsecgblog.com/this-ecg-was-texted-to-me-normal/",
 "ngay_dang": "2023-09-22",
 "tieu_de_en": "This ECG was texted to me: normal variant early repolarization, or LAD Occlusion MI (OMI)?",
-"trang_thai": "dang",
-"giu_luc": 1790923850
+"trang_thai": "xong",
+"tieu_de_vi": "22/09/2023 — Điện tâm đồ này được nhắn tin cho tôi: tái cực sớm biến thể bình thường, hay nhồi máu cơ tim do tắc LAD (OMI)?",
+"tu_khoa": "OMI, tắc LAD, LAD occlusion, sóng T tối cấp, hyperacute T waves, tái cực sớm, early repolarization, biến thể bình thường, normal variant ST elevation, sóng Wellens, Wellens waves, tái tưới máu tự phát, spontaneous reperfusion, TIMI-3, công thức 4 biến, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 1775,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1592,
@@ -6015,8 +6031,12 @@
 "url": "https://drsmithsecgblog.com/a-50-something-with-regular-wide/",
 "ngay_dang": "2023-09-20",
 "tieu_de_en": "A 50-something with Regular Wide Complex Tachycardia: What to do if electrical cardioversion does not work?",
-"trang_thai": "dang",
-"giu_luc": 1790923850
+"trang_thai": "xong",
+"tieu_de_vi": "20/09/2023 — Bệnh nhân ở độ tuổi 50 bị nhịp nhanh QRS rộng đều: Làm gì nếu sốc điện chuyển nhịp không hiệu quả?",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, WCT, nhịp nhanh thất, VT, SVT kèm dẫn truyền lệch hướng, SVT with aberrancy, sốc điện chuyển nhịp, cardioversion, procainamide, diltiazem, thuốc chẹn kênh calci, nhát hỗn hợp, fusion beat, phân ly nhĩ thất, AV dissociation, trục Tây Bắc, VT do thiếu máu cục bộ, sốc tim",
+"ngay": "2026-10-02",
+"kb": 1886,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1591,

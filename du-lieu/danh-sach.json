@@ -11501,8 +11501,12 @@
 "url": "https://drsmithsecgblog.com/a-31-year-old-with-diabetes-and-htn/",
 "ngay_dang": "2020-08-30",
 "tieu_de_en": "A 31 year old with Diabetes and HTN complains of bilateral arm tingling and headache",
-"trang_thai": "dang",
-"giu_luc": 1790966717
+"trang_thai": "xong",
+"tieu_de_vi": "30/08/2020 — Bệnh nhân 31 tuổi bị đái tháo đường và tăng huyết áp than phiền tê bì châm chích hai cánh tay và đau đầu",
+"tu_khoa": "phì đại thất trái, LVH, tăng gánh thất trái, LV strain, giả STEMI, pseudoSTEMI, STEMI dương tính giả, false positive STEMI, OMI giữa-trước bên, mid-anterolateral OMI, tăng huyết áp ác tính, malignant hypertension, tăng huyết áp cấp cứu, hypertensive emergency, khía điểm J, tăng thông khí, hyperventilation",
+"ngay": "2026-10-02",
+"kb": 441,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1194,
@@ -11511,8 +11515,12 @@
 "url": "https://drsmithsecgblog.com/3-days-of-shoulder-and-chest-pain-and/",
 "ngay_dang": "2020-08-28",
 "tieu_de_en": "3 days of shoulder and chest pain, and now cardiogenic shock",
-"trang_thai": "dang",
-"giu_luc": 1790966717
+"trang_thai": "xong",
+"tieu_de_vi": "28/08/2020 — 3 ngày đau vai và đau ngực, giờ đã sốc tim",
+"tu_khoa": "sốc tim, cardiogenic shock, tắc động mạch mũ trái, LCx occlusion, nhồi máu cơ tim thành sau, posterior MI, nhồi máu cơ tim dưới-sau-bên, infero-postero-lateral MI, ST chênh xuống V2-V3, sóng T tái tưới máu, reperfusion T waves, giả bình thường hóa sóng T, pseudonormalization, QT dài do Sotalol, điện thế thấp, low voltage, troponin rất cao, POCUS",
+"ngay": "2026-10-02",
+"kb": 2777,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1193,
@@ -11521,8 +11529,12 @@
 "url": "https://drsmithsecgblog.com/a-woman-in-her-60s-with-chest-pain/",
 "ngay_dang": "2020-08-24",
 "tieu_de_en": "A woman in her 60s with 6 hours of chest pain, dyspnea, tachycardia, and hypoxemia",
-"trang_thai": "dang",
-"giu_luc": 1790966717
+"trang_thai": "xong",
+"tieu_de_vi": "24/08/2020 — Một phụ nữ 60 mấy tuổi đau ngực 6 giờ, khó thở, nhịp tim nhanh và giảm oxy máu",
+"tu_khoa": "nhồi máu cơ tim do tắc, OMI, tắc LAD, LAD occlusion, blốc nhánh phải, RBBB, blốc phân nhánh trái trước, LAFB, sốc tim, cardiogenic shock, nhồi máu cơ tim bán cấp, subacute MI, sóng Q, phình thất trái, LV aneurysm, rối loạn vận động thành, wall motion abnormality, STEMI(-)OMI, troponin",
+"ngay": "2026-10-02",
+"kb": 907,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1192,
@@ -11531,8 +11543,12 @@
 "url": "https://drsmithsecgblog.com/dynamic-st-change-in-mid-50s-man-with/",
 "ngay_dang": "2020-08-22",
 "tieu_de_en": "Dynamic ST Change in a mid-50s Man with Chest Pain",
-"trang_thai": "dang",
-"giu_luc": 1790966717
+"trang_thai": "xong",
+"tieu_de_vi": "22/08/2020 — Thay đổi ST động ở một người đàn ông ngoài 50 tuổi bị đau ngực",
+"tu_khoa": "thay đổi ST-T động, dynamic ST-T changes, biến thể tái cực, repolarization variant, tái cực sớm, early repolarization, sóng T tối cấp, hyperacute T waves, ST chênh lên, ST elevation, khía điểm J, J-point notching, so sánh điện tâm đồ liên tiếp, serial ECGs, chuyển tiếp đột ngột, abrupt transition, OMI, đau ngực, chest pain",
+"ngay": "2026-10-02",
+"kb": 965,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1191,
@@ -11540,9 +11556,13 @@
 "slug": "2020-08-19-chest-pressure-and-t-wave-inversions",
 "url": "https://drsmithsecgblog.com/chest-pressure-and-t-wave-inversions/",
 "ngay_dang": "2020-08-19",
-"tieu_de_en": "Chest pressure and T-wave inversions. Not what you might think.",
-"trang_thai": "dang",
-"giu_luc": 1790966717
+"tieu_de_en": "Chest pressure and T-wave inversions.  Not what you might think.",
+"trang_thai": "xong",
+"tieu_de_vi": "19/08/2020 — Tức ngực và sóng T đảo ngược. Không phải điều bạn nghĩ đâu.",
+"tu_khoa": "sóng T đảo ngược, T-wave inversion, giả Wellens, Pseudo-Wellens, hội chứng Wellens, Wellens syndrome, phì đại thất trái, LVH, tiêu chuẩn Peguero, Peguero criteria, troponin độ nhạy cao, high-sensitivity troponin, loại trừ hội chứng vành cấp, rule out ACS, sóng T tái tưới máu, reperfusion T waves",
+"ngay": "2026-10-02",
+"kb": 1690,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1190,

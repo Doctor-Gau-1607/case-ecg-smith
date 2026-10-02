@@ -6786,8 +6786,12 @@
 "url": "https://drsmithsecgblog.com/50-year-old-with-acute-chest-pain-with/",
 "ngay_dang": "2023-04-21",
 "tieu_de_en": "50 year old with acute chest pain, with ‘normal’ ECG and falling troponin",
-"trang_thai": "dang",
-"giu_luc": 1790928726
+"trang_thai": "xong",
+"tieu_de_vi": "21/04/2023 — Bệnh nhân 50 tuổi đau ngực cấp, điện tâm đồ ‘bình thường’ và troponin đang giảm",
+"tu_khoa": "OMI dưới-sau, inferoposterior OMI, STEMI(-)OMI, OMI STEMI âm tính, tắc RCA, RCA occlusion, sóng T tối cấp, hyperacute T waves, thay đổi soi gương aVL, reciprocal change, giả bình thường hóa, pseudonormalization, troponin giảm, falling troponin, Queen of Hearts, điện tâm đồ máy đọc bình thường",
+"ngay": "2026-10-02",
+"kb": 1475,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1536,
@@ -6795,9 +6799,13 @@
 "slug": "2023-04-17-compare-these-two-ecgs-do-either",
 "url": "https://drsmithsecgblog.com/compare-these-two-ecgs-do-either/",
 "ngay_dang": "2023-04-17",
-"tieu_de_en": "Compare these two ECGs. Do either, neither, or both show anything important?",
-"trang_thai": "dang",
-"giu_luc": 1790928726
+"tieu_de_en": "Compare these two ECGs.  Do either, neither, or both show anything important?",
+"trang_thai": "xong",
+"tieu_de_vi": "17/04/2023 — Hãy so sánh hai điện tâm đồ này. Một trong hai, không cái nào, hay cả hai cho thấy điều gì quan trọng?",
+"tu_khoa": "hình ảnh giả OMI, OMI mimic, sóng T de Winter, de Winter T waves, tắc LAD cấp, acute LAD occlusion, sóng T tối cấp, hyperacute T waves, phì đại thất trái, LVH, tăng gánh soi gương, biến thể tái cực, repolarization variant, khía điểm J, J-point notching, OMI STEMI âm tính, STEMI(-) OMI, NSTEMI, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 3298,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1535,
@@ -6806,8 +6814,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-60s-with-acute-chest-pain/",
 "ngay_dang": "2023-04-14",
 "tieu_de_en": "A man in his 60s with acute chest pain and high voltage",
-"trang_thai": "dang",
-"giu_luc": 1790928726
+"trang_thai": "xong",
+"tieu_de_vi": "14/04/2023 — Một người đàn ông ở độ tuổi 60 bị đau ngực cấp và điện thế cao",
+"tu_khoa": "OMI, nhồi máu cơ tim do tắc, LAD OMI, tắc LAD, phì đại thất trái, LVH, tăng gánh thất trái, LV strain, hình soi gương, mirror-image, sóng T tối cấp, hyperacute T waves, so sánh điện tâm đồ nền, baseline ECG, tính tương xứng, proportionality, Queen of Hearts, troponin",
+"ngay": "2026-10-02",
+"kb": 3761,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1534,

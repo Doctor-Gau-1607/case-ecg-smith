@@ -12382,9 +12382,13 @@
 "slug": "2020-03-04-a-40-something-with-chest-pain-is-this",
 "url": "https://drsmithsecgblog.com/a-40-something-with-chest-pain-is-this/",
 "ngay_dang": "2020-03-04",
-"tieu_de_en": "A 40-something with chest pain. Is this inferior MI?",
-"trang_thai": "dang",
-"giu_luc": 1790971580
+"tieu_de_en": "A 40-something with chest pain.  Is this inferior MI?",
+"trang_thai": "xong",
+"tieu_de_vi": "04/03/2020 — Bệnh nhân 40 mấy tuổi đau ngực. Đây có phải nhồi máu cơ tim thành dưới không?",
+"tu_khoa": "blốc AV độ 1, first-degree AV block, khoảng PR kéo dài, prolonged PR interval, nhịp nhanh xoang, sinus tachycardia, sóng P ẩn trong sóng T, P wave hidden in T wave, giả ST chênh lên thành dưới, pseudo inferior ST elevation, nhịp nhanh nhĩ, atrial tachycardia, ảnh chụp điện tâm đồ bị nghiêng",
+"ngay": "2026-10-02",
+"kb": 1186,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1131,
@@ -12393,8 +12397,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-60s-with-chest-pain-could/",
 "ngay_dang": "2020-03-02",
 "tieu_de_en": "A man in his 60s with chest pain. Could you have prevented his cardiac arrest?",
-"trang_thai": "dang",
-"giu_luc": 1790971580
+"trang_thai": "xong",
+"tieu_de_vi": "02/03/2020 — Một người đàn ông 60 mấy tuổi đau ngực. Bạn có thể đã ngăn được cơn ngừng tim của ông?",
+"tu_khoa": "OMI thành dưới, inferior OMI, sóng T tối cấp, hyperacute T waves, tắc RCA, RCA occlusion, nhịp chậm xoang, sinus bradycardia, rung thất, VF arrest, tái tưới máu tự phát, spontaneous reperfusion, OMI từng lúc, STEMI(-) OMI, thay đổi soi gương aVL, reciprocal change",
+"ngay": "2026-10-02",
+"kb": 1769,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1130,
@@ -12403,8 +12411,12 @@
 "url": "https://drsmithsecgblog.com/are-these-wellens-waves/",
 "ngay_dang": "2020-02-28",
 "tieu_de_en": "Are these Wellens’ waves?",
-"trang_thai": "dang",
-"giu_luc": 1790971580
+"trang_thai": "xong",
+"tieu_de_vi": "28/02/2020 — Đây có phải là sóng Wellens không?",
+"tu_khoa": "sóng Wellens (Wellens' waves), giả Wellens (PseudoWellens), thuyên tắc phổi cấp (acute PE), thiếu oxy cấp (acute hypoxia), tăng gánh tim phải cấp (acute right heart strain), S1Q3T3, sóng T đảo ngược trước tim (precordial T wave inversion), sóng T đảo ngược chuyển đạo III và V1, tiêu chuẩn Kosuge, tỷ số khả dĩ (likelihood ratio), đợt cấp COPD (COPD exacerbation), tăng áp phổi cấp (acute pulmonary hypertension), hội chứng vành cấp (ACS), phì đại thất phải (RVH)",
+"ngay": "2026-10-02",
+"kb": 1200,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1129,

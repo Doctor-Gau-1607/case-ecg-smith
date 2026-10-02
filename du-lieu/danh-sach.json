@@ -13386,9 +13386,13 @@
 "slug": "2019-08-13-the-ecg-was-correct-angiogram-was-not",
 "url": "https://drsmithsecgblog.com/the-ecg-was-correct-angiogram-was-not/",
 "ngay_dang": "2019-08-13",
-"tieu_de_en": "The ECG was correct. The angiogram was not.",
-"trang_thai": "dang",
-"giu_luc": 1790981092
+"tieu_de_en": "The ECG was correct.  The angiogram was not.",
+"trang_thai": "xong",
+"tieu_de_vi": "13/08/2019 — Điện tâm đồ đã đúng. Chụp mạch vành thì không.",
+"tu_khoa": "tắc LAD đoạn gần, proximal LAD occlusion, OMI, OMI thoáng qua, transient OMI, STEMI thoáng qua, transient STEMI, sóng T tối cấp, hyperacute T waves, tái tưới máu tự phát, spontaneous reperfusion, chụp mạch vành bình thường, normal angiogram, PVC muộn trong chu kỳ, late-cycle PVC, ST chênh xuống soi gương, reciprocal ST depression",
+"ngay": "2026-10-02",
+"kb": 1414,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1059,
@@ -13397,8 +13401,12 @@
 "url": "https://drsmithsecgblog.com/how-does-acute-left-main-occlusion/",
 "ngay_dang": "2019-08-09",
 "tieu_de_en": "How does Acute Total Left Main Coronary occlusion present on the ECG?",
-"trang_thai": "dang",
-"giu_luc": 1790981092
+"trang_thai": "xong",
+"tieu_de_vi": "09/08/2019 — Tắc hoàn toàn cấp thân chung động mạch vành trái biểu hiện thế nào trên điện tâm đồ?",
+"tu_khoa": "tắc thân chung động mạch vành trái, left main occlusion, LMCA, ST chênh lên ở aVR, STE in aVR, ST chênh xuống lan tỏa, diffuse ST depression, OMI phía Bắc, Northern OMI, RBBB kèm LAFB, vây cá mập, shark fin, thiếu máu cục bộ dưới nội tâm mạc, hình ảnh Aslanger, tương đương STEMI, tuần hoàn bàng hệ",
+"ngay": "2026-10-02",
+"kb": 7902,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1058,
@@ -13407,8 +13415,12 @@
 "url": "https://drsmithsecgblog.com/a-young-woman-with-altered-mental/",
 "ngay_dang": "2019-08-07",
 "tieu_de_en": "A young woman with altered mental status and hypotension",
-"trang_thai": "dang",
-"giu_luc": 1790981092
+"trang_thai": "xong",
+"tieu_de_vi": "07/08/2019 — Một phụ nữ trẻ rối loạn ý thức và hạ huyết áp",
+"tu_khoa": "thuyên tắc phổi, pulmonary embolism, PE diện rộng, massive PE, tăng gánh thất phải cấp, acute RV strain, sóng T đảo ngược V1-V3 và III, T-wave inversion, dấu hiệu chữ D, D sign, siêu âm tại giường, POCUS, alteplase, tiêu sợi huyết, nhịp nhanh xoang, rối loạn ý thức, Wellens",
+"ngay": "2026-10-02",
+"kb": 827,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1057,
@@ -13417,8 +13429,12 @@
 "url": "https://drsmithsecgblog.com/what-are-all-these-little-spikes/",
 "ngay_dang": "2019-08-04",
 "tieu_de_en": "What are all these little spikes?",
-"trang_thai": "dang",
-"giu_luc": 1790981092
+"trang_thai": "xong",
+"tieu_de_vi": "04/08/2019 — Tất cả những gai nhỏ này là gì?",
+"tu_khoa": "nhiễu, artifact, gai nhiễu, spikes, máy kích thích thần kinh, nerve stimulator, máy kích thích bàng quang, bladder stimulator, bàng quang thần kinh, neurogenic bladder, gai tạo nhịp, pacer spike, giả máy tạo nhịp",
+"ngay": "2026-10-02",
+"kb": 334,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1056,
@@ -13437,8 +13453,12 @@
 "url": "https://drsmithsecgblog.com/a-60-something-who-has-non-specific/",
 "ngay_dang": "2019-07-30",
 "tieu_de_en": "A 60-something who has non-specific generalized malaise and is ill appearing.",
-"trang_thai": "dang",
-"giu_luc": 1790981092
+"trang_thai": "xong",
+"tieu_de_vi": "30/07/2019 — Bệnh nhân 60 mấy tuổi mệt mỏi toàn thân không đặc hiệu và trông có vẻ bệnh nặng.",
+"tu_khoa": "tăng kali máu, hyperkalemia, QRS cực rộng, wide QRS, nhịp nhanh QRS rộng, wide complex tachycardia, VT, ngộ độc thuốc chẹn kênh natri, sodium channel blocker toxicity, suy thận, renal failure, bệnh thận tắc nghẽn, obstructive nephropathy, NSAID, điện tâm đồ trước viện, prehospital ECG",
+"ngay": "2026-10-02",
+"kb": 296,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1054,

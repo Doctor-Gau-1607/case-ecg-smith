@@ -153,3 +153,16 @@ Corrado index → chỉ số Corrado | Shanghai score → điểm Thượng Hả
 Flecainide toxicity → ngộ độc flecainide
 fluid overload → quá tải dịch | work of breathing → công hô hấp
 first medical contact → lần tiếp xúc y tế đầu tiên
+capture (pacing) → bắt nhịp | failure to capture → mất bắt nhịp (failure to capture) | electrical / mechanical capture → bắt nhịp điện / bắt nhịp cơ học | pacing pads → miếng dán tạo nhịp
+decremental conduction → dẫn truyền giảm dần (decremental conduction) | latent conduction → dẫn truyền tiềm ẩn | reciprocal beat (nhát vào lại nút AV) → nhát phản hồi (reciprocal beat), khác "reciprocal change" (soi gương)
+infra-Hisian → dưới His (infra-Hisian) | HV interval → khoảng HV | carotid massage → xoa xoang cảnh
+biventricular pacing → tạo nhịp hai thất (biventricular) | CRT → điều trị tái đồng bộ tim (CRT) | conduction system pacing → tạo nhịp hệ dẫn truyền | LBB area pacing → tạo nhịp vùng nhánh trái (LBB area pacing) | coronary sinus lead → dây điện cực xoang vành
+modified QT (Bogossian) → QT cải biên (modified QT) | JT interval → khoảng JT | proportional discordance → ngược hướng tương xứng (proportional discordance)
+time zero → mốc thời gian ban đầu (time zero) — không ghi "0" để khỏi thêm số
+intra-observer variability → độ biến thiên trong cùng người đọc | interrater agreement → mức đồng thuận giữa người đánh giá | AUC → diện tích dưới đường cong (AUC)
+hypertensive emergency / urgency → tăng huyết áp cấp cứu / tăng huyết áp khẩn cấp | end-organ damage → tổn thương cơ quan đích | dissection flap → vạt bóc tách | true lumen → lòng thật
+caudal / cranial (góc chụp mạch vành) → chếch chân (caudal) / chếch đầu (cranial) | RAO / LAO → giữ viết tắt, lần đầu kèm (chếch trước phải / chếch trước trái)
+PNH (paroxysmal nocturnal hemoglobinuria) → đái huyết sắc tố kịch phát về đêm (PNH) | intracoronary alteplase → alteplase trong mạch vành
+pathognomonic → đặc hiệu chẩn đoán (pathognomonic) | pre-excited AFib → AFib tiền kích thích | AP (accessory pathway) → đường phụ (AP)
+LVEDP → áp lực cuối tâm trương thất trái (LVEDP) | in-stent thrombosis → huyết khối trong stent | staged PCI → PCI theo giai đoạn | intravascular lithotripsy → tán sỏi nội mạch
+Lỗi đánh máy vô hại trong bản gốc (lặp từ, sai chính tả) → dịch theo ý đúng, không lặp từ; lỗi nội dung → dịch trung thành + "[người dịch: …]", không tự sửa

@@ -6558,8 +6558,12 @@
 "url": "https://drsmithsecgblog.com/a-young-lady-with-wide-complex/",
 "ngay_dang": "2023-06-03",
 "tieu_de_en": "A young lady with wide complex tachycardia. My first time actually making this diagnosis de novo in real life in the ED!",
-"trang_thai": "dang",
-"giu_luc": 1790927758
+"trang_thai": "xong",
+"tieu_de_vi": "03/06/2023 — Một phụ nữ trẻ bị nhịp nhanh QRS rộng. Lần đầu tiên tôi thực sự tự mình đưa ra chẩn đoán này từ đầu (de novo) ngoài đời thực tại khoa cấp cứu!",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, bệnh cơ tim thất phải gây loạn nhịp, ARVC, ARVD, sóng epsilon, epsilon wave, VT đường ra thất phải, RVOT VT, VT vô căn, idiopathic VT, adenosine, sốc điện chuyển nhịp đồng bộ, MRI tim, tiêu chuẩn Task Force, bệnh cơ tim gây loạn nhịp",
+"ngay": "2026-10-02",
+"kb": 2089,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1553,
@@ -6568,8 +6572,12 @@
 "url": "https://drsmithsecgblog.com/another-myocardial-wall-is-sacrificed/",
 "ngay_dang": "2023-05-31",
 "tieu_de_en": "Another myocardial wall is sacrificed at the altar of the STEMI/NonSTEMI mass delusion (and Opiate pain relief).",
-"trang_thai": "dang",
-"giu_luc": 1790927758
+"trang_thai": "xong",
+"tieu_de_vi": "31/05/2023 — Thêm một thành cơ tim nữa bị hiến tế trên bàn thờ của ảo tưởng tập thể STEMI/NonSTEMI (và giảm đau bằng thuốc nhóm opioid).",
+"tu_khoa": "sóng T de Winter, de Winter T waves, OMI, nhồi máu cơ tim do tắc, tắc LAD đoạn giữa, LAD vòng qua mỏm, wraparound LAD, tương đương STEMI, STEMI equivalent, sóng T tối cấp, hyperacute T waves, thay đổi ST-T động, dynamic ST-T changes, STEMI(-) OMI, opioid, morphin, hydromorphone, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 2803,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1552,
@@ -6577,9 +6585,13 @@
 "slug": "2023-05-30-chest-pain-and-shock-is-there-right-2",
 "url": "https://drsmithsecgblog.com/chest-pain-and-shock-is-there-right-2/",
 "ngay_dang": "2023-05-30",
-"tieu_de_en": "Chest pain and shock: Is there a right ventricular OMI on this ECG? And should he undergo trancutaneous pacing?",
-"trang_thai": "dang",
-"giu_luc": 1790927758
+"tieu_de_en": "Chest pain and shock: Is there a right ventricular OMI on this ECG?  And should he undergo trancutaneous pacing?",
+"trang_thai": "xong",
+"tieu_de_vi": "30/05/2023 — Đau ngực và sốc: Có OMI thất phải trên điện tâm đồ này không? Và có nên tạo nhịp qua da cho bệnh nhân?",
+"tu_khoa": "nhồi máu thất phải, RV MI, OMI thành dưới-sau-bên, inferior posterior OMI, tắc RCA đoạn gần, proximal RCA occlusion, STE ở V1, STD ở V2, chuyển đạo bên phải, V4R, chuyển đạo phía sau, nhịp thoát bộ nối, junctional escape, sốc tim, tạo nhịp qua da, transcutaneous pacing, atropin, đảo điện cực LA-RA",
+"ngay": "2026-10-02",
+"kb": 3831,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1551,
@@ -6597,8 +6609,12 @@
 "url": "https://drsmithsecgblog.com/20-something-with-huge-verapamil-2/",
 "ngay_dang": "2023-05-26",
 "tieu_de_en": "20-something with huge verapamil overdose and cardiogenic shock",
-"trang_thai": "dang",
-"giu_luc": 1790927758
+"trang_thai": "xong",
+"tieu_de_vi": "26/05/2023 — Bệnh nhân độ tuổi 20 quá liều verapamil rất lớn và sốc tim",
+"tu_khoa": "quá liều verapamil, verapamil overdose, ngộ độc thuốc chẹn kênh calci, calcium channel blocker toxicity, sốc tim, cardiogenic shock, nhịp bộ nối, junctional rhythm, blốc nhánh trái, LBBB, ST chênh lên, ST elevation, tiêu chuẩn Sgarbossa cải biên theo Smith, giả STEMI, insulin liều cao, high dose insulin, nhịp thoát bộ nối, ECMO",
+"ngay": "2026-10-02",
+"kb": 3605,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1549,
@@ -6616,8 +6632,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-early-40s-with-chest-pain/",
 "ngay_dang": "2023-05-23",
 "tieu_de_en": "A man in his early 40s with chest pain a “normal ECG” by computer algorithm. Should we avoid interrupting a physician to interpret his ECG?",
-"trang_thai": "dang",
-"giu_luc": 1790927758
+"trang_thai": "xong",
+"tieu_de_vi": "23/05/2023 — Người đàn ông đầu tuổi 40 đau ngực với “điện tâm đồ bình thường” theo thuật toán máy tính. Có nên tránh làm gián đoạn bác sĩ để đọc điện tâm đồ của ông ấy?",
+"tu_khoa": "OMI vùng trước bên, anterolateral OMI, tắc LAD đoạn gần, proximal LAD occlusion, OMI STEMI dương tính, STEMI(+) OMI, điện tâm đồ bình thường theo máy tính, computer normal ECG, thuật toán Glasgow, Glasgow algorithm, Queen of Hearts, sóng T tối cấp, hyperacute T waves, ST chênh lên, sóng QS, điện tâm đồ lúc phân loại, triage ECG",
+"ngay": "2026-10-02",
+"kb": 1798,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1547,
@@ -6626,8 +6646,12 @@
 "url": "https://drsmithsecgblog.com/an-elderly-patient-with-syncpe-dyspnea/",
 "ngay_dang": "2023-05-21",
 "tieu_de_en": "An elderly patient with syncope, dyspnea, and weakness, but no Chest Pain, and mild hyperkalemia",
-"trang_thai": "dang",
-"giu_luc": 1790927758
+"trang_thai": "xong",
+"tieu_de_vi": "21/05/2023 — Bệnh nhân cao tuổi bị ngất, khó thở và yếu sức nhưng không đau ngực, kèm tăng kali máu nhẹ",
+"tu_khoa": "ngộ độc flecainide, flecainide toxicity, nhịp tạo nhịp thất, ventricular paced rhythm, QRS rất rộng, wide QRS, tăng kali máu, hyperkalemia, mất bắt nhịp, failure to capture, tiêu chuẩn Sgarbossa cải biên theo Smith, Smith-modified Sgarbossa, giả OMI, OMI mimic, phụ thuộc tần số sử dụng, use dependence, ngất, syncope, suy thận, renal insufficiency",
+"ngay": "2026-10-02",
+"kb": 2265,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1546,

@@ -5747,8 +5747,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-60s-with-syncope-and-st/",
 "ngay_dang": "2023-10-25",
 "tieu_de_en": "A man in his 60s with syncope and ST depression. What does the ECG mean?",
-"trang_thai": "dang",
-"giu_luc": 1790921354
+"trang_thai": "xong",
+"tieu_de_vi": "25/10/2023 — Nam giới ngoài 60 tuổi bị ngất và ST chênh xuống. Điện tâm đồ có ý nghĩa gì?",
+"tu_khoa": "hạ kali máu, hypokalemia, hạ magnesi máu, hypomagnesemia, hạ calci máu, QT kéo dài, long QT, sóng U, U wave, khoảng QU, xoắn đỉnh, Torsades de Pointes, ngất, syncope, ciprofloxacin, ST chênh xuống lan tỏa, DSI, nhát hỗn hợp, fusion beat, ước tính QTc",
+"ngay": "2026-10-02",
+"kb": 971,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1612,
@@ -5757,8 +5761,12 @@
 "url": "https://drsmithsecgblog.com/does-this-t-wave-pattern-mean-anything-2/",
 "ngay_dang": "2023-10-23",
 "tieu_de_en": "Does this T wave pattern mean anything?",
-"trang_thai": "dang",
-"giu_luc": 1790921354
+"trang_thai": "xong",
+"tieu_de_vi": "23/10/2023 — Hình ảnh sóng T này có ý nghĩa gì không?",
+"tu_khoa": "sóng T luân phiên, T wave alternans, TWA, điện thế luân phiên, electrical alternans, QT kéo dài, long QT, QTc prolongation, xoắn đỉnh, Torsades de Pointes, ngộ độc thuốc, drug overdose, ngừng tim, cardiac arrest, magnesi, luân phiên tái cực, repolarization alternans, chèn ép tim",
+"ngay": "2026-10-02",
+"kb": 1042,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1611,
@@ -5766,9 +5774,13 @@
 "slug": "2023-10-21-vt-or-supraventricular-tachycardic",
 "url": "https://drsmithsecgblog.com/vt-or-supraventricular-tachycardic/",
 "ngay_dang": "2023-10-21",
-"tieu_de_en": "VT? Or Supraventricular tachycardic rhythm with aberrancy?",
-"trang_thai": "dang",
-"giu_luc": 1790921354
+"tieu_de_en": "VT?  Or Supraventricular tachycardic rhythm with aberrancy?",
+"trang_thai": "xong",
+"tieu_de_vi": "21/10/2023 — VT? Hay nhịp nhanh trên thất kèm dẫn truyền lệch hướng?",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, WCT, nhịp nhanh thất, VT, SVT kèm dẫn truyền lệch hướng, SVT with aberrancy, nhịp nhanh xoang, sinus tachycardia, blốc nhánh trái, LBBB, cắt toàn bộ một phổi, pneumonectomy, tim lệch phải, dextroposition, đợt cấp COPD, sốc điện chuyển nhịp đồng bộ",
+"ngay": "2026-10-02",
+"kb": 2056,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1610,

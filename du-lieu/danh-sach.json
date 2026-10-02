@@ -3504,9 +3504,13 @@
 "slug": "2024-10-30-chest-pain-and-saddleback-ste-for-which",
 "url": "https://drsmithsecgblog.com/chest-pain-and-saddleback-ste-for-which/",
 "ngay_dang": "2024-10-30",
-"tieu_de_en": "Chest pain and Saddleback STE. For Which of these 6 Cases should we Activate the cath lab? And how does the Queen of Hearts perform?",
-"trang_thai": "dang",
-"giu_luc": 1790903231
+"tieu_de_en": "Chest pain and Saddleback STE. For Which of these 6 Cases should we Activate the cath lab?  And how does the Queen of Hearts perform?",
+"trang_thai": "xong",
+"tieu_de_vi": "30/10/2024 — Đau ngực và ST chênh lên hình yên ngựa. Với ca nào trong 6 ca này nên kích hoạt phòng thông tim? Và Queen of Hearts thể hiện ra sao?",
+"tu_khoa": "ST chênh lên hình yên ngựa, saddleback ST elevation, OMI, giả OMI, OMI mimic, sóng T tối cấp, hyperacute T waves, thay đổi soi gương, reciprocal change, đặt điện cực quá cao, high lead placement, tiêu sợi huyết, thrombolysis, LAD vòng qua mỏm, wraparound LAD, Queen of Hearts, kích hoạt phòng thông tim, cath lab activation",
+"ngay": "2026-10-02",
+"kb": 3532,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1776,
@@ -3515,8 +3519,12 @@
 "url": "https://drsmithsecgblog.com/prehospital-activation-de-activated-on/",
 "ngay_dang": "2024-10-27",
 "tieu_de_en": "Prehospital activation: De-activated on ED arrival by Cardiologist because “It’s not a STEMI”",
-"trang_thai": "dang",
-"giu_luc": 1790903231
+"trang_thai": "xong",
+"tieu_de_vi": "27/10/2024 — Kích hoạt từ trước viện: Bị bác sĩ tim mạch hủy kích hoạt khi đến khoa cấp cứu vì “Đây không phải STEMI”",
+"tu_khoa": "OMI, LAD OMI, sóng T tối cấp, hyperacute T waves, tỷ lệ T/QRS, T/QRS ratio, hủy kích hoạt phòng thông tim, cath lab deactivation, NSTEMI nguy cơ cao, high-risk NSTEMI, tắc mạn tính LAD, chronic total occlusion, tuần hoàn bàng hệ, collaterals, RCA đoạn xa, Queen of Hearts, điện tâm đồ trước viện, prehospital ECG, troponin",
+"ngay": "2026-10-02",
+"kb": 584,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1775,
@@ -3524,9 +3532,13 @@
 "slug": "2024-10-24-conventional-computer-ecg-algorithm",
 "url": "https://drsmithsecgblog.com/conventional-computer-ecg-algorithm/",
 "ngay_dang": "2024-10-24",
-"tieu_de_en": "Conventional computer ECG algorithm misses another potentially deadly abnormality. How does AI perform?",
-"trang_thai": "dang",
-"giu_luc": 1790903231
+"tieu_de_en": "Conventional computer ECG algorithm misses another potentially deadly abnormality.  How does AI perform?",
+"trang_thai": "xong",
+"tieu_de_vi": "24/10/2024 — Thuật toán điện tâm đồ máy tính thông thường lại bỏ sót thêm một bất thường có thể gây tử vong. AI thì làm được đến đâu?",
+"tu_khoa": "QT kéo dài, long QT, QTc, sóng U, QU, ngất, syncope, amiodarone, xoắn đỉnh, Torsades de Pointes, nhịp chậm xoang, sinus bradycardia, kết quả đọc bằng máy tính, computerized interpretation, PMcardio, trí tuệ nhân tạo, AI, hội chứng QT dài",
+"ngay": "2026-10-02",
+"kb": 1966,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1774,

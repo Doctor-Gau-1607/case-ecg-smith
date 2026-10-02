@@ -4045,8 +4045,12 @@
 "url": "https://drsmithsecgblog.com/what-does-this-ecg-show/",
 "ngay_dang": "2024-08-04",
 "tieu_de_en": "What does this ECG show?",
-"trang_thai": "dang",
-"giu_luc": 1790907101
+"trang_thai": "xong",
+"tieu_de_vi": "04/08/2024 — Điện tâm đồ này cho thấy gì?",
+"tu_khoa": "viêm màng ngoài tim cấp, acute pericarditis, tràn dịch màng ngoài tim, pericardial effusion, ST chênh lên lan tỏa, diffuse ST elevation, đoạn PR chênh xuống, PR depression, dấu hiệu Spodick, Spodick sign, tỷ lệ ST/sóng T, ST/T ratio, chấn thương ngực, chest trauma, Queen of Hearts, giả STEMI, STEMI mimic, so sánh điện tâm đồ liên tiếp",
+"ngay": "2026-10-02",
+"kb": 4160,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1735,
@@ -4054,9 +4058,13 @@
 "slug": "2024-08-02-anterior-omi-what-does-angiogram-show",
 "url": "https://drsmithsecgblog.com/anterior-omi-what-does-angiogram-show/",
 "ngay_dang": "2024-08-02",
-"tieu_de_en": "Anterior OMI. What does the angiogram show?",
-"trang_thai": "dang",
-"giu_luc": 1790907101
+"tieu_de_en": "Anterior OMI.  What does the angiogram show?",
+"trang_thai": "xong",
+"tieu_de_vi": "02/08/2024 — OMI thành trước. Chụp mạch vành cho thấy gì?",
+"tu_khoa": "OMI thành trước, anterior OMI, nhồi máu thất phải, RV MI, tắc RCA đoạn gần, proximal RCA occlusion, sóng T tối cấp, hyperacute T waves, ST chênh lên V1, động mạch thủ phạm, culprit artery, chụp mạch vành, angiogram, xoáy trước tim, precordial swirl, chuyển đạo bên phải, right-sided leads",
+"ngay": "2026-10-02",
+"kb": 877,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1734,
@@ -4064,9 +4072,13 @@
 "slug": "2024-07-30-what-do-you-think-of-these-2-ecgs-in",
 "url": "https://drsmithsecgblog.com/what-do-you-think-of-these-2-ecgs-in/",
 "ngay_dang": "2024-07-30",
-"tieu_de_en": "What do you think of these 2 ECGs in patients with chest pain? How to approach these?",
-"trang_thai": "dang",
-"giu_luc": 1790907101
+"tieu_de_en": "What do you think of these 2 ECGs in patients with chest pain?  How to approach these?",
+"trang_thai": "xong",
+"tieu_de_vi": "30/07/2024 — Bạn nghĩ gì về 2 điện tâm đồ này ở các bệnh nhân đau ngực? Tiếp cận chúng như thế nào?",
+"tu_khoa": "phình thất trái, LV aneurysm, nhồi máu cơ tim cũ, old MI, ST chênh lên hình yên ngựa, saddleback STE, nhồi máu cơ tim típ 2, type 2 MI, kích hoạt phòng thông tim dương tính giả, false positive cath lab activation, Queen of Hearts, OMI, phân mảnh QRS, IRBBB, LAHB, thiếu máu cục bộ do mất cân bằng cung-cầu",
+"ngay": "2026-10-02",
+"kb": 1944,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1733,

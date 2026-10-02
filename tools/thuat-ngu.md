@@ -167,3 +167,4 @@ pathognomonic → đặc hiệu chẩn đoán (pathognomonic) | pre-excited AFib
 LVEDP → áp lực cuối tâm trương thất trái (LVEDP) | in-stent thrombosis → huyết khối trong stent | staged PCI → PCI theo giai đoạn | intravascular lithotripsy → tán sỏi nội mạch
 Lỗi đánh máy vô hại trong bản gốc (lặp từ, sai chính tả) → dịch theo ý đúng, không lặp từ; lỗi nội dung → dịch trung thành + "[người dịch: …]", không tự sửa
 SA exit block → blốc đường ra xoang nhĩ (SA exit block) | SACP → đường dẫn truyền xoang nhĩ (SACP) | armchair quarterback → nhà bình luận ghế bành (armchair quarterback)
+dual sequential defibrillation → khử rung tuần tự kép (dual sequential defibrillation) | Crochetage sign → dấu hiệu Crochetage | secundum ASD → thông liên nhĩ lỗ thứ phát (secundum) | fixed split S2 → T2 tách đôi cố định | paradoxical embolism → thuyên tắc nghịch thường | PAPVR → bất thường hồi lưu tĩnh mạch phổi bán phần | cryptogenic stroke → đột quỵ không rõ nguyên nhân

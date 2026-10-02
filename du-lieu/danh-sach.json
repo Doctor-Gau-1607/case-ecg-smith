@@ -12565,8 +12565,12 @@
 "url": "https://drsmithsecgblog.com/a-20-something-woman-with-chest-pain/",
 "ngay_dang": "2020-01-29",
 "tieu_de_en": "A 20-something woman with Chest Pain",
-"trang_thai": "dang",
-"giu_luc": 1790974055
+"trang_thai": "xong",
+"tieu_de_vi": "29/01/2020 — Một phụ nữ 20 mấy tuổi đau ngực",
+"tu_khoa": "OMI thành dưới, inferior OMI, tắc LAD đoạn xa, distal LAD occlusion, sóng T tối cấp, hyperacute T waves, ST chênh xuống soi gương aVL, reciprocal ST depression, điện tâm đồ trước viện, prehospital ECG, thay đổi ST-T động, dynamic ST-T changes, nhồi máu cơ tim ở phụ nữ trẻ, tái tưới máu, reperfusion",
+"ngay": "2026-10-02",
+"kb": 1162,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1118,
@@ -12575,8 +12579,12 @@
 "url": "https://drsmithsecgblog.com/a-woman-in-her-50s-with-dyspnea-and/",
 "ngay_dang": "2020-01-26",
 "tieu_de_en": "A woman in her 50s with dyspnea and bradycardia",
-"trang_thai": "dang",
-"giu_luc": 1790974055
+"trang_thai": "xong",
+"tieu_de_vi": "26/01/2020 — Bệnh nhân nữ ở độ tuổi 50 khó thở và nhịp chậm",
+"tu_khoa": "tăng kali máu, hyperkalemia, sóng T nhọn, peaked T waves, sóng T tháp Eiffel, Eiffel Tower T, QRS giãn rộng, wide QRS, nhịp xoang-thất, sinoventricular rhythm, nhịp thoát thất, ventricular escape rhythm, giả RBBB, LAHB, nhịp chậm, bradycardia, calci tĩnh mạch, IV calcium",
+"ngay": "2026-10-02",
+"kb": 2433,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1117,
@@ -12584,9 +12592,13 @@
 "slug": "2020-01-24-ventricular-fibrillation-rosc-after",
 "url": "https://drsmithsecgblog.com/ventricular-fibrillation-rosc-after/",
 "ngay_dang": "2020-01-24",
-"tieu_de_en": "Ventricular Fibrillation, ROSC after perfusion restored by ECMO, then ECG. Protocols can be overridden by Physician Judgment.",
-"trang_thai": "dang",
-"giu_luc": 1790974055
+"tieu_de_en": "Ventricular Fibrillation, ROSC after perfusion restored by ECMO, then ECG.  Protocols can be overridden by Physician Judgment.",
+"trang_thai": "xong",
+"tieu_de_vi": "24/01/2020 — Rung thất, tái lập tuần hoàn tự nhiên (ROSC) sau khi ECMO phục hồi tưới máu, rồi ghi điện tâm đồ. Phán đoán của bác sĩ có thể vượt lên trên phác đồ.",
+"tu_khoa": "rung thất, ventricular fibrillation, rung thất kháng trị, ECMO, ROSC, ngừng tim, cardiac arrest, RBBB, LAFB, blốc hai phân nhánh, bifascicular block, tắc LAD đoạn gần, proximal LAD occlusion, left main, vây cá mập, shark fin, điện thế thấp, low voltage, choáng cơ tim, myocardial stunning",
+"ngay": "2026-10-02",
+"kb": 1762,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1116,
@@ -12595,8 +12607,12 @@
 "url": "https://drsmithsecgblog.com/this-middle-aged-patient-presented-with/",
 "ngay_dang": "2020-01-22",
 "tieu_de_en": "This middle-aged patient presented with SOB, weakness, and mild pulmonary edema.",
-"trang_thai": "dang",
-"giu_luc": 1790974055
+"trang_thai": "xong",
+"tieu_de_vi": "22/01/2020 — Bệnh nhân trung niên này đến viện vì khó thở, mệt yếu và phù phổi nhẹ.",
+"tu_khoa": "rung nhĩ, atrial fibrillation, blốc AV hoàn toàn, complete AV block, đều hóa rung nhĩ, regularization of AFib, nhịp thoát bộ nối, junctional escape, RBBB, LBBB, blốc nhánh luân phiên, alternating BBB, hội chứng suy nút xoang, sick sinus syndrome, máy tạo nhịp DDD, DDD pacemaker, ngộ độc digoxin, nhịp tạo nhịp thất",
+"ngay": "2026-10-02",
+"kb": 1223,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1115,
@@ -12605,8 +12621,12 @@
 "url": "https://drsmithsecgblog.com/a-woman-in-her-70s-with-bradycardia-and/",
 "ngay_dang": "2020-01-19",
 "tieu_de_en": "A woman in her 70s with bradycardia and hypotension",
-"trang_thai": "dang",
-"giu_luc": 1790974055
+"trang_thai": "xong",
+"tieu_de_vi": "19/01/2020 — Một phụ nữ 70 mấy tuổi bị nhịp chậm và tụt huyết áp",
+"tu_khoa": "OMI dưới-sau, inferoposterior OMI, nhồi máu thất phải, RV MI, blốc AV độ 2 Mobitz I, AV Wenckebach, nhịp thoát, escape beats, tiêu chuẩn Sgarbossa cải biên, modified Sgarbossa, nhịp tạo nhịp thất, ventricular paced rhythm, máy tạo nhịp qua tĩnh mạch, transvenous pacemaker, tiêu chuẩn STEMI, STEMI criteria, compa đo, calipers",
+"ngay": "2026-10-02",
+"kb": 1970,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1114,

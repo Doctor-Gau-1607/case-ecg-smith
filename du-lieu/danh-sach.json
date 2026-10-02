@@ -13812,8 +13812,12 @@
 "url": "https://drsmithsecgblog.com/is-this-new-lad-occlusion-with-st/",
 "ngay_dang": "2019-06-02",
 "tieu_de_en": "Is this new LAD occlusion with ST Elevation superimposed on old QS-wave MI?",
-"trang_thai": "dang",
-"giu_luc": 1790984444
+"trang_thai": "xong",
+"tieu_de_vi": "02/06/2019 — Đây có phải là tắc LAD mới với ST chênh lên chồng lên nhồi máu cơ tim cũ có sóng QS?",
+"tu_khoa": "tắc LAD, LAD occlusion, nhồi máu cơ tim cũ, old MI, sóng QS, QS-wave, phình thất trái, LV aneurysm, tỷ số T/QRS, T/QRS ratio, sóng T tối cấp, hyperacute T waves, ST chênh lên, ST elevation, kích hoạt phòng thông tim, cath lab activation, OMI, động mạch vành bình thường",
+"ngay": "2026-10-02",
+"kb": 1093,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1028,
@@ -13822,8 +13826,12 @@
 "url": "https://drsmithsecgblog.com/i-was-handed-this-ecg-at-triage-with-no/",
 "ngay_dang": "2019-05-28",
 "tieu_de_en": "I was handed this ECG at triage with no information",
-"trang_thai": "dang",
-"giu_luc": 1790984444
+"trang_thai": "xong",
+"tieu_de_vi": "28/05/2019 — Tôi được đưa điện tâm đồ này tại khu phân loại mà không có thông tin gì",
+"tu_khoa": "phình thất trái, LV aneurysm, ST chênh lên tồn tại dai dẳng, persistent ST elevation, nhồi máu cơ tim cũ, old MI, tỷ số T/QRS, T/QRS ratio, sóng QR, kích hoạt phòng thông tim không phù hợp, inappropriate cath lab activation, PVC đa dạng, multiform PVCs, dẫn truyền ẩn, concealed conduction, giản đồ bậc thang, laddergram, ngất, VT",
+"ngay": "2026-10-02",
+"kb": 1378,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1027,
@@ -13832,8 +13840,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-sixties-with-chest-pain-at-2/",
 "ngay_dang": "2019-05-26",
 "tieu_de_en": "A man in his sixties with chest pain at midnight with undetectable troponin",
-"trang_thai": "dang",
-"giu_luc": 1790984444
+"trang_thai": "xong",
+"tieu_de_vi": "26/05/2019 — Nam giới sáu mươi mấy tuổi đau ngực lúc nửa đêm, troponin không phát hiện được",
+"tu_khoa": "tắc LAD, LAD occlusion, nhồi máu cơ tim do tắc, OMI, sóng T tối cấp, hyperacute T waves, ST chênh lên V1-V2, ST chênh xuống soi gương, tiêu chuẩn STEMI, STEMI criteria, điện tâm đồ liên tiếp, serial ECGs, troponin không phát hiện được, undetectable troponin, độ tin cậy giữa người đọc, interreader reliability, sóng T de Winter",
+"ngay": "2026-10-02",
+"kb": 1342,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1026,
@@ -13842,8 +13854,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-sixties-with-chest-pain-at/",
 "ngay_dang": "2019-05-26",
 "tieu_de_en": "A man in his sixties with chest pain at midnight with undetectable troponin",
-"trang_thai": "dang",
-"giu_luc": 1790984444
+"trang_thai": "xong",
+"tieu_de_vi": "26/05/2019 — Nam giới sáu mươi mấy tuổi đau ngực lúc nửa đêm, troponin không phát hiện được",
+"tu_khoa": "tắc LAD, LAD occlusion, nhồi máu cơ tim do tắc, OMI, sóng T tối cấp, hyperacute T waves, ST chênh lên V1-V2, ST chênh xuống soi gương, tiêu chuẩn STEMI, STEMI criteria, điện tâm đồ liên tiếp, serial ECGs, troponin không phát hiện được, undetectable troponin, độ tin cậy giữa người đọc, interreader reliability, sóng T de Winter",
+"ngay": "2026-10-02",
+"kb": 1342,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1025,
@@ -13851,9 +13867,13 @@
 "slug": "2019-05-24-lbbb-is-there-occlusion-mi-omi-is-so-2",
 "url": "https://drsmithsecgblog.com/lbbb-is-there-occlusion-mi-omi-is-so-2/",
 "ngay_dang": "2019-05-24",
-"tieu_de_en": "LBBB. Is there Occlusion MI (OMI)? Is so, which artery is it?",
-"trang_thai": "dang",
-"giu_luc": 1790984444
+"tieu_de_en": "LBBB.  Is there Occlusion MI (OMI)?  Is so, which artery is it?",
+"trang_thai": "xong",
+"tieu_de_vi": "24/05/2019 — LBBB. Có nhồi máu cơ tim do tắc (OMI) không? Nếu có, đó là động mạch nào?",
+"tu_khoa": "LBBB, blốc nhánh trái, OMI, nhồi máu cơ tim do tắc, tắc LAD đoạn gần, proximal LAD occlusion, tiêu chuẩn Sgarbossa cải biên theo Smith, Smith-modified Sgarbossa, ST chênh xuống đồng hướng, concordant ST depression, ngược hướng quá mức, excessive discordance, tỷ số ST/S, phù phổi cấp, sóng T tái tưới máu, Wellens",
+"ngay": "2026-10-02",
+"kb": 1860,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1024,

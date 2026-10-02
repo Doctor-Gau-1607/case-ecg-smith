@@ -3654,8 +3654,12 @@
 "url": "https://drsmithsecgblog.com/this-is-what-happened-when-hospital-2/",
 "ngay_dang": "2024-10-06",
 "tieu_de_en": "This is what happened when a hospital implemented the Queen of Hearts",
-"trang_thai": "dang",
-"giu_luc": 1790905660
+"trang_thai": "xong",
+"tieu_de_vi": "06/10/2024 — Đây là những gì đã xảy ra khi một bệnh viện triển khai Queen of Hearts",
+"tu_khoa": "OMI thành sau, posterior OMI, Queen of Hearts, PMcardio, trí tuệ nhân tạo, AI ECG, ST chênh xuống V1-V4, sóng T tái tưới máu thành sau, posterior reperfusion T-waves, tắc động mạch mũ, circumflex occlusion, NSTEMI, kích hoạt phòng thông tim, cath lab activation, đặt sai vị trí điện cực, lead misplacement, bệnh phổi, sóng T tối cấp, hyperacute T-waves",
+"ngay": "2026-10-02",
+"kb": 2193,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1765,
@@ -3673,8 +3677,12 @@
 "url": "https://drsmithsecgblog.com/a-30-something-with-acute-chest-pain/",
 "ngay_dang": "2024-10-03",
 "tieu_de_en": "A 30-something with acute chest pain",
-"trang_thai": "dang",
-"giu_luc": 1790905660
+"trang_thai": "xong",
+"tieu_de_vi": "03/10/2024 — Một người ngoài 30 tuổi bị đau ngực cấp",
+"tu_khoa": "đau ngực cấp, acute chest pain, OMI thành dưới, inferior OMI, biến thể tái cực, repolarization variant, khía điểm J, J-point notching, trát đậm, slur, thay đổi soi gương, reciprocal change, kích hoạt phòng thông tim dương tính giả, false positive cath lab activation, Queen of Hearts, giả STEMI",
+"ngay": "2026-10-02",
+"kb": 776,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1763,
@@ -3682,9 +3690,13 @@
 "slug": "2024-10-01-vt-in-sick-patient",
 "url": "https://drsmithsecgblog.com/vt-in-sick-patient/",
 "ngay_dang": "2024-10-01",
-"tieu_de_en": "VT in a Sick Patient? Paired with 2 old cases (see them at the bottom)",
-"trang_thai": "dang",
-"giu_luc": 1790905660
+"tieu_de_en": "VT in a Sick Patient?   Paired with 2 old cases (see them at the bottom)",
+"trang_thai": "xong",
+"tieu_de_vi": "01/10/2024 — VT ở một bệnh nhân bệnh nặng? Kèm 2 ca cũ (xem ở cuối bài)",
+"tu_khoa": "nhịp nhanh xoang, sinus tachycardia, nhịp nhanh QRS rộng, wide complex tachycardia, WCT, VT, blốc nhánh phải, RBBB, dẫn truyền lệch hướng liên quan tần số, rate-related aberrancy, cuồng nhĩ, atrial flutter, VT phân nhánh, fascicular VT, sốc điện chuyển nhịp đồng bộ, synchronized cardioversion, trục lệch phải, LAFB, OMI",
+"ngay": "2026-10-02",
+"kb": 2156,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1762,
@@ -3693,8 +3705,12 @@
 "url": "https://drsmithsecgblog.com/50-yo-with-v-fib-has-rosc-then-these-2/",
 "ngay_dang": "2024-09-29",
 "tieu_de_en": "50 yo with V fib has ROSC, then these 2 successive ECGs: what is the infarct artery?",
-"trang_thai": "dang",
-"giu_luc": 1790905660
+"trang_thai": "xong",
+"tieu_de_vi": "29/09/2024 — Bệnh nhân 50 tuổi rung thất được tái lập tuần hoàn tự nhiên (ROSC), sau đó có 2 điện tâm đồ liên tiếp này: động mạch nào là động mạch nhồi máu?",
+"tu_khoa": "rung thất, VFib, tái lập tuần hoàn tự nhiên, ROSC, OMI thành sau, posterior OMI, STEMI thành trước, anterior STEMI, tắc động mạch mũ, circumflex occlusion, tuần hoàn bàng hệ, collaterals, tắc hoàn toàn mạn tính LAD, CTO, chuyển đạo phía sau, posterior leads, động mạch thủ phạm, culprit artery, nhồi máu cơ tim típ 2, type 2 MI",
+"ngay": "2026-10-02",
+"kb": 1668,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1761,
@@ -3703,8 +3719,12 @@
 "url": "https://drsmithsecgblog.com/healthy-45-year-old-with-chest-pain/",
 "ngay_dang": "2024-09-27",
 "tieu_de_en": "Healthy 45-year-old with chest pain: early repolarization, pericarditis or injury?",
-"trang_thai": "dang",
-"giu_luc": 1790905660
+"trang_thai": "xong",
+"tieu_de_vi": "27/09/2024 — Người 45 tuổi khỏe mạnh bị đau ngực: tái cực sớm, viêm màng ngoài tim hay tổn thương?",
+"tu_khoa": "sóng T tối cấp, hyperacute T waves, OMI, tắc LAD đoạn xa, distal LAD occlusion, LAD vòng qua mỏm, wraparound LAD, tái cực sớm, early repolarization, viêm màng ngoài tim, pericarditis, STEMI(-)OMI, bóc tách động mạch vành tự phát, SCAD, VT đa dạng, polymorphic VT, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 1452,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1760,

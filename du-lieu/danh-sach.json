@@ -8212,8 +8212,12 @@
 "url": "https://drsmithsecgblog.com/the-ecg-must-be-recorded-at-right-time/",
 "ngay_dang": "2022-07-04",
 "tieu_de_en": "The ECG must be recorded at the right time, or the Occlusion (OMI) will be missed.",
-"trang_thai": "dang",
-"giu_luc": 1790942139
+"trang_thai": "xong",
+"tieu_de_vi": "04/07/2022 — Phải ghi điện tâm đồ đúng thời điểm, nếu không sẽ bỏ sót nhồi máu cơ tim do tắc (OMI).",
+"tu_khoa": "sóng T tối cấp, hyperacute T waves, nhồi máu cơ tim do tắc, OMI, tắc LAD, LAD occlusion, công thức 4 biến, 4-variable formula, điện tâm đồ bên phải, right-sided ECG, STEMI thoáng qua, transient STEMI, tái tưới máu tự phát, spontaneous reperfusion, các chuyển đạo lân cận, neighboring leads",
+"ngay": "2026-10-02",
+"kb": 1363,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1432,
@@ -8221,9 +8225,13 @@
 "slug": "2022-07-02-all-data-suggest-unstable-angina-but",
 "url": "https://drsmithsecgblog.com/all-data-suggest-unstable-angina-but/",
 "ngay_dang": "2022-07-02",
-"tieu_de_en": "All data suggest unstable angina, but the angiogram is normal. Ken Grauer on stress testing.",
-"trang_thai": "dang",
-"giu_luc": 1790942139
+"tieu_de_en": "All data suggest unstable angina, but the angiogram is normal.  Ken Grauer on stress testing.",
+"trang_thai": "xong",
+"tieu_de_vi": "02/07/2022 — Mọi dữ kiện đều gợi ý đau thắt ngực không ổn định, nhưng chụp mạch vành bình thường. Ken Grauer bàn về nghiệm pháp gắng sức.",
+"tu_khoa": "đau thắt ngực không ổn định, unstable angina, ST chênh xuống động, dynamic ST depression, nghiệm pháp gắng sức, exercise stress test, siêu âm tim gắng sức, stress echo, troponin độ nhạy cao, hs-troponin, rối loạn chức năng tâm trương, diastolic dysfunction, tăng huyết áp khẩn cấp, hypertensive urgency, chụp mạch vành bình thường, normal angiogram",
+"ngay": "2026-10-02",
+"kb": 1578,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1431,
@@ -8232,8 +8240,12 @@
 "url": "https://drsmithsecgblog.com/when-normal-is-only-pseudo-normal-it/",
 "ngay_dang": "2022-06-29",
 "tieu_de_en": "When Normal is only Pseudo-Normal, it can deceive the caregivers.",
-"trang_thai": "dang",
-"giu_luc": 1790942139
+"trang_thai": "xong",
+"tieu_de_vi": "29/06/2022 — Khi “bình thường” chỉ là giả bình thường, nó có thể đánh lừa người điều trị.",
+"tu_khoa": "giả bình thường hóa, pseudonormalization, hội chứng Wellens, Wellens syndrome, sóng Wellens kiểu A, Wellens pattern A, sóng T đảo ngược phần cuối, terminal T wave inversion, tắc lại LAD, LAD reocclusion, LAD đoạn gần, proximal LAD, OMI thoáng qua, transient OMI, STEMI thoáng qua, transient STEMI, tái tưới máu tự phát, spontaneous reperfusion, so sánh điện tâm đồ liên tiếp, serial ECG comparison",
+"ngay": "2026-10-02",
+"kb": 2076,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1430,
@@ -8242,8 +8254,12 @@
 "url": "https://drsmithsecgblog.com/acute-chest-pain-and-difficult-ecg/",
 "ngay_dang": "2022-06-25",
 "tieu_de_en": "Acute chest pain and a difficult ECG",
-"trang_thai": "dang",
-"giu_luc": 1790942139
+"trang_thai": "xong",
+"tieu_de_vi": "25/06/2022 — Đau ngực cấp và một điện tâm đồ khó",
+"tu_khoa": "phì đại thất trái, LVH, hình ảnh giả OMI, OMI mimic, sóng T tối cấp, hyperacute T waves, sóng T đảo ngược lành tính, benign T-wave inversion, tăng gánh thất trái, LV strain, đặt sai vị trí điện cực, lead misplacement, giả Wellens, đau ngực cấp, cocaine, troponin độ nhạy cao",
+"ngay": "2026-10-02",
+"kb": 1580,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1429,
@@ -8251,9 +8267,13 @@
 "slug": "2022-06-23-lbbb-with-concordant-std-and",
 "url": "https://drsmithsecgblog.com/lbbb-with-concordant-std-and/",
 "ngay_dang": "2022-06-23",
-"tieu_de_en": "Acute Chest pain with LBBB. What is going on?",
-"trang_thai": "dang",
-"giu_luc": 1790942139
+"tieu_de_en": "Acute Chest pain with LBBB.  What is going on?",
+"trang_thai": "xong",
+"tieu_de_vi": "23/06/2022 — Đau ngực cấp kèm LBBB. Chuyện gì đang xảy ra?",
+"tu_khoa": "LBBB, blốc nhánh trái (left bundle branch block), tiêu chuẩn Sgarbossa cải biên theo Smith (Smith-modified Sgarbossa), ST chênh xuống đồng hướng (concordant ST depression), ngược hướng quá mức xét theo tỷ lệ (proportionally excessive discordance), ST chênh lên aVR, OMI thành sau (posterior OMI), nhánh trung gian (ramus intermedius), bệnh 3 nhánh/thân chung (3V/LMD), QRS phân mảnh (fragmented QRS), kích hoạt phòng thông tim (cath lab activation)",
+"ngay": "2026-10-02",
+"kb": 854,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1428,

@@ -5145,9 +5145,13 @@
 "slug": "2024-01-31-chest-pain-st-elevation-well-formed-q",
 "url": "https://drsmithsecgblog.com/chest-pain-st-elevation-well-formed-q/",
 "ngay_dang": "2024-01-31",
-"tieu_de_en": "Chest pain, ST Elevation, well-formed Q-waves, and infarction with peak hs troponin I over 1000 ng/L. Is it OMI?",
-"trang_thai": "dang",
-"giu_luc": 1790917338
+"tieu_de_en": "Chest pain, ST Elevation, well-formed Q-waves, and infarction with peak hs troponin I over 1000 ng/L.  Is it OMI?",
+"trang_thai": "xong",
+"tieu_de_vi": "31/01/2024 — Đau ngực, ST chênh lên, sóng Q hình thành rõ và nhồi máu với troponin I độ nhạy cao đỉnh trên 1000 ng/L. Có phải OMI không?",
+"tu_khoa": "OMI, nhồi máu cơ tim do tắc, OMI đã tái tưới máu (reperfused OMI), NOMI, nhồi máu cơ tim bán cấp (subacute MI), phình thất trái (LV aneurysm), ST chênh lên dai dẳng, sóng Q, sóng T tái tưới máu, troponin I độ nhạy cao (hsTnI), siêu âm tim, loạn động (dyskinesis), Queen of Hearts, nhồi máu cơ tim thành trước",
+"ngay": "2026-10-02",
+"kb": 1653,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1656,
@@ -5156,8 +5160,12 @@
 "url": "https://drsmithsecgblog.com/a-40-something-with-chest-pain/",
 "ngay_dang": "2024-01-29",
 "tieu_de_en": "A 40-something with chest pain",
-"trang_thai": "dang",
-"giu_luc": 1790917338
+"trang_thai": "xong",
+"tieu_de_vi": "29/01/2024 — Bệnh nhân ngoài 40 tuổi bị đau ngực",
+"tu_khoa": "ST chênh lên hình yên ngựa, saddleback ST elevation, giả STEMI, STEMI mimic, hình ảnh Brugada típ 2, Brugada-2 pattern, kiểu hình sao chép Brugada, Brugada Phenocopy, góc β, β-angle, sóng T tối cấp, hyperacute T waves, Queen of Hearts, PMcardio, không phải OMI, Not OMI",
+"ngay": "2026-10-02",
+"kb": 1310,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1655,
@@ -5165,9 +5173,13 @@
 "slug": "2024-01-27-chest-pain-and-computer-normal-ecg",
 "url": "https://drsmithsecgblog.com/chest-pain-and-computer-normal-ecg/",
 "ngay_dang": "2024-01-27",
-"tieu_de_en": "Chest pain and a computer ‘normal’ ECG. Therefore, there is no need for a physician to look at this ECG.",
-"trang_thai": "dang",
-"giu_luc": 1790917338
+"tieu_de_en": "Chest pain and a computer ‘normal’ ECG.   Therefore, there is no need for a physician to look at this ECG.",
+"trang_thai": "xong",
+"tieu_de_vi": "27/01/2024 — Đau ngực và điện tâm đồ “bình thường” theo máy tính. Vì vậy, không cần bác sĩ phải xem điện tâm đồ này.",
+"tu_khoa": "OMI thành dưới-sau, inferoposterior OMI, STEMI(-)OMI, điện tâm đồ bình thường do máy tính đọc, computer-interpreted normal ECG, ST chênh xuống aVL, ST depression in aVL, huyết khối trong stent, in-stent thrombosis, sóng T tái tưới máu, reperfusion T waves, tái tưới máu tự phát, spontaneous reperfusion, NSTEMI, Queen of Hearts, sóng Q thành dưới, inferior Q waves",
+"ngay": "2026-10-02",
+"kb": 1458,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1654,

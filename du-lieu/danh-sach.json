@@ -13467,8 +13467,12 @@
 "url": "https://drsmithsecgblog.com/level-of-training-does-not-well-predict/",
 "ngay_dang": "2019-07-28",
 "tieu_de_en": "What is the Diagnosis in this 70-something with Chest Pain?",
-"trang_thai": "dang",
-"giu_luc": 1790981360
+"trang_thai": "xong",
+"tieu_de_vi": "28/07/2019 — Chẩn đoán là gì ở bệnh nhân 70 mấy tuổi bị đau ngực?",
+"tu_khoa": "nhồi máu cơ tim do tắc, OMI, STEMI, RBBB, LAFB, blốc nhánh phải kèm blốc phân nhánh trái trước, RBBB + LAFB, ST chênh lên, ST elevation, tắc LAD đoạn gần, proximal LAD occlusion, ST chênh lên dốc xuống, downsloping ST elevation, hủy kích hoạt phòng thông tim, cath lab deactivation, trợ lý bác sĩ, physician assistant",
+"ngay": "2026-10-02",
+"kb": 2093,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1053,
@@ -13477,8 +13481,12 @@
 "url": "https://drsmithsecgblog.com/long-qt-after-droperidol/",
 "ngay_dang": "2019-07-26",
 "tieu_de_en": "“Long QT” after droperidol",
-"trang_thai": "dang",
-"giu_luc": 1790981360
+"trang_thai": "xong",
+"tieu_de_vi": "26/07/2019 — “QT dài” sau dùng droperidol",
+"tu_khoa": "QT dài, long QT, sóng U, U waves, hạ kali máu, hypokalemia, khoảng QU, QU interval, droperidol, giả QT dài, nấc cụt, hiccups, ợ nóng",
+"ngay": "2026-10-02",
+"kb": 542,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1052,
@@ -13486,9 +13494,13 @@
 "slug": "2019-07-24-bizarre-t-wave-inversions-with-negative",
 "url": "https://drsmithsecgblog.com/bizarre-t-wave-inversions-with-negative/",
 "ngay_dang": "2019-07-24",
-"tieu_de_en": "Bizarre T-wave inversions, with Negative U-waves and Very long QT. And a myocardial viability study.",
-"trang_thai": "dang",
-"giu_luc": 1790981360
+"tieu_de_en": "Bizarre T-wave inversions, with Negative U-waves and Very long QT.  And a myocardial viability study.",
+"trang_thai": "xong",
+"tieu_de_vi": "24/07/2019 — Sóng T đảo ngược kỳ dị, kèm sóng U âm và QT rất dài. Và một nghiên cứu đánh giá cơ tim còn sống.",
+"tu_khoa": "sóng T đảo ngược kỳ dị, bizarre T-wave inversion, sóng U đảo ngược, inverted U waves, QT dài, long QT, bệnh cơ tim Takotsubo, takotsubo, tắc LAD, LAD occlusion, LAD vòng qua mỏm, wraparound LAD, cơ tim còn sống, myocardial viability, xạ hình Thallium, hạ kali máu, nhồi máu cơ tim típ 2",
+"ngay": "2026-10-02",
+"kb": 471,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1051,
@@ -13497,8 +13509,12 @@
 "url": "https://drsmithsecgblog.com/what-does-this-ecg-with-significant-st/",
 "ngay_dang": "2019-07-21",
 "tieu_de_en": "What does this ECG with significant ST Elevation represent?",
-"trang_thai": "dang",
-"giu_luc": 1790981360
+"trang_thai": "xong",
+"tieu_de_vi": "21/07/2019 — Điện tâm đồ có ST chênh lên đáng kể này biểu hiện điều gì?",
+"tu_khoa": "viêm cơ tim, myocarditis, viêm cơ-màng ngoài tim, myopericarditis, sóng T đảo ngược lành tính, benign T-wave inversion, ST chênh lên, ST elevation, OMI, giả OMI, OMI mimic, siêu âm tim cản âm khẩn, contrast echo, troponin, MRI tim, đặt sai vị trí điện cực, lead misplacement, tái cực sớm, early repolarization",
+"ngay": "2026-10-02",
+"kb": 1441,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1050,
@@ -13507,8 +13523,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-40s-with-chest-pain-and/",
 "ngay_dang": "2019-07-19",
 "tieu_de_en": "A man in his 40s with chest pain and syncope after cocaine use",
-"trang_thai": "dang",
-"giu_luc": 1790981360
+"trang_thai": "xong",
+"tieu_de_vi": "19/07/2019 — Một người đàn ông 40 mấy tuổi đau ngực và ngất sau khi sử dụng cocaine",
+"tu_khoa": "nhồi máu cơ tim do tắc (OMI), OMI STEMI âm tính (STEMI(-) OMI), tắc LAD vòng qua mỏm (wraparound LAD), LAD típ 3, sóng Q bệnh lý, ST chênh lên lan tỏa, phình thất trái (LV aneurysm), hình thái giống Brugada (Brugada-like), cocaine, ngất (syncope), phân mảnh QRS (QRS fragmentation), điện tâm đồ nền (baseline ECG), troponin, hyperacute T waves",
+"ngay": "2026-10-02",
+"kb": 1839,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1049,

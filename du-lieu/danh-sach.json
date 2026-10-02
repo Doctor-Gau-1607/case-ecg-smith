@@ -7056,8 +7056,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-50s-with-chest-pain/",
 "ngay_dang": "2023-03-09",
 "tieu_de_en": "A man in his 50s with chest pain",
-"trang_thai": "dang",
-"giu_luc": 1790937740
+"trang_thai": "xong",
+"tieu_de_vi": "09/03/2023 — Một người đàn ông ngoài 50 tuổi bị đau ngực",
+"tu_khoa": "OMI do LAD, LAD occlusion, nhồi máu cơ tim do tắc (OMI), occlusion MI, sóng T tối cấp, hyperacute T waves, OMI STEMI âm tính, STEMI(-) OMI, mô hình STEMI, STEMI paradigm, dòng chảy TIMI 3, TIMI flow, biến dạng phần cuối QRS, T-QRS-D, rối loạn vận động thành, wall motion abnormality, Queen of Hearts, tái tưới máu, reperfusion",
+"ngay": "2026-10-02",
+"kb": 1539,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1516,
@@ -7065,9 +7069,13 @@
 "slug": "2023-03-06-what-do-you-think-of-this-ecg-is-this-2",
 "url": "https://drsmithsecgblog.com/what-do-you-think-of-this-ecg-is-this-2/",
 "ngay_dang": "2023-03-06",
-"tieu_de_en": "What do you think of this ECG?? Is this during pain, or after pain resolution? Also, see the CT image of the heart.",
-"trang_thai": "dang",
-"giu_luc": 1790937740
+"tieu_de_en": "What do you think of this ECG??  Is this during pain, or after pain resolution?  Also, see the CT image of the heart.",
+"trang_thai": "xong",
+"tieu_de_vi": "06/03/2023 — Bạn nghĩ gì về điện tâm đồ này?? Đây là lúc đang đau hay sau khi hết đau? Xem thêm hình ảnh CT của tim.",
+"tu_khoa": "OMI thành sau-bên (posterolateral OMI), tái tưới máu (reperfusion), sóng T tái tưới máu thành sau (posterior reperfusion T waves), hội chứng Wellens thành sau (Wellens' syndrome of the posterior wall), ST chênh xuống tối đa V1-V4 (maximal ST depression V1-V4), sóng T tối cấp (hyperacute T waves), tắc động mạch mũ trái (LCx occlusion), tái tưới máu tự phát (spontaneous reperfusion), nghiệm pháp soi gương (Mirror Test), điện tâm đồ liên tiếp (serial ECGs), CT ngực khuyết tưới máu cơ tim (chest CT perfusion defect), mô hình OMI (OMI paradigm), đặt sai vị trí điện cực V1 V2 (lead misplacement), loạn nhịp xoang (sinus arrhythmia)",
+"ngay": "2026-10-02",
+"kb": 3197,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1515,
@@ -7085,8 +7093,12 @@
 "url": "https://drsmithsecgblog.com/a-30-something-with-chest-pain-and-sob/",
 "ngay_dang": "2023-03-04",
 "tieu_de_en": "A 30-something with Chest pain and SOB",
-"trang_thai": "dang",
-"giu_luc": 1790937740
+"trang_thai": "xong",
+"tieu_de_vi": "04/03/2023 — Một người ngoài 30 tuổi bị đau ngực và khó thở",
+"tu_khoa": "thuyên tắc phổi cấp, acute pulmonary embolism, PE, S1Q3T3, tăng gánh thất phải, RV strain, nhịp nhanh xoang, sinus tachycardia, sóng T đảo ngược, T wave inversion, sóng T âm ở III và V1, Wellens, tỷ số khả dĩ, likelihood ratio, khó thở cấp, siêu âm tim tại giường, nhiễu, artifact",
+"ngay": "2026-10-02",
+"kb": 813,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1513,
@@ -7095,8 +7107,12 @@
 "url": "https://drsmithsecgblog.com/our-omi-toolbox-application-is-out-now/",
 "ngay_dang": "2023-03-03",
 "tieu_de_en": "Our OMI Toolbox Application is out now !",
-"trang_thai": "dang",
-"giu_luc": 1790937740
+"trang_thai": "xong",
+"tieu_de_vi": "03/03/2023 — Ứng dụng OMI Toolbox của chúng tôi đã ra mắt!",
+"tu_khoa": "ứng dụng OMI Toolbox, OMI Toolbox app, nhồi máu cơ tim do tắc, occlusion MI, OMI, thuật toán mười bước chẩn đoán OMI, ten-step OMI algorithm, tắc mạch vành cấp, acute coronary occlusion, ACO, tiêu chuẩn STEMI, STEMI criteria, ST chênh lên, ST elevation, tái cực sớm lành tính, benign early repolarization, thang điểm EDACS, EDACS score, ngưỡng delta troponin, troponin delta",
+"ngay": "2026-10-02",
+"kb": 730,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1512,
@@ -7105,8 +7121,12 @@
 "url": "https://drsmithsecgblog.com/anaphylaxis-chest-pain-and-st-elevation/",
 "ngay_dang": "2023-03-01",
 "tieu_de_en": "Anaphylaxis, chest pain, and ST elevation in aVR",
-"trang_thai": "dang",
-"giu_luc": 1790937740
+"trang_thai": "xong",
+"tieu_de_vi": "01/03/2023 — Sốc phản vệ, đau ngực và ST chênh lên ở aVR",
+"tu_khoa": "sốc phản vệ, anaphylaxis, ST chênh lên ở aVR, ST elevation in aVR, ST chênh xuống lan tỏa, diffuse ST depression, thiếu máu cục bộ dưới nội tâm mạc lan tỏa, diffuse subendocardial ischemia, DSI, hội chứng Kounis, Kounis syndrome, epinephrin, epinephrine, mất cân bằng cung-cầu, supply-demand mismatch, co thắt mạch vành, coronary vasospasm, troponin độ nhạy cao, high sensitivity troponin",
+"ngay": "2026-10-02",
+"kb": 773,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1511,

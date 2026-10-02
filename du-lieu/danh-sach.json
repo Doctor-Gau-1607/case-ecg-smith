@@ -4605,8 +4605,12 @@
 "url": "https://drsmithsecgblog.com/why-is-this-patient-in-shock/",
 "ngay_dang": "2024-05-10",
 "tieu_de_en": "Why is this patient in shock?",
-"trang_thai": "dang",
-"giu_luc": 1790910414
+"trang_thai": "xong",
+"tieu_de_vi": "10/05/2024 — Vì sao bệnh nhân này bị sốc?",
+"tu_khoa": "nhồi máu thất phải, right ventricular infarction, RV MI, OMI thành dưới, inferior OMI, OMI thành sau, posterior OMI, tắc RCA đoạn gần, proximal RCA occlusion, sốc tim, cardiogenic shock, ST chênh lên ở V1, nhịp tự thất gia tốc, AIVR, tiêu chuẩn Sgarbossa cải biên theo Smith, Smith-modified Sgarbossa, nhịp nhĩ thấp, low atrial rhythm, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 2823,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1695,
@@ -4615,8 +4619,12 @@
 "url": "https://drsmithsecgblog.com/a-young-man-with-palpitations/",
 "ngay_dang": "2024-05-08",
 "tieu_de_en": "A young man with palpitations.",
-"trang_thai": "dang",
-"giu_luc": 1790910414
+"trang_thai": "xong",
+"tieu_de_vi": "08/05/2024 — Một nam thanh niên hồi hộp đánh trống ngực",
+"tu_khoa": "hồi hộp đánh trống ngực, palpitations, WPW, Wolff-Parkinson-White, rung nhĩ tiền kích thích, pre-excited atrial fibrillation, AVNRT, AVRT xuôi chiều, orthodromic AVRT, sóng delta, delta wave, đường phụ, accessory pathway, thuốc ức chế nút AV, AV nodal blocker, sốc điện chuyển nhịp, cardioversion, triệt đốt qua ống thông, catheter ablation, SPERRI",
+"ngay": "2026-10-02",
+"kb": 2482,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1694,
@@ -4625,8 +4633,12 @@
 "url": "https://drsmithsecgblog.com/do-you-need-to-be-trained-health-care/",
 "ngay_dang": "2024-05-05",
 "tieu_de_en": "Do you need to be a trained health care professional to diagnose subtle OMI on the ECG?",
-"trang_thai": "dang",
-"giu_luc": 1790910414
+"trang_thai": "xong",
+"tieu_de_vi": "05/05/2024 — Có cần phải là nhân viên y tế được đào tạo mới chẩn đoán được OMI kín đáo trên điện tâm đồ?",
+"tu_khoa": "OMI, nhồi máu cơ tim do tắc, tắc LAD đoạn gần, proximal LAD occlusion, blốc nhánh phải, RBBB, RBBB kèm OMI, sóng T tối cấp, hyperacute T waves, thay đổi soi gương, reciprocal change, thiếu máu cục bộ xuyên thành, Queen of Hearts, AI điện tâm đồ, OMI kín đáo, subtle OMI",
+"ngay": "2026-10-02",
+"kb": 941,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1693,

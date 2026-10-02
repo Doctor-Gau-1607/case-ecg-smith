@@ -4926,9 +4926,13 @@
 "slug": "2024-03-09-acute-chest-pain-and-st-elevation",
 "url": "https://drsmithsecgblog.com/acute-chest-pain-and-st-elevation/",
 "ngay_dang": "2024-03-09",
-"tieu_de_en": "Acute chest pain and ST Elevation. CT done to look for aortic dissection…..",
-"trang_thai": "dang",
-"giu_luc": 1790916722
+"tieu_de_en": "Acute chest pain and ST Elevation.  CT done to look for aortic dissection…..",
+"trang_thai": "xong",
+"tieu_de_vi": "09/03/2024 — Đau ngực cấp và ST chênh lên. Chụp CT để tìm bóc tách động mạch chủ…..",
+"tu_khoa": "viêm màng ngoài tim cấp, acute pericarditis, tràn dịch màng ngoài tim, pericardial effusion, chèn ép tim, tamponade, OMI, ST chênh lên lan tỏa, diffuse ST elevation, đoạn PR chênh xuống, PR depression, dấu hiệu Spodick, điện thế thấp, low voltage, bóc tách động mạch chủ, aortic dissection, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 942,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1672,
@@ -4937,8 +4941,12 @@
 "url": "https://drsmithsecgblog.com/young-male-with-gunshot-wound-to-right/",
 "ngay_dang": "2024-03-07",
 "tieu_de_en": "Young man with Gunshot wound to right chest with hemorrhagic shock, but bullet path not near heart. A case of irregular accelerated idioventricular rhythm (AIVR)",
-"trang_thai": "dang",
-"giu_luc": 1790916722
+"trang_thai": "xong",
+"tieu_de_vi": "07/03/2024 — Nam thanh niên bị vết thương do đạn bắn vào ngực phải kèm sốc mất máu, nhưng đường đạn không gần tim. Một ca nhịp tự thất gia tốc (AIVR) không đều",
+"tu_khoa": "nhịp tự thất gia tốc, AIVR, accelerated idioventricular rhythm, AIVR không đều, irregular AIVR, vết thương do đạn bắn, gunshot wound, sốc mất máu, hemorrhagic shock, chấn thương ngực, chest trauma, nhịp QRS rộng, wide complex rhythm, sóng delta, delta wave, tiền kích thích, pre-excitation, tính chu kỳ Wenckebach, hoạt động khởi kích, triggered activity",
+"ngay": "2026-10-02",
+"kb": 1815,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1671,
@@ -4947,8 +4955,12 @@
 "url": "https://drsmithsecgblog.com/when-conventional-algorithm-diagnoses-2/",
 "ngay_dang": "2024-03-04",
 "tieu_de_en": "When the conventional algorithm diagnoses the ECG as COMPLETELY NORMAL, but there is in fact OMI, what does the Queen of Hearts PM Cardio AI app say? (with 10 case examples)",
-"trang_thai": "dang",
-"giu_luc": 1790916722
+"trang_thai": "xong",
+"tieu_de_vi": "04/03/2024 — Khi thuật toán thông thường chẩn đoán điện tâm đồ là HOÀN TOÀN BÌNH THƯỜNG nhưng thực tế có OMI, ứng dụng AI Queen of Hearts PM Cardio nói gì? (với 10 ca minh họa)",
+"tu_khoa": "OMI, nhồi máu cơ tim do tắc, Queen of Hearts, PMcardio, AI điện tâm đồ, kết quả đọc bằng máy tính, computerized interpretation, điện tâm đồ bình thường, normal ECG, sóng T tối cấp, hyperacute T waves, tắc LAD, LAD occlusion, tắc RCA, sóng Wellens, OMI đã tái tưới máu, STEMI paradigm, Veritas, Marquette 12SL",
+"ngay": "2026-10-02",
+"kb": 3341,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1670,

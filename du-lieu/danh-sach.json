@@ -9092,9 +9092,13 @@
 "slug": "2022-01-06-what-does-lbbb-look-like-in-severe",
 "url": "https://drsmithsecgblog.com/what-does-lbbb-look-like-in-severe/",
 "ngay_dang": "2022-01-06",
-"tieu_de_en": "What does LBBB look like in severe hypothermia? Is there a long QT? Is the QT appropriate for the temperature?",
-"trang_thai": "dang",
-"giu_luc": 1790948767
+"tieu_de_en": "What does LBBB look like in severe hypothermia?  Is there a long QT?  Is the QT appropriate for the temperature?",
+"trang_thai": "xong",
+"tieu_de_vi": "06/01/2022 — LBBB trông như thế nào trong hạ thân nhiệt nặng? QT có dài không? QT có phù hợp với nhiệt độ không?",
+"tu_khoa": "hạ thân nhiệt nặng, severe hypothermia, blốc nhánh trái, LBBB, QT kéo dài, long QT, khoảng Tpeak-Tend, TpTe, sóng Osborn, Osborn wave, nhịp chậm xoang, sinus bradycardia, làm ấm bên trong, internal rewarming, tụt nhiệt độ trung tâm, core afterdrop, sốc tái làm ấm, rewarming shock",
+"ngay": "2026-10-02",
+"kb": 1268,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1368,
@@ -9103,8 +9107,12 @@
 "url": "https://drsmithsecgblog.com/7-steps-to-missing-posterior-occlusion/",
 "ngay_dang": "2022-01-03",
 "tieu_de_en": "7 steps to missing posterior Occlusion MI, and how to avoid them",
-"trang_thai": "dang",
-"giu_luc": 1790948767
+"trang_thai": "xong",
+"tieu_de_vi": "03/01/2022 — 7 bước dẫn đến bỏ sót nhồi máu cơ tim do tắc (OMI) thành sau, và cách tránh chúng",
+"tu_khoa": "OMI thành sau, posterior OMI, STEMI(-)OMI, ST chênh xuống nguyên phát ở chuyển đạo trước, primary anterior ST depression, chuyển đạo phía sau, posterior leads, nghiệm pháp soi gương, Mirror Test, tắc động mạch mũ, circumflex occlusion, troponin đầu tiên, kết quả đọc bằng máy tính, thiếu máu cục bộ kháng trị, NSTEMI, nghịch lý không có âm tính giả, No False Negative Paradox, mô hình OMI",
+"ngay": "2026-10-02",
+"kb": 797,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1367,
@@ -9113,8 +9121,12 @@
 "url": "https://drsmithsecgblog.com/should-we-activate-lab-simple-but/",
 "ngay_dang": "2021-12-31",
 "tieu_de_en": "Should we activate the lab? A simple but important lesson",
-"trang_thai": "dang",
-"giu_luc": 1790948767
+"trang_thai": "xong",
+"tieu_de_vi": "31/12/2021 — Có nên kích hoạt phòng thông tim? Một bài học đơn giản nhưng quan trọng",
+"tu_khoa": "LVH, phì đại thất trái, tăng gánh thất trái, LV strain, ngưỡng cắt biên độ QRS, voltage cutoff, điện tâm đồ trước viện, EMS ECG, tính tương xứng, proportionality, kích hoạt phòng thông tim dương tính giả, false positive cath lab activation, giả OMI, OMI mimic, phù phổi cấp do tăng huyết áp, điện tâm đồ nền",
+"ngay": "2026-10-02",
+"kb": 613,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1366,

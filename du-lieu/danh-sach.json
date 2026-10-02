@@ -8282,8 +8282,12 @@
 "url": "https://drsmithsecgblog.com/lvh-and-repeated-visits-for-chest-pain/",
 "ngay_dang": "2022-06-20",
 "tieu_de_en": "LVH and Anterior ST Elevation: is it OMI and would you activate the cath lab?",
-"trang_thai": "dang",
-"giu_luc": 1790942389
+"trang_thai": "xong",
+"tieu_de_vi": "20/06/2022 — LVH và ST chênh lên thành trước: đây có phải OMI và bạn có kích hoạt phòng thông tim không?",
+"tu_khoa": "phì đại thất trái, LVH, ST chênh lên thành trước, anterior ST elevation, tăng gánh thất trái, LV strain, tính tương xứng, proportionality, OMI, NOMI, báo động STEMI, code STEMI, đau thắt ngực không ổn định, unstable angina, troponin, điện tâm đồ cũ, prior ECG, đau ngực tái diễn",
+"ngay": "2026-10-02",
+"kb": 1062,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1427,
@@ -8292,8 +8296,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-30s-with-chest-pain/",
 "ngay_dang": "2022-06-17",
 "tieu_de_en": "A man in his 30s with chest pain and a normal bedside echo, without wall motion abnormality",
-"trang_thai": "dang",
-"giu_luc": 1790942389
+"trang_thai": "xong",
+"tieu_de_vi": "17/06/2022 — Một người đàn ông ở độ tuổi 30 bị đau ngực và siêu âm tim tại giường bình thường, không có rối loạn vận động thành",
+"tu_khoa": "OMI, nhồi máu cơ tim do tắc (occlusion MI), thuyên tắc mạch vành (coronary embolism), van động mạch chủ cơ học (mechanical aortic valve), nhồi máu cơ tim típ 2 (type 2 MI), LAD đoạn xa (distal LAD), mỏm thất trái (LV apex), phì đại thất trái (LVH), ST chênh lên thành dưới (inferior ST elevation), thay đổi soi gương (reciprocal change), siêu âm tim tại giường (bedside echo), âm tính giả (false negative), rối loạn vận động thành (wall motion abnormality), trục lệch phải (RAD), điện tâm đồ cũ (prior ECG), troponin",
+"ngay": "2026-10-02",
+"kb": 2297,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1426,
@@ -8301,9 +8309,13 @@
 "slug": "2022-06-11-is-this-myo-pericarditis-or-omi-with",
 "url": "https://drsmithsecgblog.com/is-this-myo-pericarditis-or-omi-with/",
 "ngay_dang": "2022-06-11",
-"tieu_de_en": "Is this Myo-pericarditis? Or OMI with subsequent pericarditis? Does the angiogram always explain the ECG findings?",
-"trang_thai": "dang",
-"giu_luc": 1790942389
+"tieu_de_en": "Is this Myo-pericarditis?  Or OMI with subsequent pericarditis?  Does the angiogram always explain the ECG findings?",
+"trang_thai": "xong",
+"tieu_de_vi": "11/06/2022 — Đây là viêm cơ-màng ngoài tim? Hay OMI kèm viêm màng ngoài tim sau đó? Có phải chụp mạch vành luôn giải thích được các dấu hiệu điện tâm đồ?",
+"tu_khoa": "viêm cơ-màng ngoài tim, myopericarditis, viêm màng ngoài tim sau nhồi máu, postinfarction regional pericarditis, PIRP, OMI, nhánh bờ tù, obtuse marginal occlusion, động mạch mũ trái, LCx, sóng T tái tưới máu thành sau, posterior reperfusion T waves, hội chứng Dressler, Dressler syndrome, dấu hiệu Spodick, nứt vỡ mảng xơ vữa, plaque rupture, tiếng cọ màng ngoài tim",
+"ngay": "2026-10-02",
+"kb": 1353,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1425,
@@ -8312,8 +8324,12 @@
 "url": "https://drsmithsecgblog.com/st-elevation-after-gunshot-to-chest/",
 "ngay_dang": "2022-06-08",
 "tieu_de_en": "ST elevation after gunshot to the chest",
-"trang_thai": "dang",
-"giu_luc": 1790942389
+"trang_thai": "xong",
+"tieu_de_vi": "08/06/2022 — ST chênh lên sau vết thương do đạn bắn vào ngực",
+"tu_khoa": "ST chênh lên, ST elevation, vết thương thấu tim, penetrating cardiac injury, vết thương do đạn bắn, gunshot wound, viêm màng ngoài tim do chấn thương, traumatic pericarditis, dấu hiệu Spodick, Spodick's sign, tỷ lệ ST/T, PR chênh xuống, nhồi máu cơ tim mỏm, apical MI, OMI, LAD, tràn máu màng ngoài tim, hemopericardium",
+"ngay": "2026-10-02",
+"kb": 1377,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1424,
@@ -8322,8 +8338,12 @@
 "url": "https://drsmithsecgblog.com/chest-pain-trop-50000-but-only-30-lad/",
 "ngay_dang": "2022-06-05",
 "tieu_de_en": "Chest pain, trop >50,000 but only 30% LAD stenosis on angiogram: what’s the diagnosis?",
-"trang_thai": "dang",
-"giu_luc": 1790942389
+"trang_thai": "xong",
+"tieu_de_vi": "05/06/2022 — Đau ngực, troponin >50.000 nhưng LAD chỉ hẹp 30% trên phim chụp mạch vành: chẩn đoán là gì?",
+"tu_khoa": "MINOCA, nhồi máu cơ tim với động mạch vành không tắc nghẽn, OMI, nhồi máu cơ tim do tắc, tắc LAD, LAD occlusion, sóng T tối cấp, hyperacute T waves, sóng Q, T/QRS, tái tưới máu tự phát, spontaneous reperfusion, tắc lại, reocclusion, STEMI(-)OMI, troponin, phình thất trái, LV aneurysm",
+"ngay": "2026-10-02",
+"kb": 1166,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1423,

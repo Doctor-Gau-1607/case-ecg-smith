@@ -13616,8 +13616,12 @@
 "url": "https://drsmithsecgblog.com/two-patients-with-rbbb/",
 "ngay_dang": "2019-07-01",
 "tieu_de_en": "Two patients with RBBB",
-"trang_thai": "dang",
-"giu_luc": 1790981903
+"trang_thai": "xong",
+"tieu_de_vi": "01/07/2019 — Hai bệnh nhân có RBBB",
+"tu_khoa": "RBBB, blốc nhánh phải (right bundle branch block), ST chênh lên trong RBBB, giả STEMI (pseudoSTEMI), ST đối hướng (ST opposition), thay đổi ST-T thứ phát (secondary ST-T changes), thay đổi ST-T nguyên phát (primary ST-T changes), QRS phân mảnh (fragmented QRS), OMI, tắc nhánh bờ tù (OM occlusion), STEMI thành dưới-bên (infero-lateral STEMI), ST chênh lên nền (baseline ST elevation), LPHB, không tái lưu (no reflow)",
+"ngay": "2026-10-02",
+"kb": 1777,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1042,
@@ -13626,8 +13630,12 @@
 "url": "https://drsmithsecgblog.com/inferior-subtle-st-elevation-straight/",
 "ngay_dang": "2019-06-28",
 "tieu_de_en": "Inferior Subtle ST elevation: straight ST segment, but also no reciprocal ST depression in aVL: which is more important?",
-"trang_thai": "dang",
-"giu_luc": 1790981903
+"trang_thai": "xong",
+"tieu_de_vi": "28/06/2019 — ST chênh lên kín đáo ở thành dưới: đoạn ST thẳng, nhưng cũng không có ST chênh xuống soi gương ở aVL: điều nào quan trọng hơn?",
+"tu_khoa": "OMI thành dưới, inferior OMI, ST chênh lên kín đáo, subtle ST elevation, ST thẳng đuỗn, ST straightening, thay đổi soi gương aVL, reciprocal ST depression aVL, biến dạng phần cuối QRS, terminal QRS distortion, biến thể bình thường, normal variant, so sánh điện tâm đồ cũ, prior ECG comparison, sóng R cao V1, tall R wave V1, nhồi máu thành sau, posterior MI, động mạch mũ, circumflex",
+"ngay": "2026-10-02",
+"kb": 1541,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1041,
@@ -13636,8 +13644,12 @@
 "url": "https://drsmithsecgblog.com/serial-evolving-ecgs-all-diagnostic-of/",
 "ngay_dang": "2019-06-26",
 "tieu_de_en": "Serial Evolving ECGs all diagnostic of LAD OMI, but never meet STEMI criteria",
-"trang_thai": "dang",
-"giu_luc": 1790981903
+"trang_thai": "xong",
+"tieu_de_vi": "26/06/2019 — Các điện tâm đồ liên tiếp tiến triển đều có giá trị chẩn đoán OMI do tắc LAD, nhưng không bao giờ đạt tiêu chuẩn STEMI",
+"tu_khoa": "OMI, tắc LAD đoạn gần, proximal LAD occlusion, sóng T tối cấp, hyperacute T waves, ST chênh xuống soi gương, reciprocal ST depression, mất sóng R thành trước, loss of anterior R waves, các điện tâm đồ liên tiếp, serial ECGs, STEMI(-)OMI, sóng T tái tưới máu, reperfusion T waves, chuyển đạo lân cận, neighboring leads",
+"ngay": "2026-10-02",
+"kb": 2750,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1040,
@@ -13645,9 +13657,13 @@
 "slug": "2019-06-23-2-ecgs-texted-to-me-minimal-ste-in",
 "url": "https://drsmithsecgblog.com/2-ecgs-texted-to-me-minimal-ste-in/",
 "ngay_dang": "2019-06-23",
-"tieu_de_en": "2 ECGs texted to me. Minimal STE in inferior leads. How important is it?",
-"trang_thai": "dang",
-"giu_luc": 1790981903
+"tieu_de_en": "2 ECGs texted to me.  Minimal STE in inferior leads.  How important is it?",
+"trang_thai": "xong",
+"tieu_de_vi": "23/06/2019 — 2 điện tâm đồ được nhắn tin cho tôi. ST chênh lên rất ít ở các chuyển đạo thành dưới. Điều đó quan trọng đến mức nào?",
+"tu_khoa": "OMI thành dưới, inferior OMI, ST chênh lên kín đáo, subtle ST elevation, thay đổi soi gương aVL, reciprocal change, các điện tâm đồ liên tiếp, serial ECGs, so sánh với điện tâm đồ cũ, prior ECG, tắc RCA đoạn xa, distal RCA occlusion, rung thất, ventricular fibrillation, ngất, syncope, đặt sai vị trí điện cực V3, lead misplacement",
+"ngay": "2026-10-02",
+"kb": 1846,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1039,
@@ -13656,8 +13672,12 @@
 "url": "https://drsmithsecgblog.com/st-segment-concavity-is-just-one-small/",
 "ngay_dang": "2019-06-22",
 "tieu_de_en": "ST segment concavity is just one small piece of the puzzle that is pattern recognition",
-"trang_thai": "dang",
-"giu_luc": 1790981903
+"trang_thai": "xong",
+"tieu_de_vi": "22/06/2019 — Đoạn ST dạng lõm chỉ là một mảnh nhỏ trong bức tranh ghép của việc nhận diện hình ảnh",
+"tu_khoa": "ST lõm hướng lên, upward concavity, ST dạng mặt cười, smiley vs frowny ST, nhận diện hình ảnh, pattern recognition, OMI, STEMI dưới-bên, inferolateral STEMI, nhồi máu thất phải, RV MI, tắc LAD đoạn gần, proximal LAD occlusion, sóng T tối cấp, hyperacute T waves, biến dạng phần cuối QRS, T-QRS-D, tái cực sớm, early repolarization",
+"ngay": "2026-10-02",
+"kb": 895,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1038,

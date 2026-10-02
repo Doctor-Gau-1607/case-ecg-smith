@@ -13536,9 +13536,13 @@
 "slug": "2019-07-17-a-text-message-in-middle-of-night-do",
 "url": "https://drsmithsecgblog.com/a-text-message-in-middle-of-night-do/",
 "ngay_dang": "2019-07-17",
-"tieu_de_en": "A Text Message in the Middle of the night. Do you give thrombolytics?",
-"trang_thai": "dang",
-"giu_luc": 1790981594
+"tieu_de_en": "A Text Message in the Middle of the night.  Do you give thrombolytics?",
+"trang_thai": "xong",
+"tieu_de_vi": "17/07/2019 — Một tin nhắn giữa đêm. Bạn có cho thuốc tiêu sợi huyết không?",
+"tu_khoa": "OMI, nhồi máu cơ tim do tắc, tắc LAD cấp, LAD occlusion, STEMI(-) OMI, sóng T tối cấp, hyperacute T waves, điện thế thấp, low voltage, tiêu sợi huyết, thrombolytics, mô hình STEMI, STEMI paradigm, ST chênh lên kín đáo, thay đổi soi gương, reciprocal change",
+"ngay": "2026-10-02",
+"kb": 1286,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1048,
@@ -13547,8 +13551,12 @@
 "url": "https://drsmithsecgblog.com/a-female-in-her-60s-with-sudden-chest/",
 "ngay_dang": "2019-07-15",
 "tieu_de_en": "A female in her 60s with sudden chest pressure",
-"trang_thai": "dang",
-"giu_luc": 1790981594
+"trang_thai": "xong",
+"tieu_de_vi": "15/07/2019 — Một phụ nữ 60 mấy tuổi đột ngột có cảm giác đè nặng ngực",
+"tu_khoa": "OMI thành sau, posterior OMI, OMI thành bên, lateral OMI, tắc LCX, LCX occlusion, ST chênh xuống V1-V3, anterior ST depression, ST chênh lên V6, thay đổi soi gương, mirror test, sóng U đảo ngược, U wave inversion, phân mảnh QRS, QRS fragmentation, thay đổi ST-T động, dynamic ST-T changes, NSTEMI",
+"ngay": "2026-10-02",
+"kb": 1497,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1047,
@@ -13557,8 +13565,12 @@
 "url": "https://drsmithsecgblog.com/a-40-year-old-man-with-chest-pain-since/",
 "ngay_dang": "2019-07-11",
 "tieu_de_en": "A 40 year old man with chest pain since last night",
-"trang_thai": "dang",
-"giu_luc": 1790981594
+"trang_thai": "xong",
+"tieu_de_vi": "11/07/2019 — Nam giới 40 tuổi đau ngực từ đêm qua",
+"tu_khoa": "tắc LAD, LAD occlusion, OMI, nhồi máu cơ tim do tắc, sóng T tối cấp, hyperacute T waves, ST chênh lên V1, STE V1, ST chênh xuống soi gương, reciprocal ST depression, STEMI âm tính, subtle OMI, báo động tim, heart alert, nhiễu điện cực tay trái, limb lead artifact, sóng T tái tưới máu",
+"ngay": "2026-10-02",
+"kb": 1222,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1046,
@@ -13576,8 +13588,12 @@
 "url": "https://drsmithsecgblog.com/would-you-have-given-thrombolytics-to/",
 "ngay_dang": "2019-07-07",
 "tieu_de_en": "Would you have given thrombolytics to this NSTEMI patient?",
-"trang_thai": "dang",
-"giu_luc": 1790981594
+"trang_thai": "xong",
+"tieu_de_vi": "07/07/2019 — Bạn có dùng tiêu sợi huyết cho bệnh nhân NSTEMI này không?",
+"tu_khoa": "tiêu sợi huyết, thrombolytics, sóng T tối cấp, hyperacute T waves, sóng T de Winter, de Winter T waves, OMI do LAD, LAD OMI, ngừng tim do rung thất, VF arrest, tenecteplase, tái tưới máu, reperfusion, nhịp tự thất gia tốc, AIVR, PCI sau tiêu sợi huyết, pharmacoinvasive, NSTEMI",
+"ngay": "2026-10-02",
+"kb": 1550,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1044,
@@ -13585,9 +13601,13 @@
 "slug": "2019-07-05-acute-mi-pain-onset-24-48-hours-ago",
 "url": "https://drsmithsecgblog.com/acute-mi-pain-onset-24-48-hours-ago/",
 "ngay_dang": "2019-07-05",
-"tieu_de_en": "Acute MI, pain onset 24-48 hours ago. Should the patient go for emergent angiogram/PCI?",
-"trang_thai": "dang",
-"giu_luc": 1790981594
+"tieu_de_en": "Acute MI, pain onset 24-48 hours ago.  Should the patient go for emergent angiogram/PCI?",
+"trang_thai": "xong",
+"tieu_de_vi": "05/07/2019 — Nhồi máu cơ tim cấp, khởi phát đau 24-48 giờ trước. Bệnh nhân có nên được chụp mạch vành/PCI cấp cứu?",
+"tu_khoa": "STEMI bán cấp, subacute STEMI, nhồi máu cơ tim bán cấp, subacute MI, đến viện muộn, late presentation, chụp mạch vành cấp cứu, emergent angiogram, PCI, ST chênh lên dai dẳng, persistent ST elevation, STEMI dưới-sau, inferoposterior STEMI, sóng Q, sóng R cao ở V1, tall R wave V1, đồng thủ phạm, co-culprits, LAHB, LVH",
+"ngay": "2026-10-02",
+"kb": 1598,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1043,

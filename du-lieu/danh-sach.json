@@ -13727,9 +13727,13 @@
 "slug": "2019-06-15-patient-with-dyspnea-you-are-handed",
 "url": "https://drsmithsecgblog.com/patient-with-dyspnea-you-are-handed/",
 "ngay_dang": "2019-06-15",
-"tieu_de_en": "Patient with Dyspnea. You are handed a triage ECG interpreted as “normal” by the computer.",
-"trang_thai": "dang",
-"giu_luc": 1790982410
+"tieu_de_en": "Patient with Dyspnea.  You are handed a triage ECG interpreted as “normal” by the computer.",
+"trang_thai": "xong",
+"tieu_de_vi": "15/06/2019 — Bệnh nhân khó thở. Bạn được đưa một điện tâm đồ lúc phân loại (triage) mà máy tính đọc là “bình thường”.",
+"tu_khoa": "tăng kali máu, hyperkalemia, sóng T nhọn, peaked T waves, sóng T đáy hẹp, narrow-based T wave, hạ calci máu, hypocalcemia, QTc kéo dài, long QT, ST thẳng đuỗn, ST straightening, LVH, tiêu chuẩn Peguero, chạy thận nhân tạo, dialysis, kết quả đọc bằng máy tính, computer interpretation, điện tâm đồ bình thường giả, normal EKG",
+"ngay": "2026-10-02",
+"kb": 1278,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1034,
@@ -13738,8 +13742,12 @@
 "url": "https://drsmithsecgblog.com/a-20-something-male-with-acute-chest/",
 "ngay_dang": "2019-06-11",
 "tieu_de_en": "A 20-something male with acute chest pain",
-"trang_thai": "dang",
-"giu_luc": 1790982410
+"trang_thai": "xong",
+"tieu_de_vi": "11/06/2019 — Một nam giới 20 mấy tuổi đau ngực cấp",
+"tu_khoa": "viêm cơ tim, myocarditis, viêm cơ-màng ngoài tim, myopericarditis, giả nhồi máu cơ tim, OMI mimic, ST chênh lên thành bên, lateral ST elevation, biến thể tái cực, repolarization variant, rối loạn vận động thành, wall motion abnormality, troponin tăng, sóng T tối cấp, hyperacute T waves, MRI tim, ngấm gadolinium muộn, động mạch vành bình thường",
+"ngay": "2026-10-02",
+"kb": 1371,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1033,
@@ -13748,8 +13756,12 @@
 "url": "https://drsmithsecgblog.com/a-patient-with-chest-pain-that-is/",
 "ngay_dang": "2019-06-09",
 "tieu_de_en": "A patient with chest pain that is resolving. Computer interprets ED ECG as completely Normal.",
-"trang_thai": "dang",
-"giu_luc": 1790982410
+"trang_thai": "xong",
+"tieu_de_vi": "09/06/2019 — Bệnh nhân đau ngực đang thuyên giảm. Máy tính đọc điện tâm đồ tại khoa cấp cứu là hoàn toàn Bình thường.",
+"tu_khoa": "sóng T tối cấp, hyperacute T waves, STEMI thoáng qua, transient STEMI, tái tưới máu tự phát, spontaneous reperfusion, kết quả đọc bằng máy tính, computer interpretation normal ECG, điện tâm đồ trước viện, prehospital ECG, tắc LAD, LAD occlusion, tính tương xứng, proportionality, ST thẳng đuỗn, ST straightening, mất sóng R, OMI",
+"ngay": "2026-10-02",
+"kb": 554,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1032,

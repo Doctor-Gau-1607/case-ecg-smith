@@ -6297,8 +6297,12 @@
 "url": "https://drsmithsecgblog.com/a-40-something-presented-after/",
 "ngay_dang": "2023-07-14",
 "tieu_de_en": "A 40-something presented after attempted prehospital resuscitation with persistent Ventricular Fibrillation",
-"trang_thai": "dang",
-"giu_luc": 1790925128
+"trang_thai": "xong",
+"tieu_de_vi": "14/07/2023 — Bệnh nhân ở độ tuổi 40 nhập viện trong tình trạng rung thất dai dẳng sau khi đã được cố gắng hồi sức trước viện",
+"tu_khoa": "rung thất dai dẳng, ventricular fibrillation, ngừng tim ngoài bệnh viện, OHCA, khử rung tuần tự kép, dual sequential defibrillation, ResQPod, ROSC, điện tâm đồ sau hồi sức, post-resuscitation ECG, RBBB, LAHB, sóng T tối cấp, hyperacute T waves, tắc LAD đoạn gần, proximal LAD occlusion, QRS phân mảnh, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 1920,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1572,
@@ -6307,8 +6311,12 @@
 "url": "https://drsmithsecgblog.com/i-was-reading-ecgs-on-system-when-i-2/",
 "ngay_dang": "2023-07-12",
 "tieu_de_en": "I was reading ECGs on the system when I came across this one, called “normal” by the conventional computer algorithm",
-"trang_thai": "dang",
-"giu_luc": 1790925128
+"trang_thai": "xong",
+"tieu_de_vi": "12/07/2023 — Tôi đang đọc điện tâm đồ trên hệ thống thì bắt gặp bản ghi này, bị thuật toán máy tính thông thường đọc là “bình thường”",
+"tu_khoa": "OMI, nhồi máu cơ tim do tắc, điện tâm đồ bình thường giả, normal computer interpretation, giả bình thường hóa, pseudonormalization, tái tưới máu tự phát, spontaneous reperfusion, OMI dao động, fluctuating OMI, ST chênh xuống thành dưới, inferior ST depression, nhánh trung gian, ramus intermedius, OMI thành sau, posterior OMI, Queen of Hearts, PMcardio, điện tâm đồ lúc phân loại, triage ECG",
+"ngay": "2026-10-02",
+"kb": 2905,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1571,

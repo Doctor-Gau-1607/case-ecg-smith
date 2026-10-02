@@ -4087,8 +4087,12 @@
 "url": "https://drsmithsecgblog.com/what-diagnosis-might-you-strongly/",
 "ngay_dang": "2024-07-28",
 "tieu_de_en": "What diagnosis might you strongly suspect from the ECG in this patient with chronic progressive shortness of breath?",
-"trang_thai": "dang",
-"giu_luc": 1790907290
+"trang_thai": "xong",
+"tieu_de_vi": "28/07/2024 — Bạn có thể nghi ngờ mạnh chẩn đoán gì từ điện tâm đồ ở bệnh nhân khó thở mạn tính tiến triển này?",
+"tu_khoa": "thông liên nhĩ, atrial septal defect, ASD, dấu hiệu Crochetage, crochetage sign, khía QRS chuyển đạo dưới, inferior lead notching, blốc nhánh phải không hoàn toàn, incomplete RBBB, tăng gánh thất phải, RV strain, bất thường hồi lưu tĩnh mạch phổi bán phần, partial anomalous pulmonary venous return, phân mảnh QRS, QRS fragmentation, khó thở mạn tính",
+"ngay": "2026-10-02",
+"kb": 1398,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1732,
@@ -4096,9 +4100,13 @@
 "slug": "2024-07-25-resuscitated-from-ventricular",
 "url": "https://drsmithsecgblog.com/resuscitated-from-ventricular/",
 "ngay_dang": "2024-07-25",
-"tieu_de_en": "Resuscitated from ventricular fibrillation. Should the cath lab be activated?",
-"trang_thai": "dang",
-"giu_luc": 1790907290
+"tieu_de_en": "Resuscitated from ventricular fibrillation.  Should the cath lab be activated?",
+"trang_thai": "xong",
+"tieu_de_vi": "25/07/2024 — Hồi sức thành công sau rung thất. Có nên kích hoạt phòng thông tim?",
+"tu_khoa": "rung thất, ventricular fibrillation, ngừng tim ngoài bệnh viện, OHCA, ROSC, kích hoạt phòng thông tim, cath lab activation, thiếu máu cục bộ dưới nội tâm mạc lan tỏa, DSI, ST chênh xuống lan tỏa, ST chênh lên ở aVR, nhịp nhanh xoang, sinus tachycardia, ngừng thở, quá liều thuốc, chụp mạch vành bình thường",
+"ngay": "2026-10-02",
+"kb": 531,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1731,

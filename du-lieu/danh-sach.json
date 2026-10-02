@@ -12243,8 +12243,12 @@
 "url": "https://drsmithsecgblog.com/why-doesnt-name-omi-say-anything-about/",
 "ngay_dang": "2020-04-20",
 "tieu_de_en": "Why doesn’t the name “OMI” say anything about the ECG, in contrast to STEMI? Because sometimes the ECG isn’t always enough, no matter who interprets it.",
-"trang_thai": "dang",
-"giu_luc": 1790970918
+"trang_thai": "xong",
+"tieu_de_vi": "20/04/2020 — Vì sao tên gọi “OMI” không nói gì về điện tâm đồ, khác với STEMI? Vì đôi khi điện tâm đồ không phải lúc nào cũng đủ, dù ai là người đọc.",
+"tu_khoa": "nhồi máu cơ tim do tắc, OMI, STEMI, tắc RCA đoạn gần, proximal RCA occlusion, tắc mạch vành cấp, acute coronary occlusion, nghịch lý không có âm tính giả, no false negative paradox, ST chênh lên ở V1, đặt sai vị trí điện cực V1, lead misplacement, sóng T tái tưới máu, reperfusion T waves, điện tâm đồ không chẩn đoán, kích hoạt phòng thông tim, cath lab activation",
+"ngay": "2026-10-02",
+"kb": 2045,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1141,
@@ -12253,8 +12257,12 @@
 "url": "https://drsmithsecgblog.com/60-something-with-wide-complex/",
 "ngay_dang": "2020-04-15",
 "tieu_de_en": "60-something with wide complex tachycardia: from where does the rhythm originate?",
-"trang_thai": "dang",
-"giu_luc": 1790970918
+"trang_thai": "xong",
+"tieu_de_vi": "15/04/2020 — Bệnh nhân 60 mấy tuổi bị nhịp nhanh QRS rộng: nhịp này khởi phát từ đâu?",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, WCT, nhịp nhanh thất, ventricular tachycardia, VT dạng LBBB, LBBB-like VT, VT dưới-vách, inferoseptal VT, sẹo nhồi máu cơ tim cũ, myocardial scar, blốc hai phân nhánh, RBBB/LPHB, phân mảnh QRS, QRS fragmentation, adenosine, sốc điện chuyển nhịp, cardioversion, thăm dò điện sinh lý, EP study",
+"ngay": "2026-10-02",
+"kb": 1140,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1140,
@@ -12263,8 +12271,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-60s-with-chest-pain-st/",
 "ngay_dang": "2020-04-13",
 "tieu_de_en": "A man in his 60s with chest pain. The ST segments and T waves are ALWAYS interpreted in the context of their QRS.",
-"trang_thai": "dang",
-"giu_luc": 1790970918
+"trang_thai": "xong",
+"tieu_de_vi": "13/04/2020 — Một người đàn ông 60 mấy tuổi bị đau ngực. Đoạn ST và sóng T LUÔN được diễn giải trong bối cảnh phức bộ QRS của chúng",
+"tu_khoa": "OMI thành sau (posterior OMI), blốc nhánh phải (RBBB), ngược hướng phù hợp (appropriate discordance), ngược hướng quá mức (excessive discordance), ST chênh xuống tối đa V1–V4, chuyển đạo phía sau (posterior leads), tắc cầu nối CABG, động mạch liên thất sau (PDA), OMI STEMI âm tính (STEMI(-)OMI), ST đối hướng (ST Opposition), blốc phân nhánh (hemiblock), blốc hai phân nhánh (bifascicular block), LAHB, LPHB, QRS phân mảnh (fragmentation), ST dạng vòm (coving)",
+"ngay": "2026-10-02",
+"kb": 1969,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1139,

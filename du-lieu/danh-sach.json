@@ -6334,8 +6334,12 @@
 "url": "https://drsmithsecgblog.com/a-60-year-old-with-chest-pain/",
 "ngay_dang": "2023-07-10",
 "tieu_de_en": "A 60 year old with chest pain",
-"trang_thai": "dang",
-"giu_luc": 1790926890
+"trang_thai": "xong",
+"tieu_de_vi": "10/07/2023 — Bệnh nhân 60 tuổi đau ngực",
+"tu_khoa": "sóng T tối cấp, hyperacute T waves, HATW, giả sóng T tối cấp, mimic, QT dài, long QT, đáy sóng T hẹp, narrow-based T wave, tăng kali máu, hyperkalemia, hạ calci máu, hypocalcemia, chuyển đạo chuyển tiếp, transition leads, loại trừ OMI, rule out OMI, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 450,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1569,
@@ -6343,9 +6347,13 @@
 "slug": "2023-07-07-this-was-texted-to-me-80-something",
 "url": "https://drsmithsecgblog.com/this-was-texted-to-me-80-something/",
 "ngay_dang": "2023-07-07",
-"tieu_de_en": "This was texted to me by a former resident. An 80-something woman who presented with chest pain and dyspnea.",
-"trang_thai": "dang",
-"giu_luc": 1790926890
+"tieu_de_en": "This was texted to me by a former resident.  An 80-something woman who presented with chest pain and dyspnea.",
+"trang_thai": "xong",
+"tieu_de_vi": "07/07/2023 — Một cựu bác sĩ nội trú đã nhắn tin gửi bản ghi này cho tôi. Một phụ nữ 80 mấy tuổi đến khám vì đau ngực và khó thở.",
+"tu_khoa": "phì đại thất phải, RVH, sóng R cao ở V1, tall R wave V1, ST chênh xuống V1-V4, ST depression, tăng gánh thất phải, RV strain, RBBB không hoàn toàn, incomplete RBBB, trục lệch phải, right axis deviation, rung nhĩ, atrial fibrillation, tăng áp phổi, pulmonary hypertension, giả nhồi máu thành sau, posterior OMI mimic, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 894,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1568,
@@ -6354,8 +6362,12 @@
 "url": "https://drsmithsecgblog.com/this-was-texted-to-me-in-real-time/",
 "ngay_dang": "2023-07-05",
 "tieu_de_en": "This was texted to me in real time. The patient has acute chest pain.",
-"trang_thai": "dang",
-"giu_luc": 1790926890
+"trang_thai": "xong",
+"tieu_de_vi": "05/07/2023 — Ca này được nhắn tin cho tôi theo thời gian thực. Bệnh nhân đau ngực cấp.",
+"tu_khoa": "giả STEMI, STEMI mimic, bệnh cơ tim phì đại, HCM, HOCM, LVH, sóng Q dao găm, dagger Q waves, giả nhồi máu, pseudo-infarct pattern, sóng T tối cấp, hyperacute T waves, Queen of Hearts, dương tính giả, bệnh cơ tim thâm nhiễm, infiltrative cardiomyopathy, đau ngực cấp",
+"ngay": "2026-10-02",
+"kb": 1017,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1567,
@@ -6364,8 +6376,12 @@
 "url": "https://drsmithsecgblog.com/63-year-old-with-good-story-for-acs-but/",
 "ngay_dang": "2023-07-02",
 "tieu_de_en": "63 year old with “good story for ACS” but negative troponins…..",
-"trang_thai": "dang",
-"giu_luc": 1790926890
+"trang_thai": "xong",
+"tieu_de_vi": "02/07/2023 — Nam 63 tuổi có bệnh sử “rất gợi ý ACS” nhưng troponin âm tính…..",
+"tu_khoa": "OMI thành dưới-sau, inferior posterior OMI, đau thắt ngực không ổn định, unstable angina, troponin âm tính, negative troponin, tái tưới máu, reperfusion, sóng T tối cấp, hyperacute T waves, biến dạng phần cuối QRS, terminal QRS distortion, ST chênh xuống soi gương aVL, Queen of Hearts, PMcardio, CABG",
+"ngay": "2026-10-02",
+"kb": 1275,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1566,
@@ -6374,8 +6390,12 @@
 "url": "https://drsmithsecgblog.com/chest-pain-with-2-serial-ecgs-with/",
 "ngay_dang": "2023-06-30",
 "tieu_de_en": "Chest pain with 2 serial ECGs, with dynamic change, texted to me",
-"trang_thai": "dang",
-"giu_luc": 1790926890
+"trang_thai": "xong",
+"tieu_de_vi": "30/06/2023 — Đau ngực với 2 điện tâm đồ liên tiếp có thay đổi động, được nhắn tin cho tôi",
+"tu_khoa": "sóng T đảo ngược lành tính, benign T wave inversion, BTWI, tái cực sớm, early repolarization, hình ảnh Wellens, Wellens pattern, giả bình thường hóa, pseudonormalization, thay đổi ST-T động, dynamic ST-T changes, các điện tâm đồ liên tiếp, serial ECGs, khía điểm J, Queen of Hearts, OMI",
+"ngay": "2026-10-02",
+"kb": 1666,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1565,

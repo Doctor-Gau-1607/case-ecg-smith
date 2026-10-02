@@ -4745,8 +4745,12 @@
 "url": "https://drsmithsecgblog.com/56-year-old-male-had-510-chest-pain-for/",
 "ngay_dang": "2024-04-14",
 "tieu_de_en": "56 year old male had 5/10 chest pain for several hours, then presented to the ED in the middle of the night with 1/10 pain.",
-"trang_thai": "dang",
-"giu_luc": 1790916041
+"trang_thai": "xong",
+"tieu_de_vi": "14/04/2024 — Nam 56 tuổi đau ngực 5/10 trong vài giờ, rồi đến khoa cấp cứu lúc nửa đêm với mức đau 1/10.",
+"tu_khoa": "nhồi máu cơ tim do tắc (OMI), NSTEMI, blốc nhánh phải (RBBB), sóng Q mới, sóng T đảo ngược, tắc RCA đoạn gần, rối loạn vận động thành dưới, choáng cơ tim (myocardial stunning), troponin độ nhạy cao (hs-troponin), thiếu máu cục bộ đang diễn ra, nitroglycerin (NTG), Queen of Hearts, điện tâm đồ thay đổi động (dynamic ECG)",
+"ngay": "2026-10-02",
+"kb": 1217,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1685,
@@ -4755,8 +4759,12 @@
 "url": "https://drsmithsecgblog.com/a-29-year-old-male-with-chest-pain-st/",
 "ngay_dang": "2024-04-11",
 "tieu_de_en": "A 29 year old male with chest pain, ST Elevation, and very elevated troponin T",
-"trang_thai": "dang",
-"giu_luc": 1790916041
+"trang_thai": "xong",
+"tieu_de_vi": "11/04/2024 — Nam 29 tuổi đau ngực, ST chênh lên và troponin T tăng rất cao",
+"tu_khoa": "viêm cơ tim cấp, acute myocarditis, OMI, nhồi máu cơ tim do tắc, viêm màng ngoài tim, pericarditis, ST chênh lên, ST elevation, thay đổi soi gương, reciprocal change, troponin T, chụp CT mạch vành, CCTA, định dạng Cabrera, Cabrera format, Queen of Hearts, nhịp nhanh xoang",
+"ngay": "2026-10-02",
+"kb": 2703,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1684,
@@ -4765,8 +4773,12 @@
 "url": "https://drsmithsecgblog.com/a-young-woman-with-chest-pain-cath-lab/",
 "ngay_dang": "2024-04-06",
 "tieu_de_en": "A young woman with chest pain, cath lab activated",
-"trang_thai": "dang",
-"giu_luc": 1790916041
+"trang_thai": "xong",
+"tieu_de_vi": "06/04/2024 — Một phụ nữ trẻ đau ngực, kích hoạt phòng thông tim",
+"tu_khoa": "hội chứng Brugada, Brugada syndrome, kiểu hình Brugada, Brugada phenotype, giả STEMI, STEMI mimic, ST chênh lên dốc xuống, downsloping ST elevation, V1-V2, kích hoạt phòng thông tim, cath lab activation, ngất, syncope, ICD, Queen of Hearts, PMcardio, kết quả đọc bằng máy tính",
+"ngay": "2026-10-02",
+"kb": 464,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1683,

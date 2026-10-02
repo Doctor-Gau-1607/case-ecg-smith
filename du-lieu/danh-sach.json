@@ -5705,8 +5705,12 @@
 "url": "https://drsmithsecgblog.com/what-do-you-think-of-this-ecg-that-was/",
 "ngay_dang": "2023-11-01",
 "tieu_de_en": "What do you think of this ECG that was texted to me?",
-"trang_thai": "dang",
-"giu_luc": 1790921170
+"trang_thai": "xong",
+"tieu_de_vi": "01/11/2023 — Bạn nghĩ gì về điện tâm đồ được nhắn tin cho tôi này?",
+"tu_khoa": "RBBB, blốc nhánh phải, ST chênh lên đồng hướng, concordant ST elevation, blốc hai phân nhánh, bifascicular block, LAHB, giả OMI, OMI mimic, dương tính giả, false positive, QRS phân mảnh, điện tâm đồ cũ, baseline ECG, nhồi máu cơ tim típ 2, type 2 MI, PSVT, troponin, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 1670,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1615,
@@ -5715,8 +5719,12 @@
 "url": "https://drsmithsecgblog.com/non-stemi-is-worthless-term/",
 "ngay_dang": "2023-10-30",
 "tieu_de_en": "“Non-STEMI” is a worthless term.",
-"trang_thai": "dang",
-"giu_luc": 1790921170
+"trang_thai": "xong",
+"tieu_de_vi": "30/10/2023 — “Non-STEMI” là một thuật ngữ vô giá trị",
+"tu_khoa": "NSTEMI, Non-STEMI OMI, OMI thành sau, posterior OMI, nhồi máu cơ tim do tắc, ST chênh xuống V2, ST depression V2, nghiệm pháp soi gương, Mirror Test, thay đổi ST-T động, dynamic ST-T changes, tái tưới máu tự phát, spontaneous reperfusion, nhánh bờ tù, obtuse marginal, Queen of Hearts, bệnh cơ tim thiếu máu cục bộ, ischemic cardiomyopathy",
+"ngay": "2026-10-02",
+"kb": 3098,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1614,
@@ -5724,9 +5732,13 @@
 "slug": "2023-10-28-continuous-prolonged-generalized",
 "url": "https://drsmithsecgblog.com/continuous-prolonged-generalized/",
 "ngay_dang": "2023-10-28",
-"tieu_de_en": "Continuous prolonged generalized weakness, lightheadedness, and presyncope. What might you suspect from the ECG?",
-"trang_thai": "dang",
-"giu_luc": 1790921170
+"tieu_de_en": "Continuous prolonged generalized weakness, lightheadedness, and presyncope.  What might you suspect from the ECG?",
+"trang_thai": "xong",
+"tieu_de_vi": "28/10/2023 — Yếu toàn thân kéo dài liên tục, choáng váng và tiền ngất. Bạn có thể nghi ngờ điều gì từ điện tâm đồ?",
+"tu_khoa": "bệnh cơ tim phì đại, hypertrophic cardiomyopathy, HCM, HOCM, phì đại thất trái, LVH, tăng gánh thất trái, LV strain, vùng chuyển tiếp sớm, early transition, tiền ngất, presyncope, siêu âm tim tại giường, bedside echo, buồng thất trái nhỏ, thuốc chẹn beta, liệu pháp giảm vách liên thất, septal reduction therapy",
+"ngay": "2026-10-02",
+"kb": 2283,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1613,

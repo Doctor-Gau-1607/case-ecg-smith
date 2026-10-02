@@ -9185,9 +9185,13 @@
 "slug": "2021-12-20-collapse-ventricular-tachycardia",
 "url": "https://drsmithsecgblog.com/collapse-ventricular-tachycardia/",
 "ngay_dang": "2021-12-20",
-"tieu_de_en": "Collapse, Ventricular Tachycardia, Cardioverted, Comatose on Arrival. OMI is a clinical diagnosis.",
-"trang_thai": "dang",
-"giu_luc": 1790949017
+"tieu_de_en": "Collapse, Ventricular Tachycardia, Cardioverted, Comatose on Arrival.  OMI is a clinical diagnosis.",
+"trang_thai": "xong",
+"tieu_de_vi": "20/12/2021 — Ngã gục, nhịp nhanh thất, đã sốc điện chuyển nhịp, hôn mê khi đến viện. OMI là một chẩn đoán lâm sàng.",
+"tu_khoa": "ngừng tim, cardiac arrest, nhịp nhanh thất, ventricular tachycardia, hôn mê, coma, xuất huyết dưới nhện, subarachnoid hemorrhage, SAH, giả STEMI, pseudoSTEMI, chảy máu nội sọ, intracranial hemorrhage, OMI, ST chênh lên, tắc động mạch thân nền",
+"ngay": "2026-10-02",
+"kb": 266,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1361,
@@ -9196,8 +9200,12 @@
 "url": "https://drsmithsecgblog.com/a-man-his-50s-with-chest-pain-could-you/",
 "ngay_dang": "2021-12-17",
 "tieu_de_en": "A man his 50s with chest pain. What happens when you treat with morphine rather than with reperfusion?",
-"trang_thai": "dang",
-"giu_luc": 1790949017
+"trang_thai": "xong",
+"tieu_de_vi": "17/12/2021 — Một người đàn ông 50 mấy tuổi bị đau ngực. Điều gì xảy ra khi bạn điều trị bằng morphine thay vì tái tưới máu?",
+"tu_khoa": "OMI thành sau, posterior OMI, OMI thành dưới-sau-bên, NSTEMI, OMI STEMI âm tính, STEMI(-)OMI, ST chênh xuống tối đa V1-V4, rung thất, VF, morphine, tái tưới máu tự phát, spontaneous reperfusion, LCx, thiếu máu cục bộ kháng trị, refractory ischemia",
+"ngay": "2026-10-02",
+"kb": 1218,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1360,

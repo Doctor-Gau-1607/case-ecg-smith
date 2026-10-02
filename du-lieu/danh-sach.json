@@ -4535,8 +4535,12 @@
 "url": "https://drsmithsecgblog.com/handed-this-ecg-from-triage-what-will/",
 "ngay_dang": "2024-05-22",
 "tieu_de_en": "Handed this ECG from triage. What will you do?",
-"trang_thai": "dang",
-"giu_luc": 1790910229
+"trang_thai": "xong",
+"tieu_de_vi": "22/05/2024 — Nhận điện tâm đồ này từ khu phân loại (triage). Bạn sẽ làm gì?",
+"tu_khoa": "tăng kali máu, hyperkalemia, QRS rộng, wide QRS, sóng T nhọn, peaked T waves, rung nhĩ chậm, slow atrial fibrillation, nhịp chậm, bradycardia, VT đa dạng, polymorphic VT, calci clorid, calcium chloride, DKA, LBBB, chẹn kênh natri, sodium channel blockade, albuterol",
+"ngay": "2026-10-02",
+"kb": 824,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1700,
@@ -4544,9 +4548,13 @@
 "slug": "2024-05-20-an-undergraduate-who-is-ekg-tech-sees",
 "url": "https://drsmithsecgblog.com/an-undergraduate-who-is-ekg-tech-sees/",
 "ngay_dang": "2024-05-20",
-"tieu_de_en": "An undergraduate who is an EKG tech sees something. The computer calls it completely normal. How about the physicians?",
-"trang_thai": "dang",
-"giu_luc": 1790910229
+"tieu_de_en": "An undergraduate who is an EKG tech sees something.  The computer calls it completely normal.  How about the physicians?",
+"trang_thai": "xong",
+"tieu_de_vi": "20/05/2024 — Một sinh viên đại học làm kỹ thuật viên điện tâm đồ nhận ra điều bất thường. Máy tính đọc là hoàn toàn bình thường. Còn các bác sĩ thì sao?",
+"tu_khoa": "OMI thành dưới, inferior OMI, thiếu máu cục bộ xuyên thành, transmural ischemia, ST chênh xuống soi gương aVL, reciprocal ST depression, biến dạng phần cuối QRS, terminal QRS distortion, Queen of Hearts, kết quả đọc bằng máy tính, computerized interpretation, tái tưới máu, reperfusion, thiếu máu cục bộ do tăng nhu cầu, demand ischemia, NSTEMI, STEMI(-)OMI, nhồi máu cơ tim típ 2, Type 2 MI",
+"ngay": "2026-10-02",
+"kb": 2394,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1699,
@@ -4555,8 +4563,12 @@
 "url": "https://drsmithsecgblog.com/early-repol-or-anterior-omi/",
 "ngay_dang": "2024-05-18",
 "tieu_de_en": "Early repol or anterior OMI?",
-"trang_thai": "dang",
-"giu_luc": 1790910229
+"trang_thai": "xong",
+"tieu_de_vi": "18/05/2024 — Tái cực sớm hay OMI thành trước?",
+"tu_khoa": "tái cực sớm, early repolarization, OMI thành trước, anterior OMI, tắc LAD, LAD occlusion, sóng T tối cấp, hyperacute T waves, công thức 4 biến, subtle anterior STEMI calculator, siêu âm tim đánh dấu mô, speckle tracking, sức căng dọc, strain, sóng T tái tưới máu, reperfusion T waves, nhiễu đường nền, baseline artifact, cài đặt bộ lọc, filter setting",
+"ngay": "2026-10-02",
+"kb": 2135,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1698,
@@ -4564,9 +4576,13 @@
 "slug": "2024-05-15-crushing-chest-pain-and-cant-see-omi-on",
 "url": "https://drsmithsecgblog.com/crushing-chest-pain-and-cant-see-omi-on/",
 "ngay_dang": "2024-05-15",
-"tieu_de_en": "Crushing Chest Pain and Can’t see OMI on the ECG? Just give morphine, right?",
-"trang_thai": "dang",
-"giu_luc": 1790910229
+"tieu_de_en": "Crushing Chest Pain and Can’t see OMI on the ECG?  Just give morphine, right?",
+"trang_thai": "xong",
+"tieu_de_vi": "15/05/2024 — Đau ngực dữ dội như bị đè nghiến mà không thấy OMI trên điện tâm đồ? Cứ cho morphine là xong, phải không?",
+"tu_khoa": "OMI thành dưới-sau, inferoposterior OMI, tắc động mạch mũ trái, LCx occlusion, đảo điện cực LA-LL, LA-LL reversal, ST chênh xuống ở aVL, xác suất tiền nghiệm, pretest probability, đau ngực kháng trị, refractory chest pain, troponin độ nhạy cao, hs-troponin, thuyên tắc mạch vành, coronary embolism, viêm nội tâm mạc, endocarditis, sóng T tái tưới máu thành sau, posterior reperfusion T waves",
+"ngay": "2026-10-02",
+"kb": 1555,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1697,
@@ -4575,8 +4591,12 @@
 "url": "https://drsmithsecgblog.com/two-patients-with-diffuse-st-depression/",
 "ngay_dang": "2024-05-13",
 "tieu_de_en": "Two patients with diffuse ST depression and reciprocal ST elevation in aVR: do either/both/neither have Occlusion MI?",
-"trang_thai": "dang",
-"giu_luc": 1790910229
+"trang_thai": "xong",
+"tieu_de_vi": "13/05/2024 — Hai bệnh nhân có ST chênh xuống lan tỏa và ST chênh lên soi gương ở aVR: một người, cả hai hay không ai bị nhồi máu cơ tim do tắc (OMI)?",
+"tu_khoa": "ST chênh lên ở aVR, STE-aVR, ST elevation in aVR, ST chênh xuống lan tỏa, diffuse ST depression, thiếu máu cục bộ dưới nội tâm mạc, subendocardial ischemia, xoáy trước tim, precordial swirl, tắc LAD đoạn gần, proximal LAD occlusion, nhồi máu cơ tim do tắc, OMI, hẹp van động mạch chủ, aortic stenosis, sóng T tối cấp, hyperacute T waves, Queen of Hearts",
+"ngay": "2026-10-02",
+"kb": 821,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1696,

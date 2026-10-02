@@ -11165,8 +11165,12 @@
 "url": "https://drsmithsecgblog.com/what-happens-if-you-do-not-recognize/",
 "ngay_dang": "2020-10-21",
 "tieu_de_en": "What happens if you do not recognize this ECG instantly?",
-"trang_thai": "dang",
-"giu_luc": 1790963894
+"trang_thai": "xong",
+"tieu_de_vi": "21/10/2020 — Điều gì xảy ra nếu bạn không nhận ra ngay điện tâm đồ này?",
+"tu_khoa": "tăng kali máu, hyperkalemia, nhịp nhanh thất, ventricular tachycardia, sóng hình sin, sine wave, sóng T nhọn, peaked T waves, QRS giãn rộng, QRS widening, bệnh thận giai đoạn cuối, ESRD, lọc máu, calci tĩnh mạch, nhịp xoang-thất, sinoventricular rhythm, LVH, tăng gánh thất trái, LV strain, hạ calci máu",
+"ngay": "2026-10-02",
+"kb": 2284,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1218,
@@ -11175,8 +11179,12 @@
 "url": "https://drsmithsecgblog.com/acute-coronary-occlusion-seen-in-paced/",
 "ngay_dang": "2020-10-19",
 "tieu_de_en": "Acute coronary occlusion seen in paced *and* non-paced ECGs",
-"trang_thai": "dang",
-"giu_luc": 1790963894
+"trang_thai": "xong",
+"tieu_de_vi": "19/10/2020 — Tắc mạch vành cấp thấy được trên điện tâm đồ có tạo nhịp *và* không tạo nhịp",
+"tu_khoa": "tắc mạch vành cấp, acute coronary occlusion, OMI, nhịp tạo nhịp, paced rhythm, máy tạo nhịp, pacemaker, tiêu chuẩn Sgarbossa cải biên theo Smith, Smith-modified Sgarbossa, ngược hướng quá mức, excessive discordance, tắc LAD, LAD vòng qua mỏm, wraparound LAD, nhồi máu cơ tim thầm lặng, silent MI, khó thở, nghiên cứu PERFECT",
+"ngay": "2026-10-02",
+"kb": 3137,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1217,
@@ -11185,8 +11193,12 @@
 "url": "https://drsmithsecgblog.com/a-70-something-woman-with-very-wide/",
 "ngay_dang": "2020-10-17",
 "tieu_de_en": "A 70-Something Woman with a Very Wide Tachycardia",
-"trang_thai": "dang",
-"giu_luc": 1790963894
+"trang_thai": "xong",
+"tieu_de_vi": "17/10/2020 — Một phụ nữ 70 mấy tuổi với nhịp nhanh QRS rất rộng",
+"tu_khoa": "nhiễu, artifact, nhiễu do run, tremor artifact, rét run, rigors, nhịp nhanh QRS rộng, wide complex tachycardia, giả nhịp nhanh thất, artifactual VT, chi thủ phạm, culprit extremity, Rowlands & Moore, ước tính tần số tim, heart rate estimation, nhịp nhanh xoang, sinus tachycardia, nhịp nền, underlying rhythm",
+"ngay": "2026-10-02",
+"kb": 1560,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1216,
@@ -11195,8 +11207,12 @@
 "url": "https://drsmithsecgblog.com/dynamic-st-elevation/",
 "ngay_dang": "2020-10-14",
 "tieu_de_en": "Dynamic ST Elevation",
-"trang_thai": "dang",
-"giu_luc": 1790963894
+"trang_thai": "xong",
+"tieu_de_vi": "14/10/2020 — ST chênh lên động",
+"tu_khoa": "ST chênh lên động, dynamic ST elevation, STEMI thoáng qua, transient STEMI, OMI dưới-sau-bên, infero-postero-lateral OMI, sóng T tối cấp, hyperacute T waves, tái tưới máu tự phát, spontaneous reperfusion, tắc lại, reocclusion, nhánh bờ tù, obtuse marginal, LCx, điện tâm đồ trước viện, prehospital ECG, troponin độ nhạy cao, ST thẳng đuỗn, ST straightening",
+"ngay": "2026-10-02",
+"kb": 913,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1215,
@@ -11205,8 +11221,12 @@
 "url": "https://drsmithsecgblog.com/cardiologist-declines-taking-patient-to/",
 "ngay_dang": "2020-10-11",
 "tieu_de_en": "Cardiologist declines taking patient to the cath lab. Patient dies.",
-"trang_thai": "dang",
-"giu_luc": 1790963894
+"trang_thai": "xong",
+"tieu_de_vi": "11/10/2020 — Bác sĩ tim mạch từ chối đưa bệnh nhân vào phòng thông tim. Bệnh nhân tử vong.",
+"tu_khoa": "OMI thành sau, posterior OMI, ST chênh xuống tối đa V1-V4, STD maximal in V1-V4, tắc LCx, LCx occlusion, NSTEMI, tiêu chuẩn STEMI, STEMI criteria, nhồi máu cơ tim thầm lặng, silent MI, khó thở, nghiệm pháp soi gương, Mirror Test, chuyển đạo lân cận, neighboring leads, phòng thông tim, cath lab, ngừng tim, cardiac arrest",
+"ngay": "2026-10-02",
+"kb": 2401,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1214,
@@ -11214,9 +11234,13 @@
 "slug": "2020-10-09-not-all-new-t-wave-inversion-signifies",
 "url": "https://drsmithsecgblog.com/not-all-new-t-wave-inversion-signifies/",
 "ngay_dang": "2020-10-09",
-"tieu_de_en": "Not all new T-wave inversion signifies ischemia. Also, what is this irregular rhythm?",
-"trang_thai": "dang",
-"giu_luc": 1790963894
+"tieu_de_en": "Not all new T-wave inversion signifies ischemia.  Also, what is this irregular rhythm?",
+"trang_thai": "xong",
+"tieu_de_vi": "09/10/2020 — Không phải mọi sóng T đảo ngược mới xuất hiện đều có nghĩa là thiếu máu cục bộ. Ngoài ra, nhịp không đều này là gì?",
+"tu_khoa": "sóng T đảo ngược, T-wave inversion, hội chứng Wellens, Wellens syndrome, giả Wellens, pseudo-Wellens, phì đại thất trái, LVH, tiêu chuẩn Peguero, biến thể tái cực, benign T-wave inversion, nhịp bộ nối gia tốc, accelerated junctional rhythm, phân ly nhĩ thất, AV dissociation, loạn nhịp xoang, sinus arrhythmia, trương lực phế vị, giản đồ bậc thang, troponin độ nhạy cao",
+"ngay": "2026-10-02",
+"kb": 2048,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1213,

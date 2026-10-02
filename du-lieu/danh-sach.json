@@ -3454,8 +3454,12 @@
 "url": "https://drsmithsecgblog.com/baseline-wander-but-what-else-do-you-see/",
 "ngay_dang": "2024-11-08",
 "tieu_de_en": "Baseline wander. But what else do you see?",
-"trang_thai": "dang",
-"giu_luc": 1790903054
+"trang_thai": "xong",
+"tieu_de_vi": "08/11/2024 — Trôi đường nền. Nhưng bạn còn thấy gì nữa?",
+"tu_khoa": "trôi đường nền, baseline wander, OMI thành dưới-sau, inferoposterior OMI, tái tưới máu tự phát, spontaneous reperfusion, sóng T tái tưới máu, reperfusion T waves, thay đổi ST-T động, dynamic ST-T changes, chậm dẫn truyền trong thất, IVCD, ST chênh lên đồng hướng, concordant ST elevation, nhiễu, artifact, chi thủ phạm, culprit extremity, Queen of Hearts, NSTEMI",
+"ngay": "2026-10-02",
+"kb": 1859,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1780,
@@ -3464,8 +3468,12 @@
 "url": "https://drsmithsecgblog.com/electrophysiological-curiosity-can-you/",
 "ngay_dang": "2024-11-03",
 "tieu_de_en": "Electrophysiological curiosity. Can you spot it?",
-"trang_thai": "dang",
-"giu_luc": 1790903054
+"trang_thai": "xong",
+"tieu_de_vi": "03/11/2024 — Một điều thú vị về điện sinh lý. Bạn có nhận ra không?",
+"tu_khoa": "nhát dội, echo beat, nhát phản hồi, reciprocal beat, dẫn truyền ngược dòng, retrograde conduction, đường dẫn truyền kép trong nút AV, dual AV nodal pathways, khoảng RP, RP interval, PVC, NSVT, nhát hỗn hợp, fusion beat, giản đồ bậc thang, laddergram, AVNRT, dẫn truyền thất-nhĩ, VA conduction",
+"ngay": "2026-10-02",
+"kb": 2850,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1779,
@@ -3473,9 +3481,13 @@
 "slug": "2024-11-01-can-you-treat-non-stemi-with-2",
 "url": "https://drsmithsecgblog.com/can-you-treat-non-stemi-with-2/",
 "ngay_dang": "2024-11-01",
-"tieu_de_en": "Can you treat Non-STEMI with thrombolytics if it is OMI (Occlusion MI)? Of course!",
-"trang_thai": "dang",
-"giu_luc": 1790903054
+"tieu_de_en": "Can you treat Non-STEMI with thrombolytics if it is OMI (Occlusion MI)?  Of course!",
+"trang_thai": "xong",
+"tieu_de_vi": "01/11/2024 — Có thể điều trị Non-STEMI bằng thuốc tiêu sợi huyết nếu đó là OMI (nhồi máu cơ tim do tắc) không? Tất nhiên là có!",
+"tu_khoa": "OMI, nhồi máu cơ tim do tắc, Non-STEMI, NSTEMI, tiêu sợi huyết, thrombolytics, OMI dưới-sau-bên, infero-postero-lateral OMI, sóng T tối cấp, hyperacute T waves, thay đổi soi gương, reciprocal change, động mạch mũ trái, LCx, door-to-needle, Queen of Hearts, loạn nhịp xoang, blốc SA",
+"ngay": "2026-10-02",
+"kb": 2093,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1778,

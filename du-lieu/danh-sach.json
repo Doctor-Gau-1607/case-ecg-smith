@@ -8613,8 +8613,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-60s-with-chest-pain-whom/",
 "ngay_dang": "2022-04-15",
 "tieu_de_en": "A man in his 60s with chest pain. Cardiologist refuses to take to the lab. Obvious STEMI, even with criteria. Yet final diagnosis “NSTEMI”. This happens far too often.",
-"trang_thai": "dang",
-"giu_luc": 1790945614
+"trang_thai": "xong",
+"tieu_de_vi": "15/04/2022 — Một người đàn ông 60 mấy tuổi bị đau ngực. Bác sĩ tim mạch từ chối đưa vào phòng thông tim. STEMI hiển nhiên, thậm chí đạt cả tiêu chuẩn. Vậy mà chẩn đoán cuối cùng lại là “NSTEMI”. Chuyện này xảy ra quá thường xuyên.",
+"tu_khoa": "OMI, STEMI(+) OMI, tắc LAD, LAD occlusion, sóng T tối cấp, hyperacute T waves, ST chênh lên, tắc lại, reocclusion, tái tưới máu, reperfusion, NSTEMI, mô hình STEMI, STEMI paradigm, xơ cứng rải rác, MS hug, hủy báo động STEMI, cath lab activation",
+"ngay": "2026-10-02",
+"kb": 1484,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1403,
@@ -8623,8 +8627,12 @@
 "url": "https://drsmithsecgblog.com/a-man-in-his-50s-with-acute-chest-pain-5/",
 "ngay_dang": "2022-04-13",
 "tieu_de_en": "A man in his 50s with acute chest pain and history of prior MI",
-"trang_thai": "dang",
-"giu_luc": 1790945614
+"trang_thai": "xong",
+"tieu_de_vi": "13/04/2022 — Một người đàn ông 50 mấy tuổi đau ngực cấp, có tiền sử nhồi máu cơ tim cũ",
+"tu_khoa": "phình thất trái, LV aneurysm, OMI chồng lên phình thất trái, tắc LAD cấp, LAD OMI, sóng T tối cấp, hyperacute T waves, tỷ số T/QRS, T/QRS ratio, OMI STEMI âm tính, STEMI(-) OMI, nhồi máu thành trước cũ, old anterior MI, troponin tăng dần, thông tim cấp cứu, emergent catheterization, blốc phân nhánh trái trước, LAHB, tăng tiến sóng R kém, PRWP",
+"ngay": "2026-10-02",
+"kb": 1821,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1402,
@@ -8632,9 +8640,13 @@
 "slug": "2022-04-11-rbbb-with-ste-in-i-and-avl-will",
 "url": "https://drsmithsecgblog.com/rbbb-with-ste-in-i-and-avl-will/",
 "ngay_dang": "2022-04-11",
-"tieu_de_en": "RBBB with STE in I and aVL. Will the angiogram tell you if this ECG represents Occlusion MI or not?",
-"trang_thai": "dang",
-"giu_luc": 1790945614
+"tieu_de_en": "RBBB with STE in I and aVL.  Will the angiogram tell you if this ECG represents Occlusion MI or not?",
+"trang_thai": "xong",
+"tieu_de_vi": "11/04/2022 — RBBB kèm ST chênh lên ở I và aVL. Chụp mạch vành có cho bạn biết điện tâm đồ này có phải là nhồi máu cơ tim do tắc (OMI) hay không?",
+"tu_khoa": "RBBB, blốc nhánh phải, ST chênh lên ở I và aVL, STE in I and aVL, OMI, Occlusion MI, nhồi máu cơ tim do tắc, MINOCA, chụp mạch vành, angiogram, CT mạch vành, CTCA, mảng xơ vữa ngoài lòng mạch, extraluminal plaque, tái tưới máu tự phát, spontaneous reperfusion, phân mảnh QRS, QRS fragmentation",
+"ngay": "2026-10-02",
+"kb": 2242,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1401,
@@ -8643,8 +8655,12 @@
 "url": "https://drsmithsecgblog.com/a-woman-in-her-30s-with-sudden-chest/",
 "ngay_dang": "2022-04-08",
 "tieu_de_en": "A woman in her 30s with sudden chest pain, nausea, and diaphoresis. Was her cardiology management appropriate?",
-"trang_thai": "dang",
-"giu_luc": 1790945614
+"trang_thai": "xong",
+"tieu_de_vi": "08/04/2022 — Một phụ nữ 30 mấy tuổi đột ngột đau ngực, buồn nôn và vã mồ hôi. Xử trí của bác sĩ tim mạch có phù hợp không?",
+"tu_khoa": "bóc tách động mạch vành tự phát, SCAD, OMI, LAD OMI, dấu hiệu Cờ Nam Phi, South African Flag sign, sóng T tối cấp, hyperacute T waves, STEMI(-)OMI, NSTEMI, nhịp tự thất gia tốc, AIVR, tái tưới máu, reperfusion, sóng T Wellens, nhánh chéo, diagonal, troponin",
+"ngay": "2026-10-02",
+"kb": 2080,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1400,
@@ -8652,9 +8668,13 @@
 "slug": "2022-04-05-diffuse-st-depression-with-st-elevation",
 "url": "https://drsmithsecgblog.com/diffuse-st-depression-with-st-elevation/",
 "ngay_dang": "2022-04-05",
-"tieu_de_en": "Diffuse ST Depression, with ST Elevation in aVR. Do you see the diagnosis?",
-"trang_thai": "dang",
-"giu_luc": 1790945614
+"tieu_de_en": "Diffuse ST Depression, with ST Elevation in aVR.  Do you see the diagnosis?",
+"trang_thai": "xong",
+"tieu_de_vi": "05/04/2022 — ST chênh xuống lan tỏa, kèm ST chênh lên ở aVR. Bạn có thấy chẩn đoán không?",
+"tu_khoa": "WPW, hội chứng Wolff-Parkinson-White, tiền kích thích (preexcitation), sóng delta, delta wave, sóng delta âm, PR ngắn, ST chênh xuống lan tỏa, diffuse ST depression, ST chênh lên ở aVR, thay đổi ST-T thứ phát, ngược hướng (discordance), OMI thành dưới-sau, giả nhồi máu, great mimic, ST chênh xuống dạng bậc thềm, shelf-like ST depression",
+"ngay": "2026-10-02",
+"kb": 1095,
+"kho": "case-ecg-smith-2"
 },
 {
 "stt": 1399,

@@ -12173,8 +12173,12 @@
 "url": "https://drsmithsecgblog.com/a-young-woman-with-vomiting/",
 "ngay_dang": "2020-05-03",
 "tieu_de_en": "A young woman with vomiting",
-"trang_thai": "dang",
-"giu_luc": 1790970655
+"trang_thai": "xong",
+"tieu_de_vi": "03/05/2020 — Một phụ nữ trẻ bị nôn",
+"tu_khoa": "hạ kali máu (hypokalemia), QT kéo dài (QT prolongation), QTc, sóng U (U wave), khoảng QU (QU interval), sóng T dạng xuống-lên (down-up T wave), ST chênh xuống lan tỏa (diffuse ST depression), đặt sai vị trí điện cực V1 V2 (lead misplacement), máy tính đo sai QT (computerized QT), nhiễu đường nền (baseline artifact), nguyên nhân QT kéo dài, rối loạn điện giải (electrolyte disturbance), nôn (vomiting), tăng tiến sóng R kỳ quặc (R wave progression)",
+"ngay": "2026-10-02",
+"kb": 831,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1146,
@@ -12182,9 +12186,13 @@
 "slug": "2020-04-29-cardiac-arrest-what-does-ecg-show-also",
 "url": "https://drsmithsecgblog.com/cardiac-arrest-what-does-ecg-show-also/",
 "ngay_dang": "2020-04-29",
-"tieu_de_en": "Cardiac Arrest. What does the ECG show? Also see the bizarre Bigeminy.",
-"trang_thai": "dang",
-"giu_luc": 1790970655
+"tieu_de_en": "Cardiac Arrest.  What does the ECG show?  Also see the bizarre Bigeminy.",
+"trang_thai": "xong",
+"tieu_de_vi": "29/04/2020 — Ngừng tim. Điện tâm đồ cho thấy gì? Xem thêm nhịp đôi kỳ dị.",
+"tu_khoa": "ngừng tim, cardiac arrest, xoắn đỉnh, Torsades de Pointes, QT kéo dài, long QT, PVC kỳ dị, bizarre PVCs, nhịp đôi thất, ventricular bigeminy, giả STEMI, pseudoSTEMI, hạ kali máu, hypokalemia, nhịp nhanh thất đa dạng, PMVT, tạo nhịp vượt tần số, overdrive pacing, hoạt động điện vô mạch, PEA",
+"ngay": "2026-10-02",
+"kb": 3236,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1145,
@@ -12192,9 +12200,13 @@
 "slug": "2020-04-25-another-shark-fin-with-twist",
 "url": "https://drsmithsecgblog.com/another-shark-fin-with-twist/",
 "ngay_dang": "2020-04-25",
-"tieu_de_en": "Another Shark Fin. With a twist.",
-"trang_thai": "dang",
-"giu_luc": 1790970655
+"tieu_de_en": "Another Shark Fin.  With a twist.",
+"trang_thai": "xong",
+"tieu_de_vi": "25/04/2020 — Thêm một ST “vây cá mập” nữa. Nhưng có điểm khác lạ.",
+"tu_khoa": "tăng kali máu, hyperkalemia, ST vây cá mập, shark fin, giả STEMI, pseudo-STEMI, kiểu hình sao chép Brugada, Brugada phenocopy, sóng T nhọn, peaked T waves, QRS giãn rộng, trục lệch phải, hình ảnh giả nhồi máu, pseudo-infarct pattern, nhiễm toan ceton do đái tháo đường, DKA, hạ calci máu",
+"ngay": "2026-10-02",
+"kb": 1473,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1144,

@@ -14049,9 +14049,13 @@
 "slug": "2019-04-27-is-this-terminal-qrs-distortion-is",
 "url": "https://drsmithsecgblog.com/is-this-terminal-qrs-distortion-is/",
 "ngay_dang": "2019-04-27",
-"tieu_de_en": "Is this terminal QRS distortion? Is there LVH?",
-"trang_thai": "dang",
-"giu_luc": 1791038529
+"tieu_de_en": "Is this terminal QRS distortion?  Is there LVH?",
+"trang_thai": "xong",
+"tieu_de_vi": "27/04/2019 — Đây có phải là biến dạng phần cuối QRS không? Có LVH không?",
+"tu_khoa": "biến dạng phần cuối QRS, terminal QRS distortion, T-QRS-D, tái cực sớm, early repolarization, phì đại thất trái, LVH, tiêu chuẩn Peguero, Peguero criteria, tiêu chuẩn điện thế, voltage criteria, tăng gánh thất trái, LV strain, tương đương tăng gánh, strain equivalent, sóng J, tắc LAD",
+"ngay": "2026-10-03",
+"kb": 909,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1011,
@@ -14060,8 +14064,12 @@
 "url": "https://drsmithsecgblog.com/can-you-see-through-this-paced-rhythm/",
 "ngay_dang": "2019-04-26",
 "tieu_de_en": "Can you see through this paced rhythm?",
-"trang_thai": "dang",
-"giu_luc": 1791038529
+"trang_thai": "xong",
+"tieu_de_vi": "26/04/2019 — Bạn có nhìn xuyên qua được nhịp tạo nhịp này không?",
+"tu_khoa": "nhịp tạo nhịp, paced rhythm, máy tạo nhịp hai buồng, dual chamber pacemaker, STEMI trên nền tạo nhịp, OMI thành dưới-sau-bên, inferior posterior lateral OMI, tiêu chuẩn Sgarbossa cải biên, modified Sgarbossa criteria, ST chênh lên ngược hướng quá mức, excessive discordance, tắc lỗ xuất phát RCA, ostial RCA occlusion, mô hình STEMI vs. NSTEMI",
+"ngay": "2026-10-03",
+"kb": 2257,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1010,
@@ -14070,8 +14078,12 @@
 "url": "https://drsmithsecgblog.com/what-is-this-tachycardia-that/",
 "ngay_dang": "2019-04-23",
 "tieu_de_en": "What is this tachycardia that alternates from wide to narrow to wide?",
-"trang_thai": "dang",
-"giu_luc": 1791038529
+"trang_thai": "xong",
+"tieu_de_vi": "23/04/2019 — Nhịp nhanh này là gì mà luân phiên từ QRS rộng sang hẹp rồi lại rộng?",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, dẫn truyền lệch hướng liên quan tần số, rate-related aberrancy, rung nhĩ nhanh, rapid AFib, LBBB, SVT kèm dẫn truyền lệch hướng, SVT with aberrancy, nhịp nhanh thất, VT, amiodarone, LVH, khoảng R-R, compa đo",
+"ngay": "2026-10-03",
+"kb": 1372,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1009,

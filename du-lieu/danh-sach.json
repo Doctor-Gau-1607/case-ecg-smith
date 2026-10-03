@@ -14372,8 +14372,12 @@
 "url": "https://drsmithsecgblog.com/a-patient-with-cardiac-arrest-rosc-and/",
 "ngay_dang": "2019-02-28",
 "tieu_de_en": "A patient with cardiac arrest, ROSC, and right bundle branch block (RBBB).",
-"trang_thai": "dang",
-"giu_luc": 1791040119
+"trang_thai": "xong",
+"tieu_de_vi": "28/02/2019 — Một bệnh nhân ngừng tim, tái lập tuần hoàn tự nhiên (ROSC) và blốc nhánh phải (RBBB).",
+"tu_khoa": "tăng kali máu, hyperkalemia, blốc nhánh phải, right bundle branch block, RBBB, QRS rộng quá mức, wide QRS, sóng T nhọn, peaked T waves, ngừng tim, cardiac arrest, ROSC, PEA, nhịp xoang-thất, sinoventricular rhythm, nhịp bộ nối, junctional rhythm, calci tĩnh mạch",
+"ngay": "2026-10-03",
+"kb": 1128,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 988,
@@ -14382,8 +14386,12 @@
 "url": "https://drsmithsecgblog.com/computer-often-fails-to-diagnose-atrial/",
 "ngay_dang": "2019-02-21",
 "tieu_de_en": "Computer often fails to diagnose atrial fibrillation in ventricular paced rhythm, and that can be catastrophic",
-"trang_thai": "dang",
-"giu_luc": 1791040119
+"trang_thai": "xong",
+"tieu_de_vi": "21/02/2019 — Máy tính thường không chẩn đoán được rung nhĩ trong nhịp tạo nhịp thất, và điều đó có thể dẫn tới thảm họa",
+"tu_khoa": "rung nhĩ, atrial fibrillation, nhịp tạo nhịp thất, ventricular paced rhythm, VPR, kết quả đọc bằng máy tính, computerized interpretation, máy tạo nhịp, pacemaker, đột quỵ, stroke, gai tạo nhịp, pacer spike, sóng T thần kinh trung ương, CNS T-waves, chẩn đoán nhầm rung nhĩ, AFib misdiagnosis",
+"ngay": "2026-10-03",
+"kb": 1584,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 987,
@@ -14392,8 +14400,12 @@
 "url": "https://drsmithsecgblog.com/chest-pain-and-convex-st-elevation-in/",
 "ngay_dang": "2019-02-18",
 "tieu_de_en": "Chest pain and Convex ST Elevation in Precordial Leads",
-"trang_thai": "dang",
-"giu_luc": 1791040119
+"trang_thai": "xong",
+"tieu_de_vi": "18/02/2019 — Đau ngực và ST chênh lên dạng lồi ở các chuyển đạo trước tim",
+"tu_khoa": "ST chênh lên dạng lồi, convex ST elevation, tái cực sớm, early repolarization, ST chênh lên biến thể bình thường, normal variant ST elevation, công thức 4 biến, 4-variable formula, xác suất tiền nghiệm, pretest probability, đặt sai vị trí chuyển đạo, lead misplacement, RBBB không hoàn toàn, incomplete RBBB, tắc LAD, LAD occlusion, troponin, siêu âm tim tại giường, bedside echo",
+"ngay": "2026-10-03",
+"kb": 1380,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 986,

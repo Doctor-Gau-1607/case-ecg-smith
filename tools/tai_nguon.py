@@ -92,15 +92,19 @@ def gon_video(data, ten):
             if os.path.getsize(ra) <= 90_000_000:
                 return open(ra, 'rb').read()
             data = open(ra, 'rb').read()
-        # vẫn quá lớn cho GitHub (giới hạn 100 MB/tệp) → nén mạnh hơn: ≤854×480, CRF 30, AAC 96k
-        ra2 = os.path.join(t, 'ra2.mp4')
-        r = subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', vao, '-vf',
-                            "scale='min(854,iw)':'min(480,ih)':force_original_aspect_ratio=decrease,"
-                            "scale=trunc(iw/2)*2:trunc(ih/2)*2", '-c:v', 'libx264', '-preset', 'veryfast',
-                            '-crf', '30', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k',
-                            '-movflags', '+faststart', ra2], capture_output=True)
-        if r.returncode == 0 and os.path.isfile(ra2) and 0 < os.path.getsize(ra2) < len(data):
-            return open(ra2, 'rb').read()
+        # vẫn quá lớn cho GitHub (giới hạn 100 MB/tệp) → nén mạnh hơn nhưng GIỮ 720p (người dùng yêu cầu
+        # không hạ độ phân giải dưới 720p): preset chậm hơn, tăng dần CRF, AAC 96k
+        for crf in ('27', '30', '33'):
+            ra2 = os.path.join(t, f'ra{crf}.mp4')
+            r = subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', vao, '-vf',
+                                "scale='min(1280,iw)':'min(720,ih)':force_original_aspect_ratio=decrease,"
+                                "scale=trunc(iw/2)*2:trunc(ih/2)*2", '-c:v', 'libx264', '-preset', 'slow',
+                                '-crf', crf, '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k',
+                                '-movflags', '+faststart', ra2], capture_output=True)
+            if r.returncode == 0 and os.path.isfile(ra2) and 0 < os.path.getsize(ra2) < len(data):
+                data = open(ra2, 'rb').read()
+                if len(data) <= 90_000_000:
+                    break
     return data
 
 

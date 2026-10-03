@@ -17128,8 +17128,12 @@
 "url": "https://drsmithsecgblog.com/chest-pain-and-normal-ecg/",
 "ngay_dang": "2017-10-03",
 "tieu_de_en": "Chest pain and a “normal” ECG",
-"trang_thai": "dang",
-"giu_luc": 1791064021
+"trang_thai": "xong",
+"tieu_de_vi": "03/10/2017 — Đau ngực và một điện tâm đồ “bình thường”",
+"tu_khoa": "tắc LAD đoạn gần, proximal LAD occlusion, OMI, STEMI kín đáo, subtle STEMI, tăng tiến sóng R kém, poor R-wave progression, thay đổi soi gương, reciprocal change, công thức tắc LAD, LAD occlusion formula, rung thất, ventricular fibrillation, sóng T tối cấp, hyperacute T waves, huyết khối trong stent, in-stent thrombosis, máy tính đọc sai, computer interpretation",
+"ngay": "2026-10-03",
+"kb": 1519,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 789,
@@ -17138,8 +17142,12 @@
 "url": "https://drsmithsecgblog.com/30-yo-woman-with-chest-pain-and-normal/",
 "ngay_dang": "2017-09-30",
 "tieu_de_en": "30 yo woman with chest pain and a “normal ECG” by the computer, this one prehospital",
-"trang_thai": "dang",
-"giu_luc": 1791064021
+"trang_thai": "xong",
+"tieu_de_vi": "30/09/2017 — Phụ nữ 30 tuổi đau ngực và điện tâm đồ “bình thường” theo máy tính, lần này là trước viện",
+"tu_khoa": "sóng T tối cấp, hyperacute T waves, tắc LAD, LAD occlusion, OMI, ST chênh lên, ST elevation, điện tâm đồ trước viện, prehospital ECG, kết quả đọc bằng máy tính, computer interpretation, công thức 3 biến, 3-variable formula, ST chênh lên biến thể bình thường, normal variant ST elevation, tăng tiến sóng R kém",
+"ngay": "2026-10-03",
+"kb": 947,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 788,
@@ -17148,8 +17156,12 @@
 "url": "https://drsmithsecgblog.com/just-few-cases-that-computer-called/",
 "ngay_dang": "2017-09-27",
 "tieu_de_en": "Just a few cases that the computer called “normal”",
-"trang_thai": "dang",
-"giu_luc": 1791064021
+"trang_thai": "xong",
+"tieu_de_vi": "27/09/2017 — Vài ca bệnh mà máy tính đọc là “bình thường”",
+"tu_khoa": "kết quả đọc bằng máy tính, computerized interpretation, điện tâm đồ bình thường, normal ECG, thuật toán Veritas, Veritas algorithm, mạng nơ-ron sâu, deep neural network, OMI, tắc LAD, LAD occlusion, sóng T động, dynamic T waves, WPW, STEMI, điện tâm đồ lúc phân loại, triage ECG",
+"ngay": "2026-10-03",
+"kb": 887,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 787,

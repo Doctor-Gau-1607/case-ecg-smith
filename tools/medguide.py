@@ -19,6 +19,14 @@ import re, os, sys, json, html, shutil, argparse, unicodedata
 from urllib.parse import urlparse, unquote, urljoin
 from bs4 import BeautifulSoup, NavigableString, Comment, Tag
 
+
+def noi(base, u):
+    """urljoin an toàn: link hỏng trong bài gốc (vd href chứa '[' bị hiểu là IPv6) → '' (bỏ link, giữ chữ)."""
+    try:
+        return urljoin(base, u)
+    except ValueError:
+        return ''
+
 ap = argparse.ArgumentParser()
 sp = ap.add_subparsers(dest='lenh', required=True)
 a1 = sp.add_parser('trich')
@@ -89,7 +97,7 @@ def trich():
         # Ctrl+S đổi link ảnh thành bản sao cục bộ "./X_files/..." — không phải ảnh gốc, bỏ qua
         if not u or u.startswith(('data:', 'file:', 'blob:', './')) or '_files/' in u:
             return ''
-        return urljoin(base, u)
+        return noi(base, u)
 
     sels = [A.chon] if A.chon else ['div.entry-content', 'div.post-content', 'div.td-post-content',
                                     'div.article-content', 'article', 'main', 'body']
@@ -98,6 +106,14 @@ def trich():
         el = soup.select_one(s)
         if el and len(el.get_text(strip=True)) > 200:
             body = el; break
+    if body is None:
+        # bài ngắn (thông báo bài giảng, video nhúng…): chấp nhận vùng thân bài riêng nếu có chữ hoặc media
+        for s in sels:
+            if s in ('article', 'main', 'body'):
+                continue
+            el = soup.select_one(s)
+            if el and (el.get_text(strip=True) or el.find(['img', 'iframe', 'video', 'audio', 'embed', 'object'])):
+                body = el; break
     if body is None:
         sys.exit('Không tìm thấy phần thân bài; hãy chỉ định --chon "<css selector>"')
 
@@ -218,8 +234,12 @@ def trich():
             hx = v[1:]
             if len(hx) == 3:
                 hx = ''.join(c * 2 for c in hx)
+            if not re.match(r'[0-9a-f]{6}', hx):
+                return None, None
             n = [int(hx[i:i + 2], 16) for i in (0, 2, 4)]
         else:
+            return None, None
+        if len(n) < 3:      # màu viết sai (vd "#", "rgb()") → coi như không có màu
             return None, None
         r, g, b = n
         if max(n) - min(n) < 40:
@@ -264,7 +284,7 @@ def trich():
                 else:
                     t.unwrap()
             elif t.name == 'a':
-                href = urljoin(base, t.get('href', '') or '') if (t.get('href') or '').strip() else ''
+                href = noi(base, t.get('href', '') or '') if (t.get('href') or '').strip() else ''
                 if href.startswith('http') and not IMG_RE.search(href):
                     t.attrs = {'href': href, 'target': '_blank', 'rel': 'noopener'}
                 else:

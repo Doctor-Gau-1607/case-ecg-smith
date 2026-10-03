@@ -117,13 +117,13 @@ def nguon_san_sang():
     else:
         sh('git', 'fetch', '-q', '--depth', '1', 'origin', 'nguon', cwd=NG)
         sh('git', 'reset', '-q', '--hard', 'FETCH_HEAD', cwd=NG)
-    ok, mat, go = set(), {}, set()
+    ok, mat, go = set(), {}, {}
     for s in os.listdir(NG):
         f = os.path.join(NG, s, 'nguon.json')
         if os.path.isfile(f):
             d = json.load(open(f, encoding='utf-8'))
             if d.get('phien') == PHIEN and d.get('khong_ton_tai'):
-                go.add(s)
+                go[s] = d.get('ly_do') or 'trang gốc 404 — tác giả đã gỡ bài'
             elif d.get('phien') == PHIEN and not d.get('loi'):
                 (mat.__setitem__(s, d['anh_mat']) if d.get('anh_mat') else ok.add(s))
     nguon_san_sang.mat = mat
@@ -167,7 +167,7 @@ elif A.lenh == 'chuan-bi':
     ds = doc_ds(); bay_gio = time.time(); chon = []
     for c in ds:
         if c['trang_thai'] == 'chua' and c['slug'] in nguon_san_sang.go:
-            c['trang_thai'] = 'khong_ton_tai'; c['ly_do'] = 'trang gốc 404 — tác giả đã gỡ bài'
+            c['trang_thai'] = 'khong_ton_tai'; c['ly_do'] = nguon_san_sang.go[c['slug']]
             continue
         if c['trang_thai'] == 'chua' and c['slug'] in nguon_san_sang.mat:
             c['trang_thai'] = 'cho_anh'; c['ly_do'] = 'ảnh gốc 404: ' + ', '.join(nguon_san_sang.mat[c['slug']][:3])

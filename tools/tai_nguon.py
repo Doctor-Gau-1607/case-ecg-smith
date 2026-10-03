@@ -17,7 +17,7 @@ case dịch xong thì nguồn của nó rơi khỏi nhánh ở lượt tải sau
 Lịch sự với máy chủ blog: một luồng, nghỉ giữa các yêu cầu, User-Agent định danh rõ.
 """
 import argparse, io, json, os, re, shutil, subprocess, sys, tempfile, time
-import urllib.request, urllib.error
+import urllib.request, urllib.error, urllib.parse
 
 ap = argparse.ArgumentParser()
 ap.add_argument('--main', required=True)
@@ -37,6 +37,8 @@ os.makedirs(A.out, exist_ok=True)
 
 def tai(url, lan=5):
     loi = None
+    # link ảnh cũ của Blogger có dấu cách / ký tự lạ ("Screen Shot 2022-02-08 at 8.32.20 AM.png") → mã hoá %
+    url = urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~")
     for t in range(lan):
         try:
             req = urllib.request.Request(url, headers={'User-Agent': UA})
@@ -87,7 +89,18 @@ def gon_video(data, ten):
                             '-crf', '23', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k',
                             '-movflags', '+faststart', ra], capture_output=True)
         if r.returncode == 0 and os.path.isfile(ra) and 0 < os.path.getsize(ra) < len(data):
-            return open(ra, 'rb').read()
+            if os.path.getsize(ra) <= 90_000_000:
+                return open(ra, 'rb').read()
+            data = open(ra, 'rb').read()
+        # vẫn quá lớn cho GitHub (giới hạn 100 MB/tệp) → nén mạnh hơn: ≤854×480, CRF 30, AAC 96k
+        ra2 = os.path.join(t, 'ra2.mp4')
+        r = subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', vao, '-vf',
+                            "scale='min(854,iw)':'min(480,ih)':force_original_aspect_ratio=decrease,"
+                            "scale=trunc(iw/2)*2:trunc(ih/2)*2", '-c:v', 'libx264', '-preset', 'veryfast',
+                            '-crf', '30', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k',
+                            '-movflags', '+faststart', ra2], capture_output=True)
+        if r.returncode == 0 and os.path.isfile(ra2) and 0 < os.path.getsize(ra2) < len(data):
+            return open(ra2, 'rb').read()
     return data
 
 
@@ -119,7 +132,11 @@ for c in can:
                                 '--work', w, '--chon', 'div.entry-content'], capture_output=True, text=True)
             info['trich'] = r.stdout.strip().splitlines()[-4:] + r.stderr.strip().splitlines()[-3:]
             media = json.load(open(os.path.join(w, 'media.json'))) if r.returncode == 0 else []
-            if r.returncode != 0:
+            if r.returncode != 0 and 'Không tìm thấy phần thân bài' in (r.stdout + r.stderr):
+                # trang có thật nhưng thân bài rỗng (bản trùng/nháp của bài khác) → không có gì để dịch
+                info['khong_ton_tai'] = True
+                info['ly_do'] = 'trang gốc không có nội dung (thân bài rỗng — thường là bản trùng của bài khác)'
+            elif r.returncode != 0:
                 info['loi'].append('trich lỗi')
         for m in media:
             f = os.path.join(d, 'goc', m['name'])

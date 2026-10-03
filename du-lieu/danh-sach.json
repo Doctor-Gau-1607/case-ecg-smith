@@ -16797,8 +16797,12 @@
 "url": "https://drsmithsecgblog.com/a-50-something-with-ho-coronary-bypass/",
 "ngay_dang": "2017-12-03",
 "tieu_de_en": "A 50-something with h/o coronary bypass has chest pain and a ventricular paced rhythm",
-"trang_thai": "dang",
-"giu_luc": 1791061281
+"trang_thai": "xong",
+"tieu_de_vi": "03/12/2017 — Một bệnh nhân 50 mấy tuổi có tiền sử phẫu thuật bắc cầu chủ vành bị đau ngực và có nhịp tạo nhịp thất",
+"tu_khoa": "nhịp tạo nhịp thất, ventricular paced rhythm, tiêu chuẩn Sgarbossa cải biên theo Smith, Smith-modified Sgarbossa criteria, ST chênh lên ngược hướng quá mức, excessively discordant ST elevation, STEMI thành dưới, inferior STEMI, nhồi máu thất phải, RV MI, nhồi máu thành sau, posterior MI, cầu nối tĩnh mạch hiển, CABG, máy tạo nhịp hai buồng, dual chamber pacemaker, OMI",
+"ngay": "2026-10-03",
+"kb": 1359,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 813,
@@ -16807,8 +16811,12 @@
 "url": "https://drsmithsecgblog.com/what-is-cause-of-this-patients-inferior/",
 "ngay_dang": "2017-12-01",
 "tieu_de_en": "What is the cause of this patient’s inferior ST depressions?",
-"trang_thai": "dang",
-"giu_luc": 1791061281
+"trang_thai": "xong",
+"tieu_de_vi": "01/12/2017 — Nguyên nhân gây ST chênh xuống ở thành dưới của bệnh nhân này là gì?",
+"tu_khoa": "cuồng nhĩ, atrial flutter, cuồng nhĩ 2:1, blốc 2:1, giả ST chênh xuống, ST depression mimic, sóng cuồng nhĩ, flutter waves, mexiletine, chẹn kênh natri, sodium channel blockade, tần số nhĩ chậm, slow atrial flutter, nhồi máu cơ tim típ II, type II MI, troponin tăng",
+"ngay": "2026-10-03",
+"kb": 199,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 812,
@@ -16817,8 +16825,12 @@
 "url": "https://drsmithsecgblog.com/steve-what-do-you-think-of-this-ecg-in/",
 "ngay_dang": "2017-11-30",
 "tieu_de_en": "“Steve, what do you think of this ECG in this Cardiac Arrest Patient?”",
-"trang_thai": "dang",
-"giu_luc": 1791061281
+"trang_thai": "xong",
+"tieu_de_vi": "30/11/2017 — “Steve, thầy nghĩ gì về điện tâm đồ này ở bệnh nhân ngừng tim này?”",
+"tu_khoa": "tăng kali máu, hyperkalemia, giả STEMI, pseudoSTEMI, ngừng tim, cardiac arrest, QRS giãn rộng, wide QRS, hình thái giống Brugada, Brugada-like, ST chênh lên thành dưới, inferior ST elevation, kali 7.6 mEq/L, potassium, điện tâm đồ do chuyển hóa, metabolic ECG, calci, insulin",
+"ngay": "2026-10-03",
+"kb": 1713,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 811,
@@ -16826,9 +16838,13 @@
 "slug": "2017-11-27-a-54-yo-male-with-sudden-chest-pain",
 "url": "https://drsmithsecgblog.com/a-54-yo-male-with-sudden-chest-pain/",
 "ngay_dang": "2017-11-27",
-"tieu_de_en": "A 54 yo male with sudden chest pain. Computer says normal. Paramedic disagrees.",
-"trang_thai": "dang",
-"giu_luc": 1791061281
+"tieu_de_en": "A 54 yo male with sudden chest pain. Computer says normal.  Paramedic disagrees.",
+"trang_thai": "xong",
+"tieu_de_vi": "27/11/2017 — Nam 54 tuổi đau ngực đột ngột. Máy tính đọc là bình thường. Nhân viên cấp cứu ngoài viện không đồng ý.",
+"tu_khoa": "tắc LAD, LAD occlusion, tái cực sớm, early repolarization, công thức 3 biến, 3-variable formula, công thức 4 biến, 4-variable formula, ST chênh lên kín đáo, subtle STEMI, sóng T lớn, OMI, kết quả đọc bằng máy tính, computer interpretation, nhân viên cấp cứu ngoài viện, paramedic",
+"ngay": "2026-10-03",
+"kb": 995,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 810,
@@ -16837,8 +16853,12 @@
 "url": "https://drsmithsecgblog.com/what-is-lurking-underneath-this-new/",
 "ngay_dang": "2017-11-25",
 "tieu_de_en": "What is lurking underneath this new right bundle branch block?",
-"trang_thai": "dang",
-"giu_luc": 1791061281
+"trang_thai": "xong",
+"tieu_de_vi": "25/11/2017 — Điều gì đang ẩn giấu bên dưới blốc nhánh phải mới xuất hiện này?",
+"tu_khoa": "blốc nhánh phải, RBBB, RBBB mới, new RBBB, tắc LAD, LAD occlusion, LAD vòng qua mỏm, wraparound LAD, sóng T tối cấp, hyperacute T waves, đồng hướng, concordance, ngược hướng phù hợp, appropriate discordance, ST chênh xuống soi gương aVL, reciprocal ST depression, OMI, tái tưới máu, reperfusion T waves",
+"ngay": "2026-10-03",
+"kb": 619,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 809,

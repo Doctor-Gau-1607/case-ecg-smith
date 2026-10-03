@@ -14302,8 +14302,12 @@
 "url": "https://drsmithsecgblog.com/a-patient-with-respiratory-failure-and/",
 "ngay_dang": "2019-03-11",
 "tieu_de_en": "A Patient with Respiratory Failure and a Computer “Normal” ECG",
-"trang_thai": "dang",
-"giu_luc": 1791039796
+"trang_thai": "xong",
+"tieu_de_vi": "11/03/2019 — Bệnh nhân suy hô hấp và điện tâm đồ “bình thường” theo máy tính",
+"tu_khoa": "nhồi máu cơ tim cấp thành dưới, inferior MI, OMI, ST chênh lên ở III, ST chênh xuống soi gương ở aVL, reciprocal ST depression, kết quả đọc bằng máy tính, computer Normal ECG, nhồi máu cơ tim típ 2, type 2 MI, troponin I, nhồi máu cơ tim thầm lặng, silent MI, ST dạng vòm, ST coving, nhiễu, artifact",
+"ngay": "2026-10-03",
+"kb": 1570,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 993,
@@ -14312,8 +14316,12 @@
 "url": "https://drsmithsecgblog.com/chest-pain-resolved-and-normal-ed-ecg/",
 "ngay_dang": "2019-03-08",
 "tieu_de_en": "Chest pain resolved, and a “Normal” ED ECG",
-"trang_thai": "dang",
-"giu_luc": 1791039796
+"trang_thai": "xong",
+"tieu_de_vi": "08/03/2019 — Đau ngực đã hết, và một điện tâm đồ “Bình thường” tại khoa cấp cứu",
+"tu_khoa": "nhồi máu cơ tim thành dưới, inferior MI, OMI thành dưới, inferior OMI, STEMI thoáng qua, transient STEMI, tắc nhánh bờ tù, obtuse marginal occlusion, LCx, thay đổi soi gương, reciprocal change, nghiệm pháp soi gương, mirror test, nhồi máu cơ tim thành sau, posterior MI, điện tâm đồ trước viện, prehospital ECG, kết quả đọc bằng máy tính, computer interpretation, sóng T tái tưới máu",
+"ngay": "2026-10-03",
+"kb": 1500,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 992,
@@ -14322,8 +14330,12 @@
 "url": "https://drsmithsecgblog.com/what-will-you-do-for-this-patient/",
 "ngay_dang": "2019-03-06",
 "tieu_de_en": "What will you do for this patient transferred to you who is now asymptomatic?",
-"trang_thai": "dang",
-"giu_luc": 1791039796
+"trang_thai": "xong",
+"tieu_de_vi": "06/03/2019 — Bạn sẽ làm gì cho bệnh nhân được chuyển đến mình, hiện đã hết triệu chứng?",
+"tu_khoa": "nhồi máu cơ tim do tắc, OMI, STEMI thoáng qua, transient STEMI, tắc LAD đoạn gần, proximal LAD occlusion, sóng T tối cấp, hyperacute T waves, OMI dai dẳng không triệu chứng, STEMI(-) OMI, tắc lại, reocclusion, thông tim cấp cứu, emergent cath, điện tâm đồ nền, baseline ECG",
+"ngay": "2026-10-03",
+"kb": 3735,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 991,
@@ -14332,8 +14344,12 @@
 "url": "https://drsmithsecgblog.com/how-accurate-are-monitor-leads-for-st/",
 "ngay_dang": "2019-03-04",
 "tieu_de_en": "How accurate are the Monitor leads for ST Elevation?",
-"trang_thai": "dang",
-"giu_luc": 1791039796
+"trang_thai": "xong",
+"tieu_de_vi": "04/03/2019 — Các chuyển đạo theo dõi (monitor) chính xác đến mức nào đối với ST chênh lên?",
+"tu_khoa": "ST chênh lên, ST elevation, chuyển đạo theo dõi, monitor leads, cài đặt bộ lọc, filter settings, bộ lọc thông cao, high-pass filter, dải thông, passband, chế độ theo dõi, monitor mode, chế độ chẩn đoán, diagnostic mode, nhiễu, artifact, điện tâm đồ 12 chuyển đạo, 12-lead ECG",
+"ngay": "2026-10-03",
+"kb": 1108,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 990,
@@ -14341,9 +14357,13 @@
 "slug": "2019-03-02-diffuse-st-depression-and-st-elevation",
 "url": "https://drsmithsecgblog.com/diffuse-st-depression-and-st-elevation/",
 "ngay_dang": "2019-03-02",
-"tieu_de_en": "Diffuse ST depression, and ST elevation in aVR. Left main, right?",
-"trang_thai": "dang",
-"giu_luc": 1791039796
+"tieu_de_en": "Diffuse ST depression, and ST elevation in aVR.  Left main, right?",
+"trang_thai": "xong",
+"tieu_de_vi": "02/03/2019 — ST chênh xuống lan tỏa và ST chênh lên ở aVR. Thân chung, phải không?",
+"tu_khoa": "hạ kali máu, hypokalemia, sóng U, U wave, sóng T dạng xuống-lên, down-up T wave, ST chênh xuống lan tỏa, diffuse ST depression, ST chênh lên ở aVR, STE in aVR, phì đại thất trái, LVH, QTc kéo dài, QT prolongation, bệnh hồng cầu hình liềm, sickle cell disease",
+"ngay": "2026-10-03",
+"kb": 1020,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 989,

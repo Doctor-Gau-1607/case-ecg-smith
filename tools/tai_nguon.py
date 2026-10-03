@@ -108,10 +108,30 @@ def gon_video(data, ten):
     return data
 
 
-# cửa sổ: mọi case "dang" + các case "chua" kế tiếp theo thứ tự danh sách (mới nhất trước)
-can = [c for c in DS if c['trang_thai'] == 'dang']
-can += [c for c in DS if c['trang_thai'] in ('chua', 'cho_anh')][:A.cua_so]
-print('Cửa sổ:', len(can), 'case', flush=True)
+# cửa sổ: mọi case "dang" + mọi case "cho_anh" (để lấy bù ảnh qua Chrome) + các case "chua" kế tiếp
+# theo thứ tự danh sách (mới nhất trước). Case "chua" mà lần tải trước còn LỖI vẫn được thử lại nhưng
+# KHÔNG tính vào A.cua_so — để bài lỗi nằm đầu danh sách không chiếm hết suất của bài mới.
+def _loi_cu(c):
+    f = os.path.join(A.cu, c['slug'], 'nguon.json') if A.cu else ''
+    if not f or not os.path.isfile(f):
+        return False
+    try:
+        return bool(json.load(open(f, encoding='utf-8')).get('loi'))
+    except Exception:  # noqa
+        return False
+
+
+can = [c for c in DS if c['trang_thai'] in ('dang', 'cho_anh')]
+dem = 0
+for c in DS:
+    if c['trang_thai'] != 'chua':
+        continue
+    if dem >= A.cua_so:
+        break
+    can.append(c)
+    if not _loi_cu(c):
+        dem += 1
+print('Cửa sổ:', len(can), 'case (', dem, 'case mới/sẵn sàng + case đang/chờ ảnh/lỗi cũ )', flush=True)
 
 moi = giu = 0
 for c in can:
@@ -123,7 +143,7 @@ for c in can:
             shutil.copytree(cu, d); giu += 1
             continue
     if (time.time() - BAT_DAU) / 60 > A.han_phut:
-        print('Hết giờ, để phần còn lại cho lượt sau.'); break
+        continue      # hết giờ: không tải mới nữa, nhưng vẫn giữ (chép) các case đã có nguồn ở trên
     os.makedirs(os.path.join(d, 'goc'), exist_ok=True)
     info = {'url': c['url'], 'loi': [], 'phien': PHIEN}
     try:

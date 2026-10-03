@@ -1,12 +1,17 @@
 name: Tải nguồn case ECG (Dr. Smith)
-# Người dùng đã duyệt chạy tự động (01/10/2026): tải nguồn mỗi 3 giờ. Từ 02/10/2026: mỗi 2 giờ, cửa sổ 150 case (người dùng yêu cầu).
+# Người dùng đã duyệt chạy tự động (01/10/2026). Từ 04/10/2026: không chỉ chờ lịch giờ (GitHub hay bỏ/trễ lịch,
+# làm lượt dịch "đói" nguồn) — chạy cả mỗi khi danh sách thay đổi; bước kiểm nhanh đầu tiên bỏ qua nếu còn
+# đủ nguồn sẵn sàng (≥ 60 case), nên chạy thường xuyên mà không tải thừa.
 on:
   schedule:
-    - cron: '23 */2 * * *'
+    - cron: '23 * * * *'
+  push:
+    branches: [main]
+    paths: ['du-lieu/danh-sach.json', 'tools/tai_nguon.py', 'tools/can_tai.py', '.github/workflows/tai-nguon.yml']
   workflow_dispatch:
     inputs:
       cua_so:
-        description: 'Số case chưa dịch được chuẩn bị sẵn nguồn'
+        description: 'Số case chưa dịch (không tính case lỗi cũ) được chuẩn bị sẵn nguồn'
         default: '150'
 permissions:
   contents: write
@@ -16,7 +21,7 @@ concurrency:
 jobs:
   tai:
     runs-on: ubuntu-latest
-    timeout-minutes: 340
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,15 +29,31 @@ jobs:
           sparse-checkout: |
             tools
             du-lieu
-      - run: pip install -q beautifulsoup4 lxml pillow
+      - name: Kiểm nhanh còn đủ nguồn chưa
+        id: kiem
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          R="https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git"
+          if git ls-remote --exit-code --heads "$R" nguon >/dev/null; then
+            git clone -q --depth 1 --filter=blob:none --no-checkout -b nguon "$R" ng_json
+            git -C ng_json sparse-checkout set --no-cone '/*/nguon.json' && git -C ng_json checkout -q nguon
+          else mkdir ng_json; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "can=1" >> "$GITHUB_OUTPUT"
+          else python3 main/tools/can_tai.py --main main --nguon ng_json --nguong 60; fi
+      - if: steps.kiem.outputs.can == '1'
+        run: pip install -q beautifulsoup4 lxml pillow
       - name: Lấy nhánh nguon hiện có (nếu có)
+        if: steps.kiem.outputs.can == '1'
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           R="https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git"
           if git ls-remote --exit-code --heads "$R" nguon >/dev/null; then git clone -q --depth 1 -b nguon "$R" ng_cu; else mkdir ng_cu; fi
-      - run: python3 main/tools/tai_nguon.py --main main --cu ng_cu --out ng_moi --cua-so "${{ github.event.inputs.cua_so || '150' }}"
+      - if: steps.kiem.outputs.can == '1'
+        run: python3 main/tools/tai_nguon.py --main main --cu ng_cu --out ng_moi --han-phut 100 --cua-so "${{ github.event.inputs.cua_so || '150' }}"
       - name: Dựng lại nhánh nguon thành một commit (không tích luỹ lịch sử ảnh)
+        if: steps.kiem.outputs.can == '1'
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

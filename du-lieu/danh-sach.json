@@ -14092,8 +14092,12 @@
 "url": "https://drsmithsecgblog.com/a-40-yo-with-chest-pain-only-ecg/",
 "ngay_dang": "2019-04-22",
 "tieu_de_en": "A 40 yo with Chest pain. Only ECG abnormality is minimal ST depression in I and aVL (computer interpretation: normal)",
-"trang_thai": "dang",
-"giu_luc": 1791038875
+"trang_thai": "xong",
+"tieu_de_vi": "22/04/2019 — Bệnh nhân 40 tuổi đau ngực. Bất thường điện tâm đồ duy nhất là ST chênh xuống tối thiểu ở I và aVL (máy tính đọc: bình thường)",
+"tu_khoa": "ST chênh xuống ở I và aVL, ST depression in I and aVL, thay đổi soi gương, reciprocal change, nhồi máu cơ tim thành dưới, inferior MI, OMI, tắc RCA, RCA occlusion, điện tâm đồ bình thường theo máy tính, computer interpretation normal, so sánh từng chuyển đạo, lead-by-lead comparison, sóng q vách, septal q waves, sóng T đảo ngược ở aVL, loạn nhịp xoang",
+"ngay": "2026-10-03",
+"kb": 1575,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1008,
@@ -14102,8 +14106,12 @@
 "url": "https://drsmithsecgblog.com/how-long-would-you-like-to-wait-for/",
 "ngay_dang": "2019-04-20",
 "tieu_de_en": "How long would you like to wait for your Occlusion MI to show a STEMI? Sometimes serial ECGs minimizes the delay.",
-"trang_thai": "dang",
-"giu_luc": 1791038875
+"trang_thai": "xong",
+"tieu_de_vi": "20/04/2019 — Bạn muốn chờ bao lâu để OMI của mình biểu hiện thành STEMI? Đôi khi các điện tâm đồ liên tiếp giúp giảm thiểu sự chậm trễ.",
+"tu_khoa": "nhồi máu cơ tim do tắc, OMI, STEMI, OMI STEMI âm tính, sóng T tối cấp, hyperacute T waves, xoáy trước tim, precordial swirl, tắc LAD đoạn giữa, LAD occlusion, các điện tâm đồ liên tiếp, serial ECGs, đặt sai vị trí điện cực, lead malposition, chuyển đạo V2, kích hoạt phòng thông tim",
+"ngay": "2026-10-03",
+"kb": 1878,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 1007,

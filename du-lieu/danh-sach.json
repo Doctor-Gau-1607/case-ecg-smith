@@ -19994,9 +19994,13 @@
 "slug": "2015-10-12-a-missed-stemi-how-could-diagnosis-have",
 "url": "https://drsmithsecgblog.com/a-missed-stemi-how-could-diagnosis-have/",
 "ngay_dang": "2015-10-12",
-"tieu_de_en": "A Missed STEMI. How could the Diagnosis have been certain?",
-"trang_thai": "dang",
-"giu_luc": 1791086405
+"tieu_de_en": "A Missed STEMI.  How could the Diagnosis have been certain?",
+"trang_thai": "xong",
+"tieu_de_vi": "12/10/2015 — Một ca STEMI bị bỏ sót. Làm sao có thể chắc chắn chẩn đoán?",
+"tu_khoa": "STEMI bị bỏ sót, missed STEMI, tắc LAD, LAD occlusion, tăng tiến sóng R đảo ngược, reverse R wave progression, sóng Q, Q waves, công thức LAD–tái cực sớm, LAD-early repol formula, ST chênh lên biến thể bình thường, normal variant ST elevation, giảm đau bằng opioid, opiate analgesia, các điện tâm đồ liên tiếp, serial ECGs, tiêu sợi huyết, thrombolytics",
+"ngay": "2026-10-04",
+"kb": 1002,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 592,
@@ -20005,8 +20009,12 @@
 "url": "https://drsmithsecgblog.com/this-ecg-was-texted-to-me-last-night/",
 "ngay_dang": "2015-10-10",
 "tieu_de_en": "This ECG was texted to me last night with the question: Occlusion or Not?",
-"trang_thai": "dang",
-"giu_luc": 1791086405
+"trang_thai": "xong",
+"tieu_de_vi": "10/10/2015 — Điện tâm đồ này được nhắn tin cho tôi tối qua kèm câu hỏi: Tắc hay không tắc?",
+"tu_khoa": "STEMI bán cấp, subacute STEMI, tắc LAD, LAD occlusion, phình thất trái, LV aneurysm, tỷ số T/QRS, T/QRS ratio, nhồi máu cũ, old MI, sóng Q, Q waves, ngừng tim, cardiac arrest, rung thất, ventricular fibrillation, PVC với ST chênh lên đồng hướng, concordant ST elevation",
+"ngay": "2026-10-04",
+"kb": 155,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 591,

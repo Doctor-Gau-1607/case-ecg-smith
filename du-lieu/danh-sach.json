@@ -21453,8 +21453,12 @@
 "url": "https://drsmithsecgblog.com/a-woman-in-her-20s-with-syncope-2/",
 "ngay_dang": "2014-12-31",
 "tieu_de_en": "A woman in her 20s with syncope",
-"trang_thai": "dang",
-"giu_luc": 1791096566
+"trang_thai": "xong",
+"tieu_de_vi": "31/12/2014 — Một phụ nữ 20 mấy tuổi bị ngất",
+"tu_khoa": "sóng U, U wave, hạ kali máu, hypokalemia, QT dài giả, pseudo long QT, blốc nhánh phải không hoàn toàn, incomplete RBBB, ngất, syncope, nhịp nhĩ thấp, low atrial rhythm, thiếu hụt kali toàn cơ thể, total body potassium deficit",
+"ngay": "2026-10-04",
+"kb": 1001,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 487,
@@ -21462,9 +21466,13 @@
 "slug": "2014-12-29-all-this-teaching-makes-difference-and",
 "url": "https://drsmithsecgblog.com/all-this-teaching-makes-difference-and/",
 "ngay_dang": "2014-12-29",
-"tieu_de_en": "All this teaching makes a difference! And a new paper on subtle ST Elevation.",
-"trang_thai": "dang",
-"giu_luc": 1791096566
+"tieu_de_en": "All this teaching makes a difference!  And a new paper on subtle ST Elevation.",
+"trang_thai": "xong",
+"tieu_de_vi": "29/12/2014 — Tất cả việc giảng dạy này tạo nên khác biệt! Và một bài báo mới về ST chênh lên kín đáo",
+"tu_khoa": "STEMI kín đáo, subtle STEMI, ST chênh lên kín đáo, subtle ST elevation, tắc động mạch mũ trái, circumflex occlusion, LCx, sóng T thành dưới, inferior T waves, aVL, thay đổi soi gương, reciprocal change, OMI, nhồi máu cơ tim do tắc, dòng chảy TIMI, TIMI flow",
+"ngay": "2026-10-04",
+"kb": 232,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 486,
@@ -21473,8 +21481,12 @@
 "url": "https://drsmithsecgblog.com/very-fast-very-wide-complex-tachycardia/",
 "ngay_dang": "2014-12-27",
 "tieu_de_en": "Very Fast Very Wide Complex Tachycardia",
-"trang_thai": "dang",
-"giu_luc": 1791096566
+"trang_thai": "xong",
+"tieu_de_vi": "27/12/2014 — Nhịp nhanh QRS rất rộng, rất nhanh",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, cuồng nhĩ chậm, slow atrial flutter, dẫn truyền 1:1, 1:1 conduction, dẫn truyền lệch hướng, aberrancy, adenosine, nhịp nhanh thất, VT, sốc điện chuyển nhịp, cardioversion, sóng cuồng nhĩ, flutter waves, thiếu máu cục bộ do tăng nhu cầu",
+"ngay": "2026-10-04",
+"kb": 1058,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 485,
@@ -21483,8 +21495,12 @@
 "url": "https://drsmithsecgblog.com/chest-pain-relieved-by-maalox-and/",
 "ngay_dang": "2014-12-23",
 "tieu_de_en": "Chest pain relieved by Maalox and viscous lidocaine",
-"trang_thai": "dang",
-"giu_luc": 1791096566
+"trang_thai": "xong",
+"tieu_de_vi": "23/12/2014 — Đau ngực giảm khi dùng Maalox và lidocaine dạng nhớt",
+"tu_khoa": "tắc LAD, LAD occlusion, STEMI thành trước-bên, anterolateral STEMI, sóng T tối cấp, hyperacute T waves, tỷ số T/QRS, T/QRS ratio, aVL, công thức LAD–tái cực sớm, LAD-early repol formula, ngừng tim, cardiac arrest, trào ngược dạ dày-thực quản, GERD, PVC, OMI, Queen of Hearts",
+"ngay": "2026-10-04",
+"kb": 488,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 484,
@@ -21493,8 +21509,12 @@
 "url": "https://drsmithsecgblog.com/do-not-confuse-diagnosis-of-posterior/",
 "ngay_dang": "2014-12-19",
 "tieu_de_en": "Beware confusing the diagnosis of posterior STEMI by using posterior leads…",
-"trang_thai": "dang",
-"giu_luc": 1791096566
+"trang_thai": "xong",
+"tieu_de_vi": "19/12/2014 — Coi chừng làm rối chẩn đoán STEMI thành sau khi dùng chuyển đạo phía sau…",
+"tu_khoa": "STEMI thành sau, posterior STEMI, chuyển đạo phía sau, posterior leads, V7-V9, ST chênh xuống V2-V4, ST depression, âm tính giả, false negative, tắc động mạch mũ, circumflex occlusion, OMI, thiếu máu cục bộ dưới nội tâm mạc, subendocardial ischemia",
+"ngay": "2026-10-04",
+"kb": 392,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 483,

@@ -26673,8 +26673,12 @@
 "url": "https://drsmithsecgblog.com/29-year-old-healthy-with-pleuritic/",
 "ngay_dang": "2011-05-18",
 "tieu_de_en": "29 year old, healthy, with pleuritic chest pain",
-"trang_thai": "dang",
-"giu_luc": 1791118511
+"trang_thai": "xong",
+"tieu_de_vi": "18/05/2011 — Bệnh nhân 29 tuổi, khỏe mạnh, đau ngực kiểu màng phổi",
+"tu_khoa": "STEMI, tắc LAD cấp, acute LAD occlusion, sóng Q, Q-waves, sóng QS, QS-waves, sóng T tối cấp, hyperacute T-waves, đau ngực kiểu màng phổi, pleuritic chest pain, nhồi máu cơ tim thành trước, anterior MI, phình thất trái, LV aneurysm, nhồi máu xuyên thành",
+"ngay": "2026-10-04",
+"kb": 368,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 115,
@@ -26683,8 +26687,12 @@
 "url": "https://drsmithsecgblog.com/is-it-mi-or-pericarditis/",
 "ngay_dang": "2011-05-14",
 "tieu_de_en": "Is it MI or pericarditis?",
-"trang_thai": "dang",
-"giu_luc": 1791118511
+"trang_thai": "xong",
+"tieu_de_vi": "14/05/2011 — Nhồi máu cơ tim hay viêm màng ngoài tim?",
+"tu_khoa": "nhồi máu cơ tim, viêm màng ngoài tim, pericarditis, viêm cơ-màng ngoài tim, myopericarditis, ST chênh xuống soi gương, reciprocal ST depression, aVL, ST chênh lên lan tỏa, diffuse ST elevation, LAD vòng qua mỏm, wraparound LAD, sóng T tối cấp, hyperacute T waves, cocaine, tái cực sớm, early repolarization",
+"ngay": "2026-10-04",
+"kb": 844,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 114,
@@ -26692,9 +26700,13 @@
 "slug": "2011-05-09-wide-complex-tachycardias-2-cases-what",
 "url": "https://drsmithsecgblog.com/wide-complex-tachycardias-2-cases-what/",
 "ngay_dang": "2011-05-09",
-"tieu_de_en": "Wide complex tachycardias: 2 cases. What is the diagnosis and management?",
-"trang_thai": "dang",
-"giu_luc": 1791118511
+"tieu_de_en": "Wide complex tachycardias: 2 cases.  What is the diagnosis and management?",
+"trang_thai": "xong",
+"tieu_de_vi": "09/05/2011 — Nhịp nhanh QRS rộng: 2 ca. Chẩn đoán và xử trí là gì?",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, WCT, AVRT ngược chiều, antidromic AVRT, WPW, Wolff-Parkinson-White, rung nhĩ tiền kích thích, pre-excited atrial fibrillation, adenosine, thuốc ức chế nút AV, AV nodal blockers, sốc điện chuyển nhịp, cardioversion, nhịp nhanh thất, VT, đường phụ, bypass tract, procainamide",
+"ngay": "2026-10-04",
+"kb": 1427,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 113,
@@ -26703,8 +26715,12 @@
 "url": "https://drsmithsecgblog.com/stuttering-thrombus-in-lad-dynamic/",
 "ngay_dang": "2011-05-07",
 "tieu_de_en": "Stuttering thrombus in the LAD, dynamic hyperacute T-waves, Q-waves, full resolution at 3 months",
-"trang_thai": "dang",
-"giu_luc": 1791118511
+"trang_thai": "xong",
+"tieu_de_vi": "07/05/2011 — Huyết khối ngắt quãng (stuttering) ở LAD, sóng T tối cấp thay đổi động, sóng Q, hồi phục hoàn toàn sau 3 tháng",
+"tu_khoa": "huyết khối ngắt quãng, stuttering thrombus, tắc LAD, LAD occlusion, sóng T tối cấp, hyperacute T-waves, sóng Q, Q-waves, tái tưới máu tự phát, spontaneous reperfusion, sóng T tái tưới máu, reperfusion T-waves, hội chứng Wellens, Wellens syndrome, choáng cơ tim, myocardial stunning, OMI",
+"ngay": "2026-10-04",
+"kb": 2173,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 112,
@@ -26712,9 +26728,13 @@
 "slug": "2011-05-04-wellens-missed-then-returns-with",
 "url": "https://drsmithsecgblog.com/wellens-missed-then-returns-with/",
 "ngay_dang": "2011-05-04",
-"tieu_de_en": "Wellens’ missed. Then returns with Wellens’ with dynamic T-wave inversion",
-"trang_thai": "dang",
-"giu_luc": 1791118511
+"tieu_de_en": "Wellens’ missed.  Then returns with Wellens’ with dynamic T-wave inversion",
+"trang_thai": "xong",
+"tieu_de_vi": "04/05/2011 — Bỏ sót sóng T Wellens. Rồi bệnh nhân quay lại với sóng T Wellens kèm sóng T đảo ngược có tính động",
+"tu_khoa": "hội chứng Wellens, Wellens' syndrome, sóng T Wellens, Wellens' T-waves, sóng T hai pha, biphasic T wave, sóng T đảo ngược có tính động, dynamic T-wave inversion, hẹp LAD đoạn gần, proximal LAD stenosis, đau thắt ngực không ổn định, unstable angina, troponin âm tính, negative troponin, giả bình thường hóa, pseudonormalization, hội chứng vành cấp, ACS",
+"ngay": "2026-10-04",
+"kb": 1083,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 111,

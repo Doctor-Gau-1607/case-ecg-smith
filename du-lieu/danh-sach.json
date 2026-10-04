@@ -19071,8 +19071,12 @@
 "url": "https://drsmithsecgblog.com/60-something-with-chest-pain-resolved/",
 "ngay_dang": "2016-05-08",
 "tieu_de_en": "60-something with Chest Pain, resolved upon arrival to the ED",
-"trang_thai": "dang",
-"giu_luc": 1791082094
+"trang_thai": "xong",
+"tieu_de_vi": "08/05/2016 — Bệnh nhân 60 mấy tuổi đau ngực, đã hết đau khi đến khoa cấp cứu",
+"tu_khoa": "STEMI thoáng qua, transient STEMI, sóng T tối cấp, hyperacute T waves, tái tưới máu tự phát, spontaneous reperfusion, điện tâm đồ trước viện, prehospital ECG, LAD đoạn gần, proximal LAD, troponin không phát hiện được, tái cực sớm, early repolarization, OMI",
+"ngay": "2026-10-04",
+"kb": 393,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 658,
@@ -19080,9 +19084,13 @@
 "slug": "2016-05-06-abnormal-st-t-in-v1-v3-what-is-it-many",
 "url": "https://drsmithsecgblog.com/abnormal-st-t-in-v1-v3-what-is-it-many/",
 "ngay_dang": "2016-05-06",
-"tieu_de_en": "Abnormal ST-T in V1-V3. What is it? Many interesting and informative twists to this case.",
-"trang_thai": "dang",
-"giu_luc": 1791082094
+"tieu_de_en": "Abnormal ST-T in V1-V3.  What is it?  Many interesting and informative twists to this case.",
+"trang_thai": "xong",
+"tieu_de_vi": "06/05/2016 — ST-T bất thường ở V1-V3. Đó là gì? Nhiều tình tiết bất ngờ thú vị và bổ ích trong ca này.",
+"tu_khoa": "nhồi máu cơ tim thành sau, posterior MI, ST chênh xuống V1-V3, sóng T dạng xuống-lên, down-up T waves, đau thắt ngực không ổn định, unstable angina, tắc trong stent, in-stent occlusion, động mạch mũ trái, circumflex, troponin âm tính, huyết khối mạch vành động, dynamic coronary thrombosis, OMI, sóng Wellens",
+"ngay": "2026-10-04",
+"kb": 1213,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 657,

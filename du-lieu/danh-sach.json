@@ -19854,9 +19854,13 @@
 "slug": "2015-11-10-is-this-coronary-occlusion-cath-lab",
 "url": "https://drsmithsecgblog.com/is-this-coronary-occlusion-cath-lab/",
 "ngay_dang": "2015-11-10",
-"tieu_de_en": "Is this Coronary Occlusion? Cath lab?",
-"trang_thai": "dang",
-"giu_luc": 1791086030
+"tieu_de_en": "Is this Coronary Occlusion?   Cath lab?",
+"trang_thai": "xong",
+"tieu_de_vi": "10/11/2015 — Đây có phải là tắc mạch vành không? Có chuyển vào phòng thông tim không?",
+"tu_khoa": "tắc mạch vành, coronary occlusion, ngừng tim, cardiac arrest, nhồi máu cơ tim típ 2, type 2 MI, ST chênh lên, ST elevation, RBBB, tắc LAD đoạn gần, proximal LAD occlusion, nứt vỡ mảng xơ vữa, plaque rupture, thiếu oxy, hypoxia, phòng thông tim, cath lab",
+"ngay": "2026-10-04",
+"kb": 296,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 602,
@@ -19865,8 +19869,12 @@
 "url": "https://drsmithsecgblog.com/new-paper-published-on-significance-of/",
 "ngay_dang": "2015-11-06",
 "tieu_de_en": "New Paper published on Significance of Reciprocal ST depression in lead aVL",
-"trang_thai": "dang",
-"giu_luc": 1791086030
+"trang_thai": "xong",
+"tieu_de_vi": "06/11/2015 — Bài báo mới công bố về ý nghĩa của ST chênh xuống soi gương ở chuyển đạo aVL",
+"tu_khoa": "ST chênh xuống ở aVL, ST depression in aVL, thay đổi soi gương, reciprocal change, nhồi máu cơ tim thành dưới, inferior MI, STEMI thành dưới, inferior STEMI, viêm màng ngoài tim, pericarditis, tái cực sớm, early repolarization, LAD vòng qua mỏm, wraparound LAD, tắc mạch vành, coronary occlusion",
+"ngay": "2026-10-04",
+"kb": 744,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 601,

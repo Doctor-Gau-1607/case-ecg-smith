@@ -18497,8 +18497,12 @@
 "url": "https://drsmithsecgblog.com/respiratory-symptoms-and-st-elevation/",
 "ngay_dang": "2016-11-07",
 "tieu_de_en": "Respiratory Symptoms and ST Elevation with Hyperacute T-waves",
-"trang_thai": "dang",
-"giu_luc": 1791078989
+"trang_thai": "xong",
+"tieu_de_vi": "07/11/2016 — Triệu chứng hô hấp và ST chênh lên kèm sóng T tối cấp",
+"tu_khoa": "ST chênh lên, ST elevation, sóng T tối cấp, hyperacute T waves, giả STEMI, STEMI mimic, điện tâm đồ nền, baseline ECG, điện tâm đồ cũ, previous ECG, thay đổi soi gương, reciprocal change, kích hoạt phòng thông tim, cath lab activation, troponin, suy hô hấp mạn tính, mở khí quản",
+"ngay": "2026-10-04",
+"kb": 307,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 699,
@@ -18506,9 +18510,13 @@
 "slug": "2016-11-03-i-saw-this-on-computer-most-physicians",
 "url": "https://drsmithsecgblog.com/i-saw-this-on-computer-most-physicians/",
 "ngay_dang": "2016-11-03",
-"tieu_de_en": "I saw this on the computer. Most physicians, at first glance, get this wrong. What is it?",
-"trang_thai": "dang",
-"giu_luc": 1791078989
+"tieu_de_en": "I saw this on the computer.  Most physicians, at first glance, get this wrong.  What is it?",
+"trang_thai": "xong",
+"tieu_de_vi": "03/11/2016 — Tôi thấy bản ghi này trên máy tính. Phần lớn bác sĩ, thoạt nhìn, đều đọc sai. Đây là gì?",
+"tu_khoa": "nhịp tự thất gia tốc, AIVR, accelerated idioventricular rhythm, tái tưới máu, reperfusion, STEMI thành trước, anterior STEMI, tắc LAD, giả LBBB, LBBB mimic, sóng P ngược dòng, retrograde P wave, nhát hỗn hợp, fusion beat, mất cú hích nhĩ, atrial kick, tụt huyết áp, atropine, tiêu chuẩn Sgarbossa cải biên theo Smith",
+"ngay": "2026-10-04",
+"kb": 1375,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 698,
@@ -18517,8 +18525,12 @@
 "url": "https://drsmithsecgblog.com/an-apparent-svt-that-does-not/",
 "ngay_dang": "2016-10-31",
 "tieu_de_en": "An apparent SVT that does not persistently correct with adenosine",
-"trang_thai": "dang",
-"giu_luc": 1791078989
+"trang_thai": "xong",
+"tieu_de_vi": "31/10/2016 — Một cơn SVT bề ngoài mà adenosine không chuyển nhịp được bền vững",
+"tu_khoa": "nhịp nhanh trên thất, SVT, PSVT, AVNRT, AVRT, adenosine, tái phát sau adenosine, nhịp nhanh QRS hẹp, narrow complex tachycardia, sóng P ngược dòng, retrograde P wave, nhát bóp nhĩ sớm, PAB, magnesi, magnesium, thuốc chẹn kênh calci, diltiazem, verapamil, nhịp nhĩ lạc chỗ, bệnh cơ tim do nhịp nhanh",
+"ngay": "2026-10-04",
+"kb": 1157,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 697,
@@ -18526,9 +18538,13 @@
 "slug": "2016-10-28-is-this-stemi-lvh-early-repolarization",
 "url": "https://drsmithsecgblog.com/is-this-stemi-lvh-early-repolarization/",
 "ngay_dang": "2016-10-28",
-"tieu_de_en": "Is this STEMI? LVH? Early Repolarization?",
-"trang_thai": "dang",
-"giu_luc": 1791078989
+"tieu_de_en": "Is this STEMI?  LVH?  Early Repolarization?",
+"trang_thai": "xong",
+"tieu_de_vi": "28/10/2016 — Đây có phải STEMI? LVH? Tái cực sớm?",
+"tu_khoa": "phì đại thất trái, LVH, tái cực sớm, early repolarization, giả STEMI, pseudoSTEMI, STEMI-mimic, ST chênh lên trước tim, hình yên ngựa, saddleback, công thức LAD–tái cực sớm, điện tâm đồ cũ, nhiễm khuẩn huyết, đái tháo đường",
+"ngay": "2026-10-04",
+"kb": 1179,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 696,
@@ -18537,8 +18553,12 @@
 "url": "https://drsmithsecgblog.com/rsr-with-st-elevation-is-this-right/",
 "ngay_dang": "2016-10-26",
 "tieu_de_en": "RSR’ with ST elevation: is this Right Bundle Branch Block with STEMI? Type 2 Brugada?",
-"trang_thai": "dang",
-"giu_luc": 1791078989
+"trang_thai": "xong",
+"tieu_de_vi": "26/10/2016 — RSR’ kèm ST chênh lên: đây là blốc nhánh phải kèm STEMI? Brugada típ 2?",
+"tu_khoa": "RSR’, rSr’, ST chênh lên, ST elevation, blốc nhánh phải không hoàn toàn, incomplete RBBB, hình yên ngựa, saddleback, Brugada típ 2, type 2 Brugada, giả Brugada, pseudo-Brugada, đặt sai vị trí điện cực, lead misplacement, đặt V1 V2 quá cao, sóng P âm ở V1, giả STEMI, STEMI mimic, tái cực sớm, góc β",
+"ngay": "2026-10-04",
+"kb": 1628,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 695,

@@ -20176,9 +20176,13 @@
 "slug": "2015-09-08-low-heart-score-acute-lad-occlusion",
 "url": "https://drsmithsecgblog.com/low-heart-score-acute-lad-occlusion/",
 "ngay_dang": "2015-09-08",
-"tieu_de_en": "Low HEART score. Acute LAD occlusion. Detected only by analysis of subtle ECG.",
-"trang_thai": "dang",
-"giu_luc": 1791086967
+"tieu_de_en": "Low HEART score. Acute LAD occlusion.  Detected only by analysis of subtle ECG.",
+"trang_thai": "xong",
+"tieu_de_vi": "08/09/2015 — Thang điểm HEART thấp. Tắc LAD cấp. Chỉ phát hiện được nhờ phân tích điện tâm đồ kín đáo.",
+"tu_khoa": "tắc LAD cấp, acute LAD occlusion, thang điểm HEART, HEART score, sóng T tối cấp, hyperacute T waves, STEMI thoáng qua, transient STEMI, tái tưới máu tự phát, spontaneous reperfusion, điện tâm đồ trước viện, prehospital ECG, điện tâm đồ liên tiếp, serial ECGs, công thức LAD–tái cực sớm, đánh dấu mô, speckle tracking, OMI",
+"ngay": "2026-10-04",
+"kb": 731,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 579,
@@ -20186,9 +20190,13 @@
 "slug": "2015-09-06-a-large-r-wave-in-lead-v1",
 "url": "https://drsmithsecgblog.com/a-large-r-wave-in-lead-v1/",
 "ngay_dang": "2015-09-06",
-"tieu_de_en": "A large R-wave in lead V1. And why is the PR interval not short?",
-"trang_thai": "dang",
-"giu_luc": 1791086967
+"tieu_de_en": "A large R-wave in lead V1.  And why is the PR interval not short?",
+"trang_thai": "xong",
+"tieu_de_vi": "06/09/2015 — Sóng R lớn ở chuyển đạo V1. Và vì sao khoảng PR không ngắn?",
+"tu_khoa": "WPW, hội chứng Wolff-Parkinson-White, sóng delta, delta wave, PR bình thường, normal PR interval, sóng R lớn ở V1, large R wave in V1, đường phụ thành bên trái, left lateral bypass tract, tiền kích thích, preexcitation, blốc AV độ 1, first degree AV block, trục lệch phải, RBBB",
+"ngay": "2026-10-04",
+"kb": 263,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 578,
@@ -20197,8 +20205,12 @@
 "url": "https://drsmithsecgblog.com/approach-to-potential-ischemic-chest/",
 "ngay_dang": "2015-09-04",
 "tieu_de_en": "Approach to Potential Ischemic Chest Pain in the Emergency Department",
-"trang_thai": "dang",
-"giu_luc": 1791086967
+"trang_thai": "xong",
+"tieu_de_vi": "04/09/2015 — Cách tiếp cận đau ngực có khả năng do thiếu máu cục bộ tại khoa cấp cứu",
+"tu_khoa": "đau ngực, chest pain, hội chứng vành cấp, ACS, troponin độ nhạy cao, high sensitivity troponin, thang điểm HEART, HEART score, EDACS, phác đồ chẩn đoán nhanh, accelerated diagnostic protocol, chụp CT mạch vành, CTCA, FFR CT, khoa cấp cứu, emergency department",
+"ngay": "2026-10-04",
+"kb": 27,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 577,

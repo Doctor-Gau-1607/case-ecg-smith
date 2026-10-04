@@ -19462,9 +19462,13 @@
 "slug": "2016-02-06-what-is-going-on-here-there-is-more",
 "url": "https://drsmithsecgblog.com/what-is-going-on-here-there-is-more/",
 "ngay_dang": "2016-02-06",
-"tieu_de_en": "What is going on here? There is more than immediately meets the eye.",
-"trang_thai": "dang",
-"giu_luc": 1791083331
+"tieu_de_en": "What is going on here?  There is more than immediately meets the eye.",
+"trang_thai": "xong",
+"tieu_de_vi": "06/02/2016 — Chuyện gì đang xảy ra ở đây? Có nhiều điều hơn những gì thấy ngay trước mắt.",
+"tu_khoa": "ST chênh lên ở V1, ST elevation in V1, STEMI thành dưới, inferior STEMI, nhồi máu thất phải, right ventricular MI, RV MI, tắc RCA đoạn gần, proximal RCA occlusion, nhánh bờ thất phải, RV marginal branch, thuyên tắc mạch vành, coronary embolism, động mạch thủ phạm, culprit artery, chuyển đạo bên phải, right-sided leads",
+"ngay": "2026-10-04",
+"kb": 173,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 630,
@@ -19472,9 +19476,13 @@
 "slug": "2016-02-05-apparent-pseudo-stemi-patterns-are-not",
 "url": "https://drsmithsecgblog.com/apparent-pseudo-stemi-patterns-are-not/",
 "ngay_dang": "2016-02-05",
-"tieu_de_en": "Apparent Pseudo-STEMI patterns are not necessarily Pseudo. Beware.",
-"trang_thai": "dang",
-"giu_luc": 1791083331
+"tieu_de_en": "Apparent Pseudo-STEMI patterns are not necessarily Pseudo.  Beware.",
+"trang_thai": "xong",
+"tieu_de_vi": "05/02/2016 — Hình ảnh có vẻ giả STEMI chưa chắc đã là giả. Hãy cảnh giác.",
+"tu_khoa": "giả STEMI, pseudo-STEMI, phì đại thất trái, LVH, STEMI mimic, nhồi máu cơ tim thành dưới, inferior MI, tắc mạch vành cấp, acute coronary occlusion, RCA, huyết khối trong stent, in-stent thrombosis, điện tâm đồ cũ, prior ECG, thay đổi ST-T, tăng huyết áp",
+"ngay": "2026-10-04",
+"kb": 1888,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 629,
@@ -19483,8 +19491,12 @@
 "url": "https://drsmithsecgblog.com/the-electrocardiographically-silent/",
 "ngay_dang": "2016-01-31",
 "tieu_de_en": "The Electrocardiographically Silent Circumflex Artery",
-"trang_thai": "dang",
-"giu_luc": 1791083331
+"trang_thai": "xong",
+"tieu_de_vi": "31/01/2016 — Động mạch mũ “câm lặng” trên điện tâm đồ",
+"tu_khoa": "động mạch mũ trái, circumflex artery, LCx, nhánh bờ tù, obtuse marginal, OM-2, nhồi máu cơ tim thầm lặng, electrocardiographically silent MI, OMI thành sau, posterior OMI, ST chênh xuống V3, ST depression V3, sóng T tái tưới máu thành sau, posterior reperfusion T waves, NonSTEMI, chuyển đạo phía sau, posterior leads",
+"ngay": "2026-10-04",
+"kb": 368,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 628,

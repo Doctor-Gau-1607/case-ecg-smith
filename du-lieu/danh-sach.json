@@ -17825,8 +17825,12 @@
 "url": "https://drsmithsecgblog.com/an-intoxicated-agitated-20-something/",
 "ngay_dang": "2017-05-13",
 "tieu_de_en": "An intoxicated, agitated, 29 year old with chest pain",
-"trang_thai": "dang",
-"giu_luc": 1791075747
+"trang_thai": "xong",
+"tieu_de_vi": "13/05/2017 — Bệnh nhân 29 tuổi say xỉn, kích động, đau ngực",
+"tu_khoa": "tắc LAD kín đáo, subtle LAD occlusion, ST chênh lên biến thể bình thường, normal variant ST elevation, tái cực sớm, early repolarization, công thức LAD–tái cực sớm, biến dạng phần cuối QRS, terminal QRS distortion, TQRSD, sóng J, J-wave, ecstasy, ma túy, STEMI, OMI",
+"ngay": "2026-10-04",
+"kb": 1051,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 747,
@@ -17835,8 +17839,12 @@
 "url": "https://drsmithsecgblog.com/massive-caffeine-overdose-how-does-ecg/",
 "ngay_dang": "2017-05-08",
 "tieu_de_en": "Massive caffeine overdose: How does the ECG fit in?",
-"trang_thai": "dang",
-"giu_luc": 1791075747
+"trang_thai": "xong",
+"tieu_de_vi": "08/05/2017 — Quá liều caffeine nặng: điện tâm đồ phù hợp thế nào?",
+"tu_khoa": "quá liều caffeine, caffeine overdose, hạ kali máu, hypokalemia, sóng U, U wave, QT dài giả, pseudo long QT, ST võng xuống, sagging ST, nhịp nhanh xoang, sinus tachycardia, chủ vận beta, beta agonist, trục lệch phải",
+"ngay": "2026-10-04",
+"kb": 308,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 746,
@@ -17845,8 +17853,12 @@
 "url": "https://drsmithsecgblog.com/unusual-st-elevation-in-v1-and-v2-and/",
 "ngay_dang": "2017-05-06",
 "tieu_de_en": "Unusual ST Elevation in V1 and V2, and LVH, in a Patient with Chest Pain",
-"trang_thai": "dang",
-"giu_luc": 1791075747
+"trang_thai": "xong",
+"tieu_de_vi": "06/05/2017 — ST chênh lên bất thường ở V1 và V2, kèm LVH, ở bệnh nhân đau ngực",
+"tu_khoa": "ST chênh lên, ST elevation, phì đại thất trái, LVH, giả STEMI, pseudoSTEMI, blốc nhánh phải không hoàn toàn, incomplete RBBB, siêu âm tim tại giường, bedside echo, troponin tăng, chụp mạch vành bình thường, NonSTEMI, viêm cơ tim, myocarditis",
+"ngay": "2026-10-04",
+"kb": 1292,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 745,
@@ -17855,8 +17867,12 @@
 "url": "https://drsmithsecgblog.com/is-it-important-to-recognize-lvh-pseudo/",
 "ngay_dang": "2017-05-03",
 "tieu_de_en": "Is it important to recognize LVH Pseudo-infarction patterns?",
-"trang_thai": "dang",
-"giu_luc": 1791075747
+"trang_thai": "xong",
+"tieu_de_vi": "03/05/2017 — Nhận ra các hình ảnh giả nhồi máu do LVH có quan trọng không?",
+"tu_khoa": "phì đại thất trái, LVH, hình ảnh giả nhồi máu, pseudo-infarction pattern, giả Wellens, Pseudo-Wellens, hội chứng Wellens, ST chênh lên, sóng T đảo ngược, bóc tách động mạch chủ, aortic dissection, quán tính chẩn đoán, diagnostic momentum, nhồi máu cơ tim típ 2, troponin, D-dimer",
+"ngay": "2026-10-04",
+"kb": 610,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 744,
@@ -17864,9 +17880,13 @@
 "slug": "2017-04-27-a-40-something-woman-with-chest-pain",
 "url": "https://drsmithsecgblog.com/a-40-something-woman-with-chest-pain/",
 "ngay_dang": "2017-04-27",
-"tieu_de_en": "A 40-something woman with chest pain. A medic takes control of the situation.",
-"trang_thai": "dang",
-"giu_luc": 1791075747
+"tieu_de_en": "A 40-something woman with chest pain.  A medic takes control of the situation.",
+"trang_thai": "xong",
+"tieu_de_vi": "27/04/2017 — Phụ nữ 40 mấy tuổi đau ngực: nhân viên cấp cứu ngoài viện chủ động nắm quyền xử trí",
+"tu_khoa": "Tắc LAD, LAD occlusion, OMI, STEMI kín đáo, subtle STEMI, công thức LAD–tái cực sớm, LAD-Early Repol Formula, tái cực sớm, early repolarization, ST chênh lên biến thể bình thường, điện tâm đồ trước viện, prehospital ECG, nhân viên cấp cứu ngoài viện, kích hoạt phòng thông tim, cath lab activation, thời gian từ cửa đến bóng",
+"ngay": "2026-10-04",
+"kb": 1130,
+"kho": "case-ecg-smith-3"
 },
 {
 "stt": 743,

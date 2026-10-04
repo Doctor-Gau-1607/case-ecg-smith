@@ -42,7 +42,7 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "can=1" >> "$GITHUB_OUTPUT"
           else python3 main/tools/can_tai.py --main main --nguon ng_json --nguong 60; fi
       - if: steps.kiem.outputs.can == '1'
-        run: pip install -q beautifulsoup4 lxml pillow
+        run: pip install -q beautifulsoup4 lxml pillow imageio-ffmpeg
       - name: Lấy nhánh nguon hiện có (nếu có)
         if: steps.kiem.outputs.can == '1'
         env:

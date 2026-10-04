@@ -77,15 +77,29 @@ def gon_anh(data, ten):
         return data
 
 
+def _ffmpeg():
+    f = shutil.which('ffmpeg')
+    if f:
+        return f
+    try:  # máy chủ GitHub Actions KHÔNG có sẵn ffmpeg → dùng bản của imageio-ffmpeg (workflow cài)
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:  # noqa
+        return None
+
+
+FF = _ffmpeg()
+
+
 def gon_video(data, ten):
     """Video nặng (> 8 MB) -> MP4 H.264 ≤1280×720 CRF 23 (giữ NGUYÊN TÊN tệp; medguide --nen-video xuất .mp4).
     Máy chủ GitHub Actions có sẵn ffmpeg. Lỗi thì giữ nguyên dữ liệu gốc."""
-    if not re.search(r'\.(mp4|mov|m4v|webm|avi|mkv)$', ten, re.I) or len(data) < 8_000_000 or not shutil.which('ffmpeg'):
+    if not re.search(r'\.(mp4|mov|m4v|webm|avi|mkv)$', ten, re.I) or len(data) < 8_000_000 or not FF:
         return data
     with tempfile.TemporaryDirectory() as t:
         vao, ra = os.path.join(t, 'vao' + os.path.splitext(ten)[1]), os.path.join(t, 'ra.mp4')
         open(vao, 'wb').write(data)
-        r = subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', vao, '-vf',
+        r = subprocess.run([FF, '-v', 'error', '-y', '-i', vao, '-vf',
                             "scale='min(1280,iw)':'min(720,ih)':force_original_aspect_ratio=decrease,"
                             "scale=trunc(iw/2)*2:trunc(ih/2)*2", '-c:v', 'libx264', '-preset', 'veryfast',
                             '-crf', '23', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k',
@@ -98,7 +112,7 @@ def gon_video(data, ten):
         # không hạ độ phân giải dưới 720p): preset chậm hơn, tăng dần CRF, AAC 96k
         for crf in ('27', '30', '33'):
             ra2 = os.path.join(t, f'ra{crf}.mp4')
-            r = subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', vao, '-vf',
+            r = subprocess.run([FF, '-v', 'error', '-y', '-i', vao, '-vf',
                                 "scale='min(1280,iw)':'min(720,ih)':force_original_aspect_ratio=decrease,"
                                 "scale=trunc(iw/2)*2:trunc(ih/2)*2", '-c:v', 'libx264', '-preset', 'slow',
                                 '-crf', crf, '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k',
@@ -111,7 +125,7 @@ def gon_video(data, ten):
         if len(data) > 90_000_000:
             for crf in ('26', '29', '32'):
                 ra3 = os.path.join(t, f'ra480-{crf}.mp4')
-                r = subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', vao, '-vf',
+                r = subprocess.run([FF, '-v', 'error', '-y', '-i', vao, '-vf',
                                     "scale='min(854,iw)':'min(480,ih)':force_original_aspect_ratio=decrease,"
                                     "scale=trunc(iw/2)*2:trunc(ih/2)*2", '-c:v', 'libx264', '-preset', 'slow',
                                     '-crf', crf, '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k',

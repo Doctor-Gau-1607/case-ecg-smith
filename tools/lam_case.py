@@ -166,6 +166,9 @@ elif A.lenh == 'chuan-bi':
     kho_san_sang()   # hỏng quyền / chưa có repo thì dừng ngay, trước khi nhận case
     ds = doc_ds(); bay_gio = time.time(); chon = []
     for c in ds:
+        if c['trang_thai'] == 'cho_anh' and c['slug'] in co_nguon:
+            # nguồn tải lại đã đủ ảnh (vd. sau khi sửa công cụ, hoặc ảnh lấy bù qua Chrome) → dịch như thường
+            c['trang_thai'] = 'chua'; c.pop('ly_do', None)
         if c['trang_thai'] == 'chua' and c['slug'] in nguon_san_sang.go:
             c['trang_thai'] = 'khong_ton_tai'; c['ly_do'] = nguon_san_sang.go[c['slug']]
             continue

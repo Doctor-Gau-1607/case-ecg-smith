@@ -31,6 +31,8 @@ UA = 'Mozilla/5.0 (compatible; MEDGUIDE-CaseECG-Smith/1.0; +https://github.com/D
 MG = os.path.join(A.main, 'tools', 'medguide.py')
 DS = json.load(open(os.path.join(A.main, 'du-lieu', 'danh-sach.json'), encoding='utf-8'))
 PHIEN = 1
+import hashlib
+MG_HASH = hashlib.sha1(open(MG, 'rb').read()).hexdigest()[:12]   # medguide.py đổi → tải lại case còn ảnh mất
 BAT_DAU = time.time()
 os.makedirs(A.out, exist_ok=True)
 
@@ -139,13 +141,13 @@ for c in can:
     cu = os.path.join(A.cu, s) if A.cu else ''
     if cu and os.path.isfile(os.path.join(cu, 'nguon.json')):
         info = json.load(open(os.path.join(cu, 'nguon.json'), encoding='utf-8'))
-        if info.get('phien') == PHIEN and not info.get('loi'):
+        if info.get('phien') == PHIEN and not info.get('loi') and not (info.get('anh_mat') and info.get('mg') != MG_HASH):
             shutil.copytree(cu, d); giu += 1
             continue
     if (time.time() - BAT_DAU) / 60 > A.han_phut:
         continue      # hết giờ: không tải mới nữa, nhưng vẫn giữ (chép) các case đã có nguồn ở trên
     os.makedirs(os.path.join(d, 'goc'), exist_ok=True)
-    info = {'url': c['url'], 'loi': [], 'phien': PHIEN}
+    info = {'url': c['url'], 'loi': [], 'phien': PHIEN, 'mg': MG_HASH}
     try:
         body, cuoi = tai(c['url'])
         html = body.decode('utf-8', 'replace')

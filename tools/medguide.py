@@ -62,6 +62,7 @@ JUNK_CLS = re.compile(r'(ftwp-in-post|social-share|sharedaddy|share-list|jp-rela
                       r'author-box|breadcrumb|toc_container|ez-toc|lwptoc|newsletter|advert|promo|cookie)', re.I)
 BO_RE = re.compile(r'(enlarg\w*\b.{0,40}\bclick|click\w*\b.{0,40}\benlarg)', re.I)
 REF_RE = re.compile(r'^\s*(references?|bibliography|t[àa]i li[ệe]u tham kh[ảa]o|ngu[ồo]n tham kh[ảa]o|literature)\b', re.I)
+KET_TK_RE = re.compile(r'^\s*(MY\s+Comment|Comment\s+by|=\s*=\s*=|[-_—–=*]{5,}\s*$)', re.I)
 
 def url_name(u):
     p = unquote(urlparse(u).path)
@@ -144,7 +145,10 @@ def trich():
     def largest_srcset(img, attr='srcset'):
         best, bw = None, -1
         for part in (img.get(attr) or '').split(','):
-            bits = part.strip().split()
+            # chỉ tách theo khoảng trắng ASCII: tên ảnh chụp màn hình macOS có U+202F ("1.04.20 AM.png")
+            # mà str.split() coi là khoảng trắng → cắt cụt URL (#1906, #1812)
+            bits = re.split(r'[ \t\r\n\f]+', part.strip(' \t\r\n\f'))
+            bits = [b for b in bits if b]
             if not bits:
                 continue
             w = bits[1] if len(bits) > 1 else '1w'
@@ -179,6 +183,12 @@ def trich():
     def goc_anh0(img):
         a = img.find_parent('a')
         if a and a.get('href') and IMG_RE.search(a['href']) and ab(a['href']).startswith('http'):
+            src = ab(img.get('src') or '')
+            # bài cũ chuyển từ Blogger: link bọc ảnh còn trỏ về blogger/googleusercontent (nhiều ảnh đã bị xoá)
+            # trong khi blog đã chép ảnh sang /wp-content/uploads/ → dùng bản WordPress (#1248)
+            if ('/wp-content/uploads/' in src and '/wp-content/uploads/' not in ab(a['href'])
+                    and re.search(r'googleusercontent\.com|bp\.blogspot\.com', ab(a['href']))):
+                return src
             return ab(a['href'])
         for k in ('data-orig-file', 'data-large-file', 'data-full-url', 'data-lazy-src', 'data-src'):
             if img.get(k) and ab(img[k]).startswith('http'):
@@ -458,6 +468,11 @@ def trich():
                 trong_tk, cap_tk = True, k['cap_do']; continue
             if trong_tk and k['cap_do'] <= cap_tk:
                 trong_tk = False
+        elif trong_tk and (k['loai'] == 'hr' or KET_TK_RE.match(
+                html.unescape(re.sub(r'<[^>]+>', '', k.get('html') or '')))):
+            # mục tham khảo kết thúc ở đường phân cách hoặc ở phần bình luận viết sau nó
+            # ("MY Comment, by KEN GRAUER…") — trước đây cả phần bình luận bị giữ nguyên tiếng Anh (#1399, #1918, #1926)
+            trong_tk = False
         if trong_tk:
             k['tk'] = True
 

@@ -21663,8 +21663,12 @@
 "url": "https://drsmithsecgblog.com/44-yo-male-with-chest-pain/",
 "ngay_dang": "2014-11-22",
 "tieu_de_en": "Male in early 40’s with 1.5 hours of chest pain",
-"trang_thai": "dang",
-"giu_luc": 1791097059
+"trang_thai": "xong",
+"tieu_de_vi": "22/11/2014 — Nam giới ngoài 40 tuổi đau ngực 1,5 giờ",
+"tu_khoa": "tắc LAD kín đáo, subtle LAD occlusion, sóng T tối cấp, hyperacute T waves, công thức LAD–tái cực sớm, LAD-early repol formula, ST chênh lên biến thể bình thường, normal variant ST elevation, tái tưới máu tự phát, spontaneous reperfusion, tắc lại, reocclusion, OMI, Non-STEMI do tắc mạch vành, NSTEMI with occlusion, các điện tâm đồ liên tiếp, serial ECGs, troponin T",
+"ngay": "2026-10-04",
+"kb": 665,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 472,
@@ -21673,8 +21677,12 @@
 "url": "https://drsmithsecgblog.com/chest-pain-and-right-bundle-branch-block/",
 "ngay_dang": "2014-11-19",
 "tieu_de_en": "Chest Pain and Right Bundle Branch Block",
-"trang_thai": "dang",
-"giu_luc": 1791097059
+"trang_thai": "xong",
+"tieu_de_vi": "19/11/2014 — Đau ngực và blốc nhánh phải",
+"tu_khoa": "blốc nhánh phải, right bundle branch block, RBBB, blốc phân nhánh trái trước, LAFB, tắc LAD đoạn gần, proximal LAD occlusion, OMI, STEMI, ST chênh lên trong RBBB, ST elevation in RBBB, ngừng tim, rung thất, ventricular fibrillation, LUCAS CPR, PCI",
+"ngay": "2026-10-04",
+"kb": 381,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 471,
@@ -21682,9 +21690,13 @@
 "slug": "2014-11-17-is-this-acute-stemi-lv-aneurysm-would",
 "url": "https://drsmithsecgblog.com/is-this-acute-stemi-lv-aneurysm-would/",
 "ngay_dang": "2014-11-17",
-"tieu_de_en": "Is this acute STEMI? LV Aneurysm? Would you give Thrombolytics?",
-"trang_thai": "dang",
-"giu_luc": 1791097059
+"tieu_de_en": "Is this acute STEMI?  LV Aneurysm?  Would you give Thrombolytics?",
+"trang_thai": "xong",
+"tieu_de_vi": "17/11/2014 — Đây có phải STEMI cấp? Phình thất trái? Bạn có cho thuốc tiêu sợi huyết không?",
+"tu_khoa": "STEMI thành trước cấp, acute anterior STEMI, phình thất trái, LV aneurysm, tiêu sợi huyết, thrombolytics, streptokinase, tỷ số T/QRS, T/QRS ratio, mức độ cấp tính, acuteness, sóng QS, QS waves, sóng T tối cấp, hyperacute T waves, sóng T tái tưới máu, reperfusion T waves, AIVR, troponin",
+"ngay": "2026-10-04",
+"kb": 569,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 470,
@@ -21693,8 +21705,12 @@
 "url": "https://drsmithsecgblog.com/inspiratory-threshold-device-works-if/",
 "ngay_dang": "2014-11-17",
 "tieu_de_en": "Inspiratory Threshold Device Works if CPR is Adequate: New Evidence from ROC-PRIMED Trial",
-"trang_thai": "dang",
-"giu_luc": 1791097059
+"trang_thai": "xong",
+"tieu_de_vi": "17/11/2014 — Thiết bị ngưỡng hít vào có hiệu quả nếu hồi sinh tim phổi đạt chuẩn: bằng chứng mới từ thử nghiệm ROC-PRIMED",
+"tu_khoa": "thiết bị ngưỡng hít vào, inspiratory threshold device, van ngưỡng trở kháng, impedance threshold device, ITD, hồi sinh tim phổi, CPR, hồi sinh tim phổi chất lượng cao, high quality CPR, ngừng tim, cardiac arrest, ROC-PRIMED, ResQTrial, ACD-CPR, áp lực âm trong lồng ngực, intrathoracic pressure regulation, sống còn nguyên vẹn thần kinh",
+"ngay": "2026-10-04",
+"kb": 29,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 469,
@@ -21703,8 +21719,12 @@
 "url": "https://drsmithsecgblog.com/acute-severe-pulmonary-edema-and-new/",
 "ngay_dang": "2014-11-15",
 "tieu_de_en": "Acute Severe Pulmonary Edema and New LBBB, with Bedside Echo",
-"trang_thai": "dang",
-"giu_luc": 1791097059
+"trang_thai": "xong",
+"tieu_de_vi": "15/11/2014 — Phù phổi cấp nặng và LBBB mới xuất hiện, kèm siêu âm tim tại giường",
+"tu_khoa": "phù phổi cấp, acute pulmonary edema, blốc nhánh trái mới, new LBBB, tiêu chuẩn Sgarbossa cải biên theo Smith, Smith-modified Sgarbossa, tỷ số ST/S, ST/S ratio, siêu âm tim tại giường, bedside echo, rối loạn vận động thành, wall motion abnormality, mất đồng bộ, dyssynchrony, bệnh cơ tim vô căn, idiopathic cardiomyopathy, tăng huyết áp nặng, động mạch vành bình thường",
+"ngay": "2026-10-04",
+"kb": 625,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 468,

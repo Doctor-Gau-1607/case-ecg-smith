@@ -22391,8 +22391,12 @@
 "url": "https://drsmithsecgblog.com/a-29-year-old-male-with-pleuritic-chest/",
 "ngay_dang": "2014-06-26",
 "tieu_de_en": "A 29 year old male with pleuritic chest pain for 6 hours",
-"trang_thai": "dang",
-"giu_luc": 1791100724
+"trang_thai": "xong",
+"tieu_de_vi": "26/06/2014 — Nam giới 29 tuổi đau ngực kiểu màng phổi trong 6 giờ",
+"tu_khoa": "viêm cơ tim, myocarditis, viêm màng ngoài tim, pericarditis, viêm cơ-màng ngoài tim, myopericarditis, đau ngực kiểu màng phổi, pleuritic chest pain, ST chênh lên thành dưới-bên, inferolateral STEMI, trục ST, ST axis, ST chênh xuống aVL, đoạn PR chênh xuống, PR depression, giả STEMI, STEMI mimic",
+"ngay": "2026-10-04",
+"kb": 111,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 420,
@@ -22401,8 +22405,12 @@
 "url": "https://drsmithsecgblog.com/respiratory-failure-and-st-depression/",
 "ngay_dang": "2014-06-24",
 "tieu_de_en": "Respiratory Failure and ST Depression: Is there Posterior STEMI?",
-"trang_thai": "dang",
-"giu_luc": 1791100724
+"trang_thai": "xong",
+"tieu_de_vi": "24/06/2014 — Suy hô hấp và ST chênh xuống: có STEMI thành sau không?",
+"tu_khoa": "suy hô hấp, ST chênh xuống, STEMI thành sau, posterior STEMI, chuyển đạo phía sau, posterior leads, bệnh cơ tim do stress, stress cardiomyopathy, Takotsubo đảo ngược, reverse Takotsubo, Takotsubo thể giữa thất, mid-ventricular Takotsubo, COPD, siêu âm tim tại giường, bedside echo, giả STEMI",
+"ngay": "2026-10-04",
+"kb": 654,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 419,
@@ -22411,8 +22419,12 @@
 "url": "https://drsmithsecgblog.com/sudden-left-trapezius-pain-and-syncope/",
 "ngay_dang": "2014-06-20",
 "tieu_de_en": "Sudden Left Trapezius Pain and Syncope",
-"trang_thai": "dang",
-"giu_luc": 1791100724
+"trang_thai": "xong",
+"tieu_de_vi": "20/06/2014 — Đau đột ngột vùng cơ thang trái và ngất",
+"tu_khoa": "nhồi máu cơ tim thành dưới, inferior MI, ST chênh xuống ở aVL, ST depression in aVL, sóng T đảo ngược, T-wave inversion, tái tưới máu, reperfusion, OMI, RCA, nhịp chậm xoang, sinus bradycardia, đau vùng cơ thang, trapezius pain, ngất, syncope, troponin, điện tâm đồ liên tiếp",
+"ngay": "2026-10-04",
+"kb": 684,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 418,
@@ -22421,8 +22433,12 @@
 "url": "https://drsmithsecgblog.com/wellens-waves-appear-and-disappear/",
 "ngay_dang": "2014-06-18",
 "tieu_de_en": "Dynamic T-wave inversion (apparent Wellens’ waves), all troponins negative: Unstable Angina",
-"trang_thai": "dang",
-"giu_luc": 1791100724
+"trang_thai": "xong",
+"tieu_de_vi": "18/06/2014 — Sóng T đảo ngược có tính động (giống sóng Wellens), mọi lần troponin đều âm tính: Đau thắt ngực không ổn định",
+"tu_khoa": "sóng Wellens, Wellens' waves, hội chứng Wellens, Wellens' syndrome, sóng T đảo ngược động, dynamic T-wave inversion, đau thắt ngực không ổn định, unstable angina, troponin âm tính, negative troponin, giả bình thường hóa, pseudonormalization, hẹp LAD đoạn gần, proximal LAD stenosis, hội chứng vành cấp, ACS",
+"ngay": "2026-10-04",
+"kb": 1080,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 417,
@@ -22431,8 +22447,12 @@
 "url": "https://drsmithsecgblog.com/acquired-long-qt-do-not-trust/",
 "ngay_dang": "2014-06-03",
 "tieu_de_en": "Long QT: Do not trust the computerized QT interval when the QT is long",
-"trang_thai": "dang",
-"giu_luc": 1791100724
+"trang_thai": "xong",
+"tieu_de_vi": "03/06/2014 — QT dài: đừng tin khoảng QT do máy tính đo khi QT dài",
+"tu_khoa": "QT dài mắc phải, acquired long QT, QTc kéo dài, QT prolongation, đo QT bằng tay, công thức Bazett, Bazett formula, xoắn đỉnh, Torsades de Pointes, hạ kali máu, hypokalemia, hạ calci máu, hypocalcemia, azithromycin, haloperidol, phụ thuộc khoảng ngưng, pause-dependent, kết quả đọc bằng máy tính",
+"ngay": "2026-10-04",
+"kb": 736,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 416,

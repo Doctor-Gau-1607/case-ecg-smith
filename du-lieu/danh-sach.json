@@ -20837,7 +20837,7 @@
 "tieu_de_en": "A Middle-Age Male with Chest Pain that Recurs in the ED",
 "trang_thai": "xong",
 "tieu_de_vi": "27/04/2015 — Nam giới trung niên đau ngực tái phát tại khoa cấp cứu",
-"tu_khoa": "hội chứng Wellens, Wellens syndrome, bình thường hóa giả, pseudonormalization, sóng T tái tưới máu, reperfusion T waves, tắc LAD, LAD occlusion, tái cực sớm, early repolarization, công thức STE, đau ngực tái phát",
+"tu_khoa": "hội chứng Wellens, Wellens syndrome, giả bình thường hóa, pseudonormalization, sóng T tái tưới máu, reperfusion T waves, tắc LAD, LAD occlusion, tái cực sớm, early repolarization, công thức STE, đau ngực tái phát",
 "ngay": "2026-10-04",
 "kb": 298,
 "kho": "case-ecg-smith-4"
@@ -22851,8 +22851,12 @@
 "url": "https://drsmithsecgblog.com/copd-exacerbation-what-do-ecg-and/",
 "ngay_dang": "2014-03-27",
 "tieu_de_en": "COPD exacerbation, what do the ECG and bedside echo show?",
-"trang_thai": "dang",
-"giu_luc": 1791106941
+"trang_thai": "xong",
+"tieu_de_vi": "27/03/2014 — Đợt cấp COPD: điện tâm đồ và siêu âm tim tại giường cho thấy gì?",
+"tu_khoa": "bệnh cơ tim Takotsubo, Takotsubo cardiomyopathy, bệnh cơ tim do stress, stress cardiomyopathy, mỏm tim phình dạng bóng, apical ballooning, tắc LAD, LAD occlusion, sóng T tối cấp, hyperacute T waves, ST chênh lên, ST elevation, siêu âm tim tại giường, bedside echo, COPD, giả STEMI, STEMI mimic, tái cực sớm, early repolarization",
+"ngay": "2026-10-04",
+"kb": 707,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 388,
@@ -22860,9 +22864,13 @@
 "slug": "2014-03-24-elderly-woman-in-shock-ekg-from",
 "url": "https://drsmithsecgblog.com/elderly-woman-in-shock-ekg-from/",
 "ngay_dang": "2014-03-24",
-"tieu_de_en": "Elderly woman in Shock. EKG from #smaccGOLD pre-conference EKG workshop.",
-"trang_thai": "dang",
-"giu_luc": 1791106941
+"tieu_de_en": "Elderly woman in Shock.  EKG from #smaccGOLD pre-conference EKG workshop.",
+"trang_thai": "xong",
+"tieu_de_vi": "24/03/2014 — Bệnh nhân nữ lớn tuổi bị sốc. Điện tâm đồ từ hội thảo điện tâm đồ tiền hội nghị #smaccGOLD.",
+"tu_khoa": "nhịp nhanh xoang, sinus tachycardia, ngoại tâm thu bộ nối, junctional premature beats, RBBB, LAFB, blốc hai phân nhánh, bifascicular block, tắc LAD đoạn gần, proximal LAD occlusion, sốc tim, cardiogenic shock, ST chênh lên, ST elevation, sóng Q ở V1, OMI",
+"ngay": "2026-10-04",
+"kb": 931,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 387,
@@ -22871,8 +22879,12 @@
 "url": "https://drsmithsecgblog.com/ventricular-fibrillation-during/",
 "ngay_dang": "2014-03-18",
 "tieu_de_en": "Ventricular Fibrillation During Echocardiogram, Then Spontaneous Conversion Without Defibrillation",
-"trang_thai": "dang",
-"giu_luc": 1791106941
+"trang_thai": "xong",
+"tieu_de_vi": "18/03/2014 — Rung thất trong lúc siêu âm tim, sau đó tự chuyển nhịp mà không cần khử rung",
+"tu_khoa": "rung thất, ventricular fibrillation, tự chuyển nhịp, spontaneous reversion, ngất, syncope, tắc LAD, LAD occlusion, hội chứng vành cấp, ACS, ST chênh lên thoáng qua, transient ST elevation, xoắn đỉnh, torsade, VT đa dạng, polymorphic VT, công thức tái cực sớm, early repolarization formula",
+"ngay": "2026-10-04",
+"kb": 588,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 386,
@@ -22881,8 +22893,12 @@
 "url": "https://drsmithsecgblog.com/pseudonormalization/",
 "ngay_dang": "2014-03-14",
 "tieu_de_en": "Pseudonormalization of Wellens’ Waves",
-"trang_thai": "dang",
-"giu_luc": 1791106941
+"trang_thai": "xong",
+"tieu_de_vi": "14/03/2014 — Giả bình thường hóa (pseudonormalization) của sóng Wellens",
+"tu_khoa": "giả bình thường hóa, pseudonormalization, sóng Wellens, Wellens' waves, hội chứng Wellens, Wellens' syndrome, sóng T đảo ngược, T-wave inversion, tắc LAD, LAD occlusion, tắc lại, re-occlusion, sóng T tái tưới máu, reperfusion T-waves, công thức 3 biến, 4-variable formula, hội chứng vành cấp, ACS",
+"ngay": "2026-10-04",
+"kb": 833,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 385,
@@ -22891,8 +22907,12 @@
 "url": "https://drsmithsecgblog.com/incessant-regular-wide-complex/",
 "ngay_dang": "2014-03-11",
 "tieu_de_en": "Incessant Regular Wide Complex Tachycardia",
-"trang_thai": "dang",
-"giu_luc": 1791106941
+"trang_thai": "xong",
+"tieu_de_vi": "11/03/2014 — Nhịp nhanh QRS rộng đều dai dẳng liên tục (incessant)",
+"tu_khoa": "nhịp nhanh QRS rộng, wide complex tachycardia, VT phân nhánh sau, posterior fascicular VT, VT vô căn, idiopathic VT, ILVT, RBBB-LAFB, nhịp đôi thất, ventricular bigeminy, ngất, syncope, lidocaine, verapamil, triệt đốt, ablation, incessant tachycardia",
+"ngay": "2026-10-04",
+"kb": 765,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 384,

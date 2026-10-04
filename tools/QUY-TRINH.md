@@ -27,6 +27,8 @@ python3 tools/lam_case.py chuan-bi --so 5
 - "KHÔNG CÒN CASE NÀO SẴN SÀNG" → dừng lượt, báo lại (hết việc hoặc nhánh nguon chưa tải tới).
 - "DỪNG: kho … đã quá 900 MB — cả 9 kho … đều đầy" → dừng lượt, báo người dùng cần tạo thêm repo (giới hạn 1 GB của GitHub Pages).
 - Case có ảnh gốc 404 được đánh `cho_anh` tự động, không dịch; trang gốc 404 (tác giả đã gỡ bài) được đánh `khong_ton_tai`. Ghi số lượng vào báo cáo.
+- `bo_qua`: ảnh gốc đã mất ngay trên blog tác giả (kiểm bằng Chrome 04/10/2026) — người dùng chọn bỏ qua, KHÔNG dịch, không báo lại (#1760, #1233, #1078, #1056, #961, #929, #899, #867, #833, #764).
+- Video vẫn quá 90 MB ở 720p thì tự hạ xuống 480p (người dùng đồng ý 04/10/2026).
 - **Thông báo:** KHÔNG gửi thông báo về các case `cho_anh` ở từng lượt (chỉ ghi trong báo cáo). Chỉ khi `chuan-bi` báo "KHÔNG CÒN CASE NÀO SẴN SÀNG" (đã dịch hết mọi case có thể) mới gửi MỘT thông báo gom danh sách các case còn sót (`cho_anh`, `khong_ton_tai`, lỗi tải, `tra-lai`) để người dùng xử lý.
 
 ## 1b. Case `cho_anh` (ảnh gốc 404 từ máy chủ GitHub) — chỉ xử lý khi CÓ Claude in Chrome

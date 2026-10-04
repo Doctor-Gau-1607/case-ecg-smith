@@ -107,6 +107,19 @@ def gon_video(data, ten):
                 data = open(ra2, 'rb').read()
                 if len(data) <= 90_000_000:
                     break
+        # vẫn quá lớn ở 720p → hạ xuống 480p (người dùng đồng ý cho riêng trường hợp này, 04/10/2026 — #1936)
+        if len(data) > 90_000_000:
+            for crf in ('26', '29', '32'):
+                ra3 = os.path.join(t, f'ra480-{crf}.mp4')
+                r = subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', vao, '-vf',
+                                    "scale='min(854,iw)':'min(480,ih)':force_original_aspect_ratio=decrease,"
+                                    "scale=trunc(iw/2)*2:trunc(ih/2)*2", '-c:v', 'libx264', '-preset', 'slow',
+                                    '-crf', crf, '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k',
+                                    '-movflags', '+faststart', ra3], capture_output=True)
+                if r.returncode == 0 and os.path.isfile(ra3) and 0 < os.path.getsize(ra3) < len(data):
+                    data = open(ra3, 'rb').read()
+                    if len(data) <= 90_000_000:
+                        break
     return data
 
 

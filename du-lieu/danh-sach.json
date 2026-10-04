@@ -27799,8 +27799,12 @@
 "url": "https://drsmithsecgblog.com/lets-repeat-this-coronary-occlusion/",
 "ngay_dang": "2010-01-15",
 "tieu_de_en": "Very subtle anterior OMI, TIMI II flow with thrombus",
-"trang_thai": "dang",
-"giu_luc": 1791121813
+"trang_thai": "xong",
+"tieu_de_vi": "15/01/2010 — OMI thành trước rất kín đáo, dòng chảy TIMI II với huyết khối",
+"tu_khoa": "OMI thành trước kín đáo, subtle anterior OMI, tắc LAD, LAD occlusion, tắc gần hoàn toàn, subtotal occlusion, ngừng tim, cardiac arrest, QTc, sóng Q, biên độ sóng R thấp, TIMI II, ST chênh lên dưới 1 mm, tái cực sớm, early repolarization",
+"ngay": "2026-10-04",
+"kb": 368,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 34,
@@ -27809,8 +27813,12 @@
 "url": "https://drsmithsecgblog.com/right-bundle-branch-block-rbbb-with/",
 "ngay_dang": "2010-01-12",
 "tieu_de_en": "Right Bundle Branch Block (RBBB) with Anterolateral STEMI",
-"trang_thai": "dang",
-"giu_luc": 1791121813
+"trang_thai": "xong",
+"tieu_de_vi": "12/01/2010 — Blốc nhánh phải (RBBB) kèm STEMI thành trước-bên",
+"tu_khoa": "RBBB, blốc nhánh phải, right bundle branch block, STEMI thành trước-bên, anterolateral STEMI, sóng T dương V2 V3, upright T wave, ST chênh lên trong RBBB, mất sóng r đầu, rsR', so sánh ECG cũ, tắc LAD, LAD occlusion",
+"ngay": "2026-10-04",
+"kb": 402,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 33,
@@ -27819,8 +27827,12 @@
 "url": "https://drsmithsecgblog.com/coronary-occlusion-need-not-have-1-mm/",
 "ngay_dang": "2010-01-12",
 "tieu_de_en": "Coronary occlusion need not have 1 mm ST elevation; often it does not",
-"trang_thai": "dang",
-"giu_luc": 1791121813
+"trang_thai": "xong",
+"tieu_de_vi": "12/01/2010 — Tắc động mạch vành không nhất thiết phải có ST chênh lên 1 mm; thường là không có",
+"tu_khoa": "tắc động mạch vành, coronary occlusion, ST chênh lên dưới 1 mm, sóng T tối cấp, hyperacute T waves, STEMI thành dưới, inferior STEMI, ST chênh xuống soi gương, reciprocal ST depression, aVL, tắc RCA đoạn xa, distal RCA occlusion, TIMI-0, tiêu chuẩn STEMI",
+"ngay": "2026-10-04",
+"kb": 431,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 32,
@@ -27829,8 +27841,12 @@
 "url": "https://drsmithsecgblog.com/anterior-pseudonormalization/",
 "ngay_dang": "2010-01-12",
 "tieu_de_en": "Anterior pseudonormalization",
-"trang_thai": "dang",
-"giu_luc": 1791121813
+"trang_thai": "xong",
+"tieu_de_vi": "12/01/2010 — Giả bình thường hóa thành trước",
+"tu_khoa": "giả bình thường hóa, pseudonormalization, hội chứng Wellens, Wellens syndrome, sóng T đảo ngược thành trước, tái tắc, re-occlusion, tái tưới máu tự phát, spontaneous reperfusion, tắc LAD, LAD occlusion, sóng T dương",
+"ngay": "2026-10-04",
+"kb": 502,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 31,
@@ -27838,9 +27854,13 @@
 "slug": "2010-01-12-peaked-t-waves-hyperacute-stemi-vs",
 "url": "https://drsmithsecgblog.com/peaked-t-waves-hyperacute-stemi-vs/",
 "ngay_dang": "2010-01-12",
-"tieu_de_en": "HyperKalemia with Cardiac Arrest. Peaked T waves: Hyperacute (STEMI) vs. Early Repolarizaton vs. Hyperkalemia",
-"trang_thai": "dang",
-"giu_luc": 1791121813
+"tieu_de_en": "HyperKalemia with Cardiac Arrest.  Peaked T waves: Hyperacute (STEMI) vs. Early Repolarizaton vs. Hyperkalemia",
+"trang_thai": "xong",
+"tieu_de_vi": "12/01/2010 — Tăng kali máu gây ngừng tim. Sóng T nhọn: tối cấp (STEMI) so với tái cực sớm so với tăng kali máu",
+"tu_khoa": "tăng kali máu, hyperkalemia, sóng T nhọn, peaked T waves, sóng T hình lều, tented T waves, sóng T tối cấp, hyperacute T waves, tái cực sớm, early repolarization, tắc LAD, LAD occlusion, ngừng tim, cardiac arrest, rung thất, ventricular fibrillation, QTc, thời gian QRS",
+"ngay": "2026-10-04",
+"kb": 554,
+"kho": "case-ecg-smith-4"
 },
 {
 "stt": 30,

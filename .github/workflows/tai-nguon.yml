@@ -5,7 +5,7 @@ name: Tải nguồn case ECG (Dr. Smith)
 # Từ 05/10/2026: mỗi lượt dò bài MỚI trên blog trước (tools/bai_moi.py) — lượt dịch hằng tuần (7:00 thứ Hai) dịch các bài đó.
 on:
   schedule:
-    - cron: '23 * * * *'
+    - cron: '23 21 */2 * *'   # mỗi 2 ngày (4:23 sáng giờ VN)
   push:
     branches: [main]
     paths: ['du-lieu/danh-sach.json', 'tools/tai_nguon.py', 'tools/can_tai.py', 'tools/bai_moi.py', '.github/workflows/tai-nguon.yml']

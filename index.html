@@ -59,13 +59,14 @@ mark{background:var(--danh);color:inherit;border-radius:3px}
   var q=bo(o.value.trim()), kq=xong.filter(function(c){return !q||c._k.indexOf(q)>=0});
   dem.textContent='Đã dịch '+xong.length+' / '+tat.length+' case'+(q?(' · tìm thấy '+kq.length):'');
   ds.innerHTML=kq.length?kq.map(function(c){
-   return '<li><a href="'+(c.kho?'https://doctor-gau-1607.github.io/'+c.kho+'/':'')+'c/'+c.slug+'.html"><span class="so">'+esc(c.nhan)+'</span><span><span class="vi">'+esc(c.tieu_de_vi||c.tieu_de_en)+'</span>'+
+   return '<li><a href="'+(c.kho?'https://doctor-gau-1607.github.io/'+c.kho+'/':'')+'c/'+c.slug+'.html"><span class="so">#'+c._so+'</span><span><span class="vi">'+esc(c.tieu_de_vi||c.tieu_de_en)+'</span>'+
     (c.tieu_de_en?'<span class="en">'+esc(c.tieu_de_en)+'</span>':'')+'</span></a></li>'}).join('')
    :'<li class="trong">'+(xong.length?'Không có case nào khớp.':'Chưa có case nào được dịch.')+'</li>';
  }
  fetch('du-lieu/danh-sach.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){
-  tat=d; xong=d.filter(function(c){return c.trang_thai==='xong'}).sort(function(a,b){return (b.ngay_dang||'').localeCompare(a.ngay_dang||'')});
-  xong.forEach(function(c){c._k=bo([c.nhan,c.tieu_de_vi,c.tieu_de_en,c.tu_khoa].join(' '))});
+  tat=d.filter(function(c){return c.trang_thai!=='khong_ton_tai'&&c.trang_thai!=='bo_qua'});
+  xong=tat.filter(function(c){return c.trang_thai==='xong'}).sort(function(a,b){return (b.stt||0)-(a.stt||0)});
+  xong.forEach(function(c,i){c._so=xong.length-i;c._k=bo(['#'+c._so,c.nhan,c.tieu_de_vi,c.tieu_de_en,c.tu_khoa].join(' '))});
   ve();
  }).catch(function(){dem.textContent='Không tải được danh sách.'});
  var cho; o.addEventListener('input',function(){clearTimeout(cho);cho=setTimeout(ve,150)});

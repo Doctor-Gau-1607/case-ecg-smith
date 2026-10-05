@@ -2,12 +2,13 @@ name: Tải nguồn case ECG (Dr. Smith)
 # Người dùng đã duyệt chạy tự động (01/10/2026). Từ 04/10/2026: không chỉ chờ lịch giờ (GitHub hay bỏ/trễ lịch,
 # làm lượt dịch "đói" nguồn) — chạy cả mỗi khi danh sách thay đổi; bước kiểm nhanh đầu tiên bỏ qua nếu còn
 # đủ nguồn sẵn sàng (≥ 60 case), nên chạy thường xuyên mà không tải thừa.
+# Từ 05/10/2026: mỗi lượt dò bài MỚI trên blog trước (tools/bai_moi.py) — lượt dịch hằng tuần (7:00 thứ Hai) dịch các bài đó.
 on:
   schedule:
     - cron: '23 * * * *'
   push:
     branches: [main]
-    paths: ['du-lieu/danh-sach.json', 'tools/tai_nguon.py', 'tools/can_tai.py', '.github/workflows/tai-nguon.yml']
+    paths: ['du-lieu/danh-sach.json', 'tools/tai_nguon.py', 'tools/can_tai.py', 'tools/bai_moi.py', '.github/workflows/tai-nguon.yml']
   workflow_dispatch:
     inputs:
       cua_so:
@@ -29,6 +30,18 @@ jobs:
           sparse-checkout: |
             tools
             du-lieu
+      - name: Tìm bài mới trên blog (thêm vào danh sách với trạng thái "chua")
+        run: |
+          cd main
+          git config user.name "case-ecg-bot"; git config user.email "actions@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git fetch -q --depth 1 origin main && git reset -q --hard FETCH_HEAD
+            python3 tools/bai_moi.py --main . || break
+            git diff --quiet -- du-lieu/danh-sach.json && break
+            git add du-lieu/danh-sach.json && git commit -q -m "Bài mới từ Dr. Smith's ECG Blog"
+            git push -q origin HEAD:main && break
+            sleep 20
+          done
       - name: Kiểm nhanh còn đủ nguồn chưa
         id: kiem
         env:

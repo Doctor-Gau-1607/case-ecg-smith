@@ -4,10 +4,14 @@
 "ngay_dang": "2026-11-02",
 "slug": "2026-11-02-first-ekg-2nd-ekg",
 "tieu_de_en": "First EKG? 2nd EKG?",
-"trang_thai": "dang",
+"trang_thai": "xong",
 "stt": 2055,
 "nhan": "#2055",
-"giu_luc": 1793766595
+"tieu_de_vi": "02/11/2026 — Điện tâm đồ đầu tiên? Điện tâm đồ thứ hai?",
+"tu_khoa": "OMI thành dưới, inferior OMI, sóng T tối cấp, hyperacute T wave, sóng T đảo ngược soi gương ở aVL, reciprocal T wave inversion aVL, sóng T dạng xuống-lên, down-up T wave, tắc RCA, RCA occlusion, OMI STEMI âm tính, STEMI(-) OMI, thay đổi ST-T động, dynamic ST-T changes, Queen of Hearts, đặt sai vị trí điện cực, lead misplacement, LVH kèm tăng gánh",
+"ngay": "2026-11-04",
+"kb": 1584,
+"kho": "case-ecg-smith-4"
 },
 {
 "url": "https://drsmithsecgblog.com/chest-pain-2/",

@@ -18,10 +18,14 @@
 "ngay_dang": "2026-10-28",
 "slug": "2026-10-28-chest-pain-2",
 "tieu_de_en": "Chest pain in a 70-something male.",
-"trang_thai": "dang",
+"trang_thai": "xong",
 "stt": 2054,
 "nhan": "#2054",
-"giu_luc": 1793766595
+"tieu_de_vi": "28/10/2026 — Đau ngực ở một nam giới 70 mấy tuổi.",
+"tu_khoa": "tái cực sớm, early repolarization, giả OMI, OMI mimic, ST chênh lên thành dưới, inferior ST elevation, viêm màng ngoài tim, pericarditis, Queen of Hearts, PMcardio, kích hoạt phòng thông tim dương tính giả, false positive cath lab activation, điện tâm đồ liên tiếp, serial ECGs, điện thế thấp, low voltage, xác suất tiền nghiệm, pretest probability",
+"ngay": "2026-11-04",
+"kb": 1143,
+"kho": "case-ecg-smith-4"
 },
 {
 "url": "https://drsmithsecgblog.com/pneumonia-hypotension-and-large-rv-on-bedside-ultrasound-how-to-avoid-the-right-sided-death-spiral/",
